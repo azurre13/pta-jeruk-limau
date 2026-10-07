@@ -1,0 +1,104 @@
+{
+  "assembled_on": "2026-10-08",
+  "source_preservation": "Copied byte-for-byte; all SHA-256 values verified against originals.",
+  "files": [
+    {
+      "path": "sumber/template/FTE-CD-1_edited-PBD.docx",
+      "origin": "Template asli FTE; diberikan pengguna",
+      "bytes": 79131,
+      "sha256": "7d5f2255b8ae06bf630368b038ab14979954d204e9be7beb74fd72a6cc6044b5",
+      "note": ""
+    },
+    {
+      "path": "sumber/panduan/bukupanduancapstone_2024signed.pdf",
+      "origin": "Buku panduan capstone yang diberikan pengguna",
+      "bytes": 2325515,
+      "sha256": "9730432a20a373b31799d7c5aed32724af929e5abb4c5bf995c73af1f8565ec5",
+      "note": ""
+    },
+    {
+      "path": "sumber/rubrik-jadwal/Jadwal_PTA -- Rubrik PTA -- 2627 (1).pdf",
+      "origin": "Jadwal dan rubrik PTA 2026/2027; salinan identik dengan sumber sebelumnya",
+      "bytes": 84992,
+      "sha256": "7275f814f47a18cdc607f163299613b3743508d0ddb37714dd94d6cbb370bdc2",
+      "note": ""
+    },
+    {
+      "path": "sumber/riset/deep-research-report.md",
+      "origin": "Laporan riset terdahulu",
+      "bytes": 51604,
+      "sha256": "5bb3a6b8d5a76dc7253e054985a264fdbb2b23f29f91700d8859e3e59ce7ce05",
+      "note": "Bahan riset; rincian rancangan dan klaimnya bukan keputusan final proyek."
+    },
+    {
+      "path": "sumber/dokumentasi/foto/Screenshot 2026-10-05 211212.png",
+      "origin": "Foto parit dan tanaman dari pengguna",
+      "bytes": 1061817,
+      "sha256": "f09f602f99c42e80838f9f4df2a1a9875fd93e606234e4e6f714d3db816873c4",
+      "note": "Tanggal pemotretan belum dikonfirmasi; jangan disimpulkan dari nama file."
+    },
+    {
+      "path": "sumber/dokumentasi/foto/Screenshot 2026-10-05 211238.png",
+      "origin": "Foto parit dan tanaman dari pengguna",
+      "bytes": 1422719,
+      "sha256": "27c15d0d7da2de90f1e554de64f360a4b26186004b18442b29a9558f36e5dc71",
+      "note": "Tanggal pemotretan belum dikonfirmasi; jangan disimpulkan dari nama file."
+    },
+    {
+      "path": "sumber/dokumentasi/foto/Kolase_Parit_Tanah.png",
+      "origin": "Kolase dua foto parit yang dilampirkan pengguna",
+      "bytes": 414372,
+      "sha256": "5cb0aff9a674fbecdf8ce7566ca9286a81cb64d9207ee2719944d64e11a32eba",
+      "note": ""
+    },
+    {
+      "path": "sumber/dokumentasi/lokasi-lain/Screenshot 2026-10-06 003940.png",
+      "origin": "Foto lingkungan permukiman",
+      "bytes": 1746263,
+      "sha256": "6f862e310345440660a2638fd7d136c750456b809110bd9d8dad013f3ef3d979",
+      "note": "Kabel pada foto ini bukan bukti kebun proyek memiliki sambungan PLN."
+    },
+    {
+      "path": "sumber/dokumentasi/citra/Screenshot 2026-10-05 204359.png",
+      "origin": "Citra garis ukur koridor kebun",
+      "bytes": 2056326,
+      "sha256": "70957541cc5b2327b23def6d0c57f325112f979f4cf637c999e14cad7ffd73ca",
+      "note": "Garis 117,52 m; bukan panjang pasti parit, elevasi, atau luas lahan."
+    },
+    {
+      "path": "sumber/dokumentasi/citra/Jarak_Menuju_Sungai_20_54m.png",
+      "origin": "Citra tambahan pengguna",
+      "bytes": 1586525,
+      "sha256": "49caeb38af4948370b3cc36cfe1da574ec5c45e49e4c0c5ad45554bf606b4dc8",
+      "note": "Garis jarak tampak atas 20,54 m menuju sungai; bukan head pompa."
+    },
+    {
+      "path": "sumber/dokumentasi/video/WhatsApp Video 2026-10-05 at 21.16.41.mp4",
+      "origin": "Video pendek kondisi kebun",
+      "bytes": 4366319,
+      "sha256": "ce2221f5b52331bb86ab43e6d73d46262c0fca2674dd6f16034b5d1a1874efd9",
+      "note": "Pengguna mengonfirmasi tanggal pengambilan video: 3 Oktober 2026. Durasi sekitar 19 detik."
+    },
+    {
+      "path": "sumber/dokumentasi/wawancara/Transkrip_Audio_1_dan_2.txt",
+      "origin": "Transkrip Audio 1 dan Audio 2 yang diberikan pengguna",
+      "bytes": 17634,
+      "sha256": "cdd340239443b4cd261bf65e57ea770bfa00e36d37b7ecd28ca6904ada90cb50",
+      "note": "Berkas audio asli belum diberikan. Audio 1 sumber utama; Audio 2 tambahan dengan konteks dua kebun."
+    },
+    {
+      "path": "dokumen/cd1/CD1_Jeruk_Limau.docx",
+      "origin": "CD-1 terbaru dari workspace; telah menerima semua edit dokumen sampai 8 Oktober 2026",
+      "bytes": 6826755,
+      "sha256": "6a246e6addff780cbf7371c542544b226f91b9bc4f67ea1db4a8739e5a63b4f1",
+      "note": ""
+    },
+    {
+      "path": "dokumen/cd1/CD1_Jeruk_Limau.pdf",
+      "origin": "PDF CD-1 terbaru; 21 halaman",
+      "bytes": 511366,
+      "sha256": "bd53619959400ed5e046424a78a6422320e8b2a54da9f426700d683216130070",
+      "note": ""
+    }
+  ]
+}

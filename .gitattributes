@@ -1,0 +1,12 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+sumber/** -text
