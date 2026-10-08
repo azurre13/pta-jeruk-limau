@@ -1,10 +1,15 @@
 # PTA Kebun Jeruk Limau
 
-Repositori dokumentasi proyek capstone kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus CD-1 adalah masalah penyiraman existing: air sungai/saluran irigasi dipompa ke parit tanah, kemudian pekerja mengambil air dan mengguyurkannya secara manual ke tiap pohon.
+Repositori dokumentasi proyek capstone kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus CD-1 adalah masalah penyiraman eksisting: air sungai/saluran irigasi dipompa ke parit tanah, kemudian pekerja mengambil air dan mengguyurkannya secara manual ke tiap pohon.
 
 **Pemilik repositori:** azurre13  
-**Status:** CD-1, analisis masalah dan kajian solusi existing. Rancangan alat akhir belum dipilih.  
-**Dokumen aktif diperbarui:** 8 Oktober 2026; 21 halaman dan 25 referensi. Audit final isi, sumber, rubrik, bahasa, dan layout selesai. Kebutuhan pemberian air dan biaya tahun pertama, penghubung parit, serta LPG sudah diperjelas. Nomor revisi akademik 00; timeline revisi dan tanda tangan masih kosong.
+**Status:** CD-1, analisis masalah dan kajian solusi eksisting. Rancangan alat akhir belum dipilih; robot berselang termasuk gagasan yang dikaji.
+
+**Dokumen aktif diperbarui:** 9 Oktober 2026; 25 halaman dan 36 referensi. Alur, bahasa, pengulangan, penjelasan tabel, dan layout telah dirapikan. Struktur wajib serta seluruh sumber dipertahankan. Analisis air, hujan, tajuk, fase buah, tanah, dan pupuk tetap menjadi bagian masalah; empat pendekatan dibandingkan tanpa memilih desain akhir. Nomor revisi akademik 00; timeline revisi dan tanda tangan masih kosong.
+
+## Membuka di Antigravity atau AI lain
+
+Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan tugas berikutnya. Contoh: **“Baca konteks repo ini, lalu bantu menyiapkan data lapangan untuk CD-2.”** Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
 
 ## Berkas utama
 
@@ -35,7 +40,8 @@ sumber/
 dokumen/cd1/                Satu DOCX dan satu PDF CD-1 yang aktif
 catatan/                    Ringkasan bimbingan dan daftar pustaka
 konteks-ai/                 Konteks lengkap dan petunjuk melanjutkan chat
-AGENTS.md                   Aturan kerja agen dalam repositori
+AGENTS.md                   Aturan kerja dan konteks awal agen
+GEMINI.md                   Pintu masuk Antigravity/Gemini
 ```
 
 ## Fakta yang menjadi dasar
@@ -64,4 +70,4 @@ Lokasi mitra: **JH7H+222, Ciberes, Kabupaten Subang, Jawa Barat**. Nama usaha/pe
 
 Baca konteks AI terlebih dahulu. Sumber asli dipertahankan apa adanya. Edit dokumen aktif pada nama file yang sama agar versi tidak menumpuk. Setelah mengedit DOCX, ekspor ulang PDF dan periksa halaman yang berubah. Tanda tangan dosen diperoleh dari dosen; kolom pengesahan tidak diisi oleh AI.
 
-Repositori ini disiapkan sebagai **private** karena memuat identitas tim dan dokumentasi mitra. Tidak ada kredensial GitHub, kata sandi, atau token yang disertakan.
+**Visibilitas saat diperiksa 9 Oktober 2026: public.** Catatan lama menyebut private, tetapi pemeriksaan GitHub menunjukkan keadaan berbeda. Pembaruan ini menggunakan repositori yang sama. Tidak ada kredensial GitHub, kata sandi, atau token yang disertakan.

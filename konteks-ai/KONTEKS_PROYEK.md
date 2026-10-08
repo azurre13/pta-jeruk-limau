@@ -1,6 +1,9 @@
 # Konteks Lengkap Proyek PTA Kebun Jeruk Limau
 
-**Disusun 8 Oktober 2026.** Baca sebelum melanjutkan proyek di chat baru. Dokumen ini menyimpan fakta, koreksi pengguna, batas pengetahuan, dan status pekerjaan. Laporan akademik tetap DOCX/PDF CD-1; catatan ini tidak menggantikan sumber asli atau instruksi pengguna baru.
+**Disusun 8 Oktober 2026, diperbarui 9 Oktober 2026.** Baca sebelum melanjutkan proyek di chat baru. Dokumen ini menyimpan fakta, koreksi pengguna, batas pengetahuan, dan status pekerjaan. Laporan akademik tetap DOCX/PDF CD-1; catatan ini tidak menggantikan sumber asli atau instruksi pengguna baru.
+
+
+**Mulai cepat untuk AI lain:** root clone pengguna adalah `C:/Users/daffa/Documents/pta-jeruk-limau`. Baca `AGENTS.md`, konteks ini, lalu `STATUS_DAN_TINDAK_LANJUT.md`. `GEMINI.md` menjadi pintu masuk Antigravity/Gemini; peta folder dan prompt singkat ada pada `MULAI_CHAT_BARU.md`. Snapshot aktif 9 Oktober 2026: CD-1 25 halaman, 36 referensi, tahap analisis masalah; desain akhir belum dipilih. Status sinkronisasi dibaca dari Git, bukan dari catatan historis.
 
 ## 1. Tujuan dan tahap proyek
 
@@ -123,7 +126,7 @@ Yang tersedia adalah **transkrip yang diberikan pengguna**, bukan file rekaman A
 | 03:52–04:53 | Modifikasi bensin ke gas, keluhan panas/kerusakan/perawatan. |
 | 05:08–05:11 | Tidak ada listrik karena jauh. |
 | 05:15–06:08 | Rujukan kebun lain yang dekat listrik dan lebih kecil. Jangan dipindahkan kondisinya ke tapak proyek. |
-| 06:22–06:52 | Keterangan pupuk/pestisida; bahan tambahan, bukan resep agronomi atau fokus utama irigasi. |
+| 06:23–06:28 | Mitra menyebut pemupukan jeruk dua kali setahun: awal musim kemarau dan awal musim hujan. Jenis, dosis per pohon, dan kecukupan belum diketahui. |
 
 **Gas berarti LPG dari tabung 3 kg menurut mitra.** Mitra menggunakannya agar biaya bahan bakar lebih murah dari bensin. Penghematan biaya total belum terbukti karena perawatan juga perlu dihitung. Komentar peserta lain tentang subsidi bukan fakta hukum yang telah diverifikasi.
 
@@ -163,7 +166,7 @@ Struktur wajib:
 
 Sampul, lembar pengesahan, dan timeline revisi dipertahankan. Analisis masalah membahas masalah, bukan rancangan alat usulan. Namun kajian solusi existing pada 1.4 tetap wajib; jangan menghapusnya.
 
-Pembanding saat ini: **manual/parit**, **basin/furrow**, **mikroirigasi dengan kemungkinan otomasi**. Bahas keunggulan, kelemahan, keterbatasan, dan verifikasi, tanpa memilih perangkat final. Otomasi adalah lapisan pengoperasian; sensor belum menjamin kecukupan/keseragaman air. Parit tempat menimba belum otomatis menjadi furrow yang membasahi akar secara terencana.
+Pembanding saat ini: **manual/parit**, **basin/furrow**, **mikroirigasi dengan kemungkinan otomasi**, serta **robot bergerak dari literatur**. Robot belum dipilih menjadi desain akhir. Bahas keunggulan, kelemahan, keterbatasan, dan verifikasi, tanpa memilih perangkat final. Otomasi adalah lapisan pengoperasian; sensor belum menjamin kecukupan/keseragaman air. Parit tempat menimba belum otomatis menjadi furrow yang membasahi akar secara terencana.
 
 ## 11. Kompleksitas dan rubrik
 
@@ -194,7 +197,7 @@ Rubrik dosen kelas CD-1:
 | Pustaka | 5% | Lebih dari 15 pustaka. |
 | Tata tulis | 5% | Sesuai format/sistematika. |
 
-CD-1 memiliki **25 referensi**, sekitar **19 sumber teknis/literatur** dan enam sumber proyek/institusi. Tiga pendekatan telah dibandingkan. Skor akhir milik dosen; jangan menjanjikan nilai pasti. Rubrik pembimbing/penguji juga menilai keseluruhan kompleksitas, mitra, aspek, dan kelengkapan analisis.
+CD-1 memiliki **36 referensi**, terdiri dari **29 sumber teknis/literatur, termasuk satu pracetak** dan tujuh sumber proyek/institusi. Empat pendekatan telah dibandingkan. Skor akhir milik dosen; jangan menjanjikan nilai pasti. Rubrik pembimbing/penguji juga menilai keseluruhan kompleksitas, mitra, aspek, dan kelengkapan analisis.
 
 ## 12. Jadwal dan pengesahan
 
@@ -213,13 +216,13 @@ Softfile/hardcopy dan kewajiban MoM mitra tidak dinyatakan eksplisit pada buku p
 
 ## 13. Status berkas aktif
 
-- `dokumen/cd1/CD1_Jeruk_Limau.docx` dan `.pdf`: **21 halaman**, 25 referensi, A4 portrait, delapan tabel, empat persamaan native Word bernomor.
-- Judul BAB 1 **Analisis Permasalahan dan Kebutuhan** ditambahkan sebelum 1.1, beserta paragraf pengantar bab. Bagian 1.2 memiliki paragraf pengantar sebelum 1.2.1. Pembaruan 8 Oktober 2026 dilakukan pada file yang sama; PDF saat penambahan pengantar tetap 21 halaman; setelah kebutuhan tahunan ditambahkan sempat 23 halaman. Audit final menyederhanakan bahasa dan merapikan pemisahan halaman sehingga kembali menjadi 21 halaman.
-- Nomor revisi akademik **00**; timeline kosong atas permintaan pengguna karena belum ada revisi formal dosen.
+- `dokumen/cd1/CD1_Jeruk_Limau.docx` dan `.pdf`: **25 halaman**, 36 referensi, A4 portrait, delapan tabel, empat persamaan native Word bernomor.
+- Judul BAB 1 **Analisis Permasalahan dan Kebutuhan** ditambahkan sebelum 1.1, beserta paragraf pengantar bab. Bagian 1.2 memiliki paragraf pengantar sebelum 1.2.1. Pembaruan 8 Oktober 2026 dilakukan pada file yang sama; PDF saat penambahan pengantar tetap 21 halaman; setelah kebutuhan tahunan ditambahkan sempat 23 halaman. Audit final menyederhanakan bahasa dan merapikan pemisahan halaman sehingga kembali menjadi 21 halaman. Setelah perluasan agronomis, dokumen sempat 28 halaman dan 36 referensi. Perapian 9 Oktober 2026 memadatkan pengulangan sehingga dokumen aktif menjadi 25 halaman dengan referensi yang sama.
+- Nomor revisi akademik **00**; timeline tetap kosong. Pengguna sudah melaporkan bimbingan, tetapi tanggal dan rincian revisi formal belum diberikan untuk mengisi timeline.
 - Tanda tangan, tanggal pengesahan, dan Pembimbing 2 masih kosong.
 - Caption Tabel 4: **Tabel 4. Kompleksitas Permasalahan**. Kata “template” tidak ditulis pada caption final.
 - Penjelasan tujuh kriteria telah disederhanakan; kriteria 1, 2, dan 7 didukung analisis. Kriteria 3 diajukan dengan penjelasan kebutuhan pemodelan setelah Tabel 4, bukan hasil pengujian.
-- Tujuan mitra menggantikan guyur manual untuk menurunkan biaya sudah masuk 1.1, 1.2.8, nomor 6, dan ringkasan MD.
+- Tujuan mitra menggantikan guyur manual untuk menurunkan biaya sudah masuk 1.1, 1.2.9, nomor 6, dan ringkasan MD.
 - `catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md`: bacaan mahasiswa, skrip satu menit, data, masalah, audio, perbandingan, dan jawaban untuk dosen.
 - `catatan/REFERENSI_CD1.md`: bibliografi yang diekstrak dari DOCX aktif.
 
@@ -253,3 +256,65 @@ Ikuti instruksi pengguna baru dan kebijakan lingkungan yang berlaku. Catatan his
 ## 16. Memulai chat baru
 
 Gunakan [MULAI_CHAT_BARU.md](MULAI_CHAT_BARU.md), baca konteks ini dan status, lalu dokumen aktif serta sumber yang diperlukan. Untuk revisi laporan, akses template asli dan DOCX aktif harus tersedia. Jika baru diberi konteks saja, jangan mengaku telah membaca semua berkas sumber.
+
+
+## 17. Pembaruan setelah bimbingan mengenai tanah dan pemupukan
+
+Pengguna melaporkan sudah bimbingan. Arahan yang disampaikan adalah memperdalam analisis masalah CD-1. Tanggal pasti, jumlah sesi, dan hasil penilaian dosen belum diberikan; jangan menyatakan target dua kali bimbingan atau pengesahan sudah tercapai.
+
+- Pemupukan jeruk dua kali setahun dikonfirmasi pengguna dan tersedia pada Audio 1, 06:23–06:28. Jenis, komposisi, dosis, cara aplikasi, dan kecukupannya belum diketahui.
+- Pengguna menduga tanah kurang bagus. Belum ada uji tanah jeruk; dugaan tidak boleh ditulis sebagai diagnosis kesuburan rendah, tanah rusak, atau penggunaan bahan kimia berlebih.
+- Lampiran baru merupakan transkrip kebun **terong dan kembang kol**, mitra yang sama, lokasi berbeda sekitar **500 m–1 km menurut pengguna**, di persawahan. Kebun jeruk berada di tepi irigasi. Perkiraan jarak ini bukan hasil survei.
+- Mitra menilai pH di kebun sayuran labil, bahan kimia dominan dan dosis berlebih. Ini penuturan mitra, bukan hasil uji pH atau perbandingan dosis dengan rekomendasi ilmiah. Tidak digunakan untuk menetapkan kondisi tanah atau pupuk jeruk.
+- Jangan memindahkan angka panen 15/17 ton, contoh urea 3/5 kuintal per hektar, luas sayuran, hama, kecukupan air, listrik, atau pilihan pengurus sayuran ke tapak jeruk. Hama sayuran berada di luar fokus proyek.
+- Audio 1 tetap sumber utama. Wawancara sayuran hanya alasan pendukung untuk verifikasi tanah jeruk; tanggal rekaman tambahan belum dikonfirmasi. Yang dibaca AI adalah transkrip, bukan audio asli.
+
+Lampiran tambahan asli: `C:/Users/daffa/.codex/attachments/cf4160ee-9b1a-414b-81cd-3b2b0be40a32/Pasted text.txt`. Tidak disalin ke `sumber/` yang hanya-baca. Jika lampiran tidak tersedia pada chat baru, jangan mengarang isinya; gunakan batas fakta di atas dan minta lampiran bila diperlukan.
+
+DOCX/PDF aktif sudah diperbarui pada berkas yang sama: **1.2.8 Kondisi tanah dan keterbatasan data pemupukan**; lingkungan menjadi **1.2.9**, rumusan menjadi **1.2.10**. Tabel 3 menambahkan catatan pemupukan dan pemeriksaan tanah. Kesimpulan menegaskan kesuburan belum diuji. Pembanding pada 1.4 tetap dipertahankan karena wajib dalam template.
+
+Sumber baru: wawancara sayuran [20], FAO pengantar irigasi bab tanah-air [21], UF/IFAS kesuburan dan nutrisi jeruk [22], serta pengujian tanah/daun [25]. Literatur memberi prinsip dan kebutuhan pemeriksaan; kondisi Florida tidak membuktikan keadaan Ciberes. Total 36 referensi, 29 sumber teknis (termasuk satu pracetak). Data pH, hara, infiltrasi, dan dosis lokal tetap belum tersedia. Tidak ada pilihan alat akhir atau resep pupuk baru.
+
+
+## 18. Fokus analisis solusi dan gagasan robot setelah bimbingan
+
+Pengguna mengizinkan perubahan bagian 1.4 agar lebih menekankan masalah mitra dan keterbatasan pendekatan yang ada. Pengguna melaporkan dosen menyarankan robot otonom berselang karena kebun memanjang. Ini gagasan untuk dikaji, bukan desain final yang disepakati atau jaminan harga lebih murah.
+
+DOCX/PDF pada nama yang sama telah diubah: 1.4.1 manual/parit, 1.4.2 basin/furrow, 1.4.3 mikroirigasi/otomasi, 1.4.4 robot bergerak, 1.4.5 perbandingan masalah mitra, dan 1.4.6 persoalan yang belum teratasi. Tabel 5 sekarang membandingkan empat pendekatan menurut keunggulan, kekurangan dan keterbatasan tapak. Uraian perangkat dipersingkat; fokusnya pekerjaan, volume, biaya, energi dan perawatan.
+
+36 referensi: 29 sumber teknis/literatur (termasuk satu pracetak) dan tujuh proyek/institusi. Sumber baru [33] J. London, arXiv:2508.08607 (2025), dan [34] A. Jiang–T. Ahamed, Sensors 23(10):4808 (2023). London menunjukkan prototipe dengan keterbatasan kendali selang dan belum menguji robot bergerak terintegrasi; jangan menyatakannya sebagai robot komersial siap pakai. Jiang–Ahamed membahas navigasi robot penyemprot, bukan kecukupan air irigasi. Sumber surya terdahulu bergeser menjadi [35]–[36].
+
+Koreksi teknis untuk menjaga konteks:
+- Tanpa PLN bukan tanpa listrik: motor/kontrol robot memerlukan energi dan rencana pengisian.
+- Selang tidak menghasilkan tekanan. Suplai air, debit, beda elevasi, dan hambatan aliran perlu dinilai. Penggantian robot belum membuktikan pompa pemasok sungai dapat dihilangkan.
+- Robot berselang dari titik suplai, robot mengambil air parit, dan robot bertangki adalah pilihan eksplorasi suplai, bukan perangkat yang sudah dipilih. Parit tetap bisa menjadi sumber dekat tanaman jika kelayakannya terbukti.
+- Geometri memanjang belum membuktikan robot dapat berjalan: jalur bebas, parit melintang, tanah basah, ruang putar, serta selang perlu diperiksa. Tiga parit dan lebar sekitar 6 m bukan lebar jalur bebas terukur.
+- Perbandingan biaya memakai keseluruhan praktik penyiraman pada cakupan/periode sebanding. Jangan membandingkan harga robot dengan harga pompa saja atau menganggap seluruh upah hilang.
+- MD memuat contoh debit 10 L/menit dengan skenario 7.500–9.000 L: 12,5–15 jam keluaran air berurutan, tanpa waktu gerak/pengisian. Ini contoh perhitungan, bukan debit lapangan, dosis tervalidasi, atau target spesifikasi.
+
+Panduan halaman 18–19: CD-2 menyusun batasan, spesifikasi dan verifikasi; CD-3 memuat minimal tiga alternatif, analisis/pemilihan dan desain. Robot dapat didiskusikan sejak sekarang tetapi jangan memindahkan desain terpilih ke CD-1. Kandidat pendekatan masih harus diuji kelayakannya. Pada saat bagian ini pertama ditulis, revisi masih lokal. Pengguna mengizinkan push seluruh pembaruan pada 9 Oktober 2026; periksa Git untuk status terbaru.
+
+
+## 19. Kebutuhan agronomis jeruk limau dan penyesuaian setelah hujan
+
+Pengguna meminta penelusuran kebutuhan air, hujan, ukuran tanaman, fase buah, serta tanah. DOCX/PDF aktif dan MD telah diperbarui pada nama yang sama: 1.2.7 membahas identitas/acuan, hujan, tajuk/akar, fase buah, serta pengamatan. Lima subjudul rinci telah digabung menjadi narasi pada perapian 9 Oktober 2026. Bagian 1.2.8 menambah hubungan tanah/akar dan bukti nutrisi limau; Tabel 3 menambah data hujan. Dokumen aktif 25 halaman dan 36 referensi.
+
+15 L per tiga hari tetap acuan mitra, bukan dosis universal atau volume terukur. Kesetaraan rata-rata 5 L/hari dalam MD hanya aritmetika, bukan jadwal harian. Hujan dapat mengurangi/menunda tambahan irigasi jika mencukupi daerah akar; hujan ringan belum tentu cukup. Jangan menetapkan pengurangan 50%, jeda tiga hari, atau ambang sensor dari sumber ini. Tajuk/akar/umur/fase bunga-buah/cuaca perlu diperiksa bersama. Tinggi pohon dan jumlah buah tidak otomatis menghasilkan rumus liter.
+
+Identitas bibit belum dikonfirmasi. Artikel limau lokal membahas C. amblycarpa. Kajian C. aurantifolia adalah jeruk nipis dan dipakai sebagai pembanding; jangan menyamakan spesies atau menyalin dosis. Tidak ada bukti tapak tentang buah kecil/gugur atau penurunan hasil akibat air. Tanah/pupuk kebun sayur tetap hanya konteks pendukung.
+
+Sumber baru menurut nomor aktif: [15] Budiarto dkk. (2017), morfologi limau; [16] UF/IFAS CG093, prinsip irigasi jeruk; [17] Hutton dkk. (2007), abstrak penerbit tentang fase/stres dan ukuran buah; [23] Kartini (2018), abstrak skripsi limau–NPK; [24] Pawar dkk. (2020), percobaan irigasi/nutrisi jeruk nipis India (naskah terbaca). Metode Kartini dan naskah lengkap Hutton belum terbaca. Budiarto tidak membuktikan dosis air. Angka Florida/India/Banyumas belum berlaku langsung di Ciberes.
+
+Total 36 referensi, 29 sumber teknis/literatur (termasuk satu pracetak robot dan satu skripsi), tujuh proyek/institusi. Nomor sitasi terdahulu digeser mengikuti urutan kemunculan dan diselaraskan pada catatan. Data lapangan, dosis tervalidasi, dan rancangan akhir tetap terbuka. Perubahan ini termasuk paket pembaruan yang diminta untuk dipush pada 9 Oktober 2026; cek Git untuk status terbaru.
+
+## 20. Perapian menyeluruh pada 9 Oktober 2026
+
+Pengguna menyetujui perapian semua poin: alur, kepadatan analisis tanaman, pengulangan, status bukti, perbandingan solusi, bahasa tabel, serta layout. File aktif diedit pada nama yang sama. Lima subjudul 1.2.7.1–1.2.7.5 dilebur menjadi paragraf pada 1.2.7; substansi hujan/tajuk/akar/fase buah tetap ada. Tabel 4 mempertahankan nama tujuh kriteria dan status penilaiannya. Seluruh baris perhitungan Tabel 2 tetap ada. Sumber asli, angka/asumsi, 36 referensi, tiga gambar, empat persamaan, sampul/pengesahan/timeline dipertahankan. Tidak ada dosis atau desain akhir baru. Push belum diminta pada tahap perapian tersebut; pengguna meminta push dan pembaruan konteks lintas AI pada 9 Oktober 2026.
+
+## 21. Handoff lintas AI dan sinkronisasi pada 9 Oktober 2026
+
+Pengguna meminta push seluruh perubahan yang terkumpul sekaligus memperbarui MD dan konteks agar bisa melanjutkan di Antigravity tanpa prompt panjang. `AGENTS.md` sekarang memuat pengantar repo dan fakta inti; `GEMINI.md` memasukkan aturan yang sama. `MULAI_CHAT_BARU.md` menjelaskan root workspace, urutan baca, fungsi folder, sumber hanya-baca, dokumen aktif, serta contoh prompt singkat. Konfigurasi mengikuti dokumentasi resmi Google Antigravity Rules; aplikasi pengguna tidak dibuka/dikonfigurasi dalam sesi ini.
+
+Isi commit mencakup perapian CD-1 menjadi 25 halaman, kajian air, tanaman, tanah, dan solusi yang ditambahkan sejak audit sebelumnya, MD bimbingan, bibliografi 36 referensi, dan handoff AI. Branch yang dituju `main`, remote `origin` pada repo `azurre13/pta-jeruk-limau` yang saat ini public menurut pemeriksaan GitHub 9 Oktober 2026. Riwayat isi tersedia melalui Git; status kerja dan sinkronisasi perlu dicek langsung. Izin push pada permintaan ini tidak mengizinkan semua publikasi atau perubahan eksternal pada tugas berikutnya.
+
+**Koreksi visibilitas:** catatan lama yang menyebut private tidak mencerminkan keadaan terbaru. Pemeriksaan GitHub pada 9 Oktober 2026 menunjukkan `isPrivate=false` (public). Pengguna meminta push ke repo yang sama; visibilitas tidak diubah dalam tugas ini. Verifikasi langsung sebelum menyatakan status pada sesi berikutnya.
