@@ -1,6 +1,6 @@
 # Bahan Bimbingan CD-1 Kebun Jeruk Limau
 
-**Diperbarui: 7 Oktober 2026.** Catatan untuk dibaca sebelum bimbingan dan membantu menjelaskan masalah, bukti lapangan, serta arah kajian solusi.
+**Diperbarui: 8 Oktober 2026.** Catatan untuk dibaca sebelum bimbingan dan membantu menjelaskan masalah, bukti lapangan, serta arah kajian solusi.
 
 **Lokasi:** JH7H+222, Ciberes, Kabupaten Subang, Jawa Barat.  
 **Pembimbing:** Dr. Agung Nugroho Jati, S.T., M.T.  
@@ -12,7 +12,7 @@
 >
 > Parit itu dibuat agar air dekat dengan pohon dan pekerja lebih mudah mengambil air untuk menyiram. Mitra memilih menggali tanah sebagai cara yang sederhana dan hemat. Namun, air dari parit masih ditimba memakai ember kecil dan diguyurkan secara manual ke setiap pohon.
 >
-> Mitra ingin menggantikan pekerjaan guyur manual karena biaya membayar pekerja penyiraman dianggap mahal. Pekerjaan tersebut harus diulang pada ratusan pohon, sementara volume air per pohon belum diketahui. Mitra menyebut acuan 15 liter setiap penyiraman, tetapi itu bukan volume yang sudah diukur atau kebutuhan tanaman yang sudah kami validasi.
+> Mitra ingin pemberian air setiap pohon lebih terjamin dan biaya tahun pertama lebih rendah. Upah empat pekerja Rp400.000 setiap penyiraman; jika tetap tiga hari sekali, skenarionya sekitar Rp48,7 juta setahun untuk upah saja. Volume guyuran belum diketahui sehingga pencapaian acuan mitra 15 liter per pohon belum terjamin; acuan ini belum menjadi dosis tanaman yang tervalidasi.
 >
 > Kebun juga jauh dari jaringan listrik. Pompa yang semula memakai bensin dimodifikasi oleh mitra untuk memakai LPG supaya biaya bahan bakarnya lebih murah. Mitra kemudian mengeluhkan kerusakan dan biaya perawatan. Karena itu, kami perlu menilai distribusi air, tenaga kerja, energi, dan perawatan secara bersama.
 >
@@ -115,11 +115,14 @@ Air sungai dan saluran tanah dapat membawa partikel. Kualitas air dan sedimen pe
 | 4 pekerja × Rp100.000 | Rp400.000/kegiatan | Upah berdasarkan keterangan tim. |
 | 30 hari ÷ 3 hari | Sekitar 10 kegiatan | Skenario jika interval tetap dan tidak ada penyesuaian hujan. |
 | 10 kegiatan × Rp400.000 | Rp4 juta/30 hari | Skenario upah; belum termasuk bahan bakar/perawatan. |
+| (365 hari ÷ 3 hari) × Rp400.000 | Sekitar Rp48,7 juta/tahun | Skenario interval tetap; sekitar 121–122 kegiatan. Bukan pengeluaran aktual yang telah dicatat. |
 | 500–600 pohon × 15 L | 7.500–9.000 L, atau 7,5–9 m³ | Volume nominal jika semua pohon menerima acuan 15 L. **Bukan volume aktual.** |
 
 Kalimat yang aman: “Dengan acuan mitra, jika seluruh pohon menerima 15 liter, skenario volumenya 7,5–9 meter kubik. Saat ini kami belum mengetahui jumlah liter yang benar-benar diberikan.”
 
 Angka 15 L juga belum boleh langsung dipakai untuk menetapkan durasi pompa, dosis otomatis, atau ukuran perangkat. Kebutuhan tanaman dan kinerja saluran harus diperiksa.
+
+**Target tahun pertama:** biaya alat + instalasi + energi/bahan bakar + perawatan + upah yang masih diperlukan lebih rendah daripada biaya penyiraman eksisting pada periode dan cakupan yang sebanding. Biaya eksisting mencakup upah, bahan bakar, dan perawatan. Rp48,7 juta adalah skenario upah saja, bukan anggaran alat atau biaya total yang telah terukur. Pengurangan biaya harus tetap disertai pemberian air yang dapat diperiksa.
 
 ## 6. Cara membaca Audio 1 dan Audio 2
 
@@ -172,9 +175,10 @@ Pertanyaan untuk dosen:
 - **“Apa masalah utamanya?”** Pemberian air dari parit ke ratusan pohon masih manual, membutuhkan biaya berulang, dan volume per pohon belum diketahui.
 - **“Kenapa tidak langsung ganti pompa?”** Pompa menangani suplai ke parit; pekerjaan guyuran tetap perlu dievaluasi. Kendala pompa dan distribusi akhir saling berkaitan.
 - **“Apakah sekarang sudah 15 liter tiap pohon?”** Belum diketahui. Itu acuan yang disebut mitra; ember dan guyuran belum diukur.
+- **“Apa target biaya proyek?”** Biaya total tahun pertama lebih rendah daripada penyiraman eksisting, termasuk alat, instalasi, energi, perawatan, dan upah tersisa. Skenario upah eksisting sekitar Rp48,7 juta/tahun; bahan bakar/perawatan masih perlu dicatat.
 - **“Apakah paritnya perlu dibuang?”** Belum diputuskan. Parit merupakan sarana existing yang membantu pekerja; kecocokan pemanfaatannya perlu dinilai.
 - **“Apakah LPG sudah terbukti lebih hemat?”** Mitra memakainya untuk menekan biaya bahan bakar, tetapi biaya total termasuk perawatan belum dibandingkan.
-- **“Mengapa masalahnya kompleks?”** Distribusi air, tanah dan kebutuhan tanaman, energi, perawatan, biaya, serta pekerjaan manusia saling berhubungan. CD-1 menggunakan kriteria kompleksitas 1, 2, dan 7; kriteria lain tidak dipaksakan.
+- **“Mengapa masalahnya kompleks?”** Distribusi air, tanah dan kebutuhan tanaman, energi, perawatan, biaya, serta pekerjaan manusia saling berhubungan. CD-1 memberi dasar kriteria 1, 2, dan 7. Nomor 3 diajukan karena air, waktu kerja, energi tanpa PLN, dan biaya tahun pertama perlu dimodelkan bersama. Bila air ditambah, waktu/energi dapat bertambah; bila guyur manual diganti jaringan, muncul investasi/perawatan. Alasan ini dibahas dengan dosen; model belum diuji dan Level 4 belum menjadi nilai pasti. Kriteria 6 belum didukung kebutuhan pekerja yang terdokumentasi.
 
 ## 10. Dokumen pendamping
 
@@ -182,3 +186,21 @@ Pertanyaan untuk dosen:
 - [CD-1 DOCX yang sedang digunakan](../dokumen/cd1/CD1_Jeruk_Limau.docx)
 
 Dasar ringkasan: keterangan mitra/tim, foto lapangan, citra lokasi, serta transkrip Audio 1 dan Audio 2 yang diberikan tim. Dasar perbandingan pendekatan mengikuti literatur pada daftar pustaka CD-1, antara lain FAO tentang kebutuhan air dan metode irigasi, NRCS tentang mikroirigasi, serta kajian evaluasi keseragaman dan pemeliharaan. Tidak ada angka penghematan, efisiensi kebun, atau dampak panen yang diklaim sebagai hasil pengujian.
+
+
+## 11. Hasil audit final dan cara membahas rubrik
+
+DOCX dan PDF aktif sudah diaudit dan diperbarui pada nama yang sama. Hasilnya 21 halaman, 25 referensi (19 literatur teknis), empat persamaan, dan tiga pendekatan pembanding. Parit penghubung melintang serta penggunaan LPG sudah masuk CD-1. Angka 15 L tetap acuan mitra; Rp48,7 juta/tahun tetap skenario upah, bukan hasil ukur atau anggaran alat.
+
+| Komponen rubrik dosen kelas | Keadaan dokumen |
+|---|---|
+| Kompleksitas, bobot 40% | Dasar nomor 1, 2, 7 tersedia. Nomor 3 diajukan melalui penjelasan kebutuhan model air–energi–pekerjaan–biaya. Lebih dari tiga unsur adalah syarat Level 4; penerimaan alasan nomor 3 perlu dibahas dengan dosen. |
+| Aspek masalah, 20% | Membahas teknis, ekonomi, agronomis, lingkungan, dan operasi manusia; energi merupakan bagian aspek teknis. |
+| Mitra, 10% | Mitra nyata dengan lokasi, dokumentasi, wawancara, dan kebutuhan. Nama usaha/pengelola belum dicantumkan. |
+| Solusi eksisting, 20% | Manual/parit, basin/furrow, dan mikroirigasi dengan opsi otomasi dibandingkan dalam narasi serta Tabel 5. |
+| Pustaka, 5% | 25 referensi, termasuk 19 literatur teknis; jumlah literatur melampaui 15. |
+| Tata tulis, 5% | Struktur asli, A4, Times New Roman 12, caption/daftar pustaka, dan tabel utuh telah diperiksa. |
+
+Kalimat untuk nomor 3: “Pak, teknologi irigasi sudah ada, tetapi kami belum dapat memilih hanya dari harga alat. Kami perlu menghitung bersama apakah air tiap pohon terpenuhi, energi tanpa PLN cukup, pekerjaan manual berkurang, dan biaya tahun pertama lebih rendah. Apakah dasar pemodelan ini sudah memenuhi kriteria ketiga?”
+
+Sebelum dikumpulkan, tanda tangan basah Pembimbing 1 dan tanggal pengesahan masih perlu diisi oleh pihak terkait. Bukti similarity maksimal 30% juga perlu disiapkan sesuai buku panduan. Deadline menurut jadwal adalah 15 Oktober 2026.

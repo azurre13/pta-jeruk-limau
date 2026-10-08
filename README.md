@@ -4,7 +4,7 @@ Repositori dokumentasi proyek capstone kebun jeruk limau di Ciberes, Kabupaten S
 
 **Pemilik repositori:** azurre13  
 **Status:** CD-1, analisis masalah dan kajian solusi existing. Rancangan alat akhir belum dipilih.  
-**Dokumen terbaru yang disalin:** 8 Oktober 2026; 21 halaman dan 25 referensi. Nomor revisi akademik 00; timeline revisi dan tanda tangan masih kosong.
+**Dokumen aktif diperbarui:** 8 Oktober 2026; 21 halaman dan 25 referensi. Audit final isi, sumber, rubrik, bahasa, dan layout selesai. Kebutuhan pemberian air dan biaya tahun pertama, penghubung parit, serta LPG sudah diperjelas. Nomor revisi akademik 00; timeline revisi dan tanda tangan masih kosong.
 
 ## Berkas utama
 

@@ -8,6 +8,8 @@ Proyek capstone tim S1 Teknik Komputer Universitas Telkom mengangkat masalah pen
 
 Saat ini tahapnya **CD-1, analisis masalah dan kebutuhan**. Metode irigasi, rancangan alat, jumlah pompa, kontroler, zona, dan perangkat akhir belum dipilih. Repositori ini berisi dokumentasi; firmware/aplikasi irigasi belum diimplementasikan. Penyebutan IoT atau drip pada percakapan lama bukan keputusan desain final. Tujuan menggantikan pekerjaan manual tidak otomatis berarti seluruh pekerja akan diberhentikan.
 
+**Penegasan pengguna pada 8 Oktober 2026:** mitra menghendaki pemberian air per pohon lebih terjamin karena guyuran pekerja belum tentu mencapai acuan 15 L. Selisih aktual belum diukur. Target biaya total penyiraman pada tahun pertama lebih rendah daripada praktik eksisting, dengan biaya alat, instalasi, energi/bahan bakar, perawatan, dan upah tersisa diperhitungkan. Dosis akhir tetap perlu diverifikasi sesuai tanaman.
+
 ## 2. Identitas
 
 | Data | Isi |
@@ -62,7 +64,7 @@ Ini diagram hubungan, bukan peta skala. Jarak antar penghubung, potongan saluran
 
 Foto menunjukkan selokan tanah terbuka tanpa lapisan beton di samping tanaman. Pengguna mengatakan parit kurang dalam dan air yang dapat diambil terbatas ketika dangkal; kedalaman dan tinggi air belum diukur.
 
-**Status penting:** penghubung melintang sudah masuk ringkasan MD, tetapi belum tertulis eksplisit pada CD-1 yang disalin ke repositori. Jangan menyatakan DOCX sudah memuatnya sebelum benar-benar diperbarui.
+**Status audit final:** penghubung melintang sudah tertulis pada deskripsi kebun, tabel data, dan kesimpulan CD-1. LPG juga telah diperjelas dalam pembahasan energi.
 
 ## 4. Fakta dan batas kepastian
 
@@ -89,6 +91,7 @@ Bedakan **keterangan mitra/tim**, **observasi visual**, **hasil perhitungan bers
 - **4 × Rp100.000 = Rp400.000** upah per kegiatan.
 - Jika interval tiga hari tetap selama 30 hari: sekitar **10 kegiatan**.
 - **10 × Rp400.000 = Rp4 juta/30 hari**, skenario upah tanpa bahan bakar/perawatan dan tanpa perubahan frekuensi karena hujan.
+- **(365/3) × Rp400.000 ≈ Rp48,7 juta/tahun**, skenario upah saja; sekitar 121–122 kegiatan atau Rp48,4–48,8 juta tergantung awal jadwal. Bukan pengeluaran tahunan yang sudah dicatat atau anggaran alat. Bandingkan biaya total tahun pertama pada periode dan cakupan yang sebanding.
 - **500–600 × 15 L = 7.500–9.000 L = 7,5–9 m³** volume nominal per kegiatan.
 - Skenario sepuluh kegiatan dengan acuan sama: **75–90 m³/30 hari**.
 - Upah dibagi populasi: sekitar **Rp667–800/pohon/kegiatan**.
@@ -164,17 +167,17 @@ Pembanding saat ini: **manual/parit**, **basin/furrow**, **mikroirigasi dengan k
 
 ## 11. Kompleksitas dan rubrik
 
-Dokumen saat ini menyatakan **kriteria 1, 2, dan 7 terpenuhi**:
+Audit final 8 Oktober 2026 memberi dasar bagi **kriteria 1, 2, dan 7**. **Kriteria 3 diajukan berdasarkan analisis**, dengan penjelasan hubungan air per pohon, durasi operasi, energi, pekerjaan, dan biaya tahun pertama. Jika pemberian ditambah, waktu dan energi dapat bertambah; pengurangan guyur manual melalui jaringan dapat menambah investasi/perawatan. Hubungan ini perlu dimodelkan untuk membandingkan pendekatan. Teknologi irigasi telah tersedia; model kinerja solusi kebun belum dibuat atau diuji. Jangan mengubah pengajuan ini menjadi jaminan Level 4.
 
 | No. | Makna dan status |
 |---|---|
-| 1 | Perlu analisis teknik aliran, tekanan, volume, energi. Terpenuhi. |
-| 2 | Banyak aspek saling terkait: teknis, biaya, tanaman, pekerjaan manusia. Terpenuhi. |
-| 3 | Perlu abstraksi/model karena cara penyelesaian belum jelas. Kebutuhan model khusus belum cukup dibuktikan. |
-| 4 | Masalah jarang terjadi. Tidak ada dasar mengklaim masalah irigasi ini langka. |
-| 5 | Praktik umum tidak memadai. Belum ada pengujian yang membuktikannya. |
-| 6 | Beberapa pihak mempunyai kebutuhan berbeda. Pengelola ingin menggantikan guyur manual agar biaya turun. Pekerja adalah pelaksana existing; kebutuhan/perubahan perannya perlu didokumentasikan. |
-| 7 | Banyak bagian saling bergantung: sungai, pompa, parit, pekerja, pemberian ke pohon. Terpenuhi. |
+| 1 | Perlu analisis teknik aliran, energi, dan ketelitian pengukuran untuk menilai pemberian tiap pohon. Terpenuhi dalam analisis CD-1. |
+| 2 | Air, tanaman, biaya, energi tanpa PLN, dan pekerjaan saling berkaitan. Terpenuhi. |
+| 3 | Diajukan berdasarkan kebutuhan pemodelan hubungan air, waktu, energi, pekerjaan, dan biaya; harus dibahas dengan dosen. |
+| 4 | Belum didukung bukti bahwa masalah langka. |
+| 5 | Belum ada pengujian bahwa praktik irigasi standar tidak memadai. |
+| 6 | Kebutuhan pengelola diketahui; kebutuhan pekerja dan perubahan tugas belum didokumentasikan khusus. |
+| 7 | Suplai sungai, pompa, parit, dan pekerjaan penyiraman saling bergantung. Terpenuhi. |
 
 Koreksi terakhir pengguna: **Rp100.000 adalah upah untuk satu orang. Tujuan mitra mengurangi biaya membayar pekerja penyiraman.** Jangan menggambarkan tujuan itu hanya sebagai kemudahan bekerja.
 
@@ -210,11 +213,12 @@ Softfile/hardcopy dan kewajiban MoM mitra tidak dinyatakan eksplisit pada buku p
 
 ## 13. Status berkas aktif
 
-- `dokumen/cd1/CD1_Jeruk_Limau.docx` dan `.pdf`: **21 halaman**, 25 referensi, A4 portrait, delapan tabel, tiga persamaan native Word bernomor.
+- `dokumen/cd1/CD1_Jeruk_Limau.docx` dan `.pdf`: **21 halaman**, 25 referensi, A4 portrait, delapan tabel, empat persamaan native Word bernomor.
+- Judul BAB 1 **Analisis Permasalahan dan Kebutuhan** ditambahkan sebelum 1.1, beserta paragraf pengantar bab. Bagian 1.2 memiliki paragraf pengantar sebelum 1.2.1. Pembaruan 8 Oktober 2026 dilakukan pada file yang sama; PDF saat penambahan pengantar tetap 21 halaman; setelah kebutuhan tahunan ditambahkan sempat 23 halaman. Audit final menyederhanakan bahasa dan merapikan pemisahan halaman sehingga kembali menjadi 21 halaman.
 - Nomor revisi akademik **00**; timeline kosong atas permintaan pengguna karena belum ada revisi formal dosen.
 - Tanda tangan, tanggal pengesahan, dan Pembimbing 2 masih kosong.
 - Caption Tabel 4: **Tabel 4. Kompleksitas Permasalahan**. Kata “template” tidak ditulis pada caption final.
-- Penjelasan tujuh kriteria telah disederhanakan; status 1, 2, 7 tetap.
+- Penjelasan tujuh kriteria telah disederhanakan; kriteria 1, 2, dan 7 didukung analisis. Kriteria 3 diajukan dengan penjelasan kebutuhan pemodelan setelah Tabel 4, bukan hasil pengujian.
 - Tujuan mitra menggantikan guyur manual untuk menurunkan biaya sudah masuk 1.1, 1.2.8, nomor 6, dan ringkasan MD.
 - `catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md`: bacaan mahasiswa, skrip satu menit, data, masalah, audio, perbandingan, dan jawaban untuk dosen.
 - `catatan/REFERENSI_CD1.md`: bibliografi yang diekstrak dari DOCX aktif.
@@ -238,7 +242,7 @@ Riwayat ini untuk menjaga ketepatan konteks. Jangan memasukkan riwayat kesalahan
 
 ## 15. Pekerjaan terbuka dan pola kerja
 
-Baca [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md). Prioritas: masukkan penghubung melintang ke CD-1, perjelas gas sebagai LPG, lengkapi identitas mitra bila ada, pertimbangkan kriteria tambahan berdasarkan bukti, dapatkan pengesahan, lalu rencanakan pengukuran untuk CD-2.
+Baca [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md). Penghubung melintang dan LPG sudah masuk CD-1. Prioritas: lengkapi identitas mitra bila ada, bahas argumentasi kriteria 3 dengan dosen, dapatkan pengesahan, lalu rencanakan pengukuran untuk CD-2.
 
 Pengguna menyukai Bahasa Indonesia sederhana dan konkret. Jangan memakai jargon tanpa penjelasan atau meminta konfirmasi berulang untuk edit yang jelas diminta. Klarifikasi fakta tidak otomatis berarti izin memilih desain final atau mengubah status kriteria.
 
