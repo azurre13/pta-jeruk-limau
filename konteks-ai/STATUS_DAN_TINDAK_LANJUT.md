@@ -2,9 +2,18 @@
 
 **Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
 
-**Sinkronisasi 9–11 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, perapian gaya bahasa narasi ilmiah alami bebas disclamer kaku/timestamp, dan pemenuhan rubrik CLO1 Level 4) berhasil dipush ke `origin/main`.
+**Sinkronisasi 9–11 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, perapian gaya bahasa narasi ilmiah alami bebas disclaimer kaku/timestamp, pemenuhan rubrik CLO1 Level 4, serta pengisian Tabel 2 Timeline Revisi Dokumen dan pembaruan Nomor Revisi 01 pada lembar pengesahan) berhasil diverifikasi dan disinkronkan ke `origin/main`.
 
 ## Sudah selesai
+
+- Pengisian Tabel 2 (Timeline Revisi Dokumen) dan pembaruan Nomor Revisi pada CD1 Revisi 2 selesai pada 11 Oktober 2026:
+  - Tabel 0 (Lembar Pengesahan): Nomor Revisi diperbarui menjadi `01`, Jumlah Halaman tetap `23 halaman`.
+  - Tabel 2 (Timeline Revisi Dokumen): diisi 2 butir riwayat perbaikan formal berdasarkan bimbingan Pembimbing 1 (Pak Agung):
+    1. Revisi diagram Gambar 1 menjadi diagram alir proses penyiraman eksisting riil di kebun mitra Ciberes (sungai -> pompa alkon -> tiga parit tanah -> penimbaan ember -> pengguyuran tiap pohon), Halaman Revisi `1, 2`.
+    2. Penambahan analisis SWOT pada solusi eksisting (Tabel 6 Sub-bab 1.4.4) beserta sintesis kesenjangan solusi/gap analysis arah inovasi Capstone (Sub-bab 1.4.5), Halaman Revisi `15, 16`.
+  - Tiga baris tersisa dipertahankan kosong sesuai format template resmi FTE-CD-1.
+  - Perataan teks dan tipografi dirapikan (kolom versi & halaman dibuat tengah/center, kolom uraian dibuat kiri/left dengan font Times New Roman 11 pt) agar tidak terdistorsi justifikasi sempit.
+  - Berkas PDF diekspor ulang via Word COM dengan total halaman pas 23 halaman dan diverifikasi visual.
 
 - Perapian gaya bahasa dan finalisasi CD1 Revisi 2 selesai pada 10–11 Oktober 2026: narasi dihaluskan agar mengalir alami sebagai karya tulis rekayasa matang, kalimat sanggahan defensif diubah menjadi deskripsi konstruktif, timestamp audio dihilangkan dari teks utama, kebocoran konteks luar dibersihkan, dan sisa teks lama di kesimpulan diselaraskan dengan efisiensi bahan bakar Pertalite. Tabel 6 SWOT 5 kolom bersitasi lengkap tetap utuh di Halaman 18, dan total dokumen pas di 23 halaman. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
 
