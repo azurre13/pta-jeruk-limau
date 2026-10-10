@@ -2,9 +2,11 @@
 
 **Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
 
-**Sinkronisasi 9 Oktober 2026:** paket CD-1 dan konteks lintas AI pada commit `7c5e579` berhasil dipush ke `origin/main`. Pengguna secara eksplisit memilih repo tetap public dan mengizinkan publikasi seluruh perubahan, termasuk identitas tim serta informasi/dokumentasi mitra. Izin ini berlaku untuk paket pembaruan tersebut; pekerjaan berikutnya mengikuti instruksi pengguna saat itu.
+**Sinkronisasi 9–10 Oktober 2026:** paket CD-1 dan pembaruan CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting) pada commit `9e84e31` berhasil dipush ke `origin/main`.
 
 ## Sudah selesai
+
+- Penambahan Tabel 6 (Analisis SWOT Solusi Eksisting) pada CD1 Revisi 2 selesai pada 10 Oktober 2026: tabel komparatif SWOT 4 baris 5 kolom ditambahkan di Sub-bab 1.4.4, disertai paragraf sintesis gap inovasi di 1.4.5. Dokumen tetap 23 halaman dengan format akademik konsisten (Times New Roman 9.5 pt, spasi tunggal, shading header abu-abu formal). Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
 
 - Handoff lintas AI diperbarui 9 Oktober 2026: AGENTS.md memuat konteks awal, GEMINI.md merujuk aturan yang sama, dan MULAI_CHAT_BARU.md menyediakan peta folder serta prompt singkat untuk Antigravity/AI lain. Pengguna meminta push paket pembaruan ke main; status remote diverifikasi melalui Git.
 
