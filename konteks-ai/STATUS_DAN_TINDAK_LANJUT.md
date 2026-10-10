@@ -2,11 +2,11 @@
 
 **Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
 
-**Sinkronisasi 9–10 Oktober 2026:** paket CD-1 dan pembaruan CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting) pada commit `9e84e31` berhasil dipush ke `origin/main`.
+**Sinkronisasi 9–10 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, dan audit rubrik CLO1 Level 4) berhasil dipush ke `origin/main`.
 
 ## Sudah selesai
 
-- Penambahan Tabel 6 (Analisis SWOT Solusi Eksisting) pada CD1 Revisi 2 selesai pada 10 Oktober 2026: tabel komparatif SWOT 4 baris 5 kolom ditambahkan di Sub-bab 1.4.4, disertai paragraf sintesis gap inovasi di 1.4.5. Dokumen tetap 23 halaman dengan format akademik konsisten (Times New Roman 9.5 pt, spasi tunggal, shading header abu-abu formal). Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
+- Finalisasi CD1 Revisi 2 selesai pada 10 Oktober 2026: Tabel 6 SWOT diselaraskan dengan fakta operasional pompa bensin Pertalite (uji coba LPG masa lalu dihentikan karena mesin panas), dilengkapi sitasi ilmiah pada setiap butir kelebihan/kelemahan, dan referensi [26] Graham & Timmer (penyakit genangan perakaran jeruk) ditambahkan ke Daftar Pustaka. Metadata sampul disinkronkan ke 23 halaman. Audit menyeluruh memastikan dokumen memenuhi kriteria Level 4 (Maksimal) pada rubrik penilaian Capstone CLO1 dan siap diajukan ke pembimbing untuk ACC. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
 
 - Handoff lintas AI diperbarui 9 Oktober 2026: AGENTS.md memuat konteks awal, GEMINI.md merujuk aturan yang sama, dan MULAI_CHAT_BARU.md menyediakan peta folder serta prompt singkat untuk Antigravity/AI lain. Pengguna meminta push paket pembaruan ke main; status remote diverifikasi melalui Git.
 
