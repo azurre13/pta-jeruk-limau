@@ -6,6 +6,15 @@
 
 ## Sudah selesai
 
+- Pembaruan dan finalisasi CD1 Revisi 3 selesai pada 12 Oktober 2026:
+  - Sistematika Sub-bab 1.2 dirombak terstruktur berdasar aspek rekayasa (Aspek Teknis 1.2.1, Aspek Ekonomi 1.2.2, Aspek Lingkungan 1.2.3, Aspek Operasional & Kemitraan 1.2.4, serta Sintesis Masalah 1.2.5).
+  - Tabel 4 (Kompleksitas Permasalahan) dilengkapi sitasi literatur ilmiah pendukung pada setiap kriterianya ([7], [12], [13], [17] pada Kriteria 1; [1], [2], [3], [11], [26] pada Kriteria 2; [15], [19], [24] pada Kriteria 3; dan [1], [11], [20] pada Kriteria 7).
+  - Tata letak Tabel 4, Tabel 5, dan Tabel 6 dirapikan mematuhi aturan baku Buku Panduan FTE Hal. 13 ("Tabel tidak boleh terpotong saat berpindah halaman"), masing-masing tampil utuh satu halaman penuh tanpa orphan caption dan tanpa kalimat terpotong di dasar halaman.
+  - Bahasa pemeriksa ejaan diatur ke `id-ID` (Bahasa Indonesia).
+  - Gaya bahasa dibersihkan dari jejak menit rekaman audio dan istilah bahasa Inggris ganda dalam kurung.
+  - Metadata Lembar Pengesahan diselaraskan: Nomor Revisi 02, Jumlah Halaman 24 halaman.
+  - Berkas DOCX dan PDF CD1 Revisi 3 siap dikirimkan kembali ke dosen pembimbing (Pak Agung).
+
 - Pengisian Tabel 2 (Timeline Revisi Dokumen) dan pembaruan Nomor Revisi pada CD1 Revisi 2 selesai pada 11 Oktober 2026:
   - Tabel 0 (Lembar Pengesahan): Nomor Revisi diperbarui menjadi `01`, Jumlah Halaman tetap `23 halaman`.
   - Tabel 2 (Timeline Revisi Dokumen): diisi 2 butir riwayat perbaikan formal berdasarkan bimbingan Pembimbing 1 (Pak Agung):
