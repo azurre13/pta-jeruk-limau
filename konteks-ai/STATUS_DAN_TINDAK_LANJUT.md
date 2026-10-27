@@ -8,6 +8,16 @@
 
 ## Sudah selesai
 
+- **Penyusunan Resmi Naskah CD-2 dan Dokumen Diskusi (28 Oktober 2026):**
+  - Penyusunan dokumen induk diskusi: `catatan/Bahan_Diskusi_dan_Arah_CD2.md` mencakup landasan perancangan, klarifikasi status mitra dan prototipe mahasiswa (merujuk Buku Panduan Hal. 7, 11, 21, 22), analisis medan parit dan foto tapak, rasionalitas anggaran Rp6.000.000, serta pertimbangan deteksi posisi pohon dan netralitas solusi (*solution-agnostic*).
+  - Penulisan ulang naskah akademik CD-2 resmi: `dokumen/CD2_Jeruk_Limau.docx` dan ekspor PDF terverifikasi visual `dokumen/CD2_Jeruk_Limau.pdf` (pas 19 halaman).
+  - Struktur memenuhi 100% template `sumber/template/FTE-CD-2_edited-PBD-1.docx` dan seluruh kriteria Level 4 rubrik Capstone CLO2:
+    - Sub-bab 1.1: 4 dasar rujukan penentuan spesifikasi (Wawancara Mitra Audio 1, Standar Industri ASABE S398.1:2021 & IEC 60529/62124, Regulasi Kementan & Fisiologi Jeruk Limau Budiarto 2017/FAO-56, serta Riset Mutakhir Paten CN115804333A 2023, Elkaoud 2025, Nurwidiana 2022, Jiang 2023).
+    - Sub-bab 1.2: Batasan C-01 s.d. C-04 dan Matriks Spesifikasi Kuantitatif Multi-Aspek S-01 s.d. S-15 (Teknis, Ekonomi, Lingkungan, Operasional) yang *solution-agnostic*. Plafon prototipe dikunci Rp6.000.000 (realisasi ~Rp4,6 Juta) dan studi kelayakan kebun mitra Rp12–15 Juta.
+    - Sub-bab 1.3: Matriks Verifikasi Tabel 4 dan 5 sub-prosedur pengujian terperinci dengan alat ukur terkalibrasi dan kriteria kelulusan empiris.
+    - Sub-bab 1.4: Kesimpulan pemetaan kembali ke CD-1 dan kesiapan penyusunan 3 alternatif solusi di CD-3.
+    - Daftar Pustaka: 20 referensi ilmiah mutakhir rentang 2016–2026 dalam format baku IEEE, bebas dari sumber usang tahun 1980/1990-an.
+
 - Penambahan berkas CD-2, referensi jurnal, dan data mitra (27–28 Oktober 2026):
   - Draf awal CD-2 (`dokumen/CD2_Jeruk_Limau.docx`) dan template resmi CD-2 (`sumber/template/FTE-CD-2_edited-PBD-1.docx`).
   - Berkas ekspor PDF CD-1 final (`dokumen/CD 1 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf`).
