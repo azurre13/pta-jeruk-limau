@@ -438,16 +438,14 @@ def main():
 
     # 4. Update Table 2 (Timeline Revisi)
     t2 = doc.tables[2]
+    for r_idx in range(2, len(t2.rows)):
+        for c_idx in range(4):
+            t2.rows[r_idx].cells[c_idx].text = ""
+
     t2.rows[1].cells[0].text = "00,\n28 Oktober 2026"
     t2.rows[1].cells[1].text = "Draf Final CD-2"
     t2.rows[1].cells[2].text = "Penyusunan menyeluruh batasan rekayasa dan spesifikasi kuantitatif sistem irigasi jeruk limau berbasis integrasi multi-pilar (kebutuhan riil mitra Ciberes, regulasi tata air nasional, standar industri ASABE/IEC/ISO, literatur agronomi perakaran dan neraca air FAO), penyusunan matriks spesifikasi terukur (S-01 s.d. S-14), protokol pengukuran dan verifikasi, perapian rumus matematis berstandar Word Equation OMML, serta pembersihan istilah dwibahasa sesuai kaidah bahasa Indonesia baku dan huruf miring untuk istilah asing."
     t2.rows[1].cells[3].text = "Seluruh Dokumen"
-    
-    for r_idx in range(2, len(t2.rows)):
-        t2.rows[r_idx].cells[0].text = ""
-        t2.rows[r_idx].cells[1].text = ""
-        t2.rows[r_idx].cells[2].text = ""
-        t2.rows[r_idx].cells[3].text = ""
 
     for row in t2.rows:
         make_row_cant_split(row)
