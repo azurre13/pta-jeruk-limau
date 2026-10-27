@@ -13,6 +13,8 @@ Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyim
 
 ## Berkas utama
 
+- [CD-2 PDF (22 Halaman)](dokumen/cd2/CD2_Jeruk_Limau.pdf)
+- [CD-2 DOCX](dokumen/cd2/CD2_Jeruk_Limau.docx)
 - [CD-1 PDF](dokumen/cd1/CD1_Jeruk_Limau.pdf)
 - [CD-1 DOCX](dokumen/cd1/CD1_Jeruk_Limau.docx)
 - [Bacaan bimbingan untuk mahasiswa](catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md)
@@ -27,7 +29,7 @@ Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyim
 
 ```text
 sumber/
-  template/                  Template CD-1 asli
+  template/                  Template CD-1 dan CD-2 resmi
   panduan/                   Buku panduan capstone
   rubrik-jadwal/             Jadwal dan rubrik PTA
   riset/                    Laporan riset terdahulu
@@ -38,7 +40,9 @@ sumber/
     video/                   Video pendek kondisi kebun
     wawancara/               Transkrip Audio 1 dan Audio 2
   MANIFEST.json             Asal, ukuran, dan SHA-256 berkas sumber/salinan CD-1
-dokumen/cd1/                Satu DOCX dan satu PDF CD-1 yang aktif
+dokumen/
+  cd1/                      Dokumen CD-1 (Word, PDF, Logbook, ACC)
+  cd2/                      Dokumen CD-2 (Word, PDF 22 Hlm, Draf, Builder)
 catatan/                    Data mitra lengkap, bacaan bimbingan, dan daftar pustaka
 konteks-ai/                 Konteks lengkap dan petunjuk melanjutkan chat
 AGENTS.md                   Aturan kerja dan konteks awal agen

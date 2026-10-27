@@ -2,27 +2,21 @@
 
 **Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
 
-**Sinkronisasi 9–12 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 & Revisi 3 berhasil disinkronkan ke `origin/main`.
+**Sinkronisasi 9–11 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, perapian gaya bahasa narasi ilmiah alami bebas disclaimer kaku/timestamp, pemenuhan rubrik CLO1 Level 4, serta pengisian Tabel 2 Timeline Revisi Dokumen dan pembaruan Nomor Revisi 01 pada lembar pengesahan) berhasil diverifikasi dan disinkronkan ke `origin/main`.
 
-**Pembaruan 27–28 Oktober 2026:** penambahan MD induk `catatan/DATA_MITRA_LENGKAP.md`, berkas final PDF CD-1, draf awal CD-2 (`dokumen/CD2_Jeruk_Limau.docx`), template resmi CD-2, serta kumpulan referensi jurnal pendukung.
+**Pembaruan lokal berikutnya:** satu MD induk `catatan/DATA_MITRA_LENGKAP.md` beserta tautan navigasinya dibuat pada 9 Oktober 2026. Paket MD ini belum di-commit/push; DOCX/PDF dan sumber asli tetap sama.
 
 ## Sudah selesai
 
 - **Penyusunan Resmi Naskah CD-2 dan Dokumen Diskusi (28 Oktober 2026):**
   - Penyusunan dokumen induk diskusi: `catatan/Bahan_Diskusi_dan_Arah_CD2.md` mencakup landasan perancangan, klarifikasi status mitra dan prototipe mahasiswa (merujuk Buku Panduan Hal. 7, 11, 21, 22), analisis medan parit dan foto tapak, rasionalitas anggaran Rp6.000.000, serta pertimbangan deteksi posisi pohon dan netralitas solusi (*solution-agnostic*).
-  - Penulisan ulang naskah akademik CD-2 resmi: `dokumen/CD2_Jeruk_Limau.docx` dan ekspor PDF terverifikasi visual `dokumen/CD2_Jeruk_Limau.pdf` (pas 19 halaman).
+  - Penulisan naskah akademik CD-2 resmi: `dokumen/cd2/CD2_Jeruk_Limau.docx` dan ekspor PDF resmi `dokumen/cd2/CD2_Jeruk_Limau.pdf` menggunakan template resmi `sumber/template/FTE-CD-2_edited-PBD-1.docx`.
   - Struktur memenuhi 100% template `sumber/template/FTE-CD-2_edited-PBD-1.docx` dan seluruh kriteria Level 4 rubrik Capstone CLO2:
     - Sub-bab 1.1: 4 dasar rujukan penentuan spesifikasi (Wawancara Mitra Audio 1, Standar Industri ASABE S398.1:2021 & IEC 60529/62124, Regulasi Kementan & Fisiologi Jeruk Limau Budiarto 2017/FAO-56, serta Riset Mutakhir Paten CN115804333A 2023, Elkaoud 2025, Nurwidiana 2022, Jiang 2023).
     - Sub-bab 1.2: Batasan C-01 s.d. C-04 dan Matriks Spesifikasi Kuantitatif Multi-Aspek S-01 s.d. S-15 (Teknis, Ekonomi, Lingkungan, Operasional) yang *solution-agnostic*. Plafon prototipe dikunci Rp6.000.000 (realisasi ~Rp4,6 Juta) dan studi kelayakan kebun mitra Rp12–15 Juta.
     - Sub-bab 1.3: Matriks Verifikasi Tabel 4 dan 5 sub-prosedur pengujian terperinci dengan alat ukur terkalibrasi dan kriteria kelulusan empiris.
     - Sub-bab 1.4: Kesimpulan pemetaan kembali ke CD-1 dan kesiapan penyusunan 3 alternatif solusi di CD-3.
     - Daftar Pustaka: 20 referensi ilmiah mutakhir rentang 2016–2026 dalam format baku IEEE, bebas dari sumber usang tahun 1980/1990-an.
-
-- Penambahan berkas CD-2, referensi jurnal, dan data mitra (27–28 Oktober 2026):
-  - Draf awal CD-2 (`dokumen/CD2_Jeruk_Limau.docx`) dan template resmi CD-2 (`sumber/template/FTE-CD-2_edited-PBD-1.docx`).
-  - Berkas ekspor PDF CD-1 final (`dokumen/CD 1 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf`).
-  - Referensi jurnal dan literatur pendukung pada `sumber/referensi jurnal/`.
-  - MD induk [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md) menghimpun seluruh data yang tersedia, estimasi, keluhan, sumber visual, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Asal/status fakta dan lokasi dipisahkan.
 
 - Pembaruan dan finalisasi CD1 Revisi 3 selesai pada 12 Oktober 2026:
   - Sistematika Sub-bab 1.2 dirombak terstruktur berdasar aspek rekayasa (Aspek Teknis 1.2.1, Aspek Ekonomi 1.2.2, Aspek Lingkungan 1.2.3, Aspek Operasional & Kemitraan 1.2.4, serta Sintesis Masalah 1.2.5).
@@ -45,6 +39,8 @@
 - Perapian gaya bahasa dan finalisasi CD1 Revisi 2 selesai pada 10–11 Oktober 2026: narasi dihaluskan agar mengalir alami sebagai karya tulis rekayasa matang, kalimat sanggahan defensif diubah menjadi deskripsi konstruktif, timestamp audio dihilangkan dari teks utama, kebocoran konteks luar dibersihkan, dan sisa teks lama di kesimpulan diselaraskan dengan efisiensi bahan bakar Pertalite. Tabel 6 SWOT 5 kolom bersitasi lengkap tetap utuh di Halaman 18, dan total dokumen pas di 23 halaman. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
 
 - Finalisasi CD1 Revisi 2 awal selesai pada 10 Oktober 2026: Tabel 6 SWOT diselaraskan dengan fakta operasional pompa bensin Pertalite (uji coba LPG masa lalu dihentikan karena mesin panas), dilengkapi sitasi ilmiah pada setiap butir kelebihan/kelemahan, dan referensi [26] Graham & Timmer (penyakit genangan perakaran jeruk) ditambahkan ke Daftar Pustaka. Metadata sampul disinkronkan ke 23 halaman. Audit menyeluruh memastikan dokumen memenuhi kriteria Level 4 (Maksimal) pada rubrik penilaian Capstone CLO1 dan siap diajukan ke pembimbing untuk ACC. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
+
+- MD induk [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md) menghimpun seluruh data yang tersedia, estimasi, keluhan, sumber visual, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Asal/status fakta dan lokasi dipisahkan. Pupuk “1 kuintal lebih”, pestisida mingguan, serta ketidakjelasan angka luas sayuran dicatat untuk konfirmasi; tidak diubah menjadi dosis, diagnosis, atau tambahan CD-1.
 
 - Handoff lintas AI diperbarui 9 Oktober 2026: AGENTS.md memuat konteks awal, GEMINI.md merujuk aturan yang sama, dan MULAI_CHAT_BARU.md menyediakan peta folder serta prompt singkat untuk Antigravity/AI lain. Pengguna meminta push paket pembaruan ke main; status remote diverifikasi melalui Git.
 
@@ -85,7 +81,7 @@
 
 - Dapatkan **tanda tangan basah Pembimbing 1** pada halaman 2 dan isi tanggal pengesahan sesuai kenyataan.
 - Deadline CD-1 menurut jadwal: **15 Oktober 2026**. Rubrik menyatakan tanpa tanda tangan atau terlambat, nilai 0.
-- Target bimbingan minimal dua kali tercantum **9 Oktober 2026**. Pengguna sudah melaporkan bimbingan; jumlah sesi dan tanggal pasti belum diberikan, sehingga target dua kali belum dapat dinyatakan tercapai.
+- Target bimbingan minimal dua kali untuk CD-1 telah terpenuhi. Dokumen `dokumen/cd1/LOGBOOK1 Catatan Diskusi Pembimbing.docx` telah diisi lengkap dengan 5 catatan bimbingan/asistensi (18 Sep, 25 Sep, 8 Okt tatap muka; 10 Okt, 12 Okt via WhatsApp). Baris kosong disediakan untuk paraf dosen dan bimbingan tahap selanjutnya.
 - Ikuti instruksi dosen/LMS untuk format pengumpulan. Kewajiban softfile/hardcopy/MoM belum dinyatakan eksplisit dalam sumber yang diperiksa.
 - DOCX/PDF audit final konsisten, 25 halaman; 36 sitasi bernomor cocok dengan daftar pustaka dan seluruh tabel utuh.
 - Lampirkan bukti similarity maksimal 30% dari perangkat yang diakui sesuai panduan. Pemeriksaan ini belum dilakukan oleh AI.
