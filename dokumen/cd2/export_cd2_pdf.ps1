@@ -1,6 +1,6 @@
 $word = New-Object -ComObject Word.Application
 $word.Visible = $false
-$word.DisplayAlerts = 0
+$word.DisplayAlerts = [Microsoft.Office.Interop.Word.WdAlertLevel]::wdAlertsNone
 
 try {
     $scriptDir = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Definition }
@@ -9,15 +9,17 @@ try {
     
     Write-Host "Opening Word file: $docxPath"
     $doc = $word.Documents.Open($docxPath, $false, $true)
+    $pageCount = $doc.ComputeStatistics(2)
+    Write-Host "Document opened. Page count: $pageCount"
     
     Write-Host "Exporting to PDF: $pdfPath"
-    $doc.SaveAs([ref]$pdfPath, [ref]17)
+    $doc.ExportAsFixedFormat($pdfPath, 17)
+    Write-Host "SUCCESS! Export complete. Page count: $pageCount"
     
-    $pageCount = $doc.ComputeStatistics(2)
-    $doc.Close([ref]$false)
-    Write-Host "SUCCESS! Page count: $pageCount"
+    $doc.Close($false)
 } catch {
-    Write-Host "ERROR: $_"
+    Write-Host "ERROR: $($_.Exception.Message)"
 } finally {
     $word.Quit()
+    [System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null
 }
