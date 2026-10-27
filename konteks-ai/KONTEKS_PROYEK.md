@@ -269,7 +269,7 @@ Pengguna melaporkan sudah bimbingan. Arahan yang disampaikan adalah memperdalam 
 - Jangan memindahkan angka panen 15/17 ton, contoh urea 3/5 kuintal per hektar, luas sayuran, hama, kecukupan air, listrik, atau pilihan pengurus sayuran ke tapak jeruk. Hama sayuran berada di luar fokus proyek.
 - Audio 1 tetap sumber utama. Wawancara sayuran hanya alasan pendukung untuk verifikasi tanah jeruk; tanggal rekaman tambahan belum dikonfirmasi. Yang dibaca AI adalah transkrip, bukan audio asli.
 
-Lampiran tambahan asli: `C:/Users/daffa/.codex/attachments/cf4160ee-9b1a-414b-81cd-3b2b0be40a32/Pasted text.txt`. Tidak disalin ke `sumber/` yang hanya-baca. Jika lampiran tidak tersedia pada chat baru, jangan mengarang isinya; gunakan batas fakta di atas dan minta lampiran bila diperlukan.
+Lampiran tambahan asli: `C:/Users/daffa/.codex/attachments/cf4160ee-9b1a-414b-81cd-3b2b0be40a32/Pasted text.txt`. Tidak disalin ke `sumber/` yang hanya-baca. Sejak penghimpunan MD pada 9 Oktober 2026, transkrip lengkapnya direproduksi dalam [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md), agar dapat dibaca pada komputer/chat lain. Reproduksi ini tetap transkrip, bukan audio yang telah diverifikasi.
 
 DOCX/PDF aktif sudah diperbarui pada berkas yang sama: **1.2.8 Kondisi tanah dan keterbatasan data pemupukan**; lingkungan menjadi **1.2.9**, rumusan menjadi **1.2.10**. Tabel 3 menambahkan catatan pemupukan dan pemeriksaan tanah. Kesimpulan menegaskan kesuburan belum diuji. Pembanding pada 1.4 tetap dipertahankan karena wajib dalam template.
 
@@ -320,3 +320,13 @@ Isi commit mencakup perapian CD-1 menjadi 25 halaman, kajian air, tanaman, tanah
 **Koreksi visibilitas:** catatan lama yang menyebut private tidak mencerminkan keadaan terbaru. Pemeriksaan GitHub pada 9 Oktober 2026 menunjukkan `isPrivate=false` (public). Pengguna meminta push ke repo yang sama; visibilitas tidak diubah dalam tugas ini. Verifikasi langsung sebelum menyatakan status pada sesi berikutnya.
 
 **Hasil sinkronisasi:** pada 9 Oktober 2026 pengguna menjawab, “Tetap public; saya mengizinkan publikasi seluruh perubahan dan push”. Commit `7c5e579` (perapian CD-1 serta konteks lintas AI) berhasil dikirim ke `origin/main`. Repo tetap public. Status terbaru tetap perlu dicek langsung melalui Git; izin publikasi ini berlaku pada paket yang diminta, bukan izin umum untuk tugas berikutnya.
+
+## 22. Induk data mitra pada 9 Oktober 2026
+
+Pengguna meminta satu MD lengkap yang menyimpan semua bahan mitra, masalah, ukuran lahan, dan estimasi. [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md) menjadi induk data: tabel asal/status fakta, lahan/parit, budidaya, pengairan, energi, biaya, kebutuhan, perhitungan bersyarat, peta timestamp, foto/citra, pemisahan kebun sayuran, data yang belum diketahui, serta reproduksi utuh kedua sumber transkrip. MD bimbingan tetap bacaan ringkas. Sumber asli dan CD-1 tidak diubah pada tugas penghimpunan ini.
+
+Pembacaan ulang A1 memperjelas dua keterangan yang belum dijabarkan pada ringkasan: pada 06:34–06:40 mitra menyebut pupuk “1 kuintal lebih”; cakupan pohon, produk, dan periode belum jelas sehingga bukan dosis per pohon/per hektar. Pada 06:43–06:52 mitra menyebut pestisida seminggu sekali untuk pencegahan; produk/dosis belum tersedia. Kedua ucapan dicatat dalam MD induk, belum ditambahkan ke CD-1.
+
+Wawancara sayuran memiliki angka luas yang belum konsisten: 100 bata/1.400 m², lalu rekan menyebut 114 × 14 = 1.596 yang dibulatkan menjadi 1.600 m²; luas terong disebut 200 bata/2.800 m². Faktor satuan dan bidang belum diverifikasi. Jangan memilih salah satunya sebagai luas jeruk atau menganggap semua angka sudah terukur.
+
+Paket MD induk dan tautan navigasi dibuat lokal. Belum dilakukan commit/push untuk tugas penghimpunan ini; sinkronisasi paket terdahulu tetap tercatat terpisah. Periksa Git sebelum menyatakan keadaan terbaru.

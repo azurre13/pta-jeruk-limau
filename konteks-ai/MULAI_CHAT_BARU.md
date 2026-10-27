@@ -25,7 +25,8 @@ Sumber konfigurasi: [Google Antigravity — Rules](https://antigravity.google/do
 1. `AGENTS.md`: tujuan repo, fakta inti, batas data, dan aturan mengedit.
 2. `konteks-ai/KONTEKS_PROYEK.md`: riwayat koreksi, seluruh fakta, sumber, batasan, dan keputusan yang masih terbuka.
 3. `konteks-ai/STATUS_DAN_TINDAK_LANJUT.md`: hasil yang sudah selesai, pengesahan yang belum tersedia, serta pengukuran berikutnya.
-4. Berkas aktif dan sumber yang relevan dengan tugas. Untuk revisi laporan, baca DOCX aktif, template asli, buku panduan, dan rubrik; ekstraksi teks saja belum memeriksa layout.
+4. `catatan/DATA_MITRA_LENGKAP.md`: seluruh data mitra, asal angka, perhitungan, foto, serta transkrip utuh Audio 1/2 dan wawancara sayuran.
+5. Berkas aktif dan sumber yang relevan dengan tugas. Untuk revisi laporan, baca DOCX aktif, template asli, buku panduan, dan rubrik; ekstraksi teks saja belum memeriksa layout.
 
 ## Peta folder dan fungsi berkas
 
@@ -34,6 +35,7 @@ Sumber konfigurasi: [Google Antigravity — Rules](https://antigravity.google/do
 | `dokumen/cd1/CD1_Jeruk_Limau.docx` | Satu laporan Word aktif yang diedit pada nama yang sama. |
 | `dokumen/cd1/CD1_Jeruk_Limau.pdf` | PDF pendamping dari DOCX yang sama; snapshot 25 halaman. |
 | `catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md` | Bacaan mahasiswa, penjelasan singkat, data, dan jawaban bimbingan. |
+| `catatan/DATA_MITRA_LENGKAP.md` | Induk data mitra: lahan, budidaya, alur air, biaya, masalah, estimasi, sumber, dan transkrip lengkap. |
 | `catatan/REFERENSI_CD1.md` | Daftar 36 referensi dari DOCX aktif; nomor mengikuti sitasi. |
 | `konteks-ai/` | Konteks, status, dan panduan memulai chat baru. |
 | `sumber/template/` | Template akademik asli CD-1. |
@@ -53,9 +55,9 @@ Kebun tanpa PLN. Pompa dilaporkan memakai LPG hasil modifikasi mesin bensin. Tan
 
 ## Jika chat hanya menerima lampiran
 
-Lampirkan `KONTEKS_PROYEK.md`, `STATUS_DAN_TINDAK_LANJUT.md`, serta DOCX/PDF aktif. Sertakan template/panduan/rubrik bila meminta revisi akademik dan sumber khusus yang diperlukan. Tautan GitHub private saja tidak memberi AI akses otomatis.
+Lampirkan `KONTEKS_PROYEK.md`, `STATUS_DAN_TINDAK_LANJUT.md`, `DATA_MITRA_LENGKAP.md`, serta DOCX/PDF aktif. Sertakan template/panduan/rubrik bila meminta revisi akademik dan sumber khusus yang diperlukan. Tautan GitHub private saja tidak memberi AI akses otomatis.
 
-Transkrip sayuran tambahan yang dibahas pada konteks berada di lampiran percakapan di luar repo. Konteks menyimpan batas informasi yang telah digunakan; jangan mengaku membaca transkrip lengkap jika lampirannya tidak tersedia. Foto/video/transkrip serta paper juga harus benar-benar dibaca sebelum digunakan sebagai bukti baru.
+Transkrip lengkap Audio 1/2 dan wawancara sayuran tersedia pada lampiran `catatan/DATA_MITRA_LENGKAP.md`. Lampiran sayuran asli tetap berada di luar repo, tetapi reproduksi teksnya dapat dibawa bersama MD ini. Foto/video tetap merupakan berkas terpisah yang ditautkan. Jangan mengaku mendengar audio asli; baca sumber yang relevan sebelum menggunakannya sebagai bukti baru.
 
 ## Menjaga kesinambungan setelah pekerjaan
 

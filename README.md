@@ -16,6 +16,7 @@ Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyim
 - [CD-1 PDF](dokumen/cd1/CD1_Jeruk_Limau.pdf)
 - [CD-1 DOCX](dokumen/cd1/CD1_Jeruk_Limau.docx)
 - [Bacaan bimbingan untuk mahasiswa](catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md)
+- [Data mitra lengkap, sumber, estimasi, dan transkrip utuh](catatan/DATA_MITRA_LENGKAP.md)
 - [Daftar pustaka CD-1 dalam Markdown](catatan/REFERENSI_CD1.md)
 - [Mulai chat baru dengan AI](konteks-ai/MULAI_CHAT_BARU.md)
 - [Konteks proyek lengkap untuk AI](konteks-ai/KONTEKS_PROYEK.md)
@@ -38,7 +39,7 @@ sumber/
     wawancara/               Transkrip Audio 1 dan Audio 2
   MANIFEST.json             Asal, ukuran, dan SHA-256 berkas sumber/salinan CD-1
 dokumen/cd1/                Satu DOCX dan satu PDF CD-1 yang aktif
-catatan/                    Ringkasan bimbingan dan daftar pustaka
+catatan/                    Data mitra lengkap, bacaan bimbingan, dan daftar pustaka
 konteks-ai/                 Konteks lengkap dan petunjuk melanjutkan chat
 AGENTS.md                   Aturan kerja dan konteks awal agen
 GEMINI.md                   Pintu masuk Antigravity/Gemini

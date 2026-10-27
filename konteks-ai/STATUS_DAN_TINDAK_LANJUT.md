@@ -2,9 +2,17 @@
 
 **Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
 
-**Sinkronisasi 9–11 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, perapian gaya bahasa narasi ilmiah alami bebas disclaimer kaku/timestamp, pemenuhan rubrik CLO1 Level 4, serta pengisian Tabel 2 Timeline Revisi Dokumen dan pembaruan Nomor Revisi 01 pada lembar pengesahan) berhasil diverifikasi dan disinkronkan ke `origin/main`.
+**Sinkronisasi 9–12 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 & Revisi 3 berhasil disinkronkan ke `origin/main`.
+
+**Pembaruan 27–28 Oktober 2026:** penambahan MD induk `catatan/DATA_MITRA_LENGKAP.md`, berkas final PDF CD-1, draf awal CD-2 (`dokumen/CD2_Jeruk_Limau.docx`), template resmi CD-2, serta kumpulan referensi jurnal pendukung.
 
 ## Sudah selesai
+
+- Penambahan berkas CD-2, referensi jurnal, dan data mitra (27–28 Oktober 2026):
+  - Draf awal CD-2 (`dokumen/CD2_Jeruk_Limau.docx`) dan template resmi CD-2 (`sumber/template/FTE-CD-2_edited-PBD-1.docx`).
+  - Berkas ekspor PDF CD-1 final (`dokumen/CD 1 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf`).
+  - Referensi jurnal dan literatur pendukung pada `sumber/referensi jurnal/`.
+  - MD induk [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md) menghimpun seluruh data yang tersedia, estimasi, keluhan, sumber visual, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Asal/status fakta dan lokasi dipisahkan.
 
 - Pembaruan dan finalisasi CD1 Revisi 3 selesai pada 12 Oktober 2026:
   - Sistematika Sub-bab 1.2 dirombak terstruktur berdasar aspek rekayasa (Aspek Teknis 1.2.1, Aspek Ekonomi 1.2.2, Aspek Lingkungan 1.2.3, Aspek Operasional & Kemitraan 1.2.4, serta Sintesis Masalah 1.2.5).

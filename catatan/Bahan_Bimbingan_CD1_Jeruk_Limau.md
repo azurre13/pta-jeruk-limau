@@ -6,6 +6,8 @@
 **Pembimbing:** Dr. Agung Nugroho Jati, S.T., M.T.  
 **Tim:** Muhammad Al Qarnie, Maheswara Ariq Athallah, dan Daffa Hermansyah.
 
+**Seluruh data mitra:** [Data Mitra Lengkap](DATA_MITRA_LENGKAP.md) menghimpun ukuran/kondisi kebun, keluhan, estimasi, sumber foto/video, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Catatan bimbingan ini tetap bacaan ringkas.
+
 ## 1. Penjelasan satu menit untuk dosen
 
 
