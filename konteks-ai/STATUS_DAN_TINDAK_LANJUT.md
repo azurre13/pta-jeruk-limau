@@ -75,7 +75,7 @@
 
 - Dapatkan **tanda tangan basah Pembimbing 1** pada halaman 2 dan isi tanggal pengesahan sesuai kenyataan.
 - Deadline CD-1 menurut jadwal: **15 Oktober 2026**. Rubrik menyatakan tanpa tanda tangan atau terlambat, nilai 0.
-- Target bimbingan minimal dua kali tercantum **9 Oktober 2026**. Pengguna sudah melaporkan bimbingan; jumlah sesi dan tanggal pasti belum diberikan, sehingga target dua kali belum dapat dinyatakan tercapai.
+- Target bimbingan minimal dua kali untuk CD-1 telah terpenuhi. Dokumen `dokumen/cd1/LOGBOOK1 Catatan Diskusi Pembimbing.docx` telah diisi lengkap dengan 5 catatan bimbingan/asistensi (18 Sep, 25 Sep, 8 Okt tatap muka; 10 Okt, 12 Okt via WhatsApp). Baris kosong disediakan untuk paraf dosen dan bimbingan tahap selanjutnya.
 - Ikuti instruksi dosen/LMS untuk format pengumpulan. Kewajiban softfile/hardcopy/MoM belum dinyatakan eksplisit dalam sumber yang diperiksa.
 - DOCX/PDF audit final konsisten, 25 halaman; 36 sitasi bernomor cocok dengan daftar pustaka dan seluruh tabel utuh.
 - Lampirkan bukti similarity maksimal 30% dari perangkat yang diakui sesuai panduan. Pemeriksaan ini belum dilakukan oleh AI.
