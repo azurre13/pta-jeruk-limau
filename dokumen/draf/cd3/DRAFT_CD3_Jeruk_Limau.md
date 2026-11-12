@@ -155,7 +155,7 @@ Penyiraman ke tanaman jeruk limau dilakukan secara independen memanfaatkan gaya 
 ### 1.4 Alternatif 4: Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi (*Multipurpose Semi-Manual Irrigation & Orchard Utility Cart*)
 
 #### 1.4.1 Deskripsi Konsep dan Arsitektur
-Alternatif 4 mengadopsi prinsip teknologi tepat guna (*appropriate agricultural technology*) berbiaya terjangkau dengan memadukan mobilitas gerobak dorong roda bertapak lebar (*all-terrain pneumatic tire wheelbarrow*) dengan modul peralatan irigasi elektrik portabel lepas-pasang (*detachable quick-release modular rack*). Konsep ini terinspirasi dari riset perancangan alat penyiram berbasis solar fotovoltaik oleh Nurwidiana dkk. (Jurnal PASTI, 2021) yang dikombinasikan dengan kebutuhan logistik kebun buah jeruk.
+Alternatif 4 mengadopsi prinsip teknologi tepat guna (*appropriate agricultural technology*) berbiaya terjangkau dengan memadukan mobilitas gerobak dorong roda bertapak lebar (*all-terrain pneumatic tire wheelbarrow*) dengan modul peralatan irigasi elektrik portabel lepas-pasang (*detachable quick-release modular rack*). Konsep ini terinspirasi dari riset perancangan alat penyiram berbasis solar fotovoltaik oleh Nurwidiana dkk. (Jurnal Teknologi Pertanian Andalas, 2022) yang dikombinasikan dengan kebutuhan logistik kebun buah jeruk.
 
 Pada sasis gerobak dorong, dipasang modul pompa diafragma elektrik DC 12V 80W, baterai LiFePO4 12V 20–30Ah di dalam boks selungkup kedap air IP65, saringan cakram 120 mesh portabel, serta rol gulungan selang lentur (*hose reel*) sepanjang 25 meter dengan tongkat semprot bertakar (*spray wand with digital flow meter*). Sasis gerobak dirancang multifungsi: saat sesi penyiraman, modul pompa dan selang terpasang di atas gerobak; namun saat musim panen atau pemupukan, rak pompa dapat dilepas dalam hitungan detik untuk difungsikan sebagai gerobak pengangkut hasil panen buah jeruk limau (kapasitas angkut 100–150 kg per ritase) atau jeriken pupuk cair fertigasi.
 
@@ -563,7 +563,7 @@ Guna memenuhi tuntutan profesionalisme kerja tim dan rubrik penilaian CLO4, pemb
 
 [23] T. A. Obreza, M. Zekri, and S. H. Futch, “Nutrition of Florida Citrus Trees, 3rd Edition: Chapter 3. General Soil Fertility and Citrus Tree Nutrition,” University of Florida IFAS Extension, Publication SL457/SS670, 2020, doi: 10.32473/edis-ss670-2020.
 
-[24] Nurwidiana, W. Fatmawati, dan A. Rifa'i, “Perancangan Alat Penyiram Lahan Bawang Merah Berbasis Teknologi Solar Fotovoltaik,” *Jurnal PASTI (Penelitian dan Aplikasi Sistem dan Teknik Industri)*, vol. 15, no. 1, hlm. 61–70, 2021.
+[24] Nurwidiana, W. Fatmawati, dan A. Rifa'i, “Perancangan Alat Penyiram Lahan Bawang Merah Berbasis Teknologi Solar Fotovoltaik,” *Jurnal Teknologi Pertanian Andalas*, vol. 26, no. 1, hlm. 61–70, 2022, doi: 10.25077/jtpa.26.1.61-70.2022.
 
 [25] H. Hartung and L. Pluschke, *The Benefits and Risks of Solar-Powered Irrigation: A Global Overview*. Rome, Italy: Food and Agriculture Organization of the United Nations (FAO), 2018, ISBN: 978-92-5-130479-2. [Online]. Available: https://www.fao.org/4/i9047en/I9047EN.pdf
 
