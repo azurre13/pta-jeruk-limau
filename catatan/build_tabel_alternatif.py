@@ -6,7 +6,7 @@ solution alternatives for CD-3, detailing their descriptions, working mechanisms
 technical pros (kelebihan), cons (kekurangan), cost estimations, and final decision status.
 Includes:
 - Alternatif 1: Smart Multi-Zone Micro-Drip Irrigation Network (Otomatis Penuh)
-- Alternatif 2: Automated Guided Sprinkler Cart / Robot (Robotik Otonom Parit)
+- Alternatif 2: Tracked/4WD Straddle Ditch-Rover with Articulated Robotic Spray Arm (Robot Penjelajah Pematang Parit & Lengan Robotik)
 - Alternatif 3: Distributed Header Tank with Gravity Manifold (Gravitasi Tandon)
 - Alternatif 4: Multipurpose Semi-Manual Irrigation & Orchard Utility Cart (Gerobak Sorong Multifungsi)
 """
@@ -95,7 +95,7 @@ def create_document():
     p_intro.paragraph_format.space_before = Pt(0)
     p_intro.paragraph_format.space_after = Pt(8)
     p_intro.paragraph_format.line_spacing = 1.15
-    add_formatted_runs(p_intro, "Dokumen ini menyajikan komparasi komprehensif atas empat (4) konsep alternatif solusi rekayasa pada tahap Dokumen CD-3 (*Desain Rancangan Solusi*). Evaluasi ini disusun guna menjawab kendala fisik tapak kebun mitra Ciberes seluas ~3.000 m² (populasi 500–600 pohon, memanjang 100 meter, berparit sawah labil, ketiadaan listrik PLN/*off-grid*, dan kekeruhan sedimen sungai Ciberes) selaras dengan batasan rekayasa mutlak CD-2 (C-01 s.d. C-05) serta spesifikasi kuantitatif (S-01 s.d. S-14). Alternatif yang dievaluasi mencakup pendekatan otomatis penuh jaringan perpipaan (Alternatif 1), mekanisasi robotik bergerak (Alternatif 2), tandon pasif gravitasi (Alternatif 3), dan gerobak dorong irigasi-logistik tepat guna multifungsi (Alternatif 4).", font_size=9.5)
+    add_formatted_runs(p_intro, "Dokumen ini menyajikan komparasi komprehensif atas empat (4) konsep alternatif solusi rekayasa pada tahap Dokumen CD-3 (*Desain Rancangan Solusi*). Evaluasi ini disusun guna menjawab kendala fisik tapak kebun mitra Ciberes seluas ~3.000 m² (populasi 500–600 pohon, memanjang 100 meter, berparit sawah labil, ketiadaan listrik PLN/*off-grid*, dan kekeruhan sedimen sungai Ciberes) selaras dengan batasan rekayasa mutlak CD-2 (C-01 s.d. C-05) serta spesifikasi kuantitatif (S-01 s.d. S-14). Alternatif yang dievaluasi mencakup pendekatan otomatis penuh jaringan perpipaan tetes (Alternatif 1), robot penjelajah pematang parit berlengan artikulasi (Alternatif 2), tandon pasif gravitasi (Alternatif 3), dan gerobak dorong irigasi-logistik tepat guna multifungsi (Alternatif 4).", font_size=9.5)
 
     # 4. Main Comparison Table (Table 1)
     p_cap1 = doc.add_paragraph()
@@ -157,43 +157,43 @@ def create_document():
             "Kategori: Otomatis Penuh"
         ],
         [
-            "ALTERNATIF 2:\n\n*Automated Guided Sprinkler Cart / Robot*\n\n(Wahana Mekanis Penyiram Semi-Otonom Lajur Parit)",
-            "• Menggunakan wahana mekanis/robot beroda tiga atau roda rantai (*crawler cart*) yang berjalan menyusuri lajur parit kebun.\n"
-            "• Membawa pipa semprot (*boom spray*) dengan nosel semprot bertekanan ke arah kiri dan kanan bedengan.\n"
-            "• Pasokan air disuplai melalui selang fleksibel panjang (*hose reel*) dari pompa sentrifugal stasioner di tepi sungai.\n"
-            "• Robot bergerak lambat (0,05–0,1 m/s) dipandu kawat batas bawah tanah atau sensor penjejak.\n"
-            "• Berhenti selama 2 menit per pohon saat mendeteksi pohon via sensor ultrasonik/limit switch, lalu bergerak maju kembali.",
+            "ALTERNATIF 2:\n\n*Tracked/4WD Straddle Ditch-Rover with Articulated Robotic Spray Arm*\n\n(Robot Penjelajah Pematang Parit & Lengan Robotik Terarah)",
+            "• Wahana robot bergerak menggunakan sasis 4-roda bertapak lebar (4WD) atau roda rantai karet ganda (*rubber tracks/crawler*) yang melintas di atas pinggiran pematang bibir parit (*straddling the ditch*).\n"
+            "• Membawa pompa hisap DC elektrik dengan pipa hisap vertikal fleksibel berfilter apung yang menjulur ke bawah menyedot air parit secara mandiri (tanpa perlu menarik selang dari sungai).\n"
+            "• Dilengkapi sepasang lengan robotik bersendi (*2-DOF / 3-DOF articulated robotic arms*) di sisi kiri dan kanan.\n"
+            "• Berjalan otonom dipandu sensor penjejak garis atau kawat batas di pematang.\n"
+            "• Saat mendeteksi batang pohon via sensor ultrasonik/kamera pengenal, robot berhenti dan menggerakkan lengan robotik menjulurkan nosel semprot tepat ke bawah kanopi tajuk mengarah ke zona perakaran (radius 0,6 m), mengalirkan dosis air presisi.",
             
-            "1. Tanpa Jaringan Pipa Permanen Luas:\n"
-            "Mengurangi pemasangan ratusan meter jaringan pipa tetap di atas lahan kebun mitra.\n\n"
-            "2. Kebal Terhadap Butiran Pasir Kasar:\n"
-            "Nosel semprot memiliki orifis lebih lebar (1,5–2 mm) sehingga lebih toleran terhadap butiran pasir sungai Ciberes tanpa risiko mampet total.\n\n"
-            "3. Fleksibilitas Penempatan Lajur:\n"
-            "Satu unit wahana dapat digunakan bergantian untuk beberapa parit jika dipindahkan manual oleh operator.",
+            "1. Akurasi Sasaran Daerah Akar Sangat Tinggi:\n"
+            "Lengan robotik secara mekanis mendekatkan nosel tepat ke tanah perakaran di bawah tajuk kanopi, tidak membasahi daun atau batang atas sehingga mencegah jamur *Phytophthora*.\n\n"
+            "2. Mobilitas Mandiri Tanpa Beban Seretan Selang:\n"
+            "Menghisap air langsung dari air parit galian tanah di bawahnya, mengeliminasi kerepotan menyeret selang bertekanan sejauh 100 meter dari sungai.\n\n"
+            "3. Traksi Luas Roda Rantai (Anti-Amblas):\n"
+            "Roda rantai (*crawler tracks*) atau ban 4WD lebar membagi beban secara merata di atas permukaan tanah pematang bedengan.\n\n"
+            "4. Otomasi Navigasi Modern:\n"
+            "Beroperasi otomatis menyusuri parit memanjang 100 meter tanpa memerlukan pengawalan konstan operator buruh.",
             
-            "1. Risiko Mekanikal Parit Sawah Ekstrem:\n"
-            "Kontur parit sawah Ciberes gembur, becek, berlumpur tebal, dan tergenang air saat basah; roda robot sangat rentan selip (*wheel slip*) atau terperosok.\n\n"
-            "2. Hambatan Beban Seretan Selang (*Hose Drag*):\n"
-            "Menyeret selang bertekanan sepanjang 50–100 meter di atas lumpur membutuhkan torsi motor sangat masif dan rawan tersangkut di tunggul/batu.\n\n"
-            "3. Konsumsi Listrik Sangat Boros (> 350–400 W):\n"
-            "Motor traksi dan pompa bertekanan tinggi menuntut bank baterai dan panel surya yang sangat besar, berat, dan mahal.\n\n"
-            "4. Rancang Bangun Prototipe Sangat Mahal:\n"
-            "Biaya sasis kedap air IP65, motor torsi tinggi, roda gigi reduksi kedap air, dan kendali navigasi melampaui pagu mahasiswa.\n\n"
-            "5. Risiko Jamur & Pemborosan Pupuk:\n"
-            "Semprotan nosel membasahi daun dan pangkal batang secara liar, memicu jamur upas dan menghanyutkan butiran pupuk NPK ke parit.",
+            "1. Biaya Mekatronika Sangat Mahal (Melampaui Plafon):\n"
+            "Pengadaan sasis crawler tahan air, 2 unit servo torsi tinggi lengan robotik, sensor pengenal pohon, mikrokontroler canggih, dan baterai kapasitas tinggi menguras biaya Rp7,5–8,5 Juta, melanggar batas pagu Capstone (Rp5.000.000).\n\n"
+            "2. Risiko Keruntuhan Tanah Bibir Parit Sawah:\n"
+            "Tanah bibir parit Ciberes gembur dan tanpa dinding semen; beban robot berbobot 25–35 kg rentan memicu tanah pematang longsor saat kondisi basah, mengakibatkan robot terguling ke dalam parit.\n\n"
+            "3. Ketergantungan Pada Pengisian Air Parit:\n"
+            "Parit tanah Ciberes tidak selalu berisi air; air parit harus terlebih dahulu disedot dari sungai menggunakan pompa Alkon bensin yang rawan panas berlebih (*overheating*).\n\n"
+            "4. Konsumsi Arus Listrik Tinggi (> 250–350 Watt):\n"
+            "Motor penggerak traksi crawler, aktuator lengan robotik, dan pompa hisap menuntut kapasitas baterai yang besar dan berat.",
             
             "Biaya Purwarupa (Petak Uji):\n"
-            "Rp5.800.000 – Rp6.500.000\n"
-            "*(Melampaui Batas Rp5.000.000)*\n\n"
-            "Proyeksi Kebun Penuh:\n"
-            "Rp22.000.000 – Rp28.000.000\n"
-            "*(Melampaui Batas Mitra)*\n\n"
+            "Rp7.500.000 – Rp8.500.000\n"
+            "*(Telak Melampaui Plafon Rp5 Juta)*\n\n"
+            "Proyeksi Kebun Penuh (1–2 Unit):\n"
+            "Rp26.000.000 – Rp32.000.000\n"
+            "*(Melampaui Plafon Mitra Rp18 Juta)*\n\n"
             "Periode Balik Modal (PP):\n"
             "> 24 Bulan\n\n"
             "STATUS AKHIR:\n"
             "✕ DITOLAK ✕\n"
-            "(Peringkat 4 / Skor 2,550)\n"
-            "Kategori: Robotik Otonom"
+            "(Peringkat 4 / Skor 2,850)\n"
+            "Kategori: Robotik Canggih"
         ],
         [
             "ALTERNATIF 3:\n\n*Distributed Header Tank with Gravity Manifold*\n\n(Sistem Irigasi Hibrida Berbasis Tangki Tandon Terdistribusi)",
@@ -351,16 +351,16 @@ def create_document():
 
     t2_headers = [
         "No", "Kriteria Evaluasi Terbobot", "Rujukan Dokumen CD-2", "Bobot (%)",
-        "Alternatif 1:\nSmart Micro-Drip", "Alternatif 2:\nSprinkler Robot", "Alternatif 3:\nGravity Header Tank", "Alternatif 4:\nGerobak Multifungsi"
+        "Alternatif 1:\nSmart Micro-Drip", "Alternatif 2:\nRobot Pematang & Lengan", "Alternatif 3:\nGravity Header Tank", "Alternatif 4:\nGerobak Multifungsi"
     ]
     t2_data = [
-        ["1", "Keandalan Lingkungan Kebun & Proteksi IP65", "Batasan C-02, Spesifikasi S-05, S-07", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)", "4,5  (0,90)"],
-        ["2", "Keseragaman Distribusi Air (CU >= 85%) & Efisiensi", "Spesifikasi S-01, S-02, S-04, S-11", "20%", "5,0  (1,00)", "3,5  (0,70)", "3,0  (0,60)", "3,5  (0,70)"],
+        ["1", "Keandalan Lingkungan Kebun & Proteksi IP65", "Batasan C-02, Spesifikasi S-05, S-07", "20%", "4,5  (0,90)", "2,5  (0,50)", "3,5  (0,70)", "4,5  (0,90)"],
+        ["2", "Keseragaman Distribusi Air (CU >= 85%) & Efisiensi", "Spesifikasi S-01, S-02, S-04, S-11", "20%", "5,0  (1,00)", "4,5  (0,90)", "3,0  (0,60)", "3,5  (0,70)"],
         ["3", "Kemandirian Energi Off-Grid & Keamanan Listrik SELV", "Batasan C-01, C-04, Spesifikasi S-06, S-12", "15%", "4,5  (0,675)", "2,5  (0,375)", "5,0  (0,75)", "4,5  (0,675)"],
-        ["4", "Kelayakan Finansial (BOM Purwarupa, Proyeksi Penuh, PP)", "Spesifikasi S-08, S-09, S-10", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)", "5,0  (1,00)"],
+        ["4", "Kelayakan Finansial (BOM Purwarupa, Proyeksi Penuh, PP)", "Spesifikasi S-08, S-09, S-10", "20%", "4,5  (0,90)", "1,5  (0,30)", "3,5  (0,70)", "5,0  (1,00)"],
         ["5", "Kemudahan Operasional Operator & Pemeliharaan", "Spesifikasi S-13, S-14", "15%", "4,0  (0,60)", "2,5  (0,375)", "3,5  (0,525)", "4,0  (0,60)"],
-        ["6", "Skalabilitas Desain Sistem dari Petak Uji ke Seluruh Kebun", "Batasan C-03", "10%", "4,5  (0,45)", "3,0  (0,30)", "2,0  (0,20)", "3,5  (0,35)"],
-        ["", "TOTAL SKOR AKHIR TERBOBOT (SKALA 5,000)", "", "100%", "4,525", "2,550", "3,475", "4,225"],
+        ["6", "Skalabilitas Desain Sistem dari Petak Uji ke Seluruh Kebun", "Batasan C-03", "10%", "4,5  (0,45)", "4,0  (0,40)", "2,0  (0,20)", "3,5  (0,35)"],
+        ["", "TOTAL SKOR AKHIR TERBOBOT (SKALA 5,000)", "", "100%", "4,525", "2,850", "3,475", "4,225"],
         ["", "KEPUTUSAN EVALUASI & STATUS AKHIR", "", "-", "SOLUSI TERPILIH\n(Peringkat 1)", "DITOLAK\n(Peringkat 4)", "DITOLAK\n(Peringkat 3)", "OPSI UNGGULAN KEDUA\n(Peringkat 2)"]
     ]
 
@@ -430,7 +430,7 @@ def create_document():
     p_concl.paragraph_format.space_before = Pt(8)
     p_concl.paragraph_format.space_after = Pt(0)
     p_concl.paragraph_format.line_spacing = 1.15
-    add_formatted_runs(p_concl, "Kesimpulan Analisis Rekayasa: Penambahan Alternatif 4 (Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi) memperkaya cakrawala desain dengan memberikan opsi teknologi tepat guna berbiaya paling terjangkau (CAPEX hanya Rp2,45 Juta dan balik modal 6–8 bulan) serta multifungsi nyata sebagai sarana angkut buah panen jeruk limau. Dalam matriks evaluasi keputusan (Tabel 2), Alternatif 1 (Jaringan Mikroirigasi Tetes Otomatis Cerdas) tetap menjadi Solusi Terpilih Utama (Skor 4,525) karena keunggulan mutlak dalam otomasi penuh tanpa ketergantungan buruh harian dan keseragaman dosis air (CU >= 88–92%). Namun, Alternatif 4 berhasil menempati posisi Opsi Unggulan Kedua (Runner-Up / Skor 4,225) yang sangat ideal dipertimbangkan mitra sebagai implementasi pendukung bertahap.", font_size=9.5)
+    add_formatted_runs(p_concl, "Kesimpulan Analisis Rekayasa: Penataan ulang Alternatif 2 dengan mengadopsi konsep robot penjelajah pematang parit (sasis crawler/4WD) bersenjatakan lengan robotik terarah membuktikan pemodelan robotika pertanian yang jauh lebih realistis dan berdaya guna tinggi dalam menargetkan zona perakaran jeruk limau secara presisi tanpa membasahi daun. Namun demikian, tingginya kompleksitas mekatronika dan biaya purwarupa (Rp7,5–8,5 Juta) yang secara telak melampaui plafon belanja Capstone (Rp5.000.000) serta risiko keruntuhan tanah bibir parit sawah yang gembur menjadi dasar ilmiah kuat penolakan opsi ini. Dengan demikian, Alternatif 1 (Jaringan Mikroirigasi Tetes Otomatis Cerdas) tetap kokoh sebagai Solusi Terpilih Utama (Skor 4,525), diikuti Alternatif 4 (Gerobak Dorong Multifungsi) sebagai Opsi Unggulan Kedua Tepat Guna (Skor 4,225).", font_size=9.5)
 
     return doc
 

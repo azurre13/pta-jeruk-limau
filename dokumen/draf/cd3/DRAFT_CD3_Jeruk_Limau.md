@@ -85,54 +85,53 @@ Pada setiap pohon jeruk limau, dipasang 2 unit emiter tetes kompensasi tekanan (
 
 ---
 
-### 1.2 Alternatif 2: Wahana Mekanis Penyiram Semi-Otonom Lajur Parit (*Automated Guided Sprinkler Cart / Robot*)
+### 1.2 Alternatif 2: Robot Penjelajah Pematang Parit dengan Lengan Robotik Terarah (*Tracked/4WD Straddle Ditch-Rover with Articulated Robotic Spray Arm*)
 
 #### 1.2.1 Deskripsi Konsep dan Arsitektur
-Alternatif 2 mengadopsi pendekatan robotika pertanian bergerak (*agricultural mobile robotics*), terinspirasi dari riset wahana penyiram hortikultura bergerak (*sprinkler robot*) oleh Elkaoud dkk. (2025) dan Li dkk. (2012). Sistem ini berupa wahana beroda atau kereta rel gantung mini bertenaga baterai elektrik yang dirancang untuk menyusuri parit tanah longitudinal kebun jeruk limau sepanjang 100 meter.
+Alternatif 2 mengadopsi pendekatan robotika pertanian bergerak mutakhir (*advanced agricultural mobile robotics*), terinspirasi dari paten Henan Yungeng Era Robot Technology Co., Ltd. (Paten CN115804333A, 2023) serta riset robotika irigasi oleh Elkaoud dkk. (2025). Wahana robot ini menggunakan sasis 4-roda bertapak lebar (4WD) atau roda rantai karet ganda (*dual rubber crawler tracks*) yang melintas di atas pinggiran pematang/bibir parit (*straddling the ditch bunds*) sepanjang 100 meter, bukan berjalan di dalam genangan lumpur parit.
 
-Wahana membawa pompa penguat mini (*mini booster pump* DC 12V), gulungan selang pasokan air fleksibel (*flexible hose reel*), modul mikrokontroler pemandu navigasi, serta lengan semprot pipa melingkar (*annular spray boom*) yang dilengkapi nosel kabut/pancar mikro. Wahana bergerak mandiri dari satu titik pohon ke pohon berikutnya secara bertahap (*stop-and-spray*). Pemanduan posisi berhenti pada setiap pohon memanfaatkan kombinasi pembacaan *rotary encoder* pada roda traksi dan deteksi penanda fisik reflektif/magnetik yang dipasang pada tiang ajir tanaman.
+Wahana ini memanfaatkan keberadaan air yang telah dialirkan ke dalam tiga parit memanjang kebun Ciberes. Di bawah perut sasis robot, terpasang pipa hisap vertikal fleksibel yang dilengkapi saringan apung (*dip suction pipe with floating strainer*) yang menjulur langsung ke dalam air parit galian tanah, sehingga robot dapat menyedot air secara mandiri tanpa harus menyeret selang bertekanan sepanjang 100 meter dari sungai. Di atas sasis, terpasang sepasang lengan robotik bersendi (*2-DOF / 3-DOF articulated robotic manipulator arms*) di sisi kiri dan kanan yang digerakkan oleh motor servo torsi tinggi kedap air IP65. Saat mendeteksi pohon jeruk limau via sensor ultrasonik atau kamera pengenal batang, lengan robotik menjulurkan nosel semprot tepat ke bawah kanopi tajuk mengarah ke zona perakaran aktif (radius 0,5–0,8 m dari pangkal batang), menyalurkan air terukur langsung ke tanah tanpa membasahi tajuk daun.
 
 #### 1.2.2 Fitur Utama dan Spesifikasi Teknis
-1. **Navigasi Garis Lintasan Parit Mandiri:** Menggunakan sasis berbahan paduan aluminium anti-korosi dengan 4 roda tapak bergerigi (*paddle wheels*) atau roda berpenuntun rel tali kawat baja (*guided wire cable*) untuk melintasi parit kebun tanpa tergelincir ke lumpur.
-2. **Mekanisme *Stop-and-Spray* Terarah:** Saat sensor mendeteksi batang pohon jeruk limau, wahana berhenti selama durasi terhitung (misalnya 40–50 detik), mengaktifkan pompa penyemprot nosel yang mengelilingi tajuk pohon dengan debit 18 L/menit, lalu bergerak maju menuju pohon berikutnya.
-3. **Penggulung Selang Otomatis (*Motorized Hose Reel*):** Mengulur dan menggulung selang pasokan fleksibel yang tersambung ke titik suplai pompa sungai utama seiring pergerakan wahana di sepanjang parit.
-4. **Sistem Penggerak Motor DC Berkecepatan Rendah:** Menggunakan motor DC ber-gearbox (*planetary gear motor* 12V 40W) dengan torsi tinggi untuk mengatasi hambatan gesekan kontur tanah tanah liat bergelombang.
-5. **Subsistem Daya Portabel:** Ditenagai baterai Li-Ion/LiFePO4 12V 20Ah portabel yang dapat diisi ulang melalui stasiun pengisian daya PLTS di tepi kebun (*central solar charging base*).
+1. **Akurasi Sasaran Daerah Akar Sangat Tinggi:** Lengan robotik secara mekanis menjulurkan nosel semprot langsung ke zona perakaran tanah di bawah kanopi tajuk, sehingga sama sekali tidak membasahi daun atau batang atas dan terbebas dari risiko memicu infeksi jamur *Phytophthora nicotianae*.
+2. **Mobilitas Mandiri Tanpa Beban Seretan Selang:** Sistem menyedot pasokan air langsung dari genangan air parit di bawah sasis robot, mengeliminasi kebutuhan dan beban mekanis menyeret selang bertekanan sejauh 100 meter dari sungai.
+3. **Traksi Luas Roda Rantai Karet (Anti-Amblas):** Sasis roda rantai karet (*crawler tracks*) atau ban 4WD lebar membagi beban robot secara merata di atas permukaan pematang bedengan tanah gembur, memberikan kestabilan manuver yang prima.
+4. **Otomasi Navigasi Mandiri:** Beroperasi mandiri menyusuri pematang parit dipandu sensor penjejak garis magnetik/optik atau kawat pandu bawah tanah, berhenti otomatis di setiap pohon secara presisi.
 
 #### 1.2.3 Prosedur Pengoperasian
-1. Operator menempatkan wahana pada titik pangkal lajur parit dan menghubungkan selang pasokan air fleksibel.
-2. Operator menekan tombol *START* pada panel selungkup wahana.
-3. Wahana bergerak maju menyusuri lintasan parit dengan kecepatan konstan (~0,15 m/detik).
-4. Saat mencapai pohon pertama (terdeteksi oleh sensor jarak ultrasonik atau penanda magnetik), wahana berhenti otomatis.
-5. Pompa semprot aktif selama durasi presisi untuk menyemprotkan 15 Liter air ke sekeliling perakaran pohon.
-6. Setelah dosis air terpenuhi, pompa mati dan wahana bergerak maju ke pohon kedua.
-7. Setelah mencapai ujung lajur parit 100 meter (pohon terakhir), wahana berhenti otomatis dan membunyikan alarm *buzzer* sebagai tanda siklus selesai untuk dipindahkan oleh operator ke lajur parit berikutnya.
+1. Operator menempatkan wahana robot pada pangkal pematang parit kebun dan memastikan air parit telah terisi.
+2. Operator menekan tombol *START* pada selungkup kendali robot.
+3. Wahana merayap maju secara perlahan di atas pematang parit menyusuri barisan pohon.
+4. Saat sensor mendeteksi batang pohon jeruk limau di sisi kiri atau kanan, wahana berhenti otomatis.
+5. Lengan robotik bergerak menjulurkan nosel semprot ke zona perakaran pohon, pompa hisap menyedot air dari parit bawah dan menyemprotkan dosis tepat 15 Liter air berbasis pembacaan flow meter.
+6. Lengan robotik melipat kembali ke posisi awal, wahana bergerak maju ke pohon berikutnya hingga mencapai ujung parit 100 meter.
 
 #### 1.2.4 Analisis Kelebihan dan Kelemahan
 * **Kelebihan:**
-  * Tidak memerlukan pemasangan jaringan pipa lateral permanen di seluruh baris pohon, sehingga kebun tetap bebas dari bentangan pipa statis dan memudahkan lalu lintas pemanenan jeruk.
-  * Tingkat fleksibilitas mekanikal tinggi dan adaptif jika jumlah pohon bertambah atau konfigurasi jarak tanam berubah.
-  * Memberikan nilai kebaruan teknologi (*technological innovation*) yang tinggi pada bidang robotika pertanian presisi.
+  * Penempatan air sangat presisi ke daerah perakaran berkat lengan robotik artikulasi tanpa membasahi tajuk.
+  * Bebas dari hambatan seretan selang panjang karena mengambil air langsung dari parit bawah.
+  * Traksi kokoh dan stabil di pematang tanah bedengan.
+  * Menghilangkan 100% ketergantungan tenaga fisik buruh manual.
 * **Kelemahan:**
-  * **Risiko Selip dan Amblas Sangat Tinggi:** Parit tanah kebun Ciberes memiliki kontur tanah liat-berlempung yang sangat lembek, licin, dan berlumpur pasca-siram, sehingga roda wahana sangat rentan terjebak (*stuck*) atau kehilangan traksi.
-  * **Konsumsi Energi Tinggi:** Membutuhkan daya baterai besar untuk menggerakkan motor traksi sasis dan menarik beban selang air basah sepanjang puluhan meter di atas parit.
-  * **Kompleksitas Mekanikal dan Risiko Keausan:** Komponen bergerak (poros roda, bantalan *bearing*, rantai transmisi, gearbox) sangat rentan aus dan macet akibat penetrasi butiran pasir dan lumpur tanah pertanian terbuka.
-  * **Biaya Fabrikasi Mahal:** Ongkos perancangan sasis kedap air, motor penggerak torsi tinggi, gearbox kedap air, mekanisme penggulung selang, dan instrumentasi navigasi berpotensi melampaui pagu purwarupa Capstone Rp5.000.000.
+  * **Biaya Mekatronika Sangat Mahal:** Sasis crawler kedap air, 2 unit aktuator servo torsi tinggi lengan robotik, sensor pengenal pohon, mikrokontroler canggih, dan baterai lithium kapasitas besar menguras biaya purwarupa hingga Rp7.500.000 – Rp8.500.000, secara telak melanggar batas pagu Capstone (Rp5.000.000).
+  * **Risiko Keruntuhan Tanah Bibir Parit Sawah:** Tanah bibir parit Ciberes adalah tanah sawah gembur tanpa dinding semen; beban robot berbobot 25–35 kg rentan memicu tanah pematang longsor saat kondisi basah, mengakibatkan robot terguling ke dalam parit.
+  * **Ketergantungan pada Pengisian Air Parit:** Parit tanah Ciberes tidak selalu berisi air, air parit harus terlebih dahulu disedot dari sungai menggunakan pompa Alkon bensin yang rawan *overheating*.
+  * **Konsumsi Arus Listrik Tinggi (> 250–350 Watt):** Menuntut kapasitas baterai yang besar dan berat.
 
 ---
 
 ### 1.3 Alternatif 3: Sistem Irigasi Hibrida Berbasis Tangki Tandon Terdistribusi (*Distributed Header Tank with Gravity Manifold*)
 
 #### 1.3.1 Deskripsi Konsep dan Arsitektur
-Alternatif 3 mengombinasikan pemompaan surya volume besar (*bulk solar pumping*) dengan sistem distribusi fluida berbasis tekanan hidrostatik gravitasi. Pada arsitektur ini, pompa celup/sentrifugal DC bertenaga surya langsung menyedot air dari sungai Ciberes pada siang hari saat intensitas radiasi matahari berada pada titik puncak (pukul 10.00–14.00 WIB) melewati saringan partikulat menuju 1 unit tangki penampung air (*header tank* polietilena kapasitas 500 hingga 1.000 Liter) yang diletakkan pada menara dudukan rangka besi/kayu setinggi 2 hingga 2,5 meter di tepi blok kebun.
+Alternatif 3 mengombinasikan pemompaan surya volume besar (*bulk solar pumping*) dengan sistem distribusi fluida berbasis tekanan hidrostatik gravitasi. Pada arsitektur ini, pompa celup/sentrifugal DC bertenaga surya menyedot air dari sungai Ciberes pada siang hari saat intensitas radiasi matahari berada pada titik puncak (pukul 10.00–14.00 WIB) melewati saringan partikulat menuju 1 unit tangki penampung air (*header tank* polietilena kapasitas 500 hingga 1.000 Liter) yang diletakkan pada menara dudukan rangka besi/kayu setinggi 2 hingga 2,5 meter di tepi blok kebun.
 
 Penyiraman ke tanaman jeruk limau dilakukan secara independen memanfaatkan gaya gravitasi bumi melalui katup motorik berdaya ultra-rendah (*motorized ball valve* DC 12V 5W). Aliran air dialirkan melalui pipa manifold berdiameter 1 inci menuju pipa distribusi mikro bertekanan rendah yang bermuara pada cincin selang berpori (*soaker hose*) atau mikrotubing lubang ganda di bawah tajuk kanopi pohon.
 
 #### 1.3.2 Fitur Utama dan Spesifikasi Teknis
-1. **Pemisahan Fase Pemompaan dan Fase Penyiraman (*Decoupled Operation*):** Pompa air bertenaga surya hanya bekerja saat ada cahaya matahari terik untuk mengisi tangki tandon, sedangkan proses penyiraman tanaman dapat dijalankan kapan saja pada waktu ideal (pagi hari sebelum pukul 09.00 WIB atau sore hari setelah pukul 16.00 WIB) tanpa ketergantungan langsung pada sinar matahari.
-2. **Konsumsi Arus Operasional Sangat Rendah:** Selama proses penyiraman tanaman berlangsung, sistem tidak memerlukan daya untuk menyalakan pompa, melainkan hanya membutuhkan energi sesaat (sekitar 2–3 detik) untuk memutar katup motorik bola (*motorized ball valve*) membuka dan menutup saluran gravitasi.
-3. **Pengukuran Muka Air Tangki Otomatis:** Tangki tandon dilengkapi sensor ultrasonik kedap air (JSN-SR04T) atau sensor sakelar pelampung ganda (*dual float switches*) untuk mendeteksi batas air penuh (*full level cut-off*) dan batas air minimum (*low level protection*).
-4. **Distribusi Tekanan Rendah Lembut:** Tekanan hidrostatik rendah (sekitar 0,02–0,025 MPa dari ketinggian 2–2,5 m) mendistribusikan air secara sangat lembut ke zona perakaran tanpa risiko mengikis struktur tanah gembur atau menghanyutkan butiran pupuk NPK.
+1. **Pemisahan Fase Pemompaan dan Fase Penyiraman (*Decoupled Operation*):** Pompa air bertenaga surya hanya bekerja saat ada cahaya matahari terik untuk mengisi tangki tandon, sedangkan proses penyiraman tanaman dapat dijalankan kapan saja pada waktu ideal tanpa ketergantungan langsung pada sinar matahari.
+2. **Konsumsi Arus Operasional Sangat Rendah:** Selama proses penyiraman tanaman berlangsung, sistem tidak memerlukan daya untuk menyalakan pompa, melainkan hanya membutuhkan energi sesaat (2–3 detik) untuk memutar katup motorik bola membuka dan menutup saluran gravitasi.
+3. **Pengukuran Muka Air Tangki Otomatis:** Tangki tandon dilengkapi sensor sakelar pelampung ganda atau sensor ultrasonik kedap air untuk mendeteksi batas air penuh (*full level cut-off*) dan batas air minimum (*low level protection*).
+4. **Distribusi Tekanan Rendah Lembut:** Tekanan hidrostatik rendah (0,02–0,025 MPa) mendistribusikan air secara sangat lembut ke zona perakaran tanpa risiko mengikis struktur tanah gembur atau menghanyutkan butiran pupuk NPK.
 
 #### 1.3.3 Prosedur Pengoperasian
 1. Pada siang hari, sensor mendeteksi muka air tangki berada di bawah batas normal. Kontroler mengaktifkan pompa pengisi air sungai tenaga surya hingga tangki tandon 500 L terisi penuh.
@@ -143,43 +142,66 @@ Penyiraman ke tanaman jeruk limau dilakukan secara independen memanfaatkan gaya 
 
 #### 1.3.4 Analisis Kelebihan dan Kelemahan
 * **Kelebihan:**
-  * Konsumsi daya baterai saat proses penyiraman sangat hemat karena tidak membutuhkan daya pompa aktif; energi baterai LiFePO4 bertahan sangat lama.
-  * Pompa air bekerja pada efisiensi daya surya puncak pada siang hari (*direct solar pumping*) dengan stres termal komponen yang rendah.
+  * Konsumsi daya baterai saat proses penyiraman sangat hemat karena tidak membutuhkan daya pompa aktif.
+  * Pompa bekerja pada efisiensi daya surya puncak pada siang hari (*direct solar pumping*) dengan stres termal rendah.
   * Tekanan hidrostatik gravitasi sangat aman dari risiko kebocoran sambungan pipa pecah akibat lonjakan tekanan fluida (*water hammer*).
 * **Kelemahan:**
-  * **Variasi Tekanan Hidrostatik (*Head Loss Fluctuation*):** Seiring berkurangnya volume air di dalam tangki tandon, ketinggian muka air (*water head*) menurun drastis sehingga debit tetes di awal penyiraman lebih besar dibandingkan di akhir penyiraman. Hal ini menyebabkan Koefisien Keseragaman Christiansen sulit mencapai target $CU \ge 85\%$.
-  * **Tantangan Struktur Sipil Tanah Sawah:** Memerlukan menara dudukan tangki setinggi 2–2,5 meter yang mampu menopang beban statis air 500–1.000 kg di atas kontur tanah sawah Ciberes yang gembur dan rawan ambles saat musim hujan.
-  * **Kapasitas Terbatas untuk Skala Penuh:** Untuk melayani 500–600 pohon kebun penuh yang membutuhkan pasokan 7.500–9.000 Liter air per siklus, dibutuhkan kapasitas tangki tandon masif atau konstruksi beton penampung besar yang membutuhkan biaya modal tinggi melampaui batas anggaran mitra.
+  * **Variasi Tekanan Hidrostatik (*Head Loss Fluctuation*):** Seiring berkurangnya volume air di dalam tangki tandon, tekanan air turun drastis sehingga debit tetes di awal penyiraman lebih besar dibandingkan di akhir penyiraman, membuat keseragaman Christiansen sulit mencapai $CU \ge 85\%$.
+  * **Tantangan Struktur Sipil Tanah Sawah:** Memerlukan menara penopang tangki setinggi 2–2,5 meter seberat 500–1.000 kg di atas kontur tanah sawah Ciberes yang gembur dan rawan ambles saat musim hujan.
+  * **Kapasitas Terbatas untuk Skala Penuh:** Untuk melayani 500–600 pohon kebun penuh yang membutuhkan pasokan 7.500–9.000 Liter air per siklus, dibutuhkan kapasitas tangki tandon masif atau konstruksi beton penampung besar yang melampaui batas anggaran mitra.
+
+---
+
+### 1.4 Alternatif 4: Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi (*Multipurpose Semi-Manual Irrigation & Orchard Utility Cart*)
+
+#### 1.4.1 Deskripsi Konsep dan Arsitektur
+Alternatif 4 mengadopsi prinsip teknologi tepat guna (*appropriate agricultural technology*) berbiaya terjangkau dengan memadukan mobilitas gerobak dorong roda bertapak lebar (*all-terrain pneumatic tire wheelbarrow*) dengan modul peralatan irigasi elektrik portabel lepas-pasang (*detachable quick-release modular rack*). Konsep ini terinspirasi dari riset perancangan alat penyiram berbasis solar fotovoltaik oleh Nurwidiana dkk. (Jurnal PASTI, 2021) yang dikombinasikan dengan kebutuhan logistik kebun buah jeruk.
+
+Pada sasis gerobak dorong, dipasang modul pompa diafragma elektrik DC 12V 80W, baterai LiFePO4 12V 20–30Ah di dalam boks selungkup kedap air IP65, saringan cakram 120 mesh portabel, serta rol gulungan selang lentur (*hose reel*) sepanjang 25 meter dengan tongkat semprot bertakar (*spray wand with digital flow meter*). Sasis gerobak dirancang multifungsi: saat sesi penyiraman, modul pompa dan selang terpasang di atas gerobak; namun saat musim panen atau pemupukan, rak pompa dapat dilepas dalam hitungan detik untuk difungsikan sebagai gerobak pengangkut hasil panen buah jeruk limau (kapasitas angkut 100–150 kg per ritase) atau jeriken pupuk cair fertigasi.
+
+#### 1.4.2 Fitur Utama dan Spesifikasi Teknis
+1. **Nilai Guna Multifungsi Sepanjang Tahun:** Alat tidak menganggur di luar musim kemarau; di musim panen beralih fungsi menjadi sarana angkut buah jeruk limau dari ujung kebun (100 meter) ke jalan raya dan sarana penyemprotan pupuk cair/pestisida.
+2. **Biaya Rancang Bangun Paling Terjangkau (CAPEX Terendah):** Menggunakan komponen mekanik gerobak standar toko pertanian lokal; estimasi biaya purwarupa hanya berkisar Rp2.450.000, merupakan opsi paling hemat dari seluruh alternatif solusi.
+3. **Bebas Risiko Amblas di Lumpur Parit:** Digerakkan dan dikendalikan langsung oleh tenaga manusia sehingga tidak mengalami risiko selip roda (*wheel slip*) atau amblas di pematang parit seperti robot otonom.
+4. **Nol Kerusakan Pipa di Bedengan:** Tidak memerlukan bentangan jaringan pipa permanen di atas bedengan kebun, bebas dari risiko terpotong cangkul atau sabit saat aktivitas penyiangan rumput.
+5. **Pengurangan Beban Fisik Buruh Kebun:** Mengubah pekerjaan berat memikul ember berulang kali (membutuhkan 4 buruh) menjadi mendorong gerobak beroda bertekanan ban ringan oleh 1 orang pekerja saja.
+
+#### 1.4.3 Prosedur Pengoperasian
+1. Pekerja mendorong gerobak menyusuri jalur setapak pematang parit kebun mendekati blok pohon yang akan disiram.
+2. Selang hisap fleksibel dimasukkan ke dalam air parit atau sungai terdekat.
+3. Pekerja menyalakan sakelar pompa pada pegangan tongkat semprot dan menyiram zona perakaran pohon jeruk limau dalam radius jangkauan selang 25 meter (10–15 pohon per titik henti gerobak).
+4. Pekerja mengontrol dosis 10–15 Liter per pohon secara visual melalui indikator digital flow meter pada pegangan tangan.
+5. Setelah blok tersebut selesai, pekerja mematikan pompa dan mendorong gerobak berpindah ke titik bedengan berikutnya.
+
+#### 1.4.4 Analisis Kelebihan dan Kelemahan
+* **Kelebihan:**
+  * Multifungsi nyata untuk panen dan siram sepanjang tahun.
+  * Biaya awal paling murah (CAPEX Rp2.450.000) dengan *payback period* tercepat (6–8 bulan).
+  * Bebas dari risiko amblas di tanah lumpur parit.
+  * Tanpa bentangan jaringan pipa di tanah, aman dari alat penyiangan rumput.
+  * Aman dari sengatan listrik berkat tegangan ekstra rendah SELV 12V DC.
+* **Kelemahan:**
+  * **Masih Memerlukan Tenaga Kerja Manusia (Semi-Manual):** Bukan sistem otomasi penuh; tetap butuh 1 operator buruh untuk mendorong dan mengarahkan tongkat semprot.
+  * **Variabilitas Keseragaman Dosis (Human Error):** Dosis air 10–15 L/pohon rentan tidak konsisten jika pekerja terburu-buru atau kelelahan.
+  * **Waktu Operasi Masih Cukup Lama:** Membutuhkan waktu 2,5–3,5 jam per siklus untuk menyiram 600 pohon kebun secara bertahap.
+  * **Akses Pematang Sempit:** Memerlukan kehati-hatian operator saat melintasi tanggul pematang yang sempit (< 40 cm).
 
 ---
 
 # BAB 2: ANALISIS DAN PEMILIHAN SOLUSI
 
-Guna menentukan satu solusi rekayasa terbaik secara objektif dan ilmiah, bab ini menyusun parameter kriteria evaluasi terbobot dan melaksanakan penilaian komparatif menggunakan metode baku **Matriks Keputusan Rekayasa (*Engineering Decision Matrix Scoring* / Pugh Matrix)** terhadap ketiga alternatif solusi yang telah dipaparkan pada Bab 1.
+Guna menentukan satu solusi rekayasa terbaik secara objektif dan ilmiah, bab ini menyusun parameter kriteria evaluasi terbobot dan melaksanakan penilaian komparatif menggunakan metode baku **Matriks Keputusan Rekayasa (*Engineering Decision Matrix Scoring* / Pugh Matrix)** terhadap keempat (4) alternatif solusi yang telah dipaparkan pada Bab 1.
 
 ### 2.1 Parameter Kriteria Penilaian dan Pembobotan
 
 Kriteria penilaian diturunkan secara langsung dan konsisten dari **Batasan Rekayasa Mutlak (C-01 s.d. C-05)** dan **Spesifikasi Kuantitatif Solusi (S-01 s.d. S-14)** yang telah disahkan pada dokumen CD-2. Enam kriteria evaluasi ditetapkan beserta persentase bobot kepentingannya:
 
-1. **K1. Keandalan Fisik di Lingkungan Kebun Basah dan Ketahanan Selungkup IP65 (Bobot 20%):**  
-   Menilai ketahanan komponen terhadap percikan air, paparan sinar matahari terik Subang (20–55 °C), lumpur parit sawah, serta ketiadaan komponen bergerak yang rentan macet/aus (Rujukan: C-02, S-05 filtrasi 120 mesh, S-07 rating IP65).
-2. **K2. Keseragaman Distribusi Air dan Efisiensi Aplikasi (Bobot 20%):**  
-   Menilai kemampuan sistem menjamin Koefisien Keseragaman Christiansen $CU \ge 85\%$ antar-pohon, akurasi dosis 10–15 L/pohon (toleransi $\pm 5\%$), dan efisiensi pemanfaatan air $\eta_a \ge 80\%$ tanpa limpasan erosi pupuk (Rujukan: S-01, S-02, S-04, S-11).
-3. **K3. Kemandirian Energi *Off-Grid* dan Keselamatan Kelistrikan (Bobot 15%):**  
-   Menilai efisiensi konsumsi daya listrik, ketahanan cadangan baterai $\ge 8$ jam kontinu (minimal 2 siklus penuh), dan kepatuhan terhadap tegangan ekstra rendah aman SELV $\le 48\text{ V DC}$ (Rujukan: C-01, C-04, S-06, S-12).
-4. **K4. Kelayakan Biaya Investasi Awal dan Biaya Operasional (Bobot 20%):**  
-   Menilai kepatuhan terhadap pagu belanja purwarupa mahasiswa ($\le \text{Rp5.000.000}$), proyeksi biaya adopsi kebun penuh ($\le \text{Rp18.000.000}$), dan biaya operasional $\le \text{Rp50.000}$ per siklus dengan *payback period* 12–18 bulan (Rujukan: S-08, S-09, S-10).
-5. **K5. Kemudahan Operasional Operator Mitra dan Kemudahan Pemeliharaan (Bobot 15%):**  
-   Menilai kemudahan antarmuka tombol tunggal (*single-touch*), waktu pelatihan pekerja kebun $\le 30$ menit, dan kemudahan pembersihan saringan $\le 20$ menit per bulan memakai perkakas standar (Rujukan: S-13, S-14).
-6. **K6. Skalabilitas Desain Sistem dari Petak Uji ke Kebun Penuh (Bobot 10%):**  
-   Menilai kemudahan arsitektur sistem purwarupa (15–20 pohon) untuk diperluas secara modular melayani seluruh 500–600 pohon pada lintasan parit 100 meter (Rujukan: C-03).
-
-Skala skor penilaian ditetapkan dari rentang 1 hingga 5 dengan definisi objektif:
-* **Skor 5:** Sangat Baik (Memenuhi spesifikasi ideal dengan keunggulan teknis signifikan).
-* **Skor 4:** Baik (Memenuhi seluruh spesifikasi target tanpa kendala berarti).
-* **Skor 3:** Cukup (Memenuhi spesifikasi batas bawah, memerlukan pengawasan operasional).
-* **Skor 2:** Buruk (Beresiko gagal memenuhi spesifikasi atau membutuhkan biaya kompensasi tinggi).
-* **Skor 1:** Sangat Buruk (Tidak memenuhi batasan mutlak rekayasa).
+1. **K1. Keandalan Fisik di Lingkungan Kebun Basah dan Ketahanan Selungkup IP65 (Bobot 20%):** Menilai ketahanan komponen terhadap percikan air, paparan radiasi matahari terik Subang (20–55 °C), lumpur parit sawah, serta ketiadaan komponen bergerak mekanik yang rentan aus/macet.
+2. **K2. Keseragaman Distribusi Air dan Efisiensi Aplikasi (Bobot 20%):** Menilai kemampuan menjamin Koefisien Keseragaman Christiansen $CU \ge 85\%$, akurasi dosis 10–15 L/pohon, dan efisiensi pemanfaatan air $\eta_a \ge 80\%$.
+3. **K3. Kemandirian Energi *Off-Grid* dan Keselamatan Kelistrikan (Bobot 15%):** Menilai efisiensi daya listrik, ketahanan cadangan baterai $\ge 8$ jam kontinu, dan kepatuhan terhadap tegangan ekstra rendah aman SELV $\le 48\text{ V DC}$.
+4. **K4. Kelayakan Biaya Investasi Awal dan Biaya Operasional (Bobot 20%):** Menilai kepatuhan terhadap pagu purwarupa ($\le \text{Rp5.000.000}$), proyeksi kebun penuh ($\le \text{Rp18.000.000}$), dan biaya operasional $\le \text{Rp50.000}$ per siklus dengan *payback period* 12–18 bulan.
+5. **K5. Kemudahan Operasional Operator Mitra dan Kemudahan Pemeliharaan (Bobot 15%):** Menilai kemudahan tombol tunggal, waktu pelatihan buruh $\le 30$ menit, dan kemudahan pembersihan saringan $\le 20$ menit per bulan.
+6. **K6. Skalabilitas Desain Sistem dari Petak Uji ke Kebun Penuh (Bobot 10%):** Menilai kemudahan arsitektur purwarupa (15–20 pohon) diperluas secara modular melayani seluruh 500–600 pohon kebun.
 
 ---
 
@@ -189,35 +211,33 @@ Hasil evaluasi komparatif matriks skoring terbobot disajikan pada Tabel 1:
 
 #### Tabel 1. Matriks Keputusan Pemilihan Alternatif Solusi (*Pugh Decision Matrix*)
 
-| No | Kriteria Evaluasi Solusi | Rujukan CD-2 | Bobot (%) | Alternatif 1: Jaringan Mikroirigasi Cerdas | Alternatif 2: Wahana Gerak Semi-Otonom | Alternatif 3: Tandon Gravitasi Terdistribusi |
-|:---:|---|:---:|:---:|:---:|:---:|:---:|
-| 1 | Keandalan Lingkungan & Proteksi IP65 | C-02, S-05, S-07 | 20% | Skor: **4,5** <br>*(Terbobot: 0,90)* | Skor: **2,0** <br>*(Terbobot: 0,40)* | Skor: **3,5** <br>*(Terbobot: 0,70)* |
-| 2 | Keseragaman Air (CU) & Efisiensi ($\eta_a$) | S-01, S-02, S-04, S-11 | 20% | Skor: **5,0** <br>*(Terbobot: 1,00)* | Skor: **3,5** <br>*(Terbobot: 0,70)* | Skor: **3,0** <br>*(Terbobot: 0,60)* |
-| 3 | Kemandirian Energi & Keselamatan SELV | C-01, C-04, S-06, S-12 | 15% | Skor: **4,5** <br>*(Terbobot: 0,675)*| Skor: **2,5** <br>*(Terbobot: 0,375)*| Skor: **5,0** <br>*(Terbobot: 0,75)* |
-| 4 | Kelayakan Biaya (CAPEX, OPEX, PP) | S-08, S-09, S-10 | 20% | Skor: **4,5** <br>*(Terbobot: 0,90)* | Skor: **2,0** <br>*(Terbobot: 0,40)* | Skor: **3,5** <br>*(Terbobot: 0,70)* |
-| 5 | Kemudahan Operasi & Pemeliharaan | S-13, S-14 | 15% | Skor: **4,0** <br>*(Terbobot: 0,60)* | Skor: **2,5** <br>*(Terbobot: 0,375)*| Skor: **3,5** <br>*(Terbobot: 0,525)*|
-| 6 | Skalabilitas Modular Sistem | C-03 | 10% | Skor: **4,5** <br>*(Terbobot: 0,45)* | Skor: **3,0** <br>*(Terbobot: 0,30)* | Skor: **2,0** <br>*(Terbobot: 0,20)* |
-| **TOTAL** | **Skor Terbobot Akhir** | | **100%** | **4,525** | **2,550** | **3,475** |
-| **PERINGKAT** | **Hasil Evaluasi** | | | **Peringkat 1 (TERPILIH)** | **Peringkat 3** | **Peringkat 2** |
+| No | Kriteria Evaluasi Terbobot | Rujukan CD-2 | Bobot (%) | Alternatif 1: Smart Micro-Drip | Alternatif 2: Robot Pematang & Lengan | Alternatif 3: Gravity Header Tank | Alternatif 4: Gerobak Multifungsi |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | Keandalan Lingkungan & Proteksi IP65 | C-02, S-05, S-07 | 20% | Skor: **4,5** *(0,90)* | Skor: **2,5** *(0,50)* | Skor: **3,5** *(0,70)* | Skor: **4,5** *(0,90)* |
+| 2 | Keseragaman Air (CU) & Efisiensi | S-01, S-02, S-04, S-11 | 20% | Skor: **5,0** *(1,00)* | Skor: **4,5** *(0,90)* | Skor: **3,0** *(0,60)* | Skor: **3,5** *(0,70)* |
+| 3 | Kemandirian Energi & Keselamatan SELV | C-01, C-04, S-06, S-12 | 15% | Skor: **4,5** *(0,675)*| Skor: **2,5** *(0,375)*| Skor: **5,0** *(0,75)* | Skor: **4,5** *(0,675)*|
+| 4 | Kelayakan Biaya (CAPEX, OPEX, PP) | S-08, S-09, S-10 | 20% | Skor: **4,5** *(0,90)* | Skor: **1,5** *(0,30)* | Skor: **3,5** *(0,70)* | Skor: **5,0** *(1,00)* |
+| 5 | Kemudahan Operasi & Pemeliharaan | S-13, S-14 | 15% | Skor: **4,0** *(0,60)* | Skor: **2,5** *(0,375)*| Skor: **3,5** *(0,525)*| Skor: **4,0** *(0,60)* |
+| 6 | Skalabilitas Modular Sistem | C-03 | 10% | Skor: **4,5** *(0,45)* | Skor: **4,0** *(0,40)* | Skor: **2,0** *(0,20)* | Skor: **3,5** *(0,35)* |
+| **TOTAL** | **Skor Terbobot Akhir (Skala 5,000)** | | **100%** | **4,525** | **2,850** | **3,475** | **4,225** |
+| **KEPUTUSAN** | **Peringkat Evaluasi Rekayasa** | | **-** | **SOLUSI TERPILIH<br>(Peringkat 1)** | **DITOLAK<br>(Peringkat 4)** | **DITOLAK<br>(Peringkat 3)** | **OPSI UNGGULAN KEDUA<br>(Peringkat 2)** |
 
 ---
 
 ### 2.3 Justifikasi Ilmiah dan Komprehensif Pemilihan Solusi
 
-Berdasarkan hasil matriks keputusan rekayasa di atas, **Alternatif 1 (Jaringan Mikroirigasi Perpipaan Cerdas Otomatis Multi-Zonasi)** secara telak menempati **Peringkat 1 dengan total skor terbobot 4,525 dari skala 5,000**, unggul signifikan dibandingkan Alternatif 3 (skor 3,475) dan Alternatif 2 (skor 2,550).
+Berdasarkan hasil pembobotan kuantitatif pada Tabel 1, **Alternatif 1 (Jaringan Mikroirigasi Perpipaan Cerdas Otomatis Multi-Zonasi)** memperoleh skor tertinggi secara mutlak, yaitu **4,525 dari skala 5,000**, mengungguli Alternatif 4 (skor 4,225), Alternatif 3 (skor 3,475), dan Alternatif 2 (skor 2,850). Secara ilmiah dan teknis, Alternatif 1 ditetapkan sebagai **Solusi Terpilih (*Selected Final Design*)** dengan justifikasi multi-sektoral berikut:
 
-Justifikasi penetapan Alternatif 1 sebagai solusi terpilih didasarkan pada pertimbangan rekayasa mendalam sebagai berikut:
-
-1. **Jaminan Keseragaman Distribusi Air (CU) Tertinggi (Kriteria K2):**  
-   Penggunaan *Pressure Compensating Dripper* (PC Dripper) berstandar ISO 9261 secara teknis menjamin laju emisi air tetap konstan pada rentang tekanan 0,1–0,35 MPa. Hal ini menyelesaikan disparitas hidrolika parit tanah 100 meter, memastikan seluruh pohon pada baris awal, tengah, dan ujung menerima debit yang seragam ($CU \ge 85–92\%$) tanpa terpengaruh penurunan tinggi tekan hidrolik. Sebaliknya, Alternatif 3 mengalami penurunan debit akibat berkurangnya tinggi muka air tandon gravitasi, sedangkan Alternatif 2 rentan mengalami variasi dosis semprot akibat fluktuasi kecepatan maju roda di atas lumpur.
-2. **Keandalan Tertinggi pada Tapak Kebun Tanah Sawah (Kriteria K1):**  
-   Alternatif 1 tidak memiliki komponen mekanikal dinamis yang bergerak di dalam parit tanah. Hal ini mengeliminasi secara tuntas risiko mekanikal terbesar yang dihadapi oleh Alternatif 2, yaitu risiko roda tergelincir, amblas ke dalam lumpur sawah, dan keausan gear akibat abrasi sedimen tanah. Seluruh pipa PE diletakkan di sepanjang tepi bedengan tanaman, dan kotak kontroler elektronik dipasang statis pada tiang selungkup IP65 yang terlindung dari genangan air.
-3. **Efisiensi Energi dan Kemandirian *Off-Grid* (Kriteria K3):**  
-   Dengan pembagian sistem ke dalam zonasi hidrolika, daya pemompaan fluida yang dibutuhkan hanya berkisar 60–100 Watt DC. Konsumsi energi per siklus siram hanya berkisar 50–65 Wh. Dengan baterai LiFePO4 12V 30Ah (360 Wh), sistem mampu beroperasi mandiri selama $> 4$ siklus siram penuh tanpa kehadiran sinar matahari, melampaui batas cadangan energi S-06 ($\ge 8$ jam). Sebaliknya, Alternatif 2 membutuhkan baterai berdensitas jauh lebih besar untuk menarik beban mekanis sasis dan selang air.
-4. **Kepastian Anggaran Biaya Purwarupa Mahasiswa (Kriteria K4):**  
-   Seluruh komponen penyusun Alternatif 1 (pompa diafragma DC, filter disc 120 mesh, katup selenoid, pipa PE, emiter PC, mikrokontroler ESP32, panel surya 100 Wp, dan baterai LiFePO4) merupakan komponen standar industri pertanian yang telah tersedia secara komersial luas di pasar domestik dengan harga terjangkau. Total anggaran belanja purwarupa untuk petak uji percontohan (15–20 pohon) terhitung **Rp4.850.000**, terbukti patuh di bawah batas atas pagu penelitian Capstone ($\le \text{Rp5.000.000}$).
-5. **Skalabilitas Modular Paling Fleksibel (Kriteria K6):**  
-   Rancang bangun jaringan perpipaan multi-zonasi sangat mudah diskalakan. Untuk memperluas layanan dari petak uji purwarupa (1 lajur, 20 pohon) menjadi 600 pohon kebun penuh, mitra hanya perlu menambah panjang pipa lateral PE dan memasang katup selenoid tambahan per zona pada pipa manifold utama, tanpa perlu merombak arsitektur kontroler atau mengganti pompa primer dengan pompa industri raksasa.
+1. **Keunggulan Fisiologis dan Penghematan Air:**  
+   Penggunaan emiter tetes kompensasi tekanan (PC Dripper) melepaskan air secara perlahan dan langsung meresap ke dalam zona rizosfer perakaran aktif jeruk limau tanpa membasahi permukaan tajuk kanopi atau mengalir liar di parit. Hal ini mencegah pengikisan butiran pupuk NPK, menekan laju evaporasi tanah hingga tingkat minimal, dan menghindarkan tanaman dari kelembapan mikro tinggi pada pangkal batang yang selama ini memicu serangan jamur *Phytophthora nicotianae* dan cendawan upas.
+2. **Efisiensi Aliran Hidrolika dan Toleransi Terhadap Sedimen Sungai:**  
+   Penerapan tabung saringan cakram (*disc filter*) 120 mesh dengan pori 130 mikron di sisi hulu pompa secara tuntas memecahkan masalah kekeruhan sedimen sungai Ciberes. Labirin internal emiter PC memiliki mekanisme pembersihan otomatis (*self-flushing diaphragm*), sehingga partikel halus yang lolos tidak menyebabkan penyumbatan dan nilai keseragaman Christiansen tetap terjaga stabil ($CU \ge 88\text{--}92\%$).
+3. **Rasionalitas Energi Tenaga Surya dan Keselamatan Listrik:**  
+   Dengan konsumsi daya pompa diafragma yang hanya berkisar 60–85 Watt pada siklus siram 56 menit, kebutuhan energi per siklus hanya sebesar ~80 Wh. Kebutuhan ini dapat dipenuhi secara mandiri oleh panel surya 100 Wp dan baterai LiFePO4 12V 30Ah yang memiliki cadangan otonomi hingga 4 siklus siram penuh (mencakup 12 hari mendung tanpa sinar matahari). Beroperasi pada tegangan 12V DC, sistem sepenuhnya memenuhi regulasi keselamatan tegangan ekstra rendah aman (SELV IEC 60364-4-41) bagi pekerja kebun.
+4. **Kepatuhan Finansial Terhadap Pagu Anggaran:**  
+   Total biaya belanja purwarupa petak uji (15–20 pohon) terhitung sebesar Rp4.300.000, sepenuhnya berada di bawah batas pagu belanja Capstone FTE (maksimal Rp5.000.000). Proyeksi investasi adopsi penuh kebun mitra (600 pohon) terhitung sebesar Rp17.400.000, berada di bawah batas pagu belanja mitra (maksimal Rp18.000.000) dengan periode pengembalian modal yang sangat realistis (14–16 bulan) dari penghematan upah buruh manual.
+5. **Posisi Alternatif 4 sebagai Opsi Cadangan Tepat Guna Unggulan:**  
+   Meskipun Alternatif 1 menjadi pilihan utama otomatisasi penuh, evaluasi membuktikan bahwa Alternatif 4 (Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi) meraih skor 4,225 sebagai opsi kedua terbaik. Hal ini disebabkan biaya modalnya yang paling rendah (Rp2.450.000) dan nilai guna multifungsi nyata untuk pengangkutan panen buah jeruk limau, menjadikannya opsi komplementer tepat guna yang sangat bernilai tinggi bagi mitra.
 
 ---
 
