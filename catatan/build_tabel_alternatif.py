@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 """
 Script to build 'Tabel_Perbandingan_Alternatif_Solusi.docx' and export to PDF.
-A clean, elegant, professional landscape document summarizing all 3 engineering
+A clean, elegant, professional landscape document summarizing all 4 engineering
 solution alternatives for CD-3, detailing their descriptions, working mechanisms,
 technical pros (kelebihan), cons (kekurangan), cost estimations, and final decision status.
+Includes:
+- Alternatif 1: Smart Multi-Zone Micro-Drip Irrigation Network (Otomatis Penuh)
+- Alternatif 2: Automated Guided Sprinkler Cart / Robot (Robotik Otonom Parit)
+- Alternatif 3: Distributed Header Tank with Gravity Manifold (Gravitasi Tandon)
+- Alternatif 4: Multipurpose Semi-Manual Irrigation & Orchard Utility Cart (Gerobak Sorong Multifungsi)
 """
 
 import os
@@ -70,7 +75,7 @@ def create_document():
     p_title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p_title.paragraph_format.space_before = Pt(0)
     p_title.paragraph_format.space_after = Pt(2)
-    add_formatted_runs(p_title, "TABEL PERBANDINGAN DAN ANALISIS ALTERNATIF SOLUSI REKAYASA (CD-3)", font_size=13, bold=True)
+    add_formatted_runs(p_title, "TABEL PERBANDINGAN DAN ANALISIS 4 ALTERNATIF SOLUSI REKAYASA (CD-3)", font_size=13, bold=True)
     
     p_sub = doc.add_paragraph()
     p_sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -90,7 +95,7 @@ def create_document():
     p_intro.paragraph_format.space_before = Pt(0)
     p_intro.paragraph_format.space_after = Pt(8)
     p_intro.paragraph_format.line_spacing = 1.15
-    add_formatted_runs(p_intro, "Dokumen ringkasan ini memuat komparasi teknis menyeluruh atas tiga (3) konsep alternatif usulan solusi rekayasa pada tahap Dokumen CD-3 (*Desain Rancangan Solusi*). Evaluasi ini disusun guna menjawab kendala fisik tapak kebun mitra Ciberes seluas ~3.000 m² (populasi 500–600 pohon, memanjang 100 meter, berparit sawah labil, ketiadaan listrik PLN/*off-grid*, dan kekeruhan sedimen sungai Ciberes) selaras dengan batasan rekayasa mutlak CD-2 (C-01 s.d. C-05) serta spesifikasi kuantitatif (S-01 s.d. S-14).", font_size=9.5)
+    add_formatted_runs(p_intro, "Dokumen ini menyajikan komparasi komprehensif atas empat (4) konsep alternatif solusi rekayasa pada tahap Dokumen CD-3 (*Desain Rancangan Solusi*). Evaluasi ini disusun guna menjawab kendala fisik tapak kebun mitra Ciberes seluas ~3.000 m² (populasi 500–600 pohon, memanjang 100 meter, berparit sawah labil, ketiadaan listrik PLN/*off-grid*, dan kekeruhan sedimen sungai Ciberes) selaras dengan batasan rekayasa mutlak CD-2 (C-01 s.d. C-05) serta spesifikasi kuantitatif (S-01 s.d. S-14). Alternatif yang dievaluasi mencakup pendekatan otomatis penuh jaringan perpipaan (Alternatif 1), mekanisasi robotik bergerak (Alternatif 2), tandon pasif gravitasi (Alternatif 3), dan gerobak dorong irigasi-logistik tepat guna multifungsi (Alternatif 4).", font_size=9.5)
 
     # 4. Main Comparison Table (Table 1)
     p_cap1 = doc.add_paragraph()
@@ -98,7 +103,7 @@ def create_document():
     p_cap1.paragraph_format.space_before = Pt(4)
     p_cap1.paragraph_format.space_after = Pt(4)
     p_cap1.paragraph_format.keep_with_next = True
-    add_formatted_runs(p_cap1, "Tabel 1. Perbandingan Menyeluruh Konsep, Mekanisme Kerja, Kelebihan, dan Kekurangan 3 Alternatif Solusi Rekayasa", font_size=10, bold=True)
+    add_formatted_runs(p_cap1, "Tabel 1. Perbandingan Menyeluruh Konsep, Mekanisme Kerja, Kelebihan, dan Kekurangan 4 Alternatif Solusi Rekayasa", font_size=10, bold=True)
 
     t1_headers = [
         "Alternatif Solusi & Arsitektur",
@@ -126,7 +131,7 @@ def create_document():
             "Daun dan batang tidak basah, mencegah infeksi jamur upas dan busuk akar *Phytophthora nicotianae*.\n\n"
             "4. Konsumsi Daya Ultra Hemat (80 W):\n"
             "Baterai LiFePO4 bertahan hingga 4 siklus siram penuh (9–12 hari mendung kontinu tanpa sinar matahari).\n\n"
-            "5. Eliminasi Beban Kerja Fisik:\n"
+            "5. Eliminasi Beban Fisik Buruh Secara Penuh:\n"
             "Menggantikan 100% kerja fisik buruh angkut ember manual dan menghemat upah operasional hingga Rp48 juta/tahun.\n\n"
             "6. Modularitas Sangat Tinggi:\n"
             "Sangat mudah diperluas (*scalable*) dari petak uji (15–20 pohon) ke kebun penuh (600 pohon) tanpa rombak arsitektur.\n\n"
@@ -147,8 +152,9 @@ def create_document():
             "Periode Balik Modal (PP):\n"
             "14–16 Bulan\n\n"
             "STATUS AKHIR:\n"
-            "★ TERPILIH ★\n"
-            "(Peringkat 1 / Skor 4,525)"
+            "★ SOLUSI TERPILIH ★\n"
+            "(Peringkat 1 / Skor 4,525)\n"
+            "Kategori: Otomatis Penuh"
         ],
         [
             "ALTERNATIF 2:\n\n*Automated Guided Sprinkler Cart / Robot*\n\n(Wahana Mekanis Penyiram Semi-Otonom Lajur Parit)",
@@ -186,7 +192,8 @@ def create_document():
             "> 24 Bulan\n\n"
             "STATUS AKHIR:\n"
             "✕ DITOLAK ✕\n"
-            "(Peringkat 3 / Skor 2,550)"
+            "(Peringkat 4 / Skor 2,550)\n"
+            "Kategori: Robotik Otonom"
         ],
         [
             "ALTERNATIF 3:\n\n*Distributed Header Tank with Gravity Manifold*\n\n(Sistem Irigasi Hibrida Berbasis Tangki Tandon Terdistribusi)",
@@ -219,7 +226,50 @@ def create_document():
             "20–22 Bulan\n\n"
             "STATUS AKHIR:\n"
             "✕ DITOLAK ✕\n"
-            "(Peringkat 2 / Skor 3,475)"
+            "(Peringkat 3 / Skor 3,475)\n"
+            "Kategori: Pasif Gravitasi"
+        ],
+        [
+            "ALTERNATIF 4:\n\n*Multipurpose Semi-Manual Irrigation & Orchard Utility Cart*\n\n(Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi)",
+            "• Menggunakan rangka gerobak sorong ban tapak lebar (*pneumatic all-terrain tire*) dengan dudukan lepas-pasang (*detachable quick-release*).\n"
+            "• Mengusung modul pompa diafragma DC 12V 80W, baterai LiFePO4 12V 20–30Ah dalam boks IP65, saringan cakram 120 mesh portabel, dan gulungan selang lentur (*hose reel*) 25 meter dengan tongkat semprot bertakar (*spray wand with digital flow meter*).\n"
+            "• Dioperasikan semi-manual oleh 1 orang buruh: gerobak didorong ke jalur setapak parit, selang hisap dimasukkan ke air sungai/parit terdekat, lalu menyiram 10–15 pohon dalam radius selang dengan takaran presisi.\n"
+            "• Bak angkut dapat difungsikan bergantian untuk mengangkut hasil panen buah jeruk limau (kapasitas 100–150 kg per ritase) atau jeriken pupuk cair fertigasi.",
+            
+            "1. Nilai Guna Multifungsi Sepanjang Tahun:\n"
+            "Tidak menganggur saat tidak menyiram; di musim panen beralih fungsi menjadi alat angkut buah jeruk limau dari ujung kebun (100 m) dan sarana pemupukan/pestisida cair.\n\n"
+            "2. Biaya Rancang Bangun Paling Terjangkau (CAPEX Terendah):\n"
+            "Menggunakan komponen mekanik gerobak standar toko tani lokal; biaya purwarupa hanya berkisar Rp2,4 Juta (paling hemat dari semua opsi).\n\n"
+            "3. Bebas Risiko Amblas di Lumpur Parit:\n"
+            "Digerakkan dan diarahkan langsung oleh tenaga manusia sehingga tidak mengalami risiko selip roda (*wheel slip*) atau terperosok seperti robot otonom.\n\n"
+            "4. Nol Risiko Kerusakan Pipa Akibat Cangkul:\n"
+            "Tidak membutuhkan bentangan jaringan pipa permanen di atas bedengan, bebas dari bahaya terpotong alat penyiang gulma/sabit.\n\n"
+            "5. Pengurangan Beban Fisik Buruh:\n"
+            "Mengubah kerja berat memikul ember berulang kali (4 orang buruh) menjadi mendorong gerobak beroda aerodinamis oleh 1 orang buruh.\n\n"
+            "6. Keselamatan Kerja Ekstra Rendah Aman (SELV 12V):\n"
+            "Sistem elektrik DC 12V sepenuhnya aman dari risiko sengatan listrik di lingkungan pertanian basah.",
+            
+            "1. Masih Memerlukan Tenaga Kerja Manusia (Semi-Manual):\n"
+            "Bukan sistem otomasi penuh; mitra tetap harus menugaskan 1 orang pekerja untuk mendorong gerobak dan mengarahkan nosel siram pohon demi pohon.\n\n"
+            "2. Variabilitas Keseragaman Dosis (Human Error):\n"
+            "Meskipun dilengkapi meteran air digital pada tongkat semprot, akurasi pemberian air 10–15 L per pohon tetap bergantung pada ketelitian dan kesabaran operator.\n\n"
+            "3. Waktu Penyiraman Tetap Memakan Beberapa Jam:\n"
+            "Penyiraman 500–600 pohon secara bertahap blok demi blok membutuhkan waktu 2,5–3,5 jam per siklus siram.\n\n"
+            "4. Akses Pematang yang Sangat Sempit:\n"
+            "Pada pematang parit sempit (< 40 cm), membutuhkan keahlian dan kehati-hatian operator dalam menjaga keseimbangan muatan gerobak.",
+            
+            "Biaya Purwarupa (Petak Uji):\n"
+            "Rp2.450.000\n"
+            "*(Sangat Patuh Plafon <= Rp5.000.000)*\n\n"
+            "Proyeksi Kebun Penuh (1–2 Unit Lengkap):\n"
+            "Rp4.800.000 – Rp5.500.000\n"
+            "*(Sangat Hemat, Plafon Mitra <= Rp18 Juta)*\n\n"
+            "Periode Balik Modal (PP):\n"
+            "6–8 Bulan\n\n"
+            "STATUS AKHIR:\n"
+            "★ ALTERNATIF TERBAIK KEDUA ★\n"
+            "(Peringkat 2 / Skor 4,225)\n"
+            "Kategori: Tepat Guna Semi-Manual"
         ]
     ]
 
@@ -252,6 +302,7 @@ def create_document():
         row = t1.rows[r_idx + 1]
         make_row_cant_split(row)
         is_selected = (r_idx == 0) # Alt 1 is selected
+        is_runner_up = (r_idx == 3) # Alt 4 is runner up
         
         for c_idx, cell in enumerate(row.cells):
             cell.width = col_widths[c_idx]
@@ -275,6 +326,11 @@ def create_document():
                     set_cell_background(cell, "D9EAD3") # Light Green for Selected
                 else:
                     set_cell_background(cell, "F3F8F2") # Very light greenish tint
+            elif is_runner_up:
+                if c_idx == 4:
+                    set_cell_background(cell, "FFF2CC") # Warm Yellow for Runner Up
+                else:
+                    set_cell_background(cell, "FFFCF5") # Subtle warm tint
             else:
                 if c_idx == 4:
                     set_cell_background(cell, "F4CCCC") # Light Red for Rejected
@@ -295,21 +351,21 @@ def create_document():
 
     t2_headers = [
         "No", "Kriteria Evaluasi Terbobot", "Rujukan Dokumen CD-2", "Bobot (%)",
-        "Alternatif 1: Smart Micro-Drip", "Alternatif 2: Sprinkler Cart Robot", "Alternatif 3: Gravity Header Tank"
+        "Alternatif 1:\nSmart Micro-Drip", "Alternatif 2:\nSprinkler Robot", "Alternatif 3:\nGravity Header Tank", "Alternatif 4:\nGerobak Multifungsi"
     ]
     t2_data = [
-        ["1", "Keandalan Lingkungan Kebun & Proteksi IP65", "Batasan C-02, Spesifikasi S-05, S-07", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)"],
-        ["2", "Keseragaman Distribusi Air (CU >= 85%) & Efisiensi", "Spesifikasi S-01, S-02, S-04, S-11", "20%", "5,0  (1,00)", "3,5  (0,70)", "3,0  (0,60)"],
-        ["3", "Kemandirian Energi Off-Grid & Keamanan Listrik SELV", "Batasan C-01, C-04, Spesifikasi S-06, S-12", "15%", "4,5  (0,675)", "2,5  (0,375)", "5,0  (0,75)"],
-        ["4", "Kelayakan Finansial (BOM Purwarupa, Proyeksi Penuh, PP)", "Spesifikasi S-08, S-09, S-10", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)"],
-        ["5", "Kemudahan Operasional Operator & Pemeliharaan", "Spesifikasi S-13, S-14", "15%", "4,0  (0,60)", "2,5  (0,375)", "3,5  (0,525)"],
-        ["6", "Skalabilitas Desain Sistem dari Petak Uji ke Seluruh Kebun", "Batasan C-03", "10%", "4,5  (0,45)", "3,0  (0,30)", "2,0  (0,20)"],
-        ["", "TOTAL SKOR AKHIR TERBOBOT (SKALA 5,000)", "", "100%", "4,525", "2,550", "3,475"],
-        ["", "KEPUTUSAN EVALUASI & STATUS AKHIR", "", "-", "SOLUSI TERPILIH (Peringkat 1)", "DITOLAK (Peringkat 3)", "DITOLAK (Peringkat 2)"]
+        ["1", "Keandalan Lingkungan Kebun & Proteksi IP65", "Batasan C-02, Spesifikasi S-05, S-07", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)", "4,5  (0,90)"],
+        ["2", "Keseragaman Distribusi Air (CU >= 85%) & Efisiensi", "Spesifikasi S-01, S-02, S-04, S-11", "20%", "5,0  (1,00)", "3,5  (0,70)", "3,0  (0,60)", "3,5  (0,70)"],
+        ["3", "Kemandirian Energi Off-Grid & Keamanan Listrik SELV", "Batasan C-01, C-04, Spesifikasi S-06, S-12", "15%", "4,5  (0,675)", "2,5  (0,375)", "5,0  (0,75)", "4,5  (0,675)"],
+        ["4", "Kelayakan Finansial (BOM Purwarupa, Proyeksi Penuh, PP)", "Spesifikasi S-08, S-09, S-10", "20%", "4,5  (0,90)", "2,0  (0,40)", "3,5  (0,70)", "5,0  (1,00)"],
+        ["5", "Kemudahan Operasional Operator & Pemeliharaan", "Spesifikasi S-13, S-14", "15%", "4,0  (0,60)", "2,5  (0,375)", "3,5  (0,525)", "4,0  (0,60)"],
+        ["6", "Skalabilitas Desain Sistem dari Petak Uji ke Seluruh Kebun", "Batasan C-03", "10%", "4,5  (0,45)", "3,0  (0,30)", "2,0  (0,20)", "3,5  (0,35)"],
+        ["", "TOTAL SKOR AKHIR TERBOBOT (SKALA 5,000)", "", "100%", "4,525", "2,550", "3,475", "4,225"],
+        ["", "KEPUTUSAN EVALUASI & STATUS AKHIR", "", "-", "SOLUSI TERPILIH\n(Peringkat 1)", "DITOLAK\n(Peringkat 4)", "DITOLAK\n(Peringkat 3)", "OPSI UNGGULAN KEDUA\n(Peringkat 2)"]
     ]
 
-    col_w2 = [Inches(0.4), Inches(2.6), Inches(2.3), Inches(0.8), Inches(1.4), Inches(1.4), Inches(1.4)]
-    t2 = doc.add_table(rows=len(t2_data) + 1, cols=7)
+    col_w2 = [Inches(0.4), Inches(2.2), Inches(1.8), Inches(0.6), Inches(1.3), Inches(1.2), Inches(1.3), Inches(1.4)]
+    t2 = doc.add_table(rows=len(t2_data) + 1, cols=8)
     t2.alignment = WD_TABLE_ALIGNMENT.CENTER
     set_table_full_grid(t2, color="808080", sz="4")
 
@@ -324,11 +380,11 @@ def create_document():
         p.paragraph_format.line_spacing = 1.05
         p.paragraph_format.space_before = Pt(3)
         p.paragraph_format.space_after = Pt(3)
-        add_formatted_runs(p, t2_headers[c_idx], font_size=9.0, bold=True)
+        add_formatted_runs(p, t2_headers[c_idx], font_size=8.5, bold=True)
         set_cell_background(cell, "366092")
         for r in p.runs:
             r.font.color.rgb = RGBColor(255, 255, 255)
-        set_cell_margins(cell, 80, 80, 80, 80)
+        set_cell_margins(cell, 80, 80, 60, 60)
 
     for r_idx, row_data in enumerate(t2_data):
         row = t2.rows[r_idx + 1]
@@ -347,17 +403,26 @@ def create_document():
             else:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
                 
-            bold_flag = is_summary or (c_idx == 4 and not is_summary)
-            add_formatted_runs(p, row_data[c_idx], font_size=8.5, bold=bold_flag)
+            bold_flag = is_summary or (c_idx in [4, 7] and not is_summary)
+            add_formatted_runs(p, row_data[c_idx], font_size=8.0, bold=bold_flag)
             
             if is_summary:
                 if r_idx == len(t2_data) - 1:
-                    set_cell_background(cell, "D9EAD3" if c_idx == 4 else ("F4CCCC" if c_idx in [5, 6] else "EAEAEA"))
+                    if c_idx == 4:
+                        set_cell_background(cell, "D9EAD3") # Green for Winner
+                    elif c_idx == 7:
+                        set_cell_background(cell, "FFF2CC") # Yellow for Runner Up
+                    elif c_idx in [5, 6]:
+                        set_cell_background(cell, "F4CCCC") # Red for Rejected
+                    else:
+                        set_cell_background(cell, "EAEAEA")
                 else:
                     set_cell_background(cell, "EAEAEA")
             elif c_idx == 4:
                 set_cell_background(cell, "F2F7FA")
-            set_cell_margins(cell, 50, 50, 60, 60)
+            elif c_idx == 7:
+                set_cell_background(cell, "FFFCF5")
+            set_cell_margins(cell, 50, 50, 50, 50)
 
     # 6. Concluding Notes
     p_concl = doc.add_paragraph()
@@ -365,7 +430,7 @@ def create_document():
     p_concl.paragraph_format.space_before = Pt(8)
     p_concl.paragraph_format.space_after = Pt(0)
     p_concl.paragraph_format.line_spacing = 1.15
-    add_formatted_runs(p_concl, "Kesimpulan Rekayasa: Alternatif 1 (Jaringan Mikroirigasi Perpipaan Cerdas Otomatis Multi-Zonasi) secara meyakinkan menjadi solusi terpilih dengan nilai 4,525. Solusi ini paling unggul dalam aspek efisiensi pemanfaatan air, stabilitas keseragaman dosis berbasis emiter PC, keandalan catu daya surya off-grid berdaya rendah, eliminasi 100% beban fisik petani manual, serta kepatuhan ketat terhadap anggaran belanja purwarupa (Rp4.300.000 <= Rp5.000.000) dan proyeksi kebun komersial (Rp17.400.000 <= Rp18.000.000). Rincian teknis lengkap, gambar blok diagram, pemodelan matematis Darcy-Weisbach, flowchart firmware FSM, dan Gantt Chart diuraikan pada Dokumen Resmi CD-3.", font_size=9.5)
+    add_formatted_runs(p_concl, "Kesimpulan Analisis Rekayasa: Penambahan Alternatif 4 (Wahana Gerobak Dorong Irigasi & Logistik Kebun Multifungsi) memperkaya cakrawala desain dengan memberikan opsi teknologi tepat guna berbiaya paling terjangkau (CAPEX hanya Rp2,45 Juta dan balik modal 6–8 bulan) serta multifungsi nyata sebagai sarana angkut buah panen jeruk limau. Dalam matriks evaluasi keputusan (Tabel 2), Alternatif 1 (Jaringan Mikroirigasi Tetes Otomatis Cerdas) tetap menjadi Solusi Terpilih Utama (Skor 4,525) karena keunggulan mutlak dalam otomasi penuh tanpa ketergantungan buruh harian dan keseragaman dosis air (CU >= 88–92%). Namun, Alternatif 4 berhasil menempati posisi Opsi Unggulan Kedua (Runner-Up / Skor 4,225) yang sangat ideal dipertimbangkan mitra sebagai implementasi pendukung bertahap.", font_size=9.5)
 
     return doc
 
