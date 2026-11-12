@@ -1220,6 +1220,10 @@ def main():
 
     doc.save(output_path)
     print(f"CD3_Jeruk_Limau.docx created successfully at: {output_path}")
+    
+    garnie_path = os.path.join(script_dir, "CD3_Jeruk_Limau - garnie.docx")
+    doc.save(garnie_path)
+    print(f"CD3_Jeruk_Limau - garnie.docx created successfully at: {garnie_path}")
 
 if __name__ == "__main__":
     main()

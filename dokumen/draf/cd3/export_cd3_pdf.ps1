@@ -2,6 +2,11 @@
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $docxPath = (Resolve-Path (Join-Path $scriptDir "CD3_Jeruk_Limau.docx")).Path
 $pdfPath = [System.IO.Path]::Combine($scriptDir, "CD3_Jeruk_Limau.pdf")
+$garniePdfPath = [System.IO.Path]::Combine($scriptDir, "CD3_Jeruk_Limau - garnie.pdf")
+
+$fixDir = (Resolve-Path (Join-Path $scriptDir "..\..\cd3")).Path
+$fixPdfPath = [System.IO.Path]::Combine($fixDir, "CD 3 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf")
+$fixGarniePdfPath = [System.IO.Path]::Combine($fixDir, "CD 3 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG - garnie.pdf")
 
 if (-not (Test-Path $docxPath)) {
     Write-Error "File not found: $docxPath"
@@ -39,6 +44,17 @@ try {
     )
     Write-Host "Export completed successfully!"
     $doc.Close([ref]$false)
+
+    # Copy to draf garnie version
+    Copy-Item $pdfPath $garniePdfPath -Force
+    Write-Host "Created: $garniePdfPath"
+
+    # Copy to official fix directory
+    Copy-Item $pdfPath $fixPdfPath -Force
+    Write-Host "Copied to fix: $fixPdfPath"
+
+    Copy-Item $pdfPath $fixGarniePdfPath -Force
+    Write-Host "Copied to fix garnie: $fixGarniePdfPath"
 } catch {
     Write-Error "Failed to export PDF: $_"
 } finally {
