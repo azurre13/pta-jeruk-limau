@@ -7,18 +7,13 @@ Struktur subfolder dokumen diorganisasi secara sistematis berdasar tahapan Capst
 
 ```text
 dokumen/
-├── cd1/                        Dokumentasi Tahap CD-1 (Problem Definition)
-│   ├── CD 1 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf  (Dokumen Final Hasil ACC Dosen)
-│   ├── CD1_Jeruk_Limau_Revisi3.docx                                                                (Naskah Word Revisi 3)
-│   ├── CD1_Jeruk_Limau_Revisi3.pdf                                                                 (Naskah PDF 25 Halaman)
-│   ├── LOGBOOK1 Catatan Diskusi Pembimbing.docx                                                    (Logbook Resmi Bimbingan)
-│   └── LOGBOOK1 Catatan Diskusi Pembimbing.pdf                                                     (Logbook Resmi Bimbingan PDF)
-└── cd2/                        Dokumentasi Tahap CD-2 (Constraints & Specifications)
-    ├── CD2_Jeruk_Limau.docx    (Dokumen Word CD-2 Final 25 Halaman dengan Persamaan OMML)
-    ├── CD2_Jeruk_Limau.pdf     (Dokumen PDF CD-2 Final 25 Halaman Siap Cetak/Kumpul)
-    ├── DRAFT_CD2_Jeruk_Limau.md (Draf Naskah Lengkap Markdown dengan Rumus LaTeX)
-    ├── build_full_cd2.py       (Skrip Pembangun Dokumen Otomatis)
-    └── export_cd2_pdf.ps1      (Skrip Otomasi Ekspor PDF via Word COM)
+├── cd1/                        Dokumentasi Tahap CD-1 (Hanya Berkas FIX)
+│   └── CD 1 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf  (Dokumen Final ACC Dosen & Bertanda Tangan)
+├── cd2/                        Dokumentasi Tahap CD-2 (Hanya Berkas FIX)
+│   └── CD 2 - ANALISIS PERMASALAHAN PENYIRAMAN MANUAL PADA KEBUN JERUK LIMAU DI CIBERES SUBANG.pdf  (Dokumen Final ACC Dosen & Bertanda Tangan)
+└── draf/                       Arsip Naskah Kerja, Draf Revisi, & Skrip Pembangun
+    ├── cd1/                    (Draf naskah Word, PDF revisi 1-3, logbook bimbingan CD-1)
+    └── cd2/                    (Draf naskah Word, skrip build_full_cd2.py, template, markdown)
 ```
 
 ## Ringkasan Tahapan
