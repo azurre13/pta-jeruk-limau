@@ -62,11 +62,11 @@ GEMINI.md                   Pintu masuk Antigravity/Gemini
 
 ## Tim
 
-| Anggota | NIM |
-|---|---|
-| Muhammad Al Qarnie | 101032330043 |
-| Maheswara Ariq Athallah | 101032300050 |
-| Daffa Hermansyah | 101032330090 |
+| Anggota | NIM | Akun GitHub |
+|---|---|---|
+| Muhammad Al Qarnie | 101032330043 | [@Garnie104](https://github.com/Garnie104) |
+| Maheswara Ariq Athallah | 101032300050 | [@Riq-Z](https://github.com/Riq-Z) |
+| Daffa Hermansyah | 101032330090 | [@azurre13](https://github.com/azurre13) |
 
 Pembimbing: **Dr. Agung Nugroho Jati, S.T., M.T.**  
 Lokasi mitra: **JH7H+222, Ciberes, Kabupaten Subang, Jawa Barat**. Nama usaha/pengelola belum dicantumkan.
