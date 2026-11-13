@@ -1,13 +1,18 @@
 # Rangkuman Diskusi, Sinkronisasi CD-1/CD-2, dan Arah Desain Teknis CD-3
 **Proyek Capstone S1 Teknik Komputer — Fakultas Teknik Elektro, Universitas Telkom**  
 *Topik: Sistem Otomasi Irigasi Tetes Terzonasi Bertenaga Surya untuk Kebun Jeruk Limau, Ciberes, Subang*  
-*Tanggal Pembaruan Terverifikasi: 13 November 2026*
+*Tanggal Penyusunan: 13 November 2026 · Diperbarui: 14 November 2026*
+
+> [!NOTE]
+> **Status Sinkronisasi Pra-Survei (14 November 2026):**  
+> - **Acuan Operasional Pompa Mitra:** Kebun Ciberes aktif menggunakan **pompa bensin Pertalite (Alkon 2 inci)**; modifikasi LPG 3 kg adalah uji coba terdahulu yang dihentikan karena *overheating*.  
+> - **Rencana Finalisasi Setelah Survei Minggu:** Keputusan arsitektur pengambilan air saluran irigasi vs kolam/parit tampungan, ukuran kabel `12 V`, panjang petak uji terhadap `C-03 >= 25 m`, dan angka final BOM draf `dokumen/draf/cd3_daffa/` (yang saat ini di skrip `bom_and_data.py` bernilai **Rp4.850.000** perangkat keras purwarupa / **Rp6.435.000** dengan dukungan / **Rp17.790.000** skala penuh) baru akan dikunci bersama setelah data survei Minggu terkumpul di [Kajian Sumber Air & Pompa](../KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md) dan [Checklist Survei](../CHECKLIST_SURVEI_MITRA_CIBERES.md).
 
 ---
 
 ## 1. Pengikatan Mutlak terhadap CD-1 & CD-2 (Hasil Verifikasi Berkas Final)
 
-Seluruh rancangan CD-3 wajib tunduk pada fakta CD-1 dan batasan/spesifikasi CD-2 final ([CD 2 - ...(final).pdf](file:///c:/Users/daffa/Documents/pta-jeruk-limau/dokumen/cd2/CD%202%20-%20Muhammad%20Al%20Qarnie%20-%20Maheswara%20Ariq%20Athallah%20-%20Daffa%20Hermansyah%20(1).pdf)):
+Seluruh rancangan CD-3 wajib tunduk pada fakta CD-1 ([CD-1 Final ACC](../../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf), 26 hlm) dan batasan/spesifikasi CD-2 final ([CD-2 Final ACC](../../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf), 26 hlm):
 
 | Kode CD-2 | Ketentuan Mengikat | Implikasi Langsung pada Desain CD-3 |
 |---|---|---|
@@ -70,4 +75,4 @@ Revisi teknis terpenting dari pembacaan 28 naskah penuh atas draf awal rekan tim
 | 12 | Boks IP65 + *gland* + kabel NYAF + sekring + MOSFET driver pompa + rangka PV | 1 set | 380.000 | 380.000 | `C-04` SELV, `S-07` IP65 |
 | — | **TOTAL PROYEKSI PURWARUPA TERVERIFIKASI** | — | — | **Rp4.925.000** | **Patuh ketat `S-08` ($\le \text{Rp5.000.000}$)** |
 
-> **Catatan fleksibilitas anggaran:** Jika menggunakan **2 katup zona** (Zona 1 = Baris 1; Zona 2 = Baris 2 & 3, ~12 pohon per zona) dan baterai LiFePO4 12V 24Ah (~Rp 1.150.000), total BOM dapat ditekan ke **~Rp 4.550.000**, memberi cadangan Rp 450.000 untuk selisih ongkir/fitting di lapangan.
+> **Catatan fleksibilitas anggaran & sinkronisasi dengan skrip draf CD-3 (`14 November 2026`):** Tabel di atas mencatat proyeksi awal 13 November sebesar `Rp4.925.000`. Pada skrip draf terpisah [`dokumen/draf/cd3_daffa/bom_and_data.py`](../../dokumen/draf/cd3_daffa/bom_and_data.py) angka *hardware* purwarupa telah dipadatkan ke **Rp4.850.000** (atau **Rp6.435.000** bila memasukkan pos pendukung riset/uji lab), dengan proyeksi skala penuh 600 pohon **Rp17.790.000**. Jika menggunakan **2 katup zona** (Zona 1 = Baris 1; Zona 2 = Baris 2 & 3, ~12 pohon per zona) dan baterai LiFePO4 12V 24Ah (~Rp1.150.000), total BOM dapat ditekan ke **~Rp4.550.000**, menyisakan cadangan untuk kebutuhan kabel DC `2×4–6 mm²` atau kurungan *intake* pasca-survei Minggu.

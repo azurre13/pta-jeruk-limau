@@ -1,6 +1,7 @@
 # Daftar Pustaka CD-1
 
-Diekstrak dari DOCX aktif setelah perapian 9 Oktober 2026. Total 36 referensi; 29 sumber teknis/literatur, termasuk satu pracetak dan satu skripsi, serta tujuh sumber proyek/institusi. Nomor mengikuti urutan kemunculan sitasi pada laporan.
+**Tanggal Verifikasi:** 14 November 2026 *(daftar 36 pustaka draf CD-1 edisi 9 Oktober 2026; pada finalisasi CD-1 Revisi 2–3 ditambahkan pustaka tambahan penyakit akar jeruk dalam naskah ACC di `dokumen/cd1/`)*  
+Diekstrak dari DOCX draf setelah perapian 9 Oktober 2026. Total 36 referensi; 29 sumber teknis/literatur, termasuk satu pracetak dan satu skripsi, serta tujuh sumber proyek/institusi. Nomor mengikuti urutan kemunculan sitasi pada laporan.
 
 [1] R. G. Allen, L. S. Pereira, D. Raes, dan M. Smith, Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements, FAO Irrigation and Drainage Paper 56. Roma, Italia: FAO, 1998. [Daring]. Tersedia: https://www.fao.org/4/x0490e/x0490e00.htm [Diakses: 8 Oktober 2026].
 

@@ -1,5 +1,6 @@
 # Panduan Ekstensi IDE dan Alur Kerja Git Capstone Design
 
+**Tanggal Pembaruan:** 14 November 2026  
 Dokumen ini mencatat daftar ekstensi yang digunakan di Antigravity / VS Code untuk pengerjaan Capstone Design **PTA Jeruk Limau (Kebun Ciberes, Subang)** serta penjelasan ringkas alur kerja Git (Commit vs. Push).
 
 ---

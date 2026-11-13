@@ -1,64 +1,48 @@
-# Melanjutkan proyek ini di AI lain
+# Melanjutkan Proyek Ini di Chat Baru / AI Lain
 
-**Diperbarui 9 Oktober 2026.** Buka root repo, lalu berikan tugas singkat. Konteks proyek disimpan dalam berkas sehingga tidak perlu menempelkan seluruh riwayat percakapan.
+**Diperbarui: 14 November 2026.** Cukup buka folder repo `C:/Users/daffa/Documents/pta-jeruk-limau` lalu beri perintah singkat — tidak perlu menempel ulang riwayat diskusi.
 
-## Membuka di Antigravity
+---
 
-1. Buka folder `C:/Users/daffa/Documents/pta-jeruk-limau` sebagai workspace/project. Folder ini merupakan clone GitHub yang berisi dokumen aktif dan sumber.
-2. Repo menyediakan `AGENTS.md` untuk aturan/konteks awal dan `GEMINI.md` untuk pintu masuk Gemini/Antigravity. `GEMINI.md` memasukkan aturan dari `AGENTS.md`; instruksi rinci tetap memiliki satu sumber agar tidak berbeda antaragen.
-3. Mulai dengan tugas singkat, misalnya:
+## Urutan Baca Wajib (Cepat & Hemat Konteks)
 
-> Baca konteks repo ini, lalu bantu saya menyiapkan data lapangan untuk CD-2.
+AI cukup membaca **4 file inti** berikut untuk memahami 100% proyek saat ini (~500 baris total):
+1. [`AGENTS.md`](../AGENTS.md) *(aturan kerja & fakta inti — otomatis dimuat Antigravity bersama [`GEMINI.md`](../GEMINI.md))*
+2. [`konteks-ai/KONTEKS_PROYEK.md`](KONTEKS_PROYEK.md) *(fakta, batas data, syarat mengikat `CD-1/CD-2` Final ACC, & larangan kekeliruan lama)*
+3. [`konteks-ai/STATUS_DAN_TINDAK_LANJUT.md`](STATUS_DAN_TINDAK_LANJUT.md) *(antrean survei Minggu & daftar revisi `CD-3`)*
+4. [`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) *(hasil Q&A `14 Nov`: sampel tanah, 5 *scope*, *Pure 15 L* + `0–2` sensor, hardware wajib, & `4 zona` aman `100 m+`)*
 
-Contoh lain:
+*Hanya baca file pendamping di bawah ini sesuai tugas spesifiknya:*
+- Jika membahas survei Minggu / sumber air / pompa: [`catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md) & [`catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md`](../catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md).
+- Jika butuh kutipan mentah transkrip Audio 1/2/sayuran: [`catatan/DATA_MITRA_LENGKAP.md`](../catatan/DATA_MITRA_LENGKAP.md) *(tidak perlu dibaca penuh setiap awal chat)*.
+- Jika akan merevisi naskah `CD-3`: baca [`CD-2 Final ACC`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf), template resmi di `sumber/template/`, serta [`Jadwal_PTA`](../sumber/rubrik-jadwal/Jadwal_PTA%20--%20Rubrik%20PTA%20--%202627%20%281%29.pdf).
 
-> Lanjutkan proyek ini. Revisi CD-1 berdasarkan catatan dosen berikut: [catatan dosen].
+---
 
-Dokumentasi resmi Antigravity menyebut `AGENTS.md`/`GEMINI.md` sebagai aturan workspace dan mendukung include `@[label](path)`. Konfigurasi repo mengikuti bentuk tersebut; pemuatan langsung pada aplikasi pengguna belum diuji dalam sesi ini. Jika konteks tidak terbaca pada versi aplikasi yang digunakan, cukup tulis:
+## Contoh Prompt Singkat Chat Baru
 
-> Baca AGENTS.md dan dua file konteks yang dirujuk sebelum mengerjakan tugas saya.
+> Lanjutkan proyek PTA Jeruk Limau sesuai konteks terbaru (`14 Nov 2026`). Ini hasil survei Minggu di Ciberes: [tempel data], bantu analisis keputusan desain & pembaruan CD-3.
 
-Sumber konfigurasi: [Google Antigravity — Rules](https://antigravity.google/docs/rules), diperiksa 9 Oktober 2026.
+Jika di chat baru masih ingin lanjut tanya-jawab pra-survei:
+> Lanjutkan diskusi PTA Jeruk Limau sesuai ringkasan terbaru repo. Pertanyaan saya: [tulis pertanyaan].
 
-## Urutan baca AI
+---
 
-1. `AGENTS.md`: tujuan repo, fakta inti, batas data, dan aturan mengedit.
-2. `konteks-ai/KONTEKS_PROYEK.md`: riwayat koreksi, seluruh fakta, sumber, batasan, dan keputusan yang masih terbuka.
-3. `konteks-ai/STATUS_DAN_TINDAK_LANJUT.md`: hasil yang sudah selesai, pengesahan yang belum tersedia, serta pengukuran berikutnya.
-4. `catatan/DATA_MITRA_LENGKAP.md`: seluruh data mitra, asal angka, perhitungan, foto, serta transkrip utuh Audio 1/2 dan wawancara sayuran.
-5. Berkas aktif dan sumber yang relevan dengan tugas. Untuk revisi laporan, baca DOCX aktif, template asli, buku panduan, dan rubrik; ekstraksi teks saja belum memeriksa layout.
+## Peta Folder Aktif
 
-## Peta folder dan fungsi berkas
-
-| Lokasi dari root repo | Fungsi |
+| Lokasi dari Root Repo | Fungsi |
 |---|---|
-| `dokumen/cd1/CD1_Jeruk_Limau.docx` | Satu laporan Word aktif yang diedit pada nama yang sama. |
-| `dokumen/cd1/CD1_Jeruk_Limau.pdf` | PDF pendamping dari DOCX yang sama; snapshot 25 halaman. |
-| `catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md` | Bacaan mahasiswa, penjelasan singkat, data, dan jawaban bimbingan. |
-| `catatan/DATA_MITRA_LENGKAP.md` | Induk data mitra: lahan, budidaya, alur air, biaya, masalah, estimasi, sumber, dan transkrip lengkap. |
-| `catatan/REFERENSI_CD1.md` | Daftar 36 referensi dari DOCX aktif; nomor mengikuti sitasi. |
-| `konteks-ai/` | Konteks, status, dan panduan memulai chat baru. |
-| `sumber/template/` | Template akademik asli CD-1. |
-| `sumber/panduan/` | Buku panduan capstone. |
-| `sumber/rubrik-jadwal/` | Jadwal dan rubrik PTA semester 2026/2027. |
-| `sumber/riset/` | Laporan riset terdahulu, sebagai referensi yang perlu diperiksa sebelum dikutip. |
-| `sumber/dokumentasi/` | Foto, citra, video, transkrip Audio 1/2; lokasi lain dipisahkan. |
-| `work/` | Berkas sementara/QA; diabaikan Git dan biasanya tidak ikut clone. |
+| [`dokumen/cd1/`](../dokumen/cd1/) & [`dokumen/cd2/`](../dokumen/cd2/) | **Berkas Final ACC** (`CD-1` 26 hlm & `CD-2` 26 hlm — **terkunci**). |
+| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace usulan `CD-3` & simulasi (terpisah dari draf rekan `dokumen/cd3/`, ditahan sampai survei Minggu). |
+| [`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) | Induk keputusan desain, *scope Pure 15 L*, hardware, & analisis zona aman `100 m+`. |
+| [`catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md) | Kajian saluran irigasi vs parit, elevasi hisap `Δz`, kabel `12 V`, & form ukur air. |
+| [`catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md`](../catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md) | Checklist survei lapangan Minggu (`Pos A–G`). |
+| [`catatan/PAPARAN_SOLUSI_UNTUK_MITRA.md`](../catatan/PAPARAN_SOLUSI_UNTUK_MITRA.md) | Ringkasan non-teknis solusi & 6 kesepakatan diskusi dengan mitra. |
+| [`catatan/DATA_MITRA_LENGKAP.md`](../catatan/DATA_MITRA_LENGKAP.md) | Induk data mitra & reproduksi penuh transkrip Audio 1/2 + sayuran *(kamus referensi)*. |
+| [`catatan/arsip/`](../catatan/arsip/README.md) | Arsip catatan historis tahap `CD-1` & `CD-2` yang sudah selesai (disimpan rapi agar tidak membebani chat baru). |
+| `sumber/` & `work/` | Bahan sumber asli (**hanya-baca**) & folder sementara QA (`work/` diabaikan Git). |
 
-Seluruh `sumber/` hanya-baca. Folder awal `C:/Users/daffa/Documents/PTA jeruk limau` dan mirror ChatGPT bukan clone aktif ini. Pada komputer lain, gunakan lokasi clone sendiri dan jalur relatif di atas.
+---
 
-## Yang harus langsung dipahami
-
-Tahap proyek adalah CD-1: analisis masalah, kompleksitas, dan perbandingan pendekatan yang tersedia. Air sungai dipompa ke tiga parit tanah yang terhubung melintang, lalu pekerja mengguyurkan air ke sekitar 500–600 pohon. Fokusnya pekerjaan tahap akhir dan volume yang belum terukur. Upah Rp400.000/kegiatan, interval sekitar tiga hari, serta acuan mitra minimal 15 L/pohon merupakan data awal; Rp48,7 juta/tahun dan 7,5–9 m³/kegiatan adalah skenario.
-
-Kebun tanpa PLN. Pompa dilaporkan memakai LPG hasil modifikasi mesin bensin. Tanah jeruk belum diuji; pemupukan dua kali setahun diketahui tetapi jenis/dosis belum tersedia. Hujan, tajuk, fase buah, dan air daerah akar perlu dinilai. Robot dari arahan bimbingan masih kandidat, sama seperti pendekatan lain. Jumlah pompa, kontroler, zona, dosis final, serta desain perangkat belum dipilih.
-
-## Jika chat hanya menerima lampiran
-
-Lampirkan `KONTEKS_PROYEK.md`, `STATUS_DAN_TINDAK_LANJUT.md`, `DATA_MITRA_LENGKAP.md`, serta DOCX/PDF aktif. Sertakan template/panduan/rubrik bila meminta revisi akademik dan sumber khusus yang diperlukan. Tautan GitHub private saja tidak memberi AI akses otomatis.
-
-Transkrip lengkap Audio 1/2 dan wawancara sayuran tersedia pada lampiran `catatan/DATA_MITRA_LENGKAP.md`. Lampiran sayuran asli tetap berada di luar repo, tetapi reproduksi teksnya dapat dibawa bersama MD ini. Foto/video tetap merupakan berkas terpisah yang ditautkan. Jangan mengaku mendengar audio asli; baca sumber yang relevan sebelum menggunakannya sebagai bukti baru.
-
-## Menjaga kesinambungan setelah pekerjaan
-
-Edit file aktif pada nama yang sama. Setelah DOCX berubah, perbarui PDF, jumlah halaman, dan periksa hasil render. Selaraskan ringkasan bimbingan, referensi, konteks, dan status. Cek `git status` serta branch/remote sebelum sinkronisasi; commit dan push mengikuti permintaan pengguna. Pekerjaan lapangan, bimbingan, tanda tangan, dan hasil pengujian hanya dicatat jika benar-benar dikonfirmasi.
+## Jika Chat Hanya Menerima Lampiran File
+Lampirkan **`AGENTS.md`**, **`konteks-ai/KONTEKS_PROYEK.md`**, **`konteks-ai/STATUS_DAN_TINDAK_LANJUT.md`**, dan **`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`** (plus `KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md` jika membahas pompa/irigasi).

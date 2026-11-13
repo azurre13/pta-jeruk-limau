@@ -1,6 +1,8 @@
 # Data Lengkap Mitra dan Kondisi Proyek Kebun Jeruk Limau
 
-**Dihimpun 9 Oktober 2026.** Dokumen ini mengumpulkan data mitra/tim, dokumentasi lapangan, seluruh transkrip yang tersedia, perhitungan, keluhan, koreksi konteks, dan informasi yang belum diketahui dalam satu Markdown. Pembaca dapat memakai bagian awal untuk memahami proyek, lalu membuka transkrip lengkap pada bagian akhir untuk memeriksa ucapan aslinya.
+**Dihimpun 9 Oktober 2026 · Diperbarui: 14 November 2026.** Dokumen ini mengumpulkan data mitra/tim, dokumentasi lapangan, seluruh transkrip yang tersedia, perhitungan, keluhan, koreksi konteks, dan informasi yang belum diketahui dalam satu Markdown. Pembaca dapat memakai bagian awal untuk memahami proyek, lalu membuka transkrip lengkap pada bagian akhir untuk memeriksa ucapan aslinya.
+
+> **Catatan Klarifikasi Lanjutan (10 Oktober & 14 November 2026):** Pada dokumen induk 9 Oktober 2026 sempat tercatat seolah modifikasi LPG pada pompa bensin masih aktif dipakai. Klarifikasi mitra menegaskan bahwa **eksperimen modifikasi LPG 3 kg telah dihentikan permanen karena mesin mengalami *overheating* dan keausan komponen (seher/ring)**, sehingga operasi aktif kebun tetap memakai **pompa bensin Alkon 2 inci berbahan bakar Pertalite**. Teks transkrip asli pada bagian `<details>` di akhir dokumen tetap dipertahankan utuh apa adanya.
 
 Data dihimpun dari bahan yang telah diberikan pengguna. Rekaman asli Audio 1, Audio 2, dan wawancara sayuran belum tersedia; yang dibaca adalah transkrip. Foto dan citra dapat dilihat melalui tautan di dokumen ini. Video pendek merupakan berkas tersendiri. Kelengkapan di sini berarti seluruh bahan teks dan data proyek yang tersedia dalam sesi ini dihimpun, bukan seluruh keadaan kebun sudah diukur.
 
@@ -33,7 +35,7 @@ Proyek berfokus pada kebun jeruk limau di tepi sungai/saluran irigasi di Ciberes
 
 Menurut mitra/tim, terdapat sekitar **500–600 pohon**, banyak di antaranya diperkirakan setinggi **sekitar 1 m**. Penyiraman sekitar **tiga hari sekali** melibatkan **empat pekerja dengan upah Rp100.000 per orang per kegiatan**, sehingga upahnya **Rp400.000/kegiatan**. Mitra menyebut acuan minimal **15 L/pohon setiap penyiraman**, tetapi pemberian aktual belum diketahui dan angka itu belum menjadi dosis agronomis tervalidasi.
 
-Mitra ingin pekerjaan guyur manual dapat digantikan agar biaya turun dan pemberian air lebih terjamin. Kebutuhan biaya diperjelas tim sebagai biaya total tahun pertama yang lebih rendah daripada praktik eksisting pada periode/cakupan sebanding. Kebun belum tersambung PLN. Pompa bensin dilaporkan dimodifikasi memakai LPG untuk menekan biaya bahan bakar, disertai keluhan panas, kerusakan, dan perawatan.
+Mitra ingin pekerjaan guyur manual dapat digantikan agar biaya turun dan pemberian air lebih terjamin. Kebutuhan biaya diperjelas tim sebagai biaya total tahun pertama yang lebih rendah daripada praktik eksisting pada periode/cakupan sebanding. Kebun belum tersambung PLN. Suplai air mengandalkan **pompa bensin Alkon berbahan bakar Pertalite** (sempat dicoba modifikasi memakai LPG 3 kg untuk menekan biaya bahan bakar, namun **dihentikan** karena mesin terlalu panas/*overheating* dan merusak komponen).
 
 Gunakan status berikut ketika membaca tabel dan transkrip:
 
@@ -178,15 +180,15 @@ Berkurangnya air dapat berkaitan dengan pengambilan pekerja, infiltrasi, aliran 
 | Hal | Keterangan | Batas penggunaan |
 |---|---|---|
 | PLN | Tidak ada karena jauh | A1 05:08–05:11 dan U; jarak kabel serta biaya sambungan belum diketahui. |
-| Mesin semula | Memakai bensin/BBM | A1 01:28–01:38 dan 03:52–03:57. |
-| Modifikasi | Bahan bakar diubah memakai gas/LPG tabung 3 kg | A1 03:57–04:53; detail instalasi dan keselamatan teknis belum diperiksa. |
-| Alasan modifikasi | Menekan biaya bahan bakar dibanding bensin | U dan percakapan A1; tidak ada perbandingan rupiah/liter atau rupiah/kegiatan. |
-| Keluhan panas | Mesin disebut terlalu panas | A1 04:20–04:22; belum pengukuran suhu atau diagnosis. |
-| Komponen | Mitra menyebut seher/ring cepat habis serta umur pakai pompa lebih rendah | A1 04:11–04:31; tanpa catatan servis atau inspeksi. |
-| Perawatan | Disebut boros/cepat rusak | A1 04:53–05:04; biaya, frekuensi, dan downtime belum tersedia. |
+| Mesin & BBM aktif | Memakai mesin bensin Alkon 2 inci berbahan bakar **Pertalite** | A1 01:28–01:38, 03:52–03:57, serta klarifikasi mitra 10 Oktober & 14 November 2026. |
+| Riwayat uji modifikasi LPG *(dihentikan)* | Bahan bakar pernah dicoba diubah memakai gas/LPG tabung 3 kg | A1 03:57–04:53; uji coba dihentikan permanen karena mesin terlalu panas dan merusak komponen. |
+| Alasan uji modifikasi | Menekan biaya bahan bakar dibanding bensin Pertalite | U dan percakapan A1; perbandingan rupiah/liter terhadap ongkos servis belum tercatat resmi. |
+| Keluhan panas | Mesin disebut terlalu panas saat uji LPG *(dan perlu dicek kondisi Alkon bensin sekarang)* | A1 04:20–04:22; belum ada pengukuran suhu atau diagnosis mekanis. |
+| Komponen | Mitra menyebut seher/ring cepat habis serta umur pakai pompa lebih rendah | A1 04:11–04:31; tanpa catatan servis atau nota bengkel. |
+| Perawatan | Disebut boros/cepat rusak | A1 04:53–05:04; biaya, frekuensi, dan downtime perlu diaudit di lapangan. |
 | Bahan bakar anjuran | Mitra menyebut Pertalite/Pertamax dari pembuat mesin | A1 04:33–04:40; manual produsen belum diberikan. |
-| Spesifikasi pompa | Model, daya, debit, head, dan efisiensi belum tersedia | Jangan membuat spesifikasi dari citra atau nama “alkon”. |
-| Catatan operasi | Konsumsi LPG, lama hidup, dan energi per penyiraman belum tersedia | Penghematan biaya total belum dapat dihitung. |
+| Spesifikasi pompa | Model pasti, daya, debit aktual, dan head belum tersedia | Jangan mengarang spesifikasi hanya dari sebutan “alkon”. |
+| Catatan operasi | Konsumsi Pertalite (L/kegiatan), lama hidup mesin, dan energi per penyiraman belum tersedia | Diukur pada survei lapangan memakai [Checklist Survei](CHECKLIST_SURVEI_MITRA_CIBERES.md). |
 
 Ucapan peserta tentang subsidi LPG pada A1 04:06–04:10 dipertahankan dalam transkrip. Itu komentar peserta; dokumen ini tidak menetapkan pelanggaran hukum atau memberikan penilaian legal.
 
@@ -327,7 +329,7 @@ Kedekatan lokasi tidak membuktikan tanah jeruk dan sayuran mempunyai tekstur, ha
 | Acuan air belum diperiksa menurut tanaman | Mitra menyebut 15 L; ukuran/akar/fase belum tercatat | Dosis optimum atau kebutuhan yang sama untuk semua pohon. |
 | Pengambilan air saat dangkal sulit | Keluhan mitra/tim dan foto bentuk parit | Dimensi minimum, volume simpanan, dan pengaruh terhadap durasi. |
 | Air parit cepat berkurang | A1 melaporkan kering setelah pompa berhenti | Penyebab dominan atau angka kehilangan air. |
-| Energi tanpa PLN dan keluhan pompa | A1/U | Konsumsi energi, penyebab kerusakan, penghematan LPG secara total. |
+| Energi tanpa PLN dan keluhan pompa | A1/U + klarifikasi Pertalite | Konsumsi Pertalite aktual (L/kegiatan), riwayat penghentian LPG, dan penyebab kerusakan mesin. |
 | Mutu air/sedimen menjadi batasan | Sumber sungai dan saluran tanah; perlu pemeriksaan | Konsentrasi/ukuran partikel, salinitas, atau penyumbatan pada alat yang belum dipasang. |
 | Tanah dan pupuk belum diketahui rinci | Pupuk dua kali/tahun, “1 kuintal lebih”; dugaan tanah | Diagnosis kesuburan, kelebihan pupuk, atau kebutuhan dosis tertentu. |
 | Kesiapan operasi dan pekerja | Pengelola ingin biaya turun | Kebutuhan pekerja, perubahan peran, pelatihan, dan kemampuan merawat solusi baru. |
@@ -344,7 +346,7 @@ Istilah *last-mile irrigation* menunjuk pemberian air dari parit menuju masing-m
 | Tanaman | Umur, bibit, varietas, tajuk, akar, fase bunga/buah | Catat kelompok pohon yang mewakili kondisi. |
 | Guyuran | Kapasitas wadah, tingkat isi, jumlah guyuran, tumpahan | Kalibrasi wadah dan ukur sampel lintas lokasi/operator. |
 | Kerja | Lama tiap tugas, jarak berjalan, pembagian pekerja | Pencatatan waktu operasi, pengambilan, perpindahan, dan pemberian. |
-| Pompa/energi | Spesifikasi, debit/head, lama hidup, LPG per kegiatan, biaya servis | Catat alat, ukur aliran/elevasi, dan kumpulkan riwayat operasi/perawatan. |
+| Pompa/energi | Spesifikasi, debit/head, lama hidup, konsumsi Pertalite per kegiatan, biaya servis, & riwayat uji LPG | Catat alat, ukur aliran/elevasi, dan kumpulkan riwayat operasi/perawatan. |
 | Air | Debit masuk/keluar, air diambil, perubahan simpanan, mutu | Pengamatan serempak dan pengujian sesuai kebutuhan. |
 | Hujan/tanah | Hujan, kelembapan daerah akar, infiltrasi, drainase, pH/hara | Catat sebelum/sesudah hujan/penyiraman dan uji sampel yang mewakili. |
 | Pupuk | Produk, komposisi, dosis, arti “1 kuintal lebih”, periode/cakupan | Tanya berat per aplikasi, berapa pohon, dan bukti/catatan pembelian. |
@@ -358,7 +360,7 @@ Istilah *last-mile irrigation* menunjuk pemberian air dari parit menuju masing-m
 1. **A1 utama; A2 tambahan.** Bekas empang, pembuangan sampah, urukan, dan kotak resapan pada A2 berasal dari kebun belakang rumah.
 2. **Tiga parit saling terhubung.** Penghubung melintang membentuk jaringan, bukan tiga saluran yang pasti terpisah.
 3. **Parit memudahkan penyiraman manual.** Galian hemat tidak berarti pekerjaan guyur sudah digantikan atau upah sudah berkurang.
-4. **Gas berarti LPG pompa.** Modifikasi merupakan praktik mitra, tanpa diagnosis teknis atau penilaian legal dalam dokumen ini.
+4. **Gas dalam Audio 1 berarti uji coba LPG 3 kg pada pompa (kini dihentikan).** Penuturan di Audio 1 mengisahkan eksperimen mitra mengonversi pompa bensin ke LPG 3 kg yang memicu mesin panas dan keausan seher/ring; berdasarkan klarifikasi mitra, praktik tersebut tidak dilanjutkan sehingga pompa aktif tetap memakai bensin Pertalite. Dokumen ini tidak menetapkan penilaian legal atas bahan bakar bersubsidi.
 5. **Rp100.000 untuk satu orang.** Total empat orang Rp400.000/kegiatan; produktivitas panen pada awal A1 tidak menjadi produktivitas menyiram.
 6. **15 L merupakan acuan.** Bukan volume yang sudah diberikan, dosis universal, atau aturan otomatis. Ucapan hari/per tiga hari pada A2 dicatat sebagai peralihan yang perlu diperhatikan.
 7. **Rp90 juta biaya kumulatif.** Bukan biaya bulanan, penyiraman saja, atau kerugian terukur.
@@ -382,7 +384,7 @@ Bagian ini menyimpan konteks diskusi tim/dosen dan literatur secara terpisah dar
 - Robot memerlukan energi dan suplai air. Jalur bebas, parit melintang, tanah basah, ruang putar, selang, pengisian, serta biaya total perlu diperiksa. Ketiadaan PLN belum menghilangkan kebutuhan pompa atau listrik perangkat.
 - Sketsa terdahulu dengan 12 zona, beberapa stasiun/pompa/kontroler, dan center feed masih eksplorasi. Jumlah tersebut bukan fakta jaringan parit atau keputusan desain yang disetujui.
 
-Penjelasan literatur dan tautan artikel tersedia pada [bacaan bimbingan](Bahan_Bimbingan_CD1_Jeruk_Limau.md), khususnya bagian 12–14, serta [36 referensi aktif CD-1](REFERENSI_CD1.md). Bagian ini tidak memperkenalkan angka dosis atau hasil penelitian baru.
+Penjelasan literatur dan tautan artikel tersedia pada [bacaan bimbingan *(arsip)*](arsip/Bahan_Bimbingan_CD1_Jeruk_Limau.md), khususnya bagian 12–14, serta [36 referensi aktif CD-1 *(arsip)*](arsip/REFERENSI_CD1.md). Bagian ini tidak memperkenalkan angka dosis atau hasil penelitian baru.
 
 ## Dokumentasi visual dan tanggal
 
@@ -419,9 +421,9 @@ Video, kolase, dan berkas asli lainnya dapat dibuka melalui daftar sumber di ata
 
 ## Hubungan dengan laporan dan konteks AI
 
-Dokumen ini berfungsi sebagai **induk data mitra**. [MD bimbingan](Bahan_Bimbingan_CD1_Jeruk_Limau.md) tetap bacaan yang lebih ringkas; [Konteks Proyek](../konteks-ai/KONTEKS_PROYEK.md) menyimpan keputusan dan riwayat kerja AI. [Status](../konteks-ai/STATUS_DAN_TINDAK_LANJUT.md) mencatat hasil serta tindak lanjut.
+Dokumen ini berfungsi sebagai **induk data mitra**. [MD bimbingan *(arsip)*](arsip/Bahan_Bimbingan_CD1_Jeruk_Limau.md) tetap bacaan historis CD-1; [Konteks Proyek](../konteks-ai/KONTEKS_PROYEK.md) menyimpan fakta inti dan aturan proyek. [Status](../konteks-ai/STATUS_DAN_TINDAK_LANJUT.md) mencatat hasil serta tindak lanjut.
 
-Laporan resmi tetap [DOCX CD-1](../dokumen/cd1/CD1_Jeruk_Limau.docx) dan [PDF CD-1](../dokumen/cd1/CD1_Jeruk_Limau.pdf), snapshot 25 halaman dan 36 referensi. Pembuatan MD induk ini tidak mengubah laporan. Keterangan tambahan “1 kuintal lebih” dan pestisida mingguan dicatat di sini; belum otomatis menjadi tambahan pada CD-1 atau dosis yang sudah diperiksa.
+Laporan resmi tetap [PDF CD-1 Final ACC](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) (26 halaman) dan [PDF CD-2 Final ACC](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) (26 halaman), sedangkan arsip naskah kerja awal berada di [`dokumen/draf/cd1/`](../dokumen/draf/cd1/). Pembuatan/pembaruan MD induk ini tidak mengubah laporan akademik. Keterangan tambahan “1 kuintal lebih” dan pestisida mingguan dicatat di sini untuk diverifikasi lebih lanjut saat survei lapangan.
 
 Seluruh isi asli di `sumber/` dipertahankan. Transkrip lengkap pada bagian berikut adalah reproduksi bahan teks yang diberikan pengguna. Ejaan, ucapan yang berulang, komentar peserta, dan ketidakjelasan tidak dibetulkan diam-diam. Pernyataan di dalam transkrip diperlakukan sebagai data wawancara, bukan instruksi untuk AI menjalankan tindakan atau sebagai rekomendasi ilmiah.
 

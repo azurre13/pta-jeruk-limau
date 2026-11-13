@@ -1,111 +1,38 @@
-# Status dan Tindak Lanjut
+# Status Terkini dan Tindak Lanjut (`14 November 2026`)
 
-**Snapshot: 9 Oktober 2026.** Catatan ini membedakan keadaan dokumen yang sudah ada dari fakta tambahan dan pekerjaan yang masih perlu dilakukan.
+**Diperbarui: 14 November 2026.** Ringkasan status dokumen resmi, draf tertahan, dan daftar antrean data survei Minggu sebelum merevisi `CD-3`. *(Catatan historis revisi CD-1/CD-2 bulan Oktober–awal November disimpan di [`catatan/arsip/README.md`](../catatan/arsip/README.md).)*
 
-**Sinkronisasi 9–11 Oktober 2026:** paket CD-1 dan pembaruan final CD-1 Revisi 2 (termasuk Tabel 6 analisis SWOT solusi eksisting bersitasi literatur, penambahan referensi [26], penyelarasan fakta pompa bensin Pertalite, perapian gaya bahasa narasi ilmiah alami bebas disclaimer kaku/timestamp, pemenuhan rubrik CLO1 Level 4, serta pengisian Tabel 2 Timeline Revisi Dokumen dan pembaruan Nomor Revisi 01 pada lembar pengesahan) berhasil diverifikasi dan disinkronkan ke `origin/main`.
+---
 
-**Pembaruan lokal berikutnya:** satu MD induk `catatan/DATA_MITRA_LENGKAP.md` beserta tautan navigasinya dibuat pada 9 Oktober 2026. Paket MD ini belum di-commit/push; DOCX/PDF dan sumber asli tetap sama.
+## 1. Status Berkas Akademik
 
-## Sudah selesai
-
-- **Penyusunan Resmi Naskah CD-2 dan Dokumen Diskusi (28 Oktober – 1 November 2026):**
-  - Penyusunan dokumen induk diskusi: `catatan/Bahan_Diskusi_dan_Arah_CD2.md` mencakup landasan perancangan, klarifikasi status mitra dan prototipe mahasiswa (merujuk Buku Panduan Hal. 7, 11, 21, 22), analisis medan parit dan foto tapak, rasionalitas anggaran Rp6.000.000, serta pertimbangan deteksi posisi pohon dan netralitas solusi (*solution-agnostic*).
-  - Penulisan naskah akademik CD-2 resmi: `dokumen/cd2/CD2_Jeruk_Limau.docx` dan ekspor PDF resmi `dokumen/cd2/CD2_Jeruk_Limau.pdf` (pas 25 halaman) menggunakan template resmi `sumber/template/FTE-CD-2_edited-PBD-1.docx`.
-  - Struktur memenuhi 100% template resmi dan seluruh kriteria Level 4 rubrik Capstone CLO2:
-    - Sub-bab 1.1: 4 dasar rujukan penentuan spesifikasi (Wawancara Mitra Audio 1 & 2 Ciberes, Standar Industri ASABE S398.1:2021 & IEC 60529/62124/SELV, Regulasi PP No. 20/2006 & Permentan 49/2014 serta Fisiologi Jeruk Limau FAO-56, serta Riset Mutakhir Paten CN115804333A 2023, Elkaoud 2025, Nurwidiana 2022, Jiang 2023).
-    - Sub-bab 1.2: 5 Batasan Mutlak C-01 s.d. C-05 dan Matriks 14 Spesifikasi Kuantitatif Terukur S-01 s.d. S-14 (Tabel 3) lintas aspek (Teknis, Ekonomi, Lingkungan, Operasional) yang *solution-agnostic*, didukung 7 persamaan rekayasa native OMML. Plafon anggaran (Tabel 4) memisahkan CAPEX prototipe mahasiswa ($\le$ Rp6.000.000; realisasi BOM $\sim$Rp4,63 Juta) dan studi kelayakan kebun mitra (Rp12–15 Juta; *Payback Period* 4–6 bulan).
-    - Sub-bab 1.3: Matriks Verifikasi Tabel 5 (metode uji, parameter, instrumen terkalibrasi, kriteria kelulusan) dan 5 sub-prosedur pengujian terperinci.
-    - Sub-bab 1.4: Kesimpulan pemetaan kembali ke CD-1 dan kesiapan penyusunan 3 alternatif solusi di CD-3.
-    - Daftar Pustaka: 22 referensi ilmiah mutakhir rentang 2016–2026 dalam format baku IEEE tervalidasi DOI resmi.
-
-- Pembaruan dan finalisasi CD1 Revisi 3 selesai pada 12 Oktober 2026:
-  - Sistematika Sub-bab 1.2 dirombak terstruktur berdasar aspek rekayasa (Aspek Teknis 1.2.1, Aspek Ekonomi 1.2.2, Aspek Lingkungan 1.2.3, Aspek Operasional & Kemitraan 1.2.4, serta Sintesis Masalah 1.2.5).
-  - Tabel 4 (Kompleksitas Permasalahan) dilengkapi sitasi literatur ilmiah pendukung pada setiap kriterianya ([7], [12], [13], [17] pada Kriteria 1; [1], [2], [3], [11], [26] pada Kriteria 2; [15], [19], [24] pada Kriteria 3; dan [1], [11], [20] pada Kriteria 7).
-  - Tata letak Tabel 4, Tabel 5, dan Tabel 6 dirapikan mematuhi aturan baku Buku Panduan FTE Hal. 13 ("Tabel tidak boleh terpotong saat berpindah halaman"), masing-masing tampil utuh satu halaman penuh tanpa orphan caption dan tanpa kalimat terpotong di dasar halaman.
-  - Bahasa pemeriksa ejaan diatur ke `id-ID` (Bahasa Indonesia).
-  - Gaya bahasa dibersihkan dari jejak menit rekaman audio dan istilah bahasa Inggris ganda dalam kurung.
-  - Metadata Lembar Pengesahan diselaraskan: Nomor Revisi 02, Jumlah Halaman 24 halaman.
-  - Berkas DOCX dan PDF CD1 Revisi 3 siap dikirimkan kembali ke dosen pembimbing (Pak Agung).
-
-- Pengisian Tabel 2 (Timeline Revisi Dokumen) dan pembaruan Nomor Revisi pada CD1 Revisi 2 selesai pada 11 Oktober 2026:
-  - Tabel 0 (Lembar Pengesahan): Nomor Revisi diperbarui menjadi `01`, Jumlah Halaman tetap `23 halaman`.
-  - Tabel 2 (Timeline Revisi Dokumen): diisi 2 butir riwayat perbaikan formal berdasarkan bimbingan Pembimbing 1 (Pak Agung):
-    1. Revisi diagram Gambar 1 menjadi diagram alir proses penyiraman eksisting riil di kebun mitra Ciberes (sungai -> pompa alkon -> tiga parit tanah -> penimbaan ember -> pengguyuran tiap pohon), Halaman Revisi `1, 2`.
-    2. Penambahan analisis SWOT pada solusi eksisting (Tabel 6 Sub-bab 1.4.4) beserta sintesis kesenjangan solusi/gap analysis arah inovasi Capstone (Sub-bab 1.4.5), Halaman Revisi `15, 16`.
-  - Tiga baris tersisa dipertahankan kosong sesuai format template resmi FTE-CD-1.
-  - Perataan teks dan tipografi dirapikan (kolom versi & halaman dibuat tengah/center, kolom uraian dibuat kiri/left dengan font Times New Roman 11 pt) agar tidak terdistorsi justifikasi sempit.
-  - Berkas PDF diekspor ulang via Word COM dengan total halaman pas 23 halaman dan diverifikasi visual.
-
-- Perapian gaya bahasa dan finalisasi CD1 Revisi 2 selesai pada 10–11 Oktober 2026: narasi dihaluskan agar mengalir alami sebagai karya tulis rekayasa matang, kalimat sanggahan defensif diubah menjadi deskripsi konstruktif, timestamp audio dihilangkan dari teks utama, kebocoran konteks luar dibersihkan, dan sisa teks lama di kesimpulan diselaraskan dengan efisiensi bahan bakar Pertalite. Tabel 6 SWOT 5 kolom bersitasi lengkap tetap utuh di Halaman 18, dan total dokumen pas di 23 halaman. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
-
-- Finalisasi CD1 Revisi 2 awal selesai pada 10 Oktober 2026: Tabel 6 SWOT diselaraskan dengan fakta operasional pompa bensin Pertalite (uji coba LPG masa lalu dihentikan karena mesin panas), dilengkapi sitasi ilmiah pada setiap butir kelebihan/kelemahan, dan referensi [26] Graham & Timmer (penyakit genangan perakaran jeruk) ditambahkan ke Daftar Pustaka. Metadata sampul disinkronkan ke 23 halaman. Audit menyeluruh memastikan dokumen memenuhi kriteria Level 4 (Maksimal) pada rubrik penilaian Capstone CLO1 dan siap diajukan ke pembimbing untuk ACC. Berkas DOCX dan PDF diperbarui dan dipush ke GitHub.
-
-- MD induk [Data Mitra Lengkap](../catatan/DATA_MITRA_LENGKAP.md) menghimpun seluruh data yang tersedia, estimasi, keluhan, sumber visual, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Asal/status fakta dan lokasi dipisahkan. Pupuk “1 kuintal lebih”, pestisida mingguan, serta ketidakjelasan angka luas sayuran dicatat untuk konfirmasi; tidak diubah menjadi dosis, diagnosis, atau tambahan CD-1.
-
-- Handoff lintas AI diperbarui 9 Oktober 2026: AGENTS.md memuat konteks awal, GEMINI.md merujuk aturan yang sama, dan MULAI_CHAT_BARU.md menyediakan peta folder serta prompt singkat untuk Antigravity/AI lain. Pengguna meminta push paket pembaruan ke main; status remote diverifikasi melalui Git.
-
-- Perapian menyeluruh selesai pada 9 Oktober 2026: pengulangan dipadatkan, lima subjudul rinci 1.2.7 digabung menjadi narasi, penjelasan tabel diperjelas, dan jarak paragraf dirapikan. Struktur 1.1–1.5, tujuh kriteria asli, seluruh angka/asumsi, 36 referensi, gambar, serta empat persamaan Word dipertahankan. Pembaruan ini termasuk paket revisi repo 9 Oktober 2026; status sinkronisasi diperiksa dari Git.
-
-- Analisis kebutuhan air/tanaman diperluas pada 1.2.7; hujan, tajuk/akar, fase buah, dan hubungan tanah/pupuk dibahas dengan sumber. Tabel 3 menambah hujan/cuaca. 25 halaman, 36 referensi; 15 L tetap acuan mitra. Belum ada dosis tervalidasi atau bukti penurunan hasil di tapak.
-
-- Bagian 1.4 dirombak sesuai arahan pengguna: masalah yang belum teratasi menjadi fokus perbandingan manual/parit, basin/furrow, mikroirigasi, dan robot bergerak dari literatur. Tabel 5 serta kesimpulan diselaraskan; 25 halaman dan 36 referensi (termasuk satu pracetak). Robot belum dipilih.
-
-- Perluasan analisis tanah dan pemupukan setelah bimbingan selesai pada DOCX/PDF yang sama. Bagian 1.2.8 membedakan pemupukan jeruk dua kali setahun, dugaan kondisi tanah, dan wawancara sayuran dari lokasi berbeda. Tabel 3 serta kesimpulan diperbarui; 25 halaman dan 36 referensi. Audio 1 tetap utama.
-
-- Audit final isi, sumber, struktur template, rubrik, bahasa, dan layout selesai pada 8 Oktober 2026. Caption dan daftar pustaka memakai spasi 1,5; judul buku/jurnal dicetak miring; istilah eksisting konsisten. Sumber asli tidak diubah.
-
-- CD-1 mengikuti struktur template asli dan buku panduan, dengan 25 halaman serta 36 referensi dan empat persamaan Word bernomor.
-- Pada 8 Oktober 2026, judul BAB 1 “Analisis Permasalahan dan Kebutuhan” dan pengantar sebelum 1.1 serta sebelum 1.2.1 ditambahkan pada DOCX dan PDF yang sama. Layout seluruh halaman telah diperiksa.
-- Data observasi/mitra, perhitungan skenario, dan literatur dibedakan.
-- Volume guyuran aktual belum diketahui; 15 L merupakan acuan mitra; 7,5–9 m³ merupakan skenario.
-- Audio 1 menjadi sumber utama dan Audio 2 tambahan dengan konteks kebun belakang rumah dipisahkan.
-- Tujuan parit diperjelas: memudahkan penyiraman manual dengan galian sederhana dan hemat.
-- Kondisi tanpa PLN, laporan modifikasi pompa bensin memakai LPG tabung 3 kg untuk menekan biaya bahan bakar, dan keluhan perawatan dibahas; diagnosis belum dilakukan.
-- Tujuan mitra menggantikan pekerjaan guyur manual untuk menurunkan biaya telah masuk CD-1 dan MD.
-- Tabel 4 memakai bahasa sederhana. Kriteria 1, 2, dan 7 didukung analisis; nomor 3 diajukan dengan penjelasan hubungan air, energi, pekerjaan, dan biaya setelah tabel. Model belum diuji; penilaiannya dibahas dengan dosen. Kriteria 6 belum didukung kebutuhan pekerja yang terdokumentasi.
-- Kebutuhan air yang lebih terjamin, skenario upah sekitar Rp48,7 juta setahun, dan target biaya total tahun pertama lebih rendah sudah masuk CD-1 serta ringkasan bimbingan. Upah tahunan adalah perhitungan bersyarat, bukan pengeluaran yang telah dicatat.
-- Timeline revisi kosong dan nomor revisi akademik 00. Satu DOCX dan satu PDF aktif.
-
-**Status repo pada 9 Oktober 2026:** GitHub menunjukkan public; penyebutan private pada catatan lama telah dikoreksi. Tujuan push tetap origin/main pada azurre13/pta-jeruk-limau.
-
-## Status data dan verifikasi lanjutan
-
-| Hal | Status sekarang | Tindakan berikutnya |
+| Dokumen / Folder | Status Sekarang | Aturan Kerja |
 |---|---|---|
-| Penghubung melintang tiga parit | Sudah masuk deskripsi, tabel data, dan kesimpulan CD-1. | Ukur geometri jaringan pada tahap verifikasi lapangan. |
-| Gas sebagai LPG | Sudah diperjelas sebagai LPG pada CD-1 dan ringkasan. | Catat pemakaian dan biaya perawatan aktual; belum ada diagnosis kerusakan. |
-| Kebutuhan pekerja | Pengelola ingin menekan biaya guyur manual; kebutuhan pekerja belum didokumentasikan khusus. | Catat pihak, kebutuhan, dan perubahan peran berdasarkan data yang dikonfirmasi. Jangan otomatis mengklaim nomor 6 terpenuhi. |
-| Identitas mitra | Lokasi ada, nama usaha/pengelola belum dicantumkan. | Lengkapi jika diberikan pengguna. Jangan membuat nama mitra. |
+| [`dokumen/cd1/`](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 halaman`, ttd Pembimbing 1)** | **Terkunci / Jangan Diubah.** |
+| [`dokumen/cd2/`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 halaman`, ttd `4/11/2026`, `C-01..C-05`, `S-01..S-14`)** | **Terkunci / Acuan Mengikat `CD-3`.** |
+| `dokumen/cd3/` & `dokumen/draf/cd3/` | Draf kolaborasi rekan tim (`34 halaman` / tabel `6 halaman`) | Jangan ditimpa. |
+| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace draf terpisah (`23 hlm` + tabel `4 hlm`, simulasi, BOM purwarupa `Rp4,85 jt` / penuh `Rp17,79 jt`) | **Ditahan dulu** hingga data survei Minggu terkumpul. |
 
-## Sebelum pengumpulan
+---
 
-- Dapatkan **tanda tangan basah Pembimbing 1** pada halaman 2 dan isi tanggal pengesahan sesuai kenyataan.
-- Deadline CD-1 menurut jadwal: **15 Oktober 2026**. Rubrik menyatakan tanpa tanda tangan atau terlambat, nilai 0.
-- Target bimbingan minimal dua kali untuk CD-1 telah terpenuhi. Dokumen `dokumen/cd1/LOGBOOK1 Catatan Diskusi Pembimbing.docx` telah diisi lengkap dengan 5 catatan bimbingan/asistensi (18 Sep, 25 Sep, 8 Okt tatap muka; 10 Okt, 12 Okt via WhatsApp). Baris kosong disediakan untuk paraf dosen dan bimbingan tahap selanjutnya.
-- Ikuti instruksi dosen/LMS untuk format pengumpulan. Kewajiban softfile/hardcopy/MoM belum dinyatakan eksplisit dalam sumber yang diperiksa.
-- DOCX/PDF audit final konsisten, 25 halaman; 36 sitasi bernomor cocok dengan daftar pustaka dan seluruh tabel utuh.
-- Lampirkan bukti similarity maksimal 30% dari perangkat yang diakui sesuai panduan. Pemeriksaan ini belum dilakukan oleh AI.
-- Bahas pengajuan kriteria 3 dengan dosen. Rubrik dosen kelas mensyaratkan lebih dari tiga unsur untuk Level 4; dasar kriteria 1, 2, 7 dan pengajuan nomor 3 tidak menjadi jaminan nilai.
+## 2. Daftar Antrean Data Survei Minggu & Revisi `CD-3`
 
-## Data lapangan untuk tahap berikutnya
+Panduan lapangan lengkap ada pada [`CHECKLIST_SURVEI_MITRA_CIBERES.md`](../catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md) (`Pos A–G`) dan lembar ukur sumber air pada [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md).
 
-1. Cacah pohon serta petakan tiga parit, penghubung, titik suplai, arah aliran, elevasi, dan batas kebun.
-2. Kalibrasi ember, hitung guyuran dan tumpahan, serta ukur sampel volume per pohon di awal/tengah/akhir jaringan.
-3. Catat durasi, pembagian tugas, dan biaya pekerja per kegiatan.
-4. Catat jenis pompa, riwayat modifikasi, pemakaian bahan bakar, waktu operasi, serta biaya/frekuensi perawatan.
-5. Ukur debit, kedalaman parit, tinggi air, dan perubahan setelah pompa berhenti untuk menilai neraca air.
-6. Periksa kualitas air/sedimen, infiltrasi, kelembapan dan kedalaman pembasahan daerah akar; konfirmasi identitas bibit, kelompok umur/tajuk, fase bunga/buah, serta dasar acuan 15 L. Catat hujan dan perubahan kelembapan sebelum/sesudah hujan; tidak ada aturan tetap pengurangan dosis yang sudah ditetapkan.
-7. Konfirmasi jenis, komposisi, dosis, waktu, cara, dan cakupan pemupukan jeruk. Lakukan pemeriksaan pH/indikator hara sesuai laboratorium setempat bila diperlukan; frekuensi dua kali setahun belum menunjukkan kecukupan atau tingkat kesuburan.
-8. Pisahkan wawancara sayuran dari tapak jeruk; jangan memindahkan dugaan pH labil/pemakaian kimia berlebih tanpa pemeriksaan kebun jeruk.
+| No | Item Terbuka | Status Pra-Survei (`14 Nov 2026`) | Tindakan Pasca-Survei (`CD-3`) |
+|---:|---|---|---|
+| 1 | **Sumber air irigasi, `Δz`, posisi pompa & kabel** | Opsi `Skenario B` (1 pompa pipa tertutup) vs `C1/C2`; aturan `Δz <= 2 m` kebun atas vs `> 2 m` boks bantaran + kabel `2×4–6 mm²`. | Ukur `Δz1/Δz2`, jarak lintasan nyata, status kemarau/gilir air, & kunci `B / C1 / C2`. |
+| 2 | **Geometri `P × L`, jumlah baris, & populasi riil** | Anomali hitungan antara klaim `500–600` pohon, `3` parit `~100 m`, dan lebar (`~6 m` vs `25–30 m`); draf `cd3_daffa` masih memodelkan petak uji `20 m × 3 baris`. | Sensus pohon per baris, ukur jarak tanam & patok petak uji presisi agar `CD-3` patuh `C-03 >= 25 m`. |
+| 3 | **Jumlah zona skala penuh (`S-03 <= 4,0 jam`)** | `bom_and_data.py` masih mencantumkan `10 zona @ 960 L/jam` (`9,38 jam > 4,0 jam`). Rekomendasi aman: **`4 zona`** (`3 jam 45 mnt`, `33,3–40 L/mnt`). | Selaraskan jumlah zona, kapasitas pompa DC, & BOM penuh di `bom_and_data.py` + `build_cd3_daffa.py` sesuai populasi riil. |
+| 4 | **Sensor tanah vs *Pure 15 L* (`S-01`, `S-04`, `S-13`)** | Audit `CD-2 Tabel 4` menunjukkan `S-01` diverifikasi `Flow meter` + wadah tera; arah minimalis memakai `Flow Meter + tombol tunggal` dengan `0–2` sensor lengas *interlock* hujan. | Kunci keputusan final jumlah sensor tanah (`0` vs `1–2` titik *Capacitive v1.2*) bersama tim/pembimbing. |
+| 5 | **Audit BBM Pertalite Alkon & sisa teks LPG di skrip** | MD & dokumen aktif sudah diluruskan; `dokumen/draf/cd3_daffa/build_cd3_daffa.py:554` masih menyebut `"dimodifikasi ke LPG"`. | Ukur konsumsi Pertalite (L/siklus) & biaya servis Alkon untuk *Payback Period*; perbaiki baris `554` saat revisi `CD-3`. |
+| 6 | **Identitas mitra, kebutuhan pekerja (`Kriteria 6`), sampel tanah & air** | Identitas usaha/pengelola belum tercantum; wawancara pekerja siram belum terdokumentasi; sampel tanah `1–2 kg` & air belum diambil. | Catat izin pencantuman nama & peran alih tugas pekerja (`Pos A`); bawa sampel tanah/air ke lab Bandung. |
 
-## Gagasan robot untuk kajian berikutnya
+---
 
-Dosen menyarankan robot otonom berselang menurut pengguna. Kelurusan jalur belum cukup untuk memastikan kelayakan. Periksa jalur bebas, parit melintang, tanah basah, ruang putar, pengelolaan selang, suplai/debit air, energi dan pengisian, serta biaya total. Pengoperasian tanpa PLN bukan tanpa listrik atau tanpa pompa. CD-2 memuat batasan/spesifikasi/verifikasi; minimal tiga alternatif dan pemilihan desain dibahas di CD-3. Pengguna meminta push seluruh pembaruan pada 9 Oktober 2026; periksa Git untuk status sinkronisasi terbaru.
+## 3. Disiplin Kerja & Target Terdekat
 
-## Belum diputuskan
-
-Metode irigasi akhir, pemanfaatan parit dalam solusi baru, jumlah pompa/kontroler/zona, ukuran pipa, emiter, sensor, sumber energi baru, target dosis air, dan anggaran implementasi. Sketsa 12 zona terdahulu tidak dianggap keputusan final.
-
-## Disiplin perubahan
-
-Edit `dokumen/cd1/CD1_Jeruk_Limau.docx` dan `.pdf` pada nama yang sama. Jangan mengedit sumber asli. Gunakan commit Git untuk riwayat teknis; timeline akademik hanya diisi berdasarkan revisi formal yang nyata. Perbarui catatan ini setelah pekerjaan benar-benar selesai, bukan hanya setelah disarankan.
+- Edit berkas DOCX/skrip `CD-3` hanya di `dokumen/draf/cd3_daffa/` setelah data Minggu diverifikasi; setelah edit DOCX selalu ekspor ulang PDF dan cek render visual.
+- Jangan mengedit `sumber/`, `dokumen/cd1/`, `dokumen/cd2/`, atau `dokumen/cd3/`.
+- Beri tanggal pembaruan di setiap `.md` yang diubah dan cek `git status` sebelum menyatakan kondisi sinkronisasi (commit/push hanya saat diminta pengguna).
+- **Target jadwal PTA:** `CD3-1` **10 Desember 2026** · `CD3-2` Gabungan **7 Januari 2027** · `SemPro` **11–16 Januari 2027**.

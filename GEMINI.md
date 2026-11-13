@@ -1,5 +1,6 @@
 # Konteks proyek PTA Jeruk Limau untuk Gemini dan Antigravity
 
+**Diperbarui: 14 November 2026.**  
 Repo ini adalah dokumentasi capstone kebun jeruk limau. Gunakan aturan dan konteks awal yang sama dengan agen lain:
 
 @[Aturan dan konteks proyek](AGENTS.md)

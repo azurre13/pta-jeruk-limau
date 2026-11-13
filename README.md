@@ -1,25 +1,26 @@
 # PTA Kebun Jeruk Limau
 
-Repositori dokumentasi proyek capstone kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus CD-1 adalah masalah penyiraman eksisting: air sungai/saluran irigasi dipompa ke parit tanah, kemudian pekerja mengambil air dan mengguyurkannya secara manual ke tiap pohon.
+**Tanggal Pembaruan:** 14 November 2026  
+Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom untuk kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus proyek adalah menyelesaikan permasalahan penyiraman tahap akhir (*last-mile irrigation*) tanpa listrik PLN dari jaringan parit tanah dan **pompa mesin bensin Alkon 2 inci (Pertalite)** milik mitra.
 
 **Pemilik repositori:** azurre13  
-**Status:** CD-1, analisis masalah dan kajian solusi eksisting. Rancangan alat akhir belum dipilih; robot berselang termasuk gagasan yang dikaji.
-
-**Dokumen aktif diperbarui:** 9 Oktober 2026; 25 halaman dan 36 referensi. Alur, bahasa, pengulangan, penjelasan tabel, dan layout telah dirapikan. Struktur wajib serta seluruh sumber dipertahankan. Analisis air, hujan, tajuk, fase buah, tanah, dan pupuk tetap menjadi bagian masalah; empat pendekatan dibandingkan tanpa memilih desain akhir. Nomor revisi akademik 00; timeline revisi dan tanda tangan masih kosong.
+**Status Saat Ini:** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** telah disahkan dan tersedia di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/). Proyek kini berada pada **tahap persiapan survei lapangan & penyelarasan draf `CD-3`** (draf rekan tim di [`dokumen/cd3/`](dokumen/cd3/) & [`dokumen/draf/cd3/`](dokumen/draf/cd3/), serta workspace usulan terpisah di [`dokumen/draf/cd3_daffa/`](dokumen/draf/cd3_daffa/)). Naskah CD tidak diubah sebelum data survei Minggu terkumpul.
 
 ## Membuka di Antigravity atau AI lain
 
-Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan tugas berikutnya. Contoh: **“Baca konteks repo ini, lalu bantu menyiapkan data lapangan untuk CD-2.”** Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
+Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan tugas berikutnya. Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
 
 ## Berkas utama
 
-- [CD-2 PDF (22 Halaman)](dokumen/cd2/CD2_Jeruk_Limau.pdf)
-- [CD-2 DOCX](dokumen/cd2/CD2_Jeruk_Limau.docx)
-- [CD-1 PDF](dokumen/cd1/CD1_Jeruk_Limau.pdf)
-- [CD-1 DOCX](dokumen/cd1/CD1_Jeruk_Limau.docx)
-- [Bacaan bimbingan untuk mahasiswa](catatan/Bahan_Bimbingan_CD1_Jeruk_Limau.md)
+- [CD-1 Final ACC (PDF, 26 halaman)](dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
+- [CD-2 Final ACC (PDF, 26 halaman)](dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
+- [Indeks direktori dokumen & status draf CD-3](dokumen/README.md)
+- [Checklist Survei Lapangan Minggu Ciberes](catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md)
+- [Kajian Sumber Air Irigasi, Beda Elevasi, Pompa & Kabel 12 V](catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md)
+- [Rangkuman Q&A Teknis, Penyederhanaan Scope, & Zonasi 100 m+ (Handoff AI)](catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md)
+- [Paparan Solusi Detail untuk Mitra Ciberes](catatan/PAPARAN_SOLUSI_UNTUK_MITRA.md)
 - [Data mitra lengkap, sumber, estimasi, dan transkrip utuh](catatan/DATA_MITRA_LENGKAP.md)
-- [Daftar pustaka CD-1 dalam Markdown](catatan/REFERENSI_CD1.md)
+- [Arsip catatan historis CD-1, CD-2, & awal CD-3](catatan/arsip/README.md)
 - [Mulai chat baru dengan AI](konteks-ai/MULAI_CHAT_BARU.md)
 - [Konteks proyek lengkap untuk AI](konteks-ai/KONTEKS_PROYEK.md)
 - [Catatan pekerjaan yang masih terbuka](konteks-ai/STATUS_DAN_TINDAK_LANJUT.md)
@@ -29,24 +30,22 @@ Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyim
 
 ```text
 sumber/
-  template/                  Template CD-1 dan CD-2 resmi
+  template/                  Template resmi CD-1, CD-2, & CD-3
   panduan/                   Buku panduan capstone
   rubrik-jadwal/             Jadwal dan rubrik PTA
-  riset/                    Laporan riset terdahulu
-  dokumentasi/
-    foto/                    Foto parit dan tanaman
-    citra/                   Citra lokasi dan garis ukur
-    lokasi-lain/             Foto permukiman, dengan konteks terpisah
-    video/                   Video pendek kondisi kebun
-    wawancara/               Transkrip Audio 1 dan Audio 2
-  MANIFEST.json             Asal, ukuran, dan SHA-256 berkas sumber/salinan CD-1
+  riset/                     Laporan riset terdahulu
+  referensi jurnal/          Pustaka & sintesis solusi CD-3
+  dokumentasi/               Foto, citra peta, lokasi lain, video, transkrip Audio 1/2
+  MANIFEST.json              Asal, ukuran, dan SHA-256 berkas sumber/salinan CD-1
 dokumen/
-  cd1/                      Dokumen CD-1 (Word, PDF, Logbook, ACC)
-  cd2/                      Dokumen CD-2 (Word, PDF 22 Hlm, Draf, Builder)
-catatan/                    Data mitra lengkap, bacaan bimbingan, dan daftar pustaka
-konteks-ai/                 Konteks lengkap dan petunjuk melanjutkan chat
-AGENTS.md                   Aturan kerja dan konteks awal agen
-GEMINI.md                   Pintu masuk Antigravity/Gemini
+  cd1/                       CD-1 Final ACC (PDF 26 hlm)
+  cd2/                       CD-2 Final ACC (PDF 26 hlm)
+  cd3/                       Draf CD-3 kolaborasi (Qarnie/Garnie, 34 hlm)
+  draf/                      Arsip kerja CD-1, CD-2, CD-3, & workspace draf terpisah cd3_daffa/
+catatan/                     Rangkuman Q&A pra-survei, kajian pompa, panduan survei, kamus data mitra, & arsip/ CD-1/CD-2
+konteks-ai/                  Konteks lengkap, status terkini, dan petunjuk memulai chat baru
+AGENTS.md                    Aturan kerja dan konteks awal agen
+GEMINI.md                    Pintu masuk Antigravity/Gemini
 ```
 
 ## Fakta yang menjadi dasar
@@ -57,7 +56,7 @@ GEMINI.md                   Pintu masuk Antigravity/Gemini
 - Penyiraman masih manual memakai ember hitam kecil. Kapasitas ember, jumlah guyuran, dan volume per pohon belum diukur.
 - Sekitar tiga hari sekali; upah empat pekerja × Rp100.000 per orang per kegiatan = Rp400.000 per kegiatan.
 - Acuan 15 L/pohon berasal dari penuturan mitra. Skenario 7,5–9 m³ bukan volume aktual dan bukan kebutuhan agronomis tervalidasi.
-- Kebun belum tersambung PLN karena jauh dari jaringan listrik. Mitra melaporkan pompa bensin dimodifikasi memakai LPG untuk menekan biaya bahan bakar, disertai keluhan perawatan.
+- Kebun belum tersambung PLN karena jauh dari jaringan listrik. Suplai air mengandalkan **pompa bensin Alkon 2 inci berbahan bakar Pertalite**; mitra sempat mencoba modifikasi **LPG 3 kg** untuk menekan ongkos bahan bakar, namun **dihentikan permanen** karena mesin cepat mengalami panas berlebih (*overheating*) dan menggerus komponen (seher/ring).
 - Mitra mencari cara menggantikan pekerjaan guyur manual agar biaya tenaga kerja penyiraman turun.
 
 ## Tim

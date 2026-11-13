@@ -7,7 +7,7 @@ Mengacu ketat pada:
 - Template resmi FTE-CD-3 -edited_PBD.docx (1.1, 1.2, 1.3, 1.4, Daftar Pustaka)
 - Rubrik CLO3 & CLO4 PTA FTE Telkom University
 - Data mitra & batasan desain CD-1 dan CD-2 (C-01..C-05, S-01..S-14)
-- 28 pustaka teks penuh (full-text) terverifikasi [Z-01..Z-21, P-01..P-07] + standar resmi
+- 37 pustaka teks penuh (full-text) terverifikasi [Z-01..Z-21, P-01..P-07, G-02..G-10] + 4 standar resmi (total 41 rujukan IEEE)
 - Hasil simulasi numerik simulation_results.json dan bom_and_data.py
 """
 
@@ -416,6 +416,15 @@ IEEE_REFS = [
     'International Electrotechnical Commission, *IEC 60364-4-41: Low-voltage electrical installations — Protection for safety — Protection against electric shock*, IEC Standard, Geneva, 2017.',
     'International Electrotechnical Commission, *IEC 60529: Degrees of protection provided by enclosures (IP Code)*, IEC Standard, Geneva, 2013.',
     'International Organization for Standardization, *ISO 9261: Agricultural irrigation equipment — Emitters and emitting pipe — Specification and test methods*, Geneva, 2004.',
+    'K. Fairfield, *Design and Application of a Water Powered Irrigation Robot*, M.A.Sc. Thesis, Dept. of Mechanical Engineering, University of Victoria, Victoria, BC, Canada, 2020.',
+    'T. Wu, D. Liu, and X. Li, "Designing Hybrid Mobility for Agricultural Robots: Performance Analysis of Wheeled and Tracked Systems in Variable Terrain," *Machines*, vol. 13, no. 7, art. 572, Jul. 2025, doi: 10.3390/machines13070572.',
+    'D. Gerdan Koc, C. Koc, and M. Comakli, "AI-powered autonomous spraying robot for precision orchard applications," *Journal of Agricultural Engineering*, art. 1766, 2025, doi: 10.4081/jae.2025.1766.',
+    'I. Gravalos, A. Avgousti, T. Gialamas, N. Alfieris, and G. Paschalidis, "A robotic irrigation system for urban gardening and agriculture," *Journal of Agricultural Engineering*, vol. L, art. 966, pp. 198–207, 2019, doi: 10.4081/jae.2019.966.',
+    'Q. Zhang, M. Karkee, and A. Tabb, "The use of agricultural robots in orchard management," in *Robotics and Automation for Improving Agriculture*, J. Billingsley, Ed. Cambridge, UK: Burleigh Dodds Science Publishing, 2019, pp. 187–214, doi: 10.19103/AS.2019.0056.14.',
+    'X. Xue, Q. Luo, M. Bu, Z. Li, S. Lyu, and S. Song, "Citrus Tree Canopy Segmentation of Orchard Spraying Robot Based on RGB-D Image and the Improved DeepLabv3+," *Agronomy*, vol. 13, no. 8, art. 2059, Aug. 2023, doi: 10.3390/agronomy13082059.',
+    'Y. Wang, W. Jia, M. Ou, X. Wang, and X. Dong, "A Review of Orchard Canopy Perception Technologies for Variable-Rate Spraying," *Sensors*, vol. 25, no. 16, art. 4898, Aug. 2025, doi: 10.3390/s25164898.',
+    'A. Hassan, R. M. Asif, A. U. Rehman, Z. Nishtar, M. K. A. Kaabar, and K. Afsar, "Design and development of an irrigation mobile robot," *IAES International Journal of Robotics and Automation (IJRA)*, vol. 10, no. 2, pp. 75–90, Jun. 2021, doi: 10.11591/ijra.v10i2.pp75-90.',
+    'N. Durga, P. Schmitter, C. Ringler, S. Mishra, M. S. Magombeyi, et al., "Barriers to the uptake of solar-powered irrigation by smallholder farmers in sub-Saharan Africa: A review," *Energy Strategy Reviews*, vol. 51, art. 101294, Jan. 2024, doi: 10.1016/j.esr.2024.101294.',
 ]
 
 
@@ -504,9 +513,9 @@ def build_document(page_count_label="..."):
         for ci in range(4):
             t2.rows[ri].cells[ci].text = ""
     t2.rows[1].cells[0].text = "00, Pra-Survei\n(Nov 2026)"
-    t2.rows[1].cells[1].text = "Draf Usulan CD-3 Berbasis 28 Pustaka Penuh"
+    t2.rows[1].cells[1].text = "Draf Usulan CD-3 Berbasis 37 Pustaka Penuh"
     t2.rows[1].cells[2].text = (
-        f"Penyusunan lengkap alternatif solusi (4 kandidat), matriks keputusan tertimbang berdasarkan CD-2, "
+        f"Penyusunan lengkap alternatif solusi (4 kandidat termasuk pembaruan kajian robotika Straddle Ditch-Rover dan UGV/gun), matriks keputusan tertimbang berdasarkan CD-2, "
         f"desain rinci sistem mikro-irigasi tetes terzonasi surya SELV 12 V menggunakan Motorized Ball Valve 0 W statis, "
         f"transduser tekanan 0-5 bar, modifikasi RC+MOSFET sensor tanah Capacitive v1.2, keran end-flush v >= 0,6 m/s, "
         f"simulasi awal Darcy-Weisbach dan neraca energi PV-LiFePO4, tata letak awal petak uji 20 m x 3 baris (menunggu "
@@ -554,8 +563,8 @@ def build_document(page_count_label="..."):
         "penghubung melintang, dengan estimasi awal 24 pohon), seraya menjaga kompatibilitas perpanjangan pipa menuju "
         "syarat C-03 CD-2 (15–20 pohon pada bentang operasional >= 25 m) dan batasan pagu belanja purwarupa "
         "maksimal Rp5.000.000 (S-08) serta skalabilitas menuju kebun penuh 500–600 pohon dengan proyeksi investasi "
-        "<= Rp18.000.000. Berangkat dari penelaahan penuh (*full-text*) terhadap 28 referensi ilmiah dan paten utama "
-        "[1]–[28], empat alternatif solusi dirumuskan sebagai ruang keputusan rekayasa."
+        "<= Rp18.000.000. Berangkat dari penelaahan penuh (*full-text*) terhadap 37 referensi ilmiah dan paten utama "
+        "[1]–[28], [33]–[41] (plus 4 standar teknis [29]–[32]), empat alternatif solusi dirumuskan sebagai ruang keputusan rekayasa."
     )
 
     add_h2(doc, "1.1.1 Alternatif 1: Sistem Mikro-Irigasi Tetes Terzonasi Mandiri Surya (Usulan Terpilih)")
@@ -580,42 +589,67 @@ def build_document(page_count_label="..."):
         "lateral agar partikel lumpur halus sungai tidak mengendap di dalam pipa [12], [19]."
     )
 
-    add_h2(doc, "1.1.2 Alternatif 2: Wahana Robot Bergerak Otonom Kebun (UGV Beroda / Crawler)")
+    add_h2(doc, "1.1.2 Alternatif 2: Wahana Robot Bergerak Otonom & Straddle Ditch-Rover")
     add_body(
         doc,
-        "Alternatif 2 mengadopsi wahana robot darat tak berawak (*Unmanned Ground Vehicle*/UGV) pembawa tangki air, pompa "
-        "mikro, dan sensor navigasi seperti platform beroda empat atau perayap (*crawler*) yang ditelaah pada [22], [24]–[27]. "
-        "Wahana bergerak menyusuri celah antarbarisan jeruk limau untuk mendekati pangkal tiap pohon sebelum mengaktifkan "
-        "pompa penyemprot atau nosel terarah berbasis deteksi kamera/LiDAR."
+        "Alternatif 2 mencakup wahana robot darat tak berawak (*Unmanned Ground Vehicle*/UGV) beroda atau perayap (*crawler*) "
+        "komersial/riset [22], [24]–[27], [34]–[40], termasuk varian konseptual tim yaitu *Tracked/4WD Straddle Ditch-Rover* "
+        "berlengan ganda 2-DOF/3-DOF (*dual articulated arm*) dengan penyedot parit apung (*floating ditch suction*). "
+        "Konsep robot bergerak menyusuri barisan tanaman [22], [24], [35], [37]–[39] atau mengangkangi parit galian untuk "
+        "menggantikan aktivitas pekerja mengguyur air langsung ke pangkal tiap pohon secara berurutan tanpa jaringan pipa distribusi."
     )
     add_body(
         doc,
-        "Meskipun unggul secara otonomi pemetaan pada kebun buah komersial berjalur lebar dan rata [22], [24], pembacaan "
-        "mendalam literatur membuktikan kendala berat pada kondisi Ciberes: (1) tinggi *ground clearance* UGV sekelas "
-        "*Scout 2.0* hanya sekitar 135 mm dengan muatan maksimal ~50 kg [22], [27] sehingga tangki air hanya cukup menyiram "
-        "2–3 pohon (15 L/pohon) per pengisian ulang; (2) keberadaan tiga parit tanah dan penghubung melintang (+) serta "
-        "kanopi jeruk setinggi ~1 m menghalangi lintasan roda maupun menurunkan akurasi UWB/NLOS (RMSE 0,93–1,12 m) [25]; "
-        "dan (3) konsumsi propulsi *crawler* 48 V 1.500 W [25] serta biaya sensor LiDAR/RTK melanggar mutlak pagu C-02 "
-        "(<= Rp5.000.000)."
+        "Meskipun unggul dalam fleksibilitas navigasi pada lahan rata komersial [22], [24], [35], audit literatur penuh dan "
+        "evaluasi rekayasa terukur membuktikan lima hambatan mendasar pada kondisi Ciberes dan spesifikasi CD-2: "
+        "(1) **Kapasitas tangki & defisit debit (throughput)**: UGV tangki on-board sekelas *Scout 2.0* (*ground clearance* "
+        "~135 mm, muatan ~50 kg) [22], [27] hanya membawa air untuk 2–3 pohon per pengisian ulang; jika memakai konsep "
+        "*Straddle Ditch-Rover* berpompa DC 12 V 5,11 L/menit (~Rp7,5–8,5 juta purwarupa), dosis minimal 15 L/pohon memerlukan "
+        "176,1 detik/pohon atau **30,19 jam kontinu** untuk 600 pohon (padahal S-03 menuntut debit total 46,9–53,6 L/menit untuk "
+        "jendela kerja <= 3 jam/kegiatan), sedangkan prototipe *irrigation rover* berbiaya rendah [40] hanya berkapasitas demo "
+        "mikro tanpa sertifikasi lapangan; "
+        "(2) **Risiko mekanika tanah & parit silang (+)**: pada tanah lempung datar dengan kadar air 34,7–35,3% saja [34], roda "
+        "masih mengalami *slip* 10% (0,38 m/s) dan rantai *crawler* mengalami *slip* 3% (0,36 m/s); apalagi jika sasis robot "
+        "seberat 25–35 kg harus melintasi tebing galian tiga parit tanah basah dan penghubung melintang (+) serta kanopi ~1 m "
+        "yang menimbulkan risiko longsor tepi parit (*bank collapse*), ketidakstabilan 3-DOF [36], serta error UWB/NLOS 0,93–1,12 m [25] "
+        "atau *turn drift* ~1 m [35]; "
+        "(3) **Defisit neraca energi baterai S-06**: beban propulsi dual-motor, pengendali, dan pompa pada operasi kontinu "
+        "menuntut ~368,9 W (*crawler* komersial bahkan mencapai 48 V 1.500–2.100 W [25], [35]), atau sekitar 2.951 Wh untuk "
+        "8 jam kerja (**3.689 Wh / 153,7 Ah @ 24 V** pada DoD 80%), jauh melampaui baterai kecil 12 V 12,8 Ah yang hanya "
+        "bertahan ~2x10 menit uji demo; "
+        "(4) **Kesenjangan bukti ilmiah (literature gap)**: penelaahan 10 referensi robotika [23], [33]–[41] tidak "
+        "menemukan satu pun validasi Q1/Q2 untuk penyedotan parit tanah terbuka oleh rover pengangkang maupun navigasi magnetik/IMU "
+        "tanpa LiDAR/RTK di kebun basah berkanopi rendah; serta "
+        "(5) **Pelanggaran pagu biaya C-02**: modul persepsi saja menelan USD 210–1.680 untuk LiDAR, USD 252–840 untuk RGB-D, "
+        "atau USD 350–1.120 untuk kamera stereo [39] (misalnya platform bervisi AI seperti ORCBOT [35] atau RGB-D Jetson Xavier NX [38]), sementara varian *Straddle Ditch-Rover* "
+        "tanpa LiDAR tetap melebihi Rp5.000.000 pada purwarupa (~Rp7,5–8,5 juta) dan memerlukan pemeliharaan mekanis rutin [41]."
     )
 
-    add_h2(doc, "1.1.3 Alternatif 3: Robot Penarik Selang atau Pengangkang Saluran Bertenaga Mesin Bakar + High-Pressure Gun")
+    add_h2(doc, "1.1.3 Alternatif 3: Robot Penarik Selang, Pembawa Tandon, atau Pengangkang Saluran Berpenggerak Mesin/Hidro-Turbin")
     add_body(
         doc,
-        "Alternatif 3 merujuk pada mesin penyiram penarik selang fleksibel (*sprinkler robot*) bermesin bensin 7 HP [23] "
-        "maupun wahana pengangkang kanal beroda empat bermesin genset diesel 30 kW dengan *gun* semprot 10 kW seperti paten "
-        "CN115804333A [28]. Konsep ini menyedot air bertekanan tinggi (~4 bar) dan menyemprotkannya secara meluas di atas "
-        "lahan kebun."
+        "Alternatif 3 mengelompokkan robot irigasi berpasokan eksternal kontinu via selang panjang maupun pengangkang saluran "
+        "skala berat: mesin penyiram penarik selang (*traveling sprinkler/water-powered robot*) bermesin bensin 7 HP [23] atau "
+        "berpenggerak turbin hidrolik [33], robot pembawa selang berpenggerak listrik, serta wahana pengangkang kanal beroda empat "
+        "bermesin genset diesel 30 kW dengan *spray gun* 10 kW pada paten CN115804333A [28]."
     )
     add_body(
         doc,
-        "Evaluasi terhadap kondisi Ciberes menunjukkan empat ketidakcocokan mendasar: (1) pemakaian mesin bensin/diesel "
-        "melanggar spesifikasi emisi nol (S-12) dan mengulang beban perawatan serta konsumsi bahan bakar pompa eksisting; "
-        "(2) lebar semprotan *gun* 47,5–57 m [23] hingga 75 m [28] akan mengguyur tajuk daun jeruk secara acak dan membuang "
-        "air kembali ke parit terbuka sehingga tidak dapat menakar dosis presisi 15 L/pohon (S-01); (3) sebagaimana dicatat "
-        "langsung oleh klaim paten [28], wahana pengangkang kanal memerlukan struktur saluran lurus seragam dan memiliki "
-        "risiko jatuh (*die luo feng xian*) ketika berhadapan dengan parit silang/melintang (+); serta (4) biaya investasi "
-        "jauh melampaui batasan ekonomi mitra."
+        "Evaluasi mekanis, hidraulik, dan kesesuaian CD-2 pada Ciberes mengungkap empat ketidakcocokan mendasar: "
+        "(1) **Beban tarik & rugi gesek selang fleksibel 120 m**: pemodelan Darcy-Weisbach dan gesekan Coulomb tanah (*mu* = 0,65) "
+        "untuk tarikan selang sepanjang 120 m menunjukkan trade-off yang saling mengunci — selang 1/2 inci menimbulkan *head loss* "
+        "ekstrem **207,72 m (20,38 bar)** pada debit 53,6 L/menit (gaya tarik 170 N), selang 3/4 inci masih kehilangan **30,27 m "
+        "(2,97 bar)** dengan massa basah 49,5 kg dan gaya gesek **316 N**, sedangkan selang 1 inci berbobot basah 78,7 kg menuntut "
+        "gaya tarik **502 N** [33], melampaui kemampuan sasis listrik ringkas <= Rp5 juta sehingga memaksa mesin berat; "
+        "(2) **Pelanggaran emisi S-12 & pemborosan air S-01**: pemakaian mesin bensin 7 HP [23] atau genset diesel 30 kW [28] "
+        "melanggar spesifikasi emisi nol (S-12) dan mengulang risiko kerusakan mesin bakar eksisting, sementara *spray gun* "
+        "berjangkauan 47,5–57 m [23] hingga 75 m [28] membasahi tajuk daun serta membuang air kembali ke parit terbuka alih-alih "
+        "menakar 15 L/pohon (S-01); "
+        "(3) **Ketidakcocokan topologi parit (+)**: klaim paten CN115804333A [28] secara eksplisit mensyaratkan kanal lurus "
+        "seragam dan memperingatkan risiko jatuh (*die luo feng xian*) bila berhadapan dengan persimpangan parit melintang (+), "
+        "sedangkan turbin hidrolik [33] membutuhkan pasokan pipa bertekanan tinggi yang tidak tersedia di parit gravitasi Ciberes; serta "
+        "(4) **Biaya investasi & perawatan**: total investasi jauh melampaui pagu C-02 (<= Rp5 juta purwarupa; <= Rp18 juta penuh) "
+        "dan menuntut operator terlatih."
     )
 
     add_h2(doc, "1.1.4 Alternatif 4: Sistem Gravitasi Tandon Elevasi atau Gerobak Pompa Surya Semi-Manual")
@@ -657,19 +691,19 @@ def build_document(page_count_label="..."):
     t1_headers = [
         "Parameter Evaluasi",
         "Alt 1 (Terpilih):\nMikro-Irigasi Surya",
-        "Alt 2:\nUGV Otonom",
-        "Alt 3:\nRobot Gun BBM",
+        "Alt 2:\nUGV / Straddle Rover",
+        "Alt 3:\nRobot Selang / Gun",
         "Alt 4:\nTandon / Gerobak PV",
     ]
     t1_rows = [
-        ["Catu Daya & Emisi (S-06, S-12)", "PLTS 100 Wp + LiFePO4 30 Ah; SELV 12 V, 0 g CO2/kWh", "Baterai 24-48 V daya besar (propulsi ~1,5 kW [25])", "Mesin bensin 7 HP [23] / diesel 30 kW [28] (melanggar S-12)", "PV 50-150 Wp (0 emisi), beban menara/gerobak"],
-        ["Akses Medan 3 Parit + Silang (+)", "Sangat baik: pipa PE melintasi parit berpenopang", "Gagal: tersangkut parit, cabang 1 m, UWB selip [22], [25]", "Buruk: gagal di parit silang, risiko jatuh [28]", "Sedang: gerobak/selang terhalang parit (+)"],
-        ["Dosis 15 L & CU >= 85% (S-01, S-02)", "Sangat baik: 2x PC Dripper + flow meter YF-S201", "Rendah: tangki ~50 kg habis setiap 2-3 pohon [22]", "Buruk: gun menyebar 47-75 m & basahi daun [23], [28]", "Rendah: tekanan tandon turun / manual [2], [3]"],
-        ["Ketahanan Lumpur Sungai (S-13)", "Baik: saringan hisap + disc filter 120 mesh + end-flush", "Rentan aus pada pompa semprot tekanan tinggi", "Toleran di nozzle gun, boros air terbuang", "Sedang: endapan tandon & sumbat tekanan rendah"],
-        ["Kemudahan Operasi Buruh (C-05)", "Tinggi: otomatis RTC + tombol 1-sentuhan & 3 LED", "Sangat rendah: butuh operator navigasi/ROS [24]", "Rendah: servis karburator/mesin bakar rutin", "Sedang-tinggi: mudah, tetapi kerja fisik menarik selang [3]"],
-        ["Biaya Purwarupa (<= Rp5 Jt) & Penuh (<= Rp18 Jt)", f"Memenuhi ({fmt_rp(bom_proto_tot)} purwarupa; {fmt_rp(full_tot)} penuh)", "Gagal jauh (> Rp25-60 jt per unit UGV [22], [25])", "Gagal (> Rp15-40 jt + biaya BBM harian [23], [28])", "Gerobak ~Rp2,7 jt [3] (manual); tandon penuh > Rp15 jt"],
+        ["Catu Daya & Emisi (S-06, S-12)", "PLTS 100 Wp + LiFePO4 30 Ah; SELV 12 V, 0 g CO2/kWh", "Baterai besar 24-48 V: ~368,9 W (~3,69 kWh / 8 jam) s.d. 1,5-2,1 kW [25], [35]", "Mesin bensin 7 HP [23] / diesel 30 kW [28] / turbin [33] (melanggar S-12)", "PV 50-150 Wp (0 emisi), beban menara/gerobak"],
+        ["Akses Medan 3 Parit + Silang (+)", "Sangat baik: pipa PE melintasi parit berpenopang", "Gagal: slip 10% roda / 3% track di tanah basah 35% [34], longsor parit & UWB 0,93-1,12 m [25]", "Buruk: tarik selang 120 m butuh 316-502 N [33], paten [28] berisiko jatuh di parit (+)", "Sedang: gerobak/selang terhalang parit (+)"],
+        ["Dosis 15 L & CU >= 85% (S-01, S-02)", "Sangat baik: 2x PC Dripper + flow meter YF-S201", "Rendah: tangki ~50 kg habis 2-3 pohon [22]; rover 5,11 L/mnt butuh 30,19 jam (target 46,9-53,6 L/mnt)", "Buruk: gun menyebar 47-75 m [23], [28] atau head loss selang 1/2\" 20,38 bar [33]", "Rendah: tekanan tandon turun / manual [2], [3]"],
+        ["Ketahanan Lumpur Sungai (S-13)", "Baik: saringan hisap + disc filter 120 mesh + end-flush", "Rentan aus/sumbat pada penyedot parit apung tanpa prafilter 120 mesh & pompa tekan", "Toleran di nozzle gun, boros air & tidak terukur", "Sedang: endapan tandon & sumbat tekanan rendah"],
+        ["Kemudahan Operasi Buruh (C-05)", "Tinggi: otomatis RTC + tombol 1-sentuhan & 3 LED", "Sangat rendah: butuh operator ROS/navigasi [24], [35] & angkut baterai berat", "Rendah: servis karburator/mesin bakar rutin [23], [28]", "Sedang-tinggi: mudah, tetapi kerja fisik menarik selang [3]"],
+        ["Biaya Purwarupa (<= Rp5 Jt) & Penuh (<= Rp18 Jt)", f"Memenuhi ({fmt_rp(bom_proto_tot)} purwarupa; {fmt_rp(full_tot)} penuh)", "Gagal: Straddle Rover ~Rp7,5-8,5 jt; LiDAR/RGB-D USD 210-1.680 [39]; UGV >Rp25-60 jt [22], [25]", "Gagal (> Rp15-40 jt + biaya BBM harian [23], [28])", "Gerobak ~Rp2,7 jt [3] (manual); tandon penuh > Rp15 jt"],
     ]
-    add_table(doc, t1_headers, t1_rows, [1.25, 1.35, 1.15, 1.15, 1.15], highlight_col=1, font_size=8.3)
+    add_table(doc, t1_headers, t1_rows, [1.25, 1.35, 1.15, 1.15, 1.15], highlight_col=1, font_size=8.1)
 
     add_h2(doc, "1.2.3 Matriks Keputusan Tertimbang (Weighted Decision Matrix)")
     add_caption(doc, "Tabel 2. Evaluasi Kuantitatif Alternatif Solusi Menggunakan Weighted Decision Matrix", is_table=True)
@@ -696,7 +730,7 @@ def build_document(page_count_label="..."):
 
     add_table(
         doc,
-        ["Kriteria (Skala 1 = Buruk s.d. 5 = Sangat Baik)", "Bobot", "Alt 1\n(Tetes Surya)", "Alt 2\n(UGV Robot)", "Alt 3\n(Gun BBM)", "Alt 4\n(Tandon/PV)"],
+        ["Kriteria (Skala 1 = Buruk s.d. 5 = Sangat Baik)", "Bobot", "Alt 1\n(Tetes Surya)", "Alt 2\n(UGV Robot)", "Alt 3\n(Selang/Gun)", "Alt 4\n(Tandon/PV)"],
         t2_rows,
         [2.25, 0.55, 0.85, 0.80, 0.80, 0.80],
         col_aligns=[WD_ALIGN_PARAGRAPH.LEFT, WD_ALIGN_PARAGRAPH.CENTER, WD_ALIGN_PARAGRAPH.CENTER,
@@ -1027,7 +1061,7 @@ def build_document(page_count_label="..."):
                           WD_ALIGN_PARAGRAPH.RIGHT, WD_ALIGN_PARAGRAPH.RIGHT, WD_ALIGN_PARAGRAPH.LEFT], font_size=8.1)
 
     # ==========================================================================
-    # DAFTAR PUSTAKA (32 RUJUKAN IEEE TERVERIFIKASI PENUH)
+    # DAFTAR PUSTAKA (41 RUJUKAN IEEE TERVERIFIKASI PENUH)
     # ==========================================================================
     add_h1(doc, "Daftar Pustaka", page_break=True)
     for idx, ref_txt in enumerate(IEEE_REFS, start=1):

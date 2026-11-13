@@ -1,8 +1,15 @@
-# Rangkuman Diskusi Final dan Arah Perancangan Dokumen CD-2
+# Rangkuman Diskusi Draf dan Arah Perancangan Dokumen CD-2 (Arsip Pra-Finalisasi)
 **Proyek Capstone S1 Teknik Komputer - Fakultas Teknik Elektro, Universitas Telkom**  
 *Topik: Analisis Permasalahan Penyiraman Manual pada Kebun Jeruk Limau di Ciberes Subang*  
 *Dosen Pembimbing 1: Dr. Agung Nugroho Jati, S.T., M.T.*  
-*Tanggal Penyusunan Final: 28 Oktober 2026*
+*Tanggal Penyusunan Awal: 28 Oktober 2026 · Penyelarasan Status & Koreksi: 14 November 2026*
+
+> [!WARNING]
+> **Koreksi Penting Terhadap Naskah Final ACC CD-2 (Berlaku Mulai Penyelarasan November 2026):**  
+> Dokumen di bawah merupakan **catatan arah kerja awal (28 Oktober 2026)** sebelum naskah CD-2 difinalisasi. Pada **berkas Final ACC CD-2 (26 halaman)** di [`dokumen/cd2/`](../../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf), beberapa angka resmi berubah dan **angka resmi CD-2 Final itulah yang mengikat tahap CD-3**:
+> 1. **Pagu Purwarupa Mahasiswa (`S-08` & `C-03`):** diubah dari `<= Rp6.000.000` menjadi **`<= Rp5.000.000`**, dengan syarat cakupan uji **`C-03` minimal 1 lajur 15–20 pohon pada bentang operasional >= 25 m**.
+> 2. **Proyeksi Skala Penuh Kebun Mitra (`S-08` & `S-10`):** diubah dari `Rp12–15 juta` (`PP 4–6 bulan`) menjadi **`<= Rp18.000.000`** dengan target **`Payback Period 12–18 bulan`** (tetap lebih hemat terhadap skenario upah `~Rp48,7 juta/tahun`).
+> Ringkasan yang sudah diselaraskan penuh dengan CD-2 Final ACC tersedia di [Bahan Diskusi dan Arah CD-3](Bahan_Diskusi_dan_Arah_CD3.md).
 
 ---
 

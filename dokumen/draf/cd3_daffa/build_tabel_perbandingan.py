@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Membuat dokumen Tabel_Perbandingan_Alternatif_Solusi.docx terpisah di folder
-dokumen/draf/cd3_daffa/ berbasis hasil membaca penuh 28 pustaka CD-3, CD-1, CD-2,
+dokumen/draf/cd3_daffa/ berbasis hasil membaca penuh 37 pustaka CD-3 (21 zonasi +
+7 pembanding awal + 9 pustaka tambahan kajian robotika & adopsi surya), CD-1, CD-2,
 dan keluaran numerik simulation_results.json.
 """
 
@@ -115,13 +116,15 @@ def add_title_block(doc):
     p3.paragraph_format.line_spacing = 1.15
     add_formatted_runs(
         p3,
-        "Dokumen pendamping ini menyintesis hasil pembacaan penuh terhadap 28 pustaka utama (*full-text*) "
-        "yang terbagi menjadi 21 rujukan rekayasa mikro-irigasi surya [Z-01 s.d. Z-21] dan 7 rujukan "
-        "sistem pembanding [P-01 s.d. P-07], disandingkan dengan batasan desain CD-2 (*hard constraints* C-01 "
-        "s.d. C-05 dan spesifikasi S-01 s.d. S-14: pagu purwarupa <= Rp5.000.000, proyeksi skala penuh "
-        "<= Rp18.000.000). Skenario tata letak petak uji *20 m x 3 baris* (Baris 1 - Parit 1 - Baris 2 - Parit 2 "
-        "- Baris 3 - Parit 3 beserta parit penghubung melintang) digunakan sebagai basis estimasi awal sebelum "
-        "validasi pengukuran lapangan langsung pada survei kebun Ciberes.",
+        "Dokumen pendamping ini menyintesis hasil pembacaan penuh terhadap 37 pustaka utama (*full-text*) "
+        "yang terbagi menjadi 21 rujukan rekayasa mikro-irigasi surya [Z-01 s.d. Z-21], 7 rujukan awal "
+        "sistem pembanding [P-01 s.d. P-07], serta 9 pustaka tambahan kajian robotika kebun buah dan "
+        "adopsi irigasi surya [G-02 s.d. G-10] dari folder referensi robotika tim (dengan [G-01] sepadan [P-02]), "
+        "disandingkan dengan batasan desain CD-2 (*hard constraints* C-01 s.d. C-05 dan spesifikasi "
+        "S-01 s.d. S-14: pagu purwarupa <= Rp5.000.000, proyeksi skala penuh <= Rp18.000.000). Skenario "
+        "tata letak petak uji *20 m x 3 baris* (Baris 1 - Parit 1 - Baris 2 - Parit 2 - Baris 3 - Parit 3 "
+        "beserta parit penghubung melintang) digunakan sebagai basis estimasi awal sebelum validasi "
+        "pengukuran lapangan langsung pada survei kebun Ciberes.",
         font_size=10,
     )
 
@@ -220,79 +223,79 @@ def main():
     t1_headers = [
         "Aspek & Parameter Evaluasi",
         "Alt 1 (Terpilih): Mikro-Irigasi Tetes Terzonasi Mandiri Surya",
-        "Alt 2: Wahana Robot Otonom Kebun (UGV Beroda / Crawler)",
-        "Alt 3: Robot Penarik Selang / Pengangkang Kanal + Gun Bensin/Diesel",
+        "Alt 2: Wahana Robot Otonom Kebun (UGV AI/LiDAR & Straddle Ditch-Rover)",
+        "Alt 3: Robot Penarik Selang 100 m, Pengangkang Kanal & Tambatan Fluida",
         "Alt 4: Tangki Elevasi Gravitasi / Pompa PV Semi-Manual",
     ]
     t1_rows = [
         [
             "Prinsip Kerja & Konfigurasi Utama",
             "Jaringan pipa tetap (PE 1 inci + lateral PE 16 mm) dengan 2x *PC Dripper* 8 L/jam per pohon, pompa DC 12 V surya, *disc filter*, katup bola bermotor (*MBV*) per baris/zona, dan kendali ESP32.",
-            "Robot darat tak berawak (*Scout 2.0* / *crawler* 48 V) membawa tangki 30-50 L, pompa semprot, LiDAR/UWB untuk berpindah pohon demi pohon di sela bedengan.",
-            "Mesin penggulung penarik selang 1,5 inci sepanjang 200 m + pompa 7 HP *gun* (Elkaoud 2025) atau sasis 4-roda pengangkang saluran + genset 30 kW + *gun* 10 kW (CN115804333A).",
+            "Mencakup: (a) UGV AI beroda/*crawler* membawa tangki, LiDAR 360°/RTK-GPS/RGB-D + Jetson (*OrcBOT* 2x1,1x0,85 m), dan (b) konsep penjelajah pematang (*Straddle Ditch-Rover*) berpipa hisap parit apung + lengan 2-DOF/3-DOF (atau *pilot rover* ultrasonik/encoder) ke radius akar 0,5-0,8 m.",
+            "Mesin penggulung penarik selang 120 m + pompa bensin 7 HP 23 m3/jam (*Elkaoud 2025*), robot heksapoda aktuator otot McKibben bertekanan fluida via selang (*Fairfield 2020*), atau pengangkang kanal diesel 30 kW + *gun* 10 kW (*CN115804333A*).",
             "Pompa PV mengangkat air sungai ke menara tandon 2-4 m lalu gravitasi tetes, atau pompa gerobak PV 50 Wp-20 Ah menyiram selang manual oleh operator (Nurwidiana 2022).",
         ],
         [
             "Basis Pustaka Ilmiah Full-Text",
             "Z-01..Z-21 (Dominguez-Nino 2019; Garcia 2020; Meriç 2025; Dafonte 2024; Lavanholi 2018; Hartung FAO 2018; Alex-Tronix OSTI; Lajara 2010).",
-            "P-01 Xia 2023; P-03 Li 2025; P-04 Chen 2023 [Jia 2023] (*crawler* UWB); P-05 Gu 2026; P-06 Zhang 2026.",
-            "P-02 Elkaoud 2025 (*Eng*); P-07 Paten CN115804333A (Henan Yungeng 2023).",
+            "P-01 Xia 2023; P-03 Li 2025; P-04 Jia 2023; P-05 Gu 2026; P-06 Zhang 2026; G-03 Wu 2025; G-04 Gerdan Koc 2025 (*OrcBOT*); G-05 Gravalos 2019; G-06 Zhang 2019; G-07 Xue 2023; G-08 Wang 2025; G-09 Hassan 2021; G-10 Durga 2024.",
+            "P-02 / G-01 Elkaoud 2025 (*Eng*); P-07 Paten CN115804333A; G-02 Fairfield 2020 (Tesis Heksapoda Selang); G-03 Wu 2025 (uji lumpur 35%).",
             "Z-02 FAO-Hartung 2018 (gravitasional & tandon); Z-03 Nurwidiana 2022 (gerobak PV 50 Wp bawang).",
         ],
         [
             "Sumber Daya, Emisi & Keselamatan (S-06, S-10, S-12)",
             "PLTS *off-grid* SELV 12,8 V DC (PV 100 Wp + LiFePO4 30 Ah); 0 g CO2/kWh; aman sentuh (IEC 60364-4-41); kotak IP65.",
-            "Baterai 24-48 V + komputer AI (Jetson Orin); konsumsi propulsi 1.500 W (P-04) boros pada tanah liat lengket; risiko terbalik masuk parit.",
-            "Bahan bakar bensin 7 HP / genset diesel 30 kW (melanggar S-12 nol emisi); kebisingan tinggi & komponen bertegangan/putar berisiko tinggi.",
+            "Paket 48-60 V (*OrcBOT* 60 V langgar SELV <= 48 V) + beban 368,9 W kontinu butuh baterai **3.689 Wh** (DoD 80%) untuk otonomi 8 jam S-06; varian murah 12 V 12,8 Ah hanya cukup 2x10 mnt uji lab.",
+            "Mesin bensin 7 HP (*Elkaoud*) / diesel 30 kW (*CN115804333A*) melanggar mutlak S-12 nol emisi; beban tarik selang di tanah basah menggandakan beban baterai listrik.",
             "PV 50-150 Wp tanpa BBM (S-12 terpenuhi); namun varian tandon menara tinggi berisiko roboh di tanah sawah labil & varian gerobak butuh angkat beban.",
         ],
         [
             "Kesesuaian Medan 3 Parit + Penghubung Melintang (+)",
             "Sangat tinggi: *mainline* & lateral PE mudah melintasi parit melintang (+) via jembatan pipa sederhana tanpa menghentikan penyiraman.",
-            "Buruk: sasis dengan *ground clearance* 135 mm (P-01) & lebar ~0,7-1,0 m terhadang parit galian serta cabang rendah (~1 m); rentan selip UWB/NLOS (RMSE 0,93-1,12 m, P-04).",
-            "Buruk-Sedang: Elkaoud butuh lintasan lurus bebas parit silang; CN115804333A hanya mengangkang kanal beton seragam dan berisiko jatuh (*die luo feng xian*) di persimpangan parit (+).",
+            "Buruk: pada tanah basah 35% (*Wu 2025*), roda selip **10%** (0,38 m/s) & terbenam; *crawler* (selip **3%**) berisiko melongsorkan bibir parit tanah sawah gembur (25-35 kg) & celah parit (+) 0,5-0,6 m; drift belok ~1 m (*OrcBOT*) / UWB RMSE 0,93-1,12 m.",
+            "Buruk: model Darcy-Weisbach selang 120 m (35 L/mnt, mu=0,65) memicu gaya seret datar **316-502 N** (selang 3/4-1 inci, massa 49,5-78,7 kg) atau rugi **20,38 bar** (1/2 inci); *CN115804333A* rawan jatuh (*die luo feng xian*) di parit (+).",
             "Sedang: gerobak pompa sulit melewati parit penghubung (+); selang manual tetap harus ditarik melompati 3 parit seperti kondisi eksisting.",
         ],
         [
-            "Presisi Dosis (15 L/pohon, S-01) & Keseragaman CU (S-02)",
+            "Presisi Dosis (15 L/pohon, S-01) & Keseragaman CU (S-02, S-03)",
             "Sangat tinggi: *2x PC Dripper 8 L/jam* bertekanan >= 78,45 kPa menjaga *CU >= 88-92%*; umpan balik *flow meter* YF-S201 menakar tepat 15 L/pohon (56,25 menit).",
-            "Rendah-Sedang: tangki robot hanya cukup 2-3 pohon/isi ulang (45-50 kg); pengisian ulang bolak-balik membuat total waktu jauh melebihi S-03 (<= 2 jam).",
-            "Buruk: *gun* menyebar radius 47-57 m (*Wdac*) sehingga air terbuang ke parit & daun jeruk, memicu patogen daun & tidak dapat menakar 15 L/pohon.",
+            "Defisit debit/durasi S-03: target 600 pohon @ 15 L dalam <= 4 jam butuh **46,9-53,6 L/mnt**; pompa mikro 5,11 L/mnt perlu **176 dtk/pohon (~30,2 jam)**; tangki ~50 kg habis tiap 2-3 pohon; *OrcBOT* menyemprot kabut daun 150-170 um, bukan 15 L akar.",
+            "Buruk: *gun* menyebar radius 47,5-57 m (*Wdac*) s.d. 75 m sehingga air mengguyur tajuk (risiko *Phytophthora*) & parit; heksapoda *Fairfield 2020* belum memiliki uji lapangan maupun data CU.",
             "Rendah: tekanan tandon gravitasi turun seiring penurunan level air (*CU* jatuh di baris ujung), sementara gerobak manual bergantung ketelitian buruh.",
         ],
         [
             "Penanganan Lumpur Sungai Ciberes & Biofouling (S-13)",
             "Optimal: saringan hisap pra-pompa non-korosif + *disc filter* 120-150 mesh (bilas pada dP >= 70 kPa) + keran *end-flush* ujung lateral berkecepatan >= 0,6 m/s (Z-12, Z-15).",
-            "Rentan: pompa semprot tekanan tinggi cepat aus/tersumbat bila air parit berlumpur tanpa stasiun pra-filtrasi bertingkat di sisi sungai.",
-            "Cukup pada *nozzle* besar *gun*, namun efisiensi air sangat rendah (< 50%) akibat evaporasi & limpasan ke parit.",
-            "Sedang: saringan dasar tandon mudah mengendapkan lumpur jika tidak dikuras, dan endapan halus tetap berpotensi menyumbat emiter bertekanan rendah (< 0,3 bar).",
+            "Rentan & celah literatur: belum ada jurnal Q1/Q2 (2018-2026) yang menguji *open-ditch suction* berlumpur; air parit cepat surut merembes & pasir halus menyumbat pompa mikro/nosel tanpa pra-filter 120 mesh.",
+            "Cukup pada *nozzle* besar *gun*, namun efisiensi air < 50%; gangguan gulungan selang (*hose-reel* macet) kerap memutus siklus; otot fluida *Fairfield* rentan partikel sedimen.",
+            "Sedang: saringan dasar tandon mudah mengendapkan lumpur jika tidak dikuras, dan endapan halus tetap berpotensi menyumbat emiter bertekanan rendah (<0,3 bar).",
         ],
         [
             "Instrumentasi Kontrol, Katup & Sensor Tanah",
             "*Motorized Ball Valve* 0 W statis (hemat 99,9% energi katup vs selenoid NC); transduser P 0-5 bar (anti-dry-run & cek filter); sensor tanah *Capacitive v1.2* mod RC 1 MOhm + MOSFET.",
-            "Kompleksitas terlalu tinggi (LiDAR, RTK-GNSS, kamera RGB-D, kontroler gerak) dengan suku cadang mahal & sulit dirawat buruh desa.",
-            "Kendali berbasis *wireless* RF industri atau tombol lokal mesin; tidak terintegrasi sensor kelembapan akar maupun dosis volumetrik.",
+            "Varian AI butuh dual MCU STM32 + Jetson Xavier NX (95,62% mIoU, 32,69 FPS; *Xue 2023*) & sensor saja **$210-1.680** (*Wang 2025*); varian murah ESP32/HC-05 (*Hassan 2021*) & gantry (*Gravalos 2019*) belum teruji di kebun terbuka.",
+            "Kendali RF/tombol lokal mesin atau hidraulik pasif; tidak terintegrasi sensor kelengasan tanah perakaran maupun umpan balik *flow meter* dosis 15 L.",
             "Umumnya hanya sakelar manual on/off pompa atau pelampung mekanis; belum memenuhi sistem kendali cerdas terotomatisasi.",
         ],
         [
             "Kemudahan Operasi Buruh (C-05) & Pemeliharaan",
             "Tinggi: otomatis via RTC DS3231 + tombol 1-sentuhan & 3 LED status; perawatan berkala cukup membilas *disc filter* dan membuka keran *end-flush*.",
-            "Sangat rendah (gagal C-05): operator kebun membutuhkan pelatihan navigasi ROS/telemetri & perbaikan baterai lithium tegangan tinggi.",
-            "Rendah: perawatan mesin bensin/diesel rutin (oli, karburator, busi) tidak menyelesaikan masalah kerusakan pompa Alkon eksisting.",
+            "Sangat rendah (gagal C-05): butuh pelatihan navigasi/ROS, pelat titian manual di tiap parit silang (+), pengamanan komponen sasis di lumpur, serta terhambat kapasitas teknis petani kecil (*Durga 2024*).",
+            "Rendah: buruh harus menarik/menggulung selang 100-120 m antar-batang & parit, ditambah perawatan rutin mesin bensin/diesel (mengulang keluhan pompa Alkon eksisting).",
             "Sedang-Tinggi: sederhana bagi petani (Nurwidiana 2022), tetapi tidak meringankan tenaga penggulungan/pemindahan selang.",
         ],
         [
             "Biaya Purwarupa (S-08 <= Rp5 Jt) & Proyeksi Kebun Penuh (<= Rp18 Jt)",
             f"Memenuhi: purwarupa petak *20 m x 3 baris* (24 pohon) terhitung **{bom_proto_str}** (<= Rp5 juta); proyeksi 10 zona 600 pohon **{bom_full_str}** (<= Rp18 juta).",
-            "Jauh melampaui pagu: komponen sasis UGV + LiDAR/RTK + motor torsi menelan > Rp25-60 juta bahkan untuk 1 unit purwarupa (gagal C-02/S-08).",
-            "Melampaui pagu: sistem rel/roda pengangkang & genset atau mesin penarik 7 HP + selang 200 m berkisar > Rp15-40 juta.",
+            "Melampaui pagu: purwarupa *straddle/crawler* + lengan 2-DOF/3-DOF tim memakan **Rp7,5-8,5 juta** (kebun penuh Rp26-32 jt); UGV AI/LiDAR + baterai 3,69 kWh menelan **> Rp25-60+ juta**; belum ada BOM Q1/Q2 robot kebun <= Rp5-6 juta.",
+            "Melampaui pagu: sistem rel/roda pengangkang & genset atau mesin penarik 7 HP + selang 120 m berkisar > Rp15-40 juta plus BBM operasional.",
             "Varian gerobak PV murah (~Rp2,7-4 juta) tetapi tetap manual; varian tandon 8-10 m3 + menara pondasi cor di tanah sawah membutuhkan > Rp12-22 juta.",
         ],
         [
             "Ringkasan Kesesuaian & Risiko Kegagalan Dominan",
             "**SANGAT LAYAK (TERPILIH)**: risiko penyumbatan *dripper* & penyimpangan ADC sensor tanah dapat dimitigasi sejak desain; siap diuji pasca-survei Ciberes.",
-            "**TIDAK LAYAK**: selip roda di tanah basah, tersangkut parit melintang (+) dan ranting 1 m, serta biaya >5x pagu C-02.",
-            "**TIDAK LAYAK**: emisi & bising BBM melanggar S-12, menyiram tajuk memicu jamur, gagal lewati persimpangan parit (+).",
+            "**TIDAK LAYAK**: walau lengan akar menarik secara konsep, gagal di selip tanah basah 35% & longsor parit (+), *open-ditch suction* cepat surut, durasi >10-30 jam, baterai 3,69 kWh, & biaya over-budget S-08.",
+            "**TIDAK LAYAK**: gaya seret selang 316-502 N / rugi 20,38 bar, gagal di parit silang (+), emisi BBM melanggar S-12, serta membasahi tajuk jeruk.",
             "**KURANG OPTIMAL**: tandon mahal & tekanan tidak konstan; gerobak PV tidak menyelesaikan otomatisasi maupun target dosis S-01.",
         ],
     ]
@@ -310,21 +313,21 @@ def main():
     # Alt 1, Alt 2, Alt 3, Alt 4 scores (skala 1-5)
     scores = [
         ("K1. Presisi Dosis (S-01: 15 L) & Keseragaman CU >= 85% (S-02)", 25, [5, 2, 1, 3],
-         "Alt 1 gunakan 2x PC Dripper + flow meter; Alt 3 gun menyebar air ke daun/parit."),
+         "Alt 1 pakai 2x PC Dripper + flow meter; Alt 2 defisit debit/waktu S-03 (>10-30 jam); Alt 3 gun menyebar ke tajuk."),
         ("K2. Kesesuaian Catu Off-Grid (S-06) & Topografi Parit '+' Kebun", 20, [5, 2, 2, 3],
-         "Alt 1 lintasi parit melintang & hemat energi katup MBV 0 W; UGV & pengangkang terhambat parit."),
+         "Alt 1 lintasi parit (+) & MBV 0 W; Alt 2 selip 10% di lumpur 35%/butuh 3,69 kWh; Alt 3 seret selang 316-502 N."),
         [
             "K3. Kepatuhan Pagu Biaya (S-08: <=Rp5 Jt & <=Rp18 Jt) + Skalabilitas",
             25,
             [5, 1, 2, 3],
-            f"Alt 1 masuk pagu {bom_proto_str} (purwarupa) & skalabel 10 zona ({bom_full_str}); Alt 2/3 over-budget.",
+            f"Alt 1 masuk pagu {bom_proto_str} & {bom_full_str}; Alt 2 straddle/crawler Rp7,5-8,5 jt s.d. AI >Rp25-60 jt.",
         ],
         ("K4. Ketahanan Air Sungai Berlumpur (S-13) & Keandalan Mekanis", 15, [4, 2, 3, 3],
-         "Alt 1 padukan saringan hisap, disc filter 120 mesh (dP alarm), dan end-flush >= 0,6 m/s."),
+         "Alt 1 pra-filter+disc 120 mesh+flush; Alt 2 hisap parit cepat surut & tanpa bukti Q1/Q2 tahan lumpur."),
         ("K5. Kemudahan Operasi & Rawat oleh Buruh Kebun (C-05, S-11)", 10, [4, 1, 2, 4],
-         "Alt 1 pakai tombol 1-sentuhan + LED status; Alt 4 mudah tetapi tetap kerja fisik angkut/gulung."),
+         "Alt 1 tombol 1-sentuhan + LED; Alt 2/3 bebani buruh navigasi, titian parit (+), gulung selang/servis BBM."),
         ("K6. Dampak Lingkungan (S-12: 0 g/kWh) & Keamanan SELV (S-10)", 5, [5, 3, 1, 4],
-         "Alt 1 full PLTS 12 V DC aman sentuh IP65; Alt 3 pakai mesin bensin/diesel beremisi."),
+         "Alt 1 full PLTS 12 V SELV IP65; Alt 2 48-60 V berisiko di basah; Alt 3 pakai bensin 7 HP / diesel 30 kW."),
     ]
     t2_rows = []
     totals = [0.0, 0.0, 0.0, 0.0]
@@ -352,8 +355,8 @@ def main():
         "Kriteria Evaluasi (Skala 1 = Sangat Buruk s.d. 5 = Sangat Baik)",
         "Bobot",
         "Alt 1\n(Tetes Surya)",
-        "Alt 2\n(UGV Robot)",
-        "Alt 3\n(Gun BBM)",
+        "Alt 2\n(Robot/UGV)",
+        "Alt 3\n(Selang/Gun)",
         "Alt 4\n(Tandon/PV)",
         "Justifikasi Kuantitatif Penilaian",
     ]
@@ -426,7 +429,8 @@ def main():
         ["4", "Pencegahan Endapan di Ujung Lateral", "Pipa lateral PE 16 mm ditutup mati (*end cap*) tanpa mekanisme penggelontoran sedimen halus.", "Penambahan 3 keran *end-flush* di ujung lateral untuk penggelontoran berkala mencapai kecepatan bilas v >= 0,60 m/s (418,4 L/jam pd v=0,80 m/s).", "Z-12 (Lavanholi 2018): ambang pengendapan 0,6 m/s."],
         ["5", "Keandalan Sensor Tanah Capacitive v1.2", "Dipakai langsung tanpa pengkondisian hardware sehingga rentan korosi, *drift* LDO ESP32, & pengisian parasitik.", "Modifikasi RC (+1 MOhm + 0,1 uF), *power-gating* MOSFET (hanya aktif saat ukur), catu LDO 3,3 V terpisah, & kalibrasi lokal tanah liat Ciberes.", "Z-01 (Dafonte 2024), Z-08 (Dominguez-Nino 2019), Z-21 (Sensors 2026)."],
         ["6", "Kepatuhan Pagu Biaya Purwarupa (S-08)", "Daftar belanja RAB mencantumkan angka melebihi batas (Rp5.960.000) dan tabel menyatu tidak konsisten.", f"Rancangan komponen terkendali sebesar **{bom_proto_str}** (<= Rp5.000.000 sesuai S-08 CD-2) untuk petak uji *20 m x 3 baris* dengan 3 zona MBV.", "CD-2 hard constraint C-02 & spesifikasi S-08."],
-        ["7", "Tata Letak Uji & Referensi Pustaka", "Belum memodelkan 3 baris pohon sejajar 3 parit + parit melintang (+) serta memuat sitasi yang belum diunduh.", "Memetakan konfigurasi awal *20 m x 3 baris* + lintasan penyeberangan parit (+), dan seluruh 100% pustaka telah diunduh serta dibaca *full-text*.", "Keterangan mitra pra-survei & 28 berkas penuh pustaka CD-3."],
+        ["7", "Tata Letak Uji & Referensi Pustaka", "Belum memodelkan 3 baris pohon sejajar 3 parit + parit melintang (+) serta memuat sitasi yang belum diunduh/bercampur abstrak.", "Memetakan konfigurasi awal *20 m x 3 baris* + lintasan penyeberangan parit (+); seluruh **37 pustaka** (termasuk 10 pustaka kajian robotika tim) telah dibaca *full-text*.", "Keterangan mitra pra-survei & 37 berkas penuh pustaka CD-3."],
+        ["8", "Pendalaman Evaluasi Alternatif Robotik", "Penolakan robot pada draf awal baru bersifat kualitatif umum (UGV tangki & *straddle* Rp7,5-8,5 jt) tanpa bukti teramekanika basah/gaya seret selang.", "Integrasi bukti penuh: uji selip tanah basah 35% (10% roda vs 3% *crawler*), model seret selang 316-502 N, defisit debit 46,9-53,6 L/mnt vs 5,11 L/mnt, baterai 3,69 kWh, & celah *open-ditch suction*.", "G-02 s.d. G-10 (Wu 2025, Gerdan Koc 2025, Fairfield 2020, Wang 2025, Durga 2024) & Kajian Robotika tim."],
     ]
     t4_widths = [0.40, 1.85, 2.50, 3.25, 2.20]
     t4_aligns = [WD_ALIGN_PARAGRAPH.CENTER, WD_ALIGN_PARAGRAPH.LEFT, WD_ALIGN_PARAGRAPH.LEFT,
@@ -441,9 +445,10 @@ def main():
     add_formatted_runs(
         p_ref,
         "Catatan Rujukan Terverifikasi: Kode [Z-01..Z-21] merujuk pada berkas teks penuh pada "
-        "sumber/referensi jurnal/pustaka_cd3/solusi_terpilih_zonasi/, sedangkan [P-01..P-07] merujuk pada "
-        "sumber/referensi jurnal/pustaka_cd3/solusi_pembanding/. Rincian lengkap sitasi IEEE tercantum "
-        "pada Daftar Pustaka di dalam dokumen utama CD3_Jeruk_Limau_Usulan.docx.",
+        "sumber/referensi jurnal/pustaka_cd3/solusi_terpilih_zonasi/, [P-01..P-07] merujuk pada "
+        "sumber/referensi jurnal/pustaka_cd3/solusi_pembanding/, sedangkan [G-01..G-10] merujuk pada "
+        "kajian & berkas penuh pada sumber/referensi jurnal/referensi_garnie_solusiRobot/ (dengan G-01 sepadan P-02 Elkaoud 2025). "
+        "Rincian lengkap 41 sitasi IEEE tercantum pada Daftar Pustaka dalam CD3_Jeruk_Limau_Usulan.docx.",
         font_size=8.5,
         color=RGBColor(71, 85, 105),
     )

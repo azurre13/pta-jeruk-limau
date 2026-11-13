@@ -1,12 +1,12 @@
 # Bahan Bimbingan CD-1 Kebun Jeruk Limau
 
-**Diperbarui: 9 Oktober 2026.** Catatan untuk dibaca sebelum bimbingan dan membantu menjelaskan masalah, bukti lapangan, serta arah kajian solusi.
+**Diperbarui: 14 November 2026** *(catatan dasar 9 Oktober 2026 yang diselaraskan dengan CD-1/CD-2 Final ACC dan klarifikasi pompa bensin Pertalite serta penghentian uji LPG)*. Catatan untuk dibaca sebelum bimbingan dan membantu menjelaskan masalah, bukti lapangan, serta arah kajian solusi.
 
 **Lokasi:** JH7H+222, Ciberes, Kabupaten Subang, Jawa Barat.  
 **Pembimbing:** Dr. Agung Nugroho Jati, S.T., M.T.  
 **Tim:** Muhammad Al Qarnie, Maheswara Ariq Athallah, dan Daffa Hermansyah.
 
-**Seluruh data mitra:** [Data Mitra Lengkap](DATA_MITRA_LENGKAP.md) menghimpun ukuran/kondisi kebun, keluhan, estimasi, sumber foto/video, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Catatan bimbingan ini tetap bacaan ringkas.
+**Seluruh data mitra:** [Data Mitra Lengkap](../DATA_MITRA_LENGKAP.md) menghimpun ukuran/kondisi kebun, keluhan, estimasi, sumber foto/video, dan transkrip utuh Audio 1/2 serta wawancara sayuran. Catatan bimbingan ini tetap bacaan ringkas.
 
 ## 1. Penjelasan satu menit untuk dosen
 
@@ -15,7 +15,7 @@
 >
 > Masalah utamanya, volume tiap pohon belum diketahui dan upah empat pekerja mencapai Rp400.000 per penyiraman. Jika tetap tiga hari sekali, skenario upahnya sekitar Rp48,7 juta setahun, di luar bahan bakar dan perawatan.
 >
-> Mitra ingin biaya tahun pertama lebih rendah dan air tiap pohon lebih terjamin. Acuan 15 liter belum menjadi dosis tervalidasi; hujan, tajuk, fase buah, serta tanah perlu diperiksa. Kebun juga belum memiliki PLN dan mitra mengeluhkan perawatan pompa yang dimodifikasi memakai LPG.
+> Mitra ingin biaya tahun pertama lebih rendah dan air tiap pohon lebih terjamin. Acuan 15 liter belum menjadi dosis tervalidasi; hujan, tajuk, fase buah, serta tanah perlu diperiksa. Kebun juga belum memiliki PLN dan pompa mesin bensin Alkon berbahan bakar Pertalite dikeluhkan boros/sering bermasalah (uji coba modifikasi LPG 3 kg sempat dilakukan untuk menekan BBM, namun dihentikan karena mesin cepat panas/*overheating*).
 >
 > CD-1 menjelaskan hubungan masalah tersebut serta membandingkan manual/parit, irigasi permukaan, mikroirigasi, dan robot. Kami belum memilih desain akhir.
 
@@ -29,8 +29,8 @@
 Sungai / saluran irigasi
           │
           ▼
-Pompa mesin eksisting
-(semula bensin; menurut mitra dimodifikasi memakai LPG)
+Pompa mesin eksisting Alkon 2 inci
+(bahan bakar Pertalite; uji coba LPG 3 kg pernah dicoba namun dihentikan)
           │
           ▼
 Jaringan parit galian tanah
@@ -74,7 +74,7 @@ Foto memperlihatkan selokan terbuka dari tanah, tanpa lapisan beton, di samping 
 | Acuan minimal 15 L/pohon setiap penyiraman | Disebut mitra dalam Audio 1; belum menjadi dosis agronomis tervalidasi. |
 | Empat pekerja, Rp100.000/orang per kegiatan | Keterangan yang diberikan tim; dasar perhitungan upah Rp400.000 per kegiatan. |
 | Belum ada listrik PLN karena jauh dari jaringan | Keterangan mitra/tim; juga disebut dalam Audio 1. |
-| Pompa dimodifikasi memakai LPG tabung 3 kg | Laporan mitra dalam Audio 1; tujuannya menekan biaya bahan bakar dibanding bensin. |
+| Pompa bensin Alkon memakai Pertalite *(pernah uji coba LPG 3 kg, dihentikan)* | Audio 1 membahas uji coba LPG 3 kg agar lebih irit beserta keluhan panas dan seher/ring cepat habis; klarifikasi lanjut mengonfirmasi uji LPG sudah dihentikan karena mesin *overheat* dan operasi aktif menggunakan bensin Pertalite. |
 | Air parit habis/kering setelah pompa berhenti | Laporan mitra; penyebab dan laju berkurangnya air belum diukur. |
 
 Ukuran pada citra juga perlu dibaca terpisah: **117,52 m** adalah panjang suatu garis pada koridor kebun; **20,54 m** adalah garis jarak menuju sungai pada tampak atas; **lebar sekitar 6 m** berasal dari keterangan tim. Ketiganya belum menjadi peta batas lahan lengkap. Jarak menuju sungai bukan beda ketinggian atau *head* pompa.
@@ -99,9 +99,9 @@ Audio 1 menyebut sekitar **Rp90 juta sejak pembukaan lahan sampai kondisi saat k
 
 ### D. Energi dan kondisi pompa
 
-Mitra memodifikasi mesin bensin agar memakai LPG karena ingin biaya bahan bakarnya lebih murah. Menurut mitra, muncul keluhan panas, kerusakan komponen, dan perawatan yang mahal.
+Mitra tetap mengandalkan pompa Alkon bermesin bensin Pertalite (2 inci), karena tidak ada listrik PLN. Pada tahap sebelumnya mitra sempat mencoba memodifikasi karburator mesin bensin ke bahan bakar gas LPG 3 kg untuk menekan biaya BBM. Namun menurut penuturan mitra, uji coba LPG menimbulkan panas berlebih (*overheating*), keausan cepat pada seher/ring, serta kekhawatiran keselamatan dan biaya perbaikan sehingga eksperimen LPG dihentikan dan pompa kembali memakai Pertalite.
 
-Untuk menjelaskan kepada dosen: **tujuan modifikasi adalah menghemat biaya bahan bakar, tetapi penghematan biaya total belum terbukti karena perawatan juga perlu diperhitungkan.** Penyebab kerusakan masih merupakan penjelasan mitra, belum diagnosis teknis. Ini menjadi data sistem eksisting, bukan usulan modifikasi dari tim.
+Untuk menjelaskan kepada dosen: **eksperimen penggantian BBM dengan LPG terbukti gagal secara termal/mekanis dan sudah dihentikan; saat ini beban OPEX pompa berasal dari konsumsi rutin Pertalite serta servis mesin.** Penyebab rinci kerusakan terdahulu dan konsumsi liter/siklus Pertalite aktual akan diaudit pada survei lapangan ([Checklist Survei](../CHECKLIST_SURVEI_MITRA_CIBERES.md)). Ini data sistem eksisting, bukan usulan desain tim.
 
 ### E. Ketersediaan air parit dan kualitas air
 
@@ -137,7 +137,7 @@ Angka 15 L juga belum boleh langsung dipakai untuk menetapkan durasi pompa, dosi
 - **00:57–01:16:** perkiraan biaya kumulatif sekitar Rp90 juta.
 - **02:11–02:32:** kebutuhan air menurut mitra dan acuan 15 L setiap penyiraman.
 - **02:36–03:18:** laporan air parit kering, pembuatan selokan, kemudahan penyiraman, dan pertimbangan biaya sarana.
-- **03:52–04:53:** modifikasi pompa dari bensin ke gas serta keluhan kerusakan/perawatan.
+- **03:52–04:53:** cerita uji coba modifikasi pompa dari bensin ke gas LPG beserta keluhan panas dan kerusakan komponen (klarifikasi berikutnya: uji LPG telah dihentikan, operasi aktif memakai Pertalite).
 - **05:08–05:11:** listrik tidak tersedia karena jauh.
 
 **Audio 2 adalah tambahan dengan konteks dua kebun.** Pembahasan bekas empang, urukan, resapan/kotak kecil, dan sumber air kebun belakang rumah tidak digunakan sebagai kondisi kebun proyek. Bagian **03:05–03:28** menjelaskan kebun luas: air irigasi dinaikkan dengan pompa ke parit dan penyiraman tetap manual. Keterangan umum kebutuhan air dan keluhan biaya dapat menjadi tambahan setelah konteksnya diperhatikan.
@@ -166,7 +166,7 @@ Jumlah pompa, kontroler, zona, jenis sensor, ukuran pipa, sumber energi baru, se
 1. **Peta eksisting:** tiga parit memanjang, penghubung melintang, posisi pompa, aliran masuk/keluar, dan kelompok pohon yang dilayani.
 2. **Volume aktual:** ukur kapasitas ember dan contoh guyuran pada pohon di awal, tengah, serta akhir jaringan.
 3. **Operasi pekerja:** durasi, tugas masing-masing, dan biaya per kegiatan.
-4. **Pompa:** jenis mesin, riwayat modifikasi, pemakaian LPG, waktu operasi, serta biaya dan frekuensi perawatan.
+4. **Pompa:** jenis mesin Alkon bensin, konsumsi Pertalite aktual (liter/siklus), riwayat penghentian uji coba LPG, waktu operasi, serta biaya dan frekuensi perawatan.
 5. **Air dan saluran:** kedalaman parit, tinggi air, perubahan setelah pompa berhenti, debit, dan kualitas air.
 6. **Tanaman dan hujan:** identitas bibit, kelompok umur/tajuk, fase bunga/buah, hujan, dan kelembapan daerah akar untuk menilai acuan 15 L.
 7. **Tanah dan pupuk:** infiltrasi, drainase, pH/hara, serta jenis, dosis, cara, dan waktu pemupukan.
@@ -184,20 +184,20 @@ Pertanyaan untuk dosen:
 - **“Apakah sekarang sudah 15 liter tiap pohon?”** Belum diketahui. Itu acuan yang disebut mitra; ember dan guyuran belum diukur.
 - **“Apa target biaya proyek?”** Biaya total tahun pertama lebih rendah daripada penyiraman eksisting, termasuk alat, instalasi, energi, perawatan, dan upah tersisa. Skenario upah eksisting sekitar Rp48,7 juta/tahun; bahan bakar/perawatan masih perlu dicatat.
 - **“Apakah paritnya perlu dibuang?”** Belum diputuskan. Parit merupakan sarana eksisting yang membantu pekerja; kecocokan pemanfaatannya perlu dinilai.
-- **“Apakah LPG sudah terbukti lebih hemat?”** Mitra memakainya untuk menekan biaya bahan bakar, tetapi biaya total termasuk perawatan belum dibandingkan.
+- **“Apakah LPG sudah terbukti lebih hemat?”** Tidak — mitra sempat menguji modifikasi LPG 3 kg untuk menekan ongkos bensin, namun menghentikannya karena mesin cepat *overheat* dan menggerus komponen (seher/ring). Pompa kembali mengandalkan bensin Pertalite.
 - **“Mengapa masalahnya kompleks?”** Distribusi air, tanah dan kebutuhan tanaman, energi, perawatan, biaya, serta pekerjaan manusia saling berhubungan. CD-1 memberi dasar kriteria 1, 2, dan 7. Nomor 3 diajukan karena air, waktu kerja, energi tanpa PLN, dan biaya tahun pertama perlu dimodelkan bersama. Bila air ditambah, waktu/energi dapat bertambah; bila guyur manual diganti jaringan, muncul investasi/perawatan. Alasan ini dibahas dengan dosen; model belum diuji dan Level 4 belum menjadi nilai pasti. Kriteria 6 belum didukung kebutuhan pekerja yang terdokumentasi.
 
 ## 10. Dokumen pendamping
 
-- [CD-1 PDF yang sedang digunakan](../dokumen/cd1/CD1_Jeruk_Limau.pdf)
-- [CD-1 DOCX yang sedang digunakan](../dokumen/cd1/CD1_Jeruk_Limau.docx)
+- [CD-1 PDF Final ACC](../../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) (26 halaman, bertanda tangan)
+- [Arsip DOCX Draf CD-1](../../dokumen/draf/cd1/CD1_Jeruk_Limau.docx) (beserta revisi 1–3)
 
 Dasar ringkasan: keterangan mitra/tim, foto lapangan, citra lokasi, serta transkrip Audio 1 dan Audio 2 yang diberikan tim. Dasar perbandingan pendekatan mengikuti literatur pada daftar pustaka CD-1, antara lain FAO tentang kebutuhan air dan metode irigasi, NRCS tentang mikroirigasi, serta kajian evaluasi keseragaman dan pemeliharaan. Tidak ada angka penghematan, efisiensi kebun, atau dampak panen yang diklaim sebagai hasil pengujian.
 
 
-## 11. Hasil audit final dan cara membahas rubrik
+## 11. Hasil audit dan pembaruan hingga CD-1 Final ACC
 
-DOCX dan PDF aktif sudah diaudit dan diperbarui pada nama yang sama. Hasilnya 25 halaman, 36 referensi, terdiri dari 29 sumber teknis/literatur (termasuk satu pracetak dan satu skripsi) serta tujuh sumber proyek/institusi, empat persamaan, dan empat pendekatan pembanding. Parit penghubung melintang serta penggunaan LPG sudah masuk CD-1. Angka 15 L tetap acuan mitra; Rp48,7 juta/tahun tetap skenario upah, bukan hasil ukur atau anggaran alat.
+Pada audit 9 Oktober 2026 draf berjumlah 25 halaman dengan 36 referensi (29 sumber teknis/literatur + 7 sumber proyek/institusi). Selanjutnya pada pembaruan **10–11 Oktober 2026 (CD-1 Revisi 2–3 -> Final ACC)**, narasi dan Tabel 6 SWOT diselaraskan penuh dengan fakta operasional aktif **pompa bensin Pertalite** (uji coba LPG masa lalu telah dihentikan karena mesin panas), serta berkas final disahkan dosen menjadi **26 halaman** di [`dokumen/cd1/`](../../dokumen/cd1/). Angka `15 L/pohon` tetap acuan mitra; `Rp48,7 juta/tahun` tetap skenario upah, bukan hasil ukur atau anggaran alat. *(Catatan: pada draf CD-1 9 Oktober sebelum finalisasi, bagian ini sempat menyebut 25 halaman dan status LPG lama.)*
 
 | Komponen rubrik dosen kelas | Keadaan dokumen |
 |---|---|
@@ -234,7 +234,7 @@ Sebelum dikumpulkan, tanda tangan basah Pembimbing 1 dan tanggal pengesahan masi
 
 Jangan mengatakan jeruk memakai urea 5 kuintal/hektar, tanah jeruk pasti pH-nya labil, atau sudah terjadi pemupukan berlebih. Contoh dosis, panen, listrik, dan hama dalam wawancara tambahan adalah konteks kebun sayuran. Audio 1 tetap sumber utama. Tidak ada resep pupuk atau solusi alat akhir yang ditetapkan.
 
-Bagian ini sudah masuk CD-1 **1.2.8**, tabel verifikasi **Tabel 3**, dan kesimpulan. Dokumen aktif sekarang **25 halaman**, **36 referensi**, dengan **29 sumber teknis/literatur (termasuk satu pracetak dan satu skripsi)**. Pengguna sudah melaporkan bimbingan, tetapi tanggal pasti/jumlah sesi belum dicatat untuk timeline akademik.
+Bagian ini sudah masuk CD-1 **1.2.8**, tabel verifikasi **Tabel 3**, dan kesimpulan. Pada draf 9 Oktober dokumen sempat berjumlah 25 halaman (36 referensi, dengan 29 sumber teknis/literatur); pada versi Final ACC di [`dokumen/cd1/`](../../dokumen/cd1/) dokumen berjumlah **26 halaman**. Pengguna sudah melaporkan bimbingan, sedangkan catatan kelengkapan tanggal/sesi ada pada logbook CD-1.
 
 
 ## 13. Perubahan analisis solusi dan gagasan robot dari dosen
@@ -328,4 +328,4 @@ Bagian ini sudah masuk **1.2.7**, analisis tanah **1.2.8**, Tabel 3 dan kesimpul
 
 ## 15. Melanjutkan dengan AI lain
 
-Untuk membuka proyek di Antigravity atau chat baru, gunakan root clone `C:/Users/daffa/Documents/pta-jeruk-limau` dan [panduan melanjutkan proyek](../konteks-ai/MULAI_CHAT_BARU.md). Konteks lengkap serta status tersimpan dalam `konteks-ai/`; AGENTS.md dan GEMINI.md menjadi pintu masuk. Cukup berikan tugas berikutnya setelah AI membaca konteks. Catatan bimbingan ini tetap menjadi bacaan mahasiswa, sedangkan laporan resmi adalah DOCX/PDF aktif.
+Untuk membuka proyek di Antigravity atau chat baru, gunakan root clone `C:/Users/daffa/Documents/pta-jeruk-limau` dan [panduan melanjutkan proyek](../../konteks-ai/MULAI_CHAT_BARU.md). Konteks lengkap serta status tersimpan dalam `konteks-ai/`; AGENTS.md dan GEMINI.md menjadi pintu masuk. Cukup berikan tugas berikutnya setelah AI membaca konteks. Catatan bimbingan ini tetap menjadi bacaan mahasiswa, sedangkan laporan resmi adalah DOCX/PDF aktif.
