@@ -30,8 +30,8 @@
 
 ## 2. Pos 1 — Rekam Denah Jalan Kaki & Pin GPS HP *(Pengganti Drone)*
 
-- [ ] **Tandai 4 titik sudut kebun + titik pompa di Google Maps HP:** Berdiri sebentar di (1) **titik pompa pinggir saluran air**, (2) **pojok depan kebun**, (3) **ujung belakang kebun**, dan (4) **ujung seberangnya** → *screenshot* layar Google Maps di tiap titik (atau klik tahan → *Ukur jarak* di Maps).  
-  - *Tujuannya:* Mengukur panjang total kebun (`100 m+`), lebar kebun, dan jarak air ke kebun **tanpa perlu meteran panjang**.
+- [ ] **Cek posisi titik biru GPS di Google Maps HP (`~30 detik`):** Berdiri di (1) **titik pompa Alkon dipasang**, (2) **ujung awal kebun**, dan (3) **ujung akhir batas kebun mitra** → *screenshot* layar Maps titik biru Anda *(tidak usah tarik garis ukur lagi di Maps karena foto garis `117,52 m` & `20,54 m` kemarin sudah ada; ini cukup buat memastikan batas aslinya pas di garis kemarin atau bergeser)*.  
+  - *Tujuannya:* Memastikan batas nyata kebun & titik pompa saat ini cocok dengan citra satelit kemarin.
 - [ ] **Rekam 1 video pelan sambil berjalan (durasi `1–2 menit`):** Mulai dari **pinggir saluran irigasi tempat pompa Alkon berdiri**, jalan naik ke kebun, lalu jalan menyusuri dari pangkal kebun hingga agak ke tengah/ujung sambil menengok kanan-kiri *(termasuk arah jalan raya/tiang listrik terdekat kalau terlihat)*.  
   - *Tujuannya:* Jadi rekaman visual lengkap kondisi lapangan (letak tebing, arus air, jumlah baris pohon, parit melintang `+`, dan jarak tiang PLN) untuk bahan rujukan desain `CD-3`.
 - [ ] **Gambar sketsa kotak-kotak kasar di kertas (lalu foto dengan HP):** Cukup coretkan garis posisi saluran air di mana, Alkon ditaruh di mana, ada berapa baris pohon & parit, dan posisi parit melintang `+`.  
@@ -71,8 +71,9 @@
   - *Tujuannya:* Kunci penentu posisi pompa! Jika tinggi total `<= 1,5–2 m`, pompa DC bisa ikut ditaruh **aman di atas di dalam kebun**. Jika lebih dari `2 m`, pompa harus ditaruh di kotak dekat air dan kita wajib memakai kabel tebal (`4–6 mm²`) supaya dayanya tidak habis di jalan.
 - [ ] **Tanya soal aturan saluran & musim kemarau/hujan:**  
   1. Badan air ini saluran irigasi resmi (PU/PJT) atau sungai alami? Bolehkah nanti pasang pipa hisap dengan keranjang pelindung di pinggirnya (atau harus bongkar-pasang)? `_________________________`  
-  2. Saat kemarau puncak, airnya pernah **kering total / pintu irigasi ditutup**? Paling lama berapa hari? `________ hari`  
+  2. Saat kemarau puncak, airnya pernah **kering total / pintu irigasi ditutup**? Paling lama berapa hari? `________ hari` *(jika iya, apakah di pinggir/ujung kebun ada ruang kosong buat bak/kolam terpal cadangan? `[ ] Ada  [ ] Tidak`)*  
   3. Saat hujan deras, air saluran bisa meluap **naik sampai setinggi mana** (apakah sampai menggenangi tempat parkir motor / masuk kebun)? `_________________________`  
+  4. Apakah terlihat **tiang listrik PLN** di dekat kebun? Perkiraan jaraknya `________ m` *(buat bukti di laporan kalau kebun memang jauh dari listrik PLN)*.  
   - *Tujuannya:* Menentukan apakah aman sedot langsung **1 pompa** atau harus bikin cadangan **kolam terpal** dalam kebun, dan memastikan boks pompa tidak dipasang di titik rawan banjir.
 - [ ] **Lihat kejernihan air & opsional bawa 1 botol `600 mL` sampel air:** `[ ] Jernih  [ ] Keruh kecokelatan  [ ] Berlumpur pekat`.  
   - *Tujuannya:* Menentukan tingkat saringan (`filter 120 mesh`) agar penetes air di pohon tidak cepat mampet pasir halus.
@@ -106,13 +107,13 @@
   - Jenis jeruk (`limau / nipis`), tahun tanam / umur `____`, dan kondisi sekarang (banyak bunga / buah kecil / panen): `_________________________`  
   - *Tujuannya:* Tahu seberapa lebar tajuk pohon supaya nanti **2 penetes air (`dripper`)** ditaruh tepat di bawah tepi daun (daerah akar makan), bukan menempel ke batang.
 - [ ] **Tes Siram `15 L` di 1 Pohon Contoh (TIDAK perlu menggali akar!):**  
-  - Tuang pelan **`15 Liter`** air merata melingkar di bawah daun 1 pohon, lalu hidupkan *stopwatch* HP:  
+  - Pakai ember pekerja yang sudah ditakar di Pos 4 (misal ember `5 L` × `3` ember = `15 L`), tuang pelan merata di bawah daun 1 pohon, lalu hidupkan *stopwatch* HP:  
   - Habis meresap tanpa menggenang dalam: **`____ menit`** *(lulus syarat `<= 30 menit`? `[ ] Ya  [ ] Masih menggenang`)*.  
   - *Tujuannya:* Memastikan tanah kebun tidak membuat air `15 L` tergenang lama yang bisa memicu penyakit busuk akar.
 - [ ] *(Opsional, kalau sempat)* Ambil **segenggam–0,5 kg tanah** di kedalaman sejari (~15–25 cm) pinggir pohon ke plastik ziplock berlabel *"Tanah Jeruk Ciberes"*.  
   - *Tujuannya:* Disimpan kering di Bandung sebagai cadangan jika nanti jadi kalibrasi sensor lengas atau tes sifat tanah untuk laporan (`tidak wajib kalau tidak sempat`).
 - [ ] **Tanya soal pupuk, patokan 15 L, & hujan:**  
-  1. Dari mana pemilik memakai patokan **"minimal 15 L/pohon"**? `____________________`  
+  1. Dari mana pemilik memakai patokan **"minimal 15 L/pohon"**, dan apakah semua ukuran pohon disamakan segitu atau ada yang beda? `____________________`  
   2. Pemupukan **`2× setahun ("1 kuintal lebih")`** itu pupuknya jenis apa (`NPK/kandang/urea`) dan `1 kuintal` dipakai untuk berapa pohon? `____________________`  
   3. Kalau turun hujan deras, biasanya penyiraman ditunda berapa hari? `____ hari`  
   - *Tujuannya:* Menutup data yang masih kosong di `CD-1` supaya tidak memakai angka tebakan.
@@ -135,8 +136,9 @@
   - Minta pemilik menunjuk **1 segmen di tepi kebun** (panjang sekitar `25–30 m` pada 1–3 baris terdekat ke saluran air) yang nanti sekitar **bulan Maret** boleh dipakai memasang purwarupa uji coba.  
   - Foto area tersebut bersama pemilik (dan catat dari pohon ke-berapa sampai ke-berapa).  
   - *Tujuannya:* Supaya desain `CD-3` sudah mengacu pada titik petak yang disetujui pemilik, tanpa meninggalkan patok fisik yang bisa mengganggu kerja kebun selama November–Februari.
-- [ ] **Izin Penulisan Nama di Laporan & Foto Penutup:**  
+- [ ] **Izin Penulisan Nama di Laporan, Nomor WA, & Foto Penutup:**  
   - Nama pemilik / pengelola kebun yang diizinkan dicantumkan di laporan Capstone Telkom (`CD-3`/`CD-4`): `_________________________` *(atau hanya inisial/jabatan: `[ ] Penuh  [ ] Inisial`)*  
+  - Nomor HP/WA pemilik atau pengurus lapangan *(biar kalau ada data susulan tidak perlu bolak-balik Bandung–Subang)*: `_________________________`  
   - Foto pelat pompa, foto ember sebelah botol `1 L`, foto parit dengan meteran `3,5 m`, dan foto bareng pemilik sebagai bukti kunjungan.
 
 ---
