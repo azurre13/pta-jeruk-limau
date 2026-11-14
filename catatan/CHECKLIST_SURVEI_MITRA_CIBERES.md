@@ -19,43 +19,44 @@
 ---
 
 ## 1. Barang Bawaan Ringkas (Cukup Masuk 1 Tas)
-- [ ] **Drone `DJI Mini 4 Pro`** + baterai penuh + kartu memori kosong *(pengganti meteran panjang untuk melihat seluruh kebun dari atas)*.
-- [ ] **Meteran `5 m`** *(cukup untuk jarak antar-pohon, lebar kebun, ukuran parit, ember, & beda tinggi tebing)*.
-- [ ] **HP** *(kamera foto, stopwatch, kompas/arah matahari, & rekam catatan suara izin mitra)*.
+- [ ] **Meteran `3,5 m`** *(cukup! Untuk jarak pendek ukur langsung; untuk `15–25 m` tinggal sambung-tanda tiap `3,5 m` pakai batu/sandal, sedangkan panjang `100 m` pakai hitungan pohon + GPS HP)*.
+- [ ] **HP** *(kamera foto/video, Google Maps pin GPS sudut kebun, aplikasi waterpass/kompas HP bila ada, stopwatch, & rekam izin mitra)*.
 - [ ] **Botol ukur `1 L`** (atau botol air mineral bekas `600 mL` / `1,5 L` yang ukurannya pasti) *(untuk menakar ember pekerja & uji tuang `15 L`)*.
 - [ ] **1 botol kosong `600 mL`** *(opsional, untuk bawa contoh air saluran)*.
 - [ ] **1 plastik ziplock kecil + spidol** *(opsional, cukup ambil segenggam–0,5 kg tanah kalau sempat; sampai Bandung wajib diangin-anginkan/jemur hingga kering baru disimpan)*.
+- [ ] **Kertas kecil & pulpen** *(gambar sketsa kasar letak saluran air, posisi pompa Alkon, baris pohon, & parit `+` supaya nanti gampang dibaca ulang)*.
 
 ---
 
-## 2. Pos 1 — Foto Udara Pakai Drone (`DJI Mini 4 Pro`)
-*(Lakukan ini dulu saat kondisi angin tenang; hati-hati kabel listrik di pinggir jalan tanggul!)*
+## 2. Pos 1 — Rekam Denah Jalan Kaki & Pin GPS HP *(Pengganti Drone)*
 
-- [ ] **Pasang patokan skala `5 meter` di tanah sebelum foto atas:** Taruh 2 barang yang warnanya mencolok di tanah terbuka (misal tas & helm/botol) dengan jarak **pas `5,0 m`** diukur pakai meteran `5 m`.  
-  - *Tujuannya:* Dari satu foto atas, panjang total kebun (`100 m+`), lebar kebun, dan jarak sungai nanti bisa diukur akurat di laptop berdasarkan patokan `5 m` itu — **jadi tidak perlu menarik meteran 5 m sejauh 100 m**.
-- [ ] **Foto tegak lurus ke bawah (`kamera 90°`) dari ketinggian aman (`~30–60 m`):** Pastikan dalam satu foto (atau 2–3 foto bersambung) terlihat **saluran air besar + tanggul/jalan motor + 3 parit + seluruh baris pohon jeruk + parit melintang `+` + patokan 5 m**.  
-  - *Tujuannya:* Langsung menjawab jumlah baris pohon sebenarnya, posisi parit silang `+` yang harus dilewati pipa, dan area terbuka untuk panel surya.
-- [ ] **Video pendek pinggir saluran irigasi/sungai & sekitar kebun:** Rekam pinggir air, pintu air terdekat (kalau ada), dan tengok apakah ada tiang listrik PLN di sekitar kebun.  
-  - *Tujuannya:* Melihat arus air dan bukti foto kondisi sebenarnya kebun yang jauh dari listrik PLN.
-- *(Catatan: Jangan memakai angka ketinggian di layar drone untuk mengukur tinggi tebing sungai ke kebun, karena sensor tinggi drone bisa meleset `±0,5–1,5 m`. Tinggi tebing tetap ukur manual di Pos 3.)*
+- [ ] **Tandai 4 titik sudut kebun + titik pompa di Google Maps HP:** Berdiri sebentar di (1) **titik pompa pinggir saluran air**, (2) **pojok depan kebun**, (3) **ujung belakang kebun**, dan (4) **ujung seberangnya** → *screenshot* layar Google Maps di tiap titik (atau klik tahan → *Ukur jarak* di Maps).  
+  - *Tujuannya:* Mengukur panjang total kebun (`100 m+`), lebar kebun, dan jarak air ke kebun **tanpa perlu meteran panjang**.
+- [ ] **Rekam 1 video pelan sambil berjalan (durasi `1–2 menit`):** Mulai dari **pinggir saluran irigasi tempat pompa Alkon berdiri**, jalan naik ke kebun, lalu jalan menyusuri dari pangkal kebun hingga agak ke tengah/ujung sambil menengok kanan-kiri *(termasuk arah jalan raya/tiang listrik terdekat kalau terlihat)*.  
+  - *Tujuannya:* Jadi rekaman visual lengkap kondisi lapangan (letak tebing, arus air, jumlah baris pohon, parit melintang `+`, dan jarak tiang PLN) untuk bahan rujukan desain `CD-3`.
+- [ ] **Gambar sketsa kotak-kotak kasar di kertas (lalu foto dengan HP):** Cukup coretkan garis posisi saluran air di mana, Alkon ditaruh di mana, ada berapa baris pohon & parit, dan posisi parit melintang `+`.  
+  - *Tujuannya:* Biar tidak lupa posisi kiri–kanan/depan–belakang saat sudah pulang ke Bandung.
 
 ---
 
-## 3. Pos 2 — Hitung Pohon, Baris, & Ukuran Tanah/Parit (Meteran `5 m`)
+## 3. Pos 2 — Hitung Pohon, Baris, & Ukuran Tanah/Parit (Meteran `3,5 m`)
 
 - [ ] **Hitung jumlah baris pohon & jumlah pohon hidup per baris:**  
   - Jumlah baris total: `______` baris  
   - Baris 1: `____` pohon | Baris 2: `____` pohon | Baris 3: `____` pohon | Baris lainnya: `____________`  
   - **TOTAL POHON HIDUP:** **`______` pohon** *(titik kosong/mati: `____`)*  
   - *Tujuannya:* Mengetahui populasi asli (`betul 500–600 atau lebih sedikit?`). Angka ini menentukan ukuran pompa dan jumlah zona skala penuh agar penyiraman selesai `<= 4 jam` (rencana awal **`4 zona`**).
-- [ ] **Ukur jarak antar-pohon (ambil 5 contoh acak pakai meteran `5 m`):** `____, ____, ____, ____, ____ m` → rata-rata **`____ m`**.  
-  - *Tujuannya:* Mengalikan jumlah pohon × jarak tanam untuk tahu panjang baris total, plus menyesuaikan berapa panjang pipa yang dibutuhkan nanti untuk uji coba (`syarat minimal >= 25 m`).
-- [ ] **Ukur lebar kebun (jarak dari Baris 1 ke Baris 2 ke Baris 3, dan total kiri–kanan):**  
-  - Baris 1–2: `____ m` | Baris 2–3: `____ m` | **Total lebar kebun:** **`____ m`**.  
-  - *Tujuannya:* Memastikan lebar kebun sebenarnya (sebelumnya di catatan ada beda angka `~6 m` vs `25–30 m`), supaya pipa pembagi antar-baris ukurannya pas.
+- [ ] **Ukur jarak antar-pohon (ambil 5 contoh acak pakai meteran `3,5 m`):** `____, ____, ____, ____, ____ m` → rata-rata **`____ m`**.  
+  - *Tujuannya:* Mengalikan jumlah pohon × jarak tanam untuk tahu panjang baris total **tanpa perlu menarik meteran 100 m**, plus menentukan panjang petak uji (`syarat minimal >= 25 m`).
+- [ ] **Lihat kemiringan tanah sepanjang kebun:** `[ ] Datar rata  [ ] Agak miring turun ke arah ________`  
+  - *Tujuannya:* Kalau tanah miring, tekanan air di ujung bawah vs atas bisa beda; ini menentukan posisi pompa & katup agar air tetap rata.
+- [ ] **Ukur lebar kebun pakai meteran `3,5 m` (sambung bertahap pakai tanda batu/sandal di tanah kalau `> 3,5 m`):**  
+  - Jarak Baris 1–2: `____ m` | Baris 2–3: `____ m` | **Total lebar kebun kiri–kanan:** **`____ m`**.  
+  - *Tujuannya:* Memastikan lebar kebun sebenarnya (sebelumnya ada beda catatan `~6 m` vs `25–30 m`), supaya pipa pembagi antar-baris ukurannya pas.
 - [ ] **Ukur 1 parit memanjang & 1 parit penghubung melintang (`+`):**  
   - Lebar atas parit: `____ cm` | Dalam parit dari tanah atas: `____ cm` | Jarak antar-parit melintang `+`: tiap `____` pohon / `____ m` | Jumlah parit melintang `+`: kira-kira `____` buah.  
-  - *Tujuannya:* Menghitung berapa titik pipa nanti harus dibuatkan penyangga/jembatan sederhana agar tidak terendam di parit `+`.
+  - Ujung paritnya buntu di dalam kebun atau terbuka tembus ke sawah/saluran buang? `[ ] Buntu  [ ] Tembus buangan` | Habis pompa Alkon mati, air parit habis kira-kira dalam berapa jam/menit? `____`  
+  - *Tujuannya:* Menghitung berapa titik pipa perlu penyangga jembatan parit `+`, dan tahu apakah air parit habis karena meresap tanah atau bocor keluar.
 - [ ] **Cek kondisi jalan antar-baris & tepi parit saat basah:** Lebar jalan bebas tanpa dahan keras `____ cm` | Jika diinjak dekat pinggir parit, tanahnya gampang amblas/longsor atau keras? `[ ] Gampang longsor  [ ] Keras`.  
   - *Tujuannya:* Data lapangan untuk laporan `CD-3` guna membuktikan apakah alat beroda/robot bisa lewat atau tidak.
 
@@ -63,11 +64,10 @@
 
 ## 4. Pos 3 — Sumber Air Saluran Irigasi / Sungai & Posisi Pompa
 
-- [ ] **Ukur beda tinggi permukaan air ke tanah kebun jeruk (pakai meteran `5 m` di pinggir tebing):**  
-  - Langkah 1: Dari **permukaan air** naik ke **tanah datar pinggir sungai/tempat parkir motor**: **`____ m`**.  
-  - Langkah 2: Dari **tempat parkir motor** naik ke **lantai kebun jeruk atas**: **`____ m`**.  
-  - **Total tinggi air ke kebun (`Langkah 1 + 2`):** **`____ m`**.  
-  - Panjang kira-kira jalur selang dari titik hisap air ke pojok kebun atas: **`____ m`**.  
+- [ ] **Ukur beda tinggi permukaan air ke tanah kebun jeruk (cara gampang pakai meteran `3,5 m` + tinggi badan):**  
+  - *Cara cepat:* Berdiri di pinggir air lalu perkirakan/ukur dengan meteran `3,5 m` sejajar pandangan datar mata: naik dari **muka air ke tanah datar tempat parkir motor** butuh berapa kali tinggi meteran/mata (`____ m`), lalu dari **tempat parkir motor ke lantai kebun jeruk atas** (`____ m`). *(Foto juga tebingnya dari samping dengan 1 orang berdiri di dekatnya sebagai pembanding tinggi badan!)*  
+  - **Total beda tinggi air ke kebun:** **`____ m`**.  
+  - **Panjang lintasan selang air (ukur sambung bertahap `3,5 m` atau hitung langkah normal terukur):** dari titik air ke pojok kebun atas **`____ m`**.  
   - *Tujuannya:* Kunci penentu posisi pompa! Jika tinggi total `<= 1,5–2 m`, pompa DC bisa ikut ditaruh **aman di atas di dalam kebun**. Jika lebih dari `2 m`, pompa harus ditaruh di kotak dekat air dan kita wajib memakai kabel tebal (`4–6 mm²`) supaya dayanya tidak habis di jalan.
 - [ ] **Tanya soal aturan saluran & musim kemarau/hujan:**  
   1. Badan air ini saluran irigasi resmi (PU/PJT) atau sungai alami? Bolehkah nanti pasang pipa hisap dengan keranjang pelindung di pinggirnya (atau harus bongkar-pasang)? `_________________________`  
@@ -85,7 +85,8 @@
   - Pakai botol `1 L`, ukur **isi normal 1 ember** saat dipakai menimba pekerja: **`____ Liter`**.  
   - Tanya / lihat langsung: 1 pohon disiram berapa ember (`____` ember) → jadi perkiraan asli sekarang **`____ Liter/pohon`**.  
   - Mulai jam berapa sampai selesai menyiram seluruh kebun (`____ jam`), dan apakah saat air parit tinggal sedikit pohon ujung disiram lebih sedikit? `[ ] Ya  [ ] Tidak`.  
-  - *Tujuannya:* Menguji apakah pemberian manual sekarang benar kurang dari patokan **`15 L/pohon`**, dan sebagai angka pembanding kecepatan sistem baru nanti.
+  - **Jadwal siram nyata setahun:** Selain `3 hari sekali` saat kemarau, kalau musim hujan/pancaroba kira-kira menyiram berapa kali sebulan (`____ kali/bulan`), atau berhenti nyiram total berapa bulan? `________`  
+  - *Tujuannya:* Menguji apakah pemberian manual sekarang benar kurang dari patokan **`15 L/pohon`**, dan menghitung penghematan biaya setahun yang jujur (tidak menganggap kemarau terus 12 bulan).
 - [ ] **Foto pelat tulisan/label pompa bensin `Alkon` + tanya biayanya:**  
   - Merek / ukuran pompa (misal `2 inci`, berapa HP): `_________________________`  
   - Sekali isi parit untuk menyiram kebun, habis **Pertalite berapa liter** (`Rp ________/siklus`) dan pompa nyala berapa lama (`____ jam`)?  
@@ -136,9 +137,9 @@
   - *Tujuannya:* Supaya desain `CD-3` sudah mengacu pada titik petak yang disetujui pemilik, tanpa meninggalkan patok fisik yang bisa mengganggu kerja kebun selama November–Februari.
 - [ ] **Izin Penulisan Nama di Laporan & Foto Penutup:**  
   - Nama pemilik / pengelola kebun yang diizinkan dicantumkan di laporan Capstone Telkom (`CD-3`/`CD-4`): `_________________________` *(atau hanya inisial/jabatan: `[ ] Penuh  [ ] Inisial`)*  
-  - Foto pelat pompa, foto ember sebelah botol `1 L`, foto parit dengan meteran `5 m`, dan foto bareng pemilik sebagai bukti kunjungan.
+  - Foto pelat pompa, foto ember sebelah botol `1 L`, foto parit dengan meteran `3,5 m`, dan foto bareng pemilik sebagai bukti kunjungan.
 
 ---
 
 ## Riwayat Pembaruan Dokumen
-- **14 November 2026 (Revisi Praktis Malam Pra-Survei):** Disederhanakan ke bahasa lapangan yang mudah dipahami, menambahkan penjelasan **`Tujuannya`** di tiap pengecekan, menghilangkan cek gali akar & pemasangan patok fisik (karena pemasangan dimulai Maret), serta menyesuaikan alat ukur dengan barang nyata yang dibawa (`DJI Mini 4 Pro`, meteran `5 m`, HP, & botol ukur `1 L`).
+- **14 November 2026 (Revisi Praktis Malam Pra-Survei):** Disederhanakan ke bahasa lapangan yang mudah dipahami, menambahkan penjelasan **`Tujuannya`** di tiap pengecekan, menghilangkan cek gali akar & pemasangan patok fisik (karena pemasangan dimulai Maret), mengganti penggunaan drone dengan Google Maps pin GPS + video jalan kaki + sketsa, dan menyesuaikan alat ke meteran **`3,5 m`**, HP, serta botol ukur `1 L`.
