@@ -1,0 +1,35 @@
+TO DO LIST SURVEY KEBUN MITRA (CIBERES, SUBANG)
+
+1. ADMINISTRASI & KESEPAKATAN
+[ ] Lengkapi form Minutes of Meeting (MoM) dan minta tanda tangan (TTD) basah mitra.
+[ ] Dokumentasi foto/video kondisi kebun terbaru (parit, sungai, jarak tanam) dan foto bersama mitra.
+[ ] Minta izin titik lokasi pasang purwarupa (petak uji 15-20 pohon) dan sepakat jadwal kunjungan berikutnya.
+
+2. BUDGET, POMPA EKSISTING, & PREFERENSI MITRA
+[ ] Pastikan batas budget mitra untuk sistem skala penuh kebun (apakah sanggup di kisaran Rp12-15 juta atau maksimal Rp18 juta) dan batas biaya perawatan rutin yang sanggup ditanggung (ganti baterai/filter/selang).
+[ ] Catat spek pompa bensin yang dipakai mitra sekarang (merk/PK, diameter selang, lama nyala, dan habis berapa liter bensin sekali siram) sebagai data pembanding CD-3.
+[ ] Pastikan siapa operator harian alat (mitra atau pekerja) dan apakah nyaman memakai sakelar/tombol fisik sederhana.
+[ ] Tunjukkan 4 opsi solusi dan tanyakan mana yang paling pas dan tidak mengganggu kerja di kebun:
+    - Opsi 1: Pipa dan selang tetes diam permanen di sepanjang barisan pohon.
+    - Opsi 2: Robot penjelajah di atas/sisi parit yang menyiram otomatis.
+    - Opsi 3: Tandon air di menara setinggi 2-2,5 meter di tepi kebun.
+    - Opsi 4: Gerobak dorong pompa yang juga bisa dipakai angkut hasil panen.
+
+3. PENGUKURAN TANAH, KETINGGIAN, & JALUR (UNTUK HITUNGAN CD-3)
+[ ] Ukur beda tinggi (elevasi) muka air sungai saat surut ke bibir kebun (wajib untuk cek kuat tidaknya pompa hisap <= 2 m), serta cek kemiringan lahan kebun.
+[ ] Ukur jarak riil dari titik ambil air sungai ke pangkal kebun dan ke ujung baris terjauh (verifikasi citra 20,54 m dan 117,52 m).
+[ ] Hitung jumlah baris dan total pohon pasti (pastikan 500 atau 600 pohon), jarak antar batang dalam 1 baris, serta tinggi/lebar tajuk dan jarak ranting bawah ke tanah.
+[ ] Ukur lebar dan kedalaman parit memanjang serta parit melintang penghubung (+).
+[ ] Ukur lebar pematang/jalan di pinggir parit dan cek kepadatan tanahnya saat diinjak (gembur/mudah longsor atau kuat dilewati beban 30-50 kg).
+
+4. KONDISI AIR, MATAHARI, & KEAMANAN ALAT
+[ ] Cek kondisi air di parit saat pompa bensin mati (cepat surut/kering atau tetap tergenang).
+[ ] Cek kekeruhan/lumpur air sungai dan parit (ambil foto dan sampel botol bening untuk cek kebutuhan saringan; ukur pH/TDS jika bawa alat).
+[ ] Tanyakan batas tinggi banjir/genangan tertinggi di kebun saat musim hujan agar box kontroler dan baterai aman.
+[ ] Cari titik aman dari banjir dan pencurian untuk menaruh box alat, serta titik terbuka kena matahari penuh untuk panel surya (sekalian cek sinyal HP di titik itu).
+
+5. PERAWATAN KEBUN & UJI CEPAT TANAH
+[ ] Tanyakan jadwal babat rumput/penyiangan (untuk mengukur risiko selang atau kabel terpotong arit/cangkul).
+[ ] Konfirmasi jenis, dosis, dan jadwal pemupukan (apakah NPK/kandang, 2x/tahun) serta penyemprotan pestisida (1x/minggu).
+[ ] Catat detail siram manual sekarang (berapa ember/liter per pohon, berapa jam selesai, dan berapa hari sekali).
+[ ] Uji serap tanah cepat: tuang 1 ember air di pangkal pohon untuk melihat air cepat meresap atau menggenang (bahan data desain penyiraman CD-3).
