@@ -1,13 +1,13 @@
 # Konteks Lengkap Proyek PTA Kebun Jeruk Limau
 
-**Diperbarui: 14 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md) agar bacaan inti tetap ringkas dan fokus pada tahap aktif (`Survei Minggu & Finalisasi Draf CD-3`).
+**Diperbarui: 16 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
 
 ---
 
 ## 1. Tujuan, Identitas, dan Jadwal Akademik
 
 - **Tujuan Mitra:** Menggantikan pekerjaan timba-guyur air manual (`last-mile irrigation`) agar biaya tenaga kerja turun, pemberian air per pohon lebih terjamin terhadap acuan `15 L`, dan biaya total tahun pertama lebih hemat (alat, instalasi, energi, perawatan, dan upah tersisa).
-- **Tahap Aktif (`14 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) sudah **Final ACC**. Fokus saat ini adalah **survei lapangan Minggu di Ciberes** sebelum mengunci desain/perangkat keras dan memutakhirkan draf `CD-3` (`dokumen/draf/cd3_daffa/`).
+- **Tahap Aktif (`16 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) berstatus **Final ACC**. Survei lapangan Ciberes sudah dilakukan pada **Minggu, 15 November 2026**, dan **tim sedang menyiapkan diskusi bimbingan Pembimbing 1 (`17 November 2026`) untuk memutuskan arah lokasi implementasi (`Opsi A Pindah Kebun Kecil + revisi CD-1/CD-2` vs `Opsi B Tetap Kebun Besar Portabel`)** sebelum mengedit naskah/skrip `CD-3`.
 
 | Identitas / Jadwal | Data Resmi Terverifikasi |
 |---|---|
@@ -15,7 +15,7 @@
 | Institusi & Pembimbing 1 | S1 Teknik Komputer, FTE Universitas Telkom · **Dr. Agung Nugroho Jati, S.T., M.T.** *(Pembimbing 2 & ttd CD-3 belum ada)* |
 | Lokasi Tapak Proyek | `JH7H+222`, Desa Ciberes, Kec. Patokbeusi, Kab. Subang, Jawa Barat *(nama usaha/pengelola belum tercantum)* |
 | Pemilik Repo & Visibilitas | `azurre13/pta-jeruk-limau` (`public` saat dicek 9 Okt 2026; verifikasi ulang via Git sebelum menyatakan status) |
-| Tenggat Resmi `CD-3` | `CLO3 - CD3-1`: **Kamis, 10 Desember 2026** · `CLO4 - CD3-2` (Gabungan): **Kamis, 7 Januari 2027** · `SemPro`: **11–16 Januari 2027** |
+| Tenggat Resmi `CD-3` | `CLO3 - CD3-1`: **Kamis, 10 Desember 2026** · `CLO4 - CD3-2` (`CD1-3 Gabungan`): **Kamis, 7 Januari 2027** · `SemPro`: **11–16 Januari 2027** |
 
 ---
 
@@ -75,12 +75,16 @@ Pompa mesin bensin Alkon 2 inci — PERTALITE AKTIF
 
 ---
 
-## 5. Kesepakatan Rekayasa Pra-Survei (`14 November 2026`)
+## 5. Kesepakatan Rekayasa & Temuan Survei (`14–16 November 2026`)
 
-Rincian argumen & tabel hitung tersedia pada [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md) dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md):
-1. **Pompa Irigasi (1 vs 2 Pompa):** Pipa tertutup bertekanan cukup **1 pompa DC** (`Skenario B` jika irigasi layak; `C1` terpal / `C2` 2 pompa hanya cadangan darurat). Penempatan (`kebun atas` bila `Δz <= 1,5–2 m` vs `boks bantaran + kabel 2×4–6 mm²` bila `> 2 m`) & kurungan penahan arus banjir ditentukan Minggu.
-2. **Penyederhanaan Scope (*Pure 15 L* + `0–2` Sensor Tanah):** Tulang punggung sistem adalah **`Flow Meter` terkalibrasi + tombol tunggal (`S-01`, `S-13`)**; sensor lengas dibatasi **`0–2` titik *Capacitive v1.2* opsional** (hanya *interlock* tunda-hujan). Sampel tanah kebun jeruk `1–2 kg` **aman disimpan lama** di ziplock/kering untuk kalibrasi lab & uji tekstur/pH.
-3. **Koreksi Zona Skala Penuh `100 m+` (`S-03 <= 4,0 Jam`):** Draf [`bom_and_data.py`](../dokumen/draf/cd3_daffa/bom_and_data.py) masih memodelkan `10 zona @ 960 L/jam` (`10 × 56,25 mnt = 9 jam 22 mnt > 4 jam`). Kandidat paling aman untuk skala penuh `500–600` pohon adalah **`4 zona`** (`~125–150` pohon/zona, segmen `PE 16 mm` `~25–30 m`, total `3 jam 45 menit`, pompa `~33,3–40 L/menit`), yang akan dikunci pasca-sensus Minggu.
+Rincian lengkap pra-survei & pasca-survei tersedia pada [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md):
+1. **Temuan Kritis Survei `15 November 2026` di `Kebun Besar 1`:**
+   - Cacah pohon riil `4` baris = **`160` pohon** (`53+37+37+33`, jarak tanam `~2,28 m`), bukan `500–600` dalam satu hamparan tersebut (`500–600` terpecah dengan `Kebun Besar 2` + lahan kosong + `Kebun Kecil`).
+   - Jarak saluran ke parit `10 m` dengan **beda tinggi vertikal `Δz = 4–5 m`** (`> batas hisap 2 m`), **tanpa pagar sama sekali** (hanya paranet hitam tipis), **rawan pencurian**, ember pekerja `~7 L` (`2 ember ≈ 13 L`, demo pekerja `~15 L` pakai selang kanvas + ember), dan pekerja di video menyebut jadwal biasa **`1× seminggu` (`seharian`)**.
+2. **Alasan Usulan Pindah ke `Kebun Kecil` (Akan Dikonsultasikan ke PBB 1 `17 Nov 2026`):**
+   - Draf `BOM_PROTOTYPE` lama ([`bom_and_data.py`](../dokumen/draf/cd3_daffa/bom_and_data.py)) sudah mencapai **`Rp4.850.000`** (`+ Support RAB Rp1.585.000 = Rp6.435.000`) dengan pos surya+baterai **`Rp2.020.000`** hanya untuk `1` petak uji `15–24` pohon (sisa Kebun Besar tetap pakai `Alkon` manual) — dan sangat berisiko dicuri.
+   - **`Kebun Kecil`** (`13:27–13:32 WIB`) memiliki **`72` pohon tercatat / `73` disebut tim** (`jarak 290 cm`, `2 pasang` `100–120 cm`), **`6` parit dangkal `6 cm`** (`40 cm` utama / `25 cm` kecil), **`toren 75 × 75 cm`**, **`pipa sumur baru bangun` berjarak `170 cm` ke parit**, berpagar bambu & tembok rumah (**aman dari maling**, dekat jaringan listrik rumah), tanah urugan bekas empang/timbunan sampah (`Audio 2`), serta penyiraman masih manual. Pindah ke `Kebun Kecil` berpotensi **menuntaskan 100% seluruh `72–73` pohon**, **memangkas biaya PLTS bila diizinkan PBB 1 (`PSU 12 V` vs PLTS kecil)**, dan menambah **sensor kondisi tanah multi-zona** (*lengas + suhu + opsi EC/pH, hindari "sensor NPK RS485 murah" tanpa kalibrasi lab*).
+3. **Konsekuensi Akademik (Wajib Diputuskan PBB 1 Besok):** Pindah ke `Kebun Kecil` menuntut revisi terkoordinasi atas `CD-1` dan `CD-2` (`C-01 off-grid`, `C-02 sungai`, `C-03 500–600 pohon`, ekonomi) menjelang **`CD1-3 (Gabungan)` `7 Jan 2027`**. Jika PBB 1 melarang mengubah `CD-1`/`CD-2`, cadangannya tetap di `Kebun Besar` dengan desain **kotak unit portabel lepas-pasang bawa-pulang**.
 
 ---
 
@@ -90,4 +94,4 @@ Rincian argumen & tabel hitung tersedia pada [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POM
 2. Pompa aktif mitra adalah **Alkon Pertalite**; **LPG 3 kg sudah dihentikan** (bukan sistem berjalan).
 3. Jangan menyamakan `12 zona / center-feed` sketsa lama, kebun belakang rumah (`Audio 2`), atau kebun sayuran ke tapak jeruk.
 4. `15 L/pohon` belum menjadi volume terukur aktual; `Rp48,7 jt/tahun` hanyalah skenario upah; pagu final `CD-2` adalah `<= Rp5 jt` purwarupa / `<= Rp18 jt` penuh (bukan `Rp6 jt` catatan lama).
-5. Jangan memodifikasi berkas `sumber/`, `dokumen/cd1/`, `dokumen/cd2/`, `dokumen/cd3/`, maupun `dokumen/draf/cd3_daffa/` sebelum survei Minggu selesai.
+5. Jangan memodifikasi berkas `sumber/`, `dokumen/cd1/`, `dokumen/cd2/`, `dokumen/cd3/`, maupun `dokumen/draf/cd3_daffa/` sebelum keputusan bimbingan PBB 1 (`17 Nov 2026`) keluar dan disepakati tim.

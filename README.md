@@ -1,19 +1,20 @@
 # PTA Kebun Jeruk Limau
 
-**Tanggal Pembaruan:** 14 November 2026  
-Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom untuk kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus proyek adalah menyelesaikan permasalahan penyiraman tahap akhir (*last-mile irrigation*) tanpa listrik PLN dari jaringan parit tanah dan **pompa mesin bensin Alkon 2 inci (Pertalite)** milik mitra.
+**Tanggal Pembaruan:** 16 November 2026  
+Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom untuk kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus awal proyek adalah menyelesaikan penyiraman tahap akhir (*last-mile irrigation*) tanpa listrik PLN dari jaringan parit tanah dan **pompa mesin bensin Alkon 2 inci (Pertalite)** milik mitra.
 
 **Pemilik repositori:** azurre13  
-**Status Saat Ini:** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** telah disahkan dan tersedia di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/). Proyek kini berada pada **tahap persiapan survei lapangan & penyelarasan draf `CD-3`** (draf rekan tim di [`dokumen/cd3/`](dokumen/cd3/) & [`dokumen/draf/cd3/`](dokumen/draf/cd3/), serta workspace usulan terpisah di [`dokumen/draf/cd3_daffa/`](dokumen/draf/cd3_daffa/)). Naskah CD tidak diubah sebelum data survei Minggu terkumpul.
+**Status Saat Ini:** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** tersedia di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/). Survei lapangan **15 November 2026** sudah selesai dilaksanakan ([Hasil Survei 15 Nov](catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md)), dan tim sedang mempersiapkan diskusi dengan Pembimbing 1 (**17 November 2026**) untuk memutuskan usulan pindah fokus ke `Kebun Kecil` (`72–73` pohon, aman berpagar) vs tetap `Kebun Besar` (`160` pohon, tebing `4–5 m`, rawan pencurian) sebelum menyelaraskan draf `CD-3` di [`dokumen/draf/cd3_daffa/`](dokumen/draf/cd3_daffa/).
 
 ## Membuka di Antigravity atau AI lain
 
-Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan tugas berikutnya. Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
+Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan kabar hasil bimbingan atau tugas berikutnya. Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
 
 ## Berkas utama
 
 - [CD-1 Final ACC (PDF, 26 halaman)](dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
 - [CD-2 Final ACC (PDF, 26 halaman)](dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
+- [Hasil Survei Ciberes 15 Nov 2026 & Opsi Bimbingan PBB 1](catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - [Indeks direktori dokumen & status draf CD-3](dokumen/README.md)
 - [Checklist Survei Lapangan Minggu Ciberes](catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md)
 - [Kajian Sumber Air Irigasi, Beda Elevasi, Pompa & Kabel 12 V](catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md)

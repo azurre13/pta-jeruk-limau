@@ -1,8 +1,9 @@
 # Kajian Teknis Sumber Air Irigasi, Penempatan Pompa, dan Kabel Daya Kebun Jeruk Limau
 
-**Tanggal Penyusunan:** 14 November 2026  
-**Status Dokumen:** Dokumen Hidup (*Living Document*) — Pra-Survei Lapangan (siap diperbarui setelah survei Minggu di Ciberes, Subang)  
+**Tanggal Penyusunan:** 14 November 2026 (Dimutakhirkan **16 November 2026**)  
+**Status Dokumen:** Dokumen Hidup (*Living Document*) — Pasca-Survei `15 November 2026` (menunggu keputusan PBB 1 untuk `Kebun Kecil` vs `Kebun Besar`)  
 **Dokumen Terkait:**
+- [Hasil Survei Ciberes 15 Nov 2026 & Opsi Bimbingan PBB 1](HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - [Rangkuman Q&A Scope, Pure 15 L, & Zonasi 100 m+](RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md)
 - [Checklist Survei Mitra Ciberes](CHECKLIST_SURVEI_MITRA_CIBERES.md)
 - [Paparan Solusi untuk Mitra](PAPARAN_SOLUSI_UNTUK_MITRA.md)
@@ -115,21 +116,22 @@ Tim memetakan tiga skenario arsitektur suplai air agar tidak salah pilih sebelum
 
 ---
 
-## 7. Lembar Isian Hasil Survei Minggu (Diisi Sepulang dari Ciberes)
+## 7. Lembar Isian Hasil Survei (`15 November 2026`)
 
-Bagian ini disiapkan kosong untuk diisi langsung sesudah survei lapangan menggunakan [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md):
+Ringkasan temuan sumber air `Kebun Besar 1` dari [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md) dan [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md):
 
-| No | Parameter yang Diukur / Dikonfirmasi | Hasil Ukur / Fakta Lapangan *(Isi Minggu)* | Dampak Langsung ke Desain (`CD-3`) |
+| No | Parameter yang Diukur / Dikonfirmasi | Hasil Ukur / Fakta Lapangan (`15 Nov 2026`) | Dampak Langsung ke Desain (`CD-3`) |
 |---:|---|---|---|
-| 1 | **Status resmi saluran air besar** *(irigasi teknis PU/PJT II atau sungai alami)* & aturan pasang pipa intake | `[BELUM DIUKUR]` | Menentukan legalitas pemasangan intake permanen/semi-permanen (**Skenario B vs C1**). |
-| 2 | **Jadwal pengeringan / gilir irigasi kemarau** *(pernah kosong total berapa hari/minggu?)* | `[BELUM DIUKUR]` | Jika pernah kering `> 7 hari`, sistem wajib mempertimbangkan buffer tampungan (**C1**). |
-| 3 | **Beda tinggi vertikal muka air saat surut ke bibir bantaran (`Δz1`)** & ke **tanah kebun atas (`Δz2`)** | `Δz1 = ____ m`, `Δz2 = ____ m`, total `Δz = ____ m` | Penentu utama: **`Δz <= 2 m`** -> pompa aman di kebun atas; **`> 2 m`** -> pompa di boks bantaran + kabel `4–6 mm²` atau pompa celup. |
-| 4 | **Jarak miring aktual lintasan kabel/pipa** dari titik aman PLTS Zona 1 ke posisi air terendah | `L = ____ m` | Dipakai memfinalkan ukuran penampang kabel DC (`2×4` atau `2×6 mm²`) dan panjang pipa hisap. |
-| 5 | **Kecepatan arus & tanda muka banjir tertinggi di tebing** saat hujan | `[BELUM DIUKUR]` | Menentukan konstruksi pancang *stilling pipe cage* & jarak aman kotak pompa. |
-| 6 | **Biaya & konsumsi aktual Pertalite pompa Alkon** per siklus pengisian parit | `____ L/siklus = Rp ________/siklus` + servis `Rp ________/thn` | Acuan dasar **OPEX eksisting sebenarnya** yang dibandingkan terhadap target `S-09/S-10`. |
-| 7 | **Keputusan Skenario Sumber Air Final Tim & Mitra** | `[ B / C1 / C2 ]` | Setelah dikunci di sini, baru naskah & simulasi `CD-3` diperbarui konsisten. |
+| 1 | **Status resmi saluran air besar** *(irigasi teknis PU/PJT II atau sungai alami)* & aturan pasang pipa intake | Belum dikonfirmasi ke pengelola PU/PJT; dari foto & video, `Alkon` Pertalite saat ini ditaruh portabel di bibir air karena lahan terbuka tanpa pagar (`rawan maling`). | Bila tetap di `Kebun Besar` (**Opsi B**), unit pompa/baterai/PLTS **tidak boleh ditinggal mati** di bantaran (`harus portabel bawa-pulang`). |
+| 2 | **Jadwal pengeringan / gilir irigasi kemarau** *(pernah kosong total berapa hari/minggu?)* | `[BELUM TERKONFIRMASI]` *(dari video demo pekerja, penyiraman dilakukan biasa `1×/minggu`, berbeda dari ucapan awal `3 hari sekali`)*. | Jika tetap di `Kebun Besar`, perlu konfirmasi mitra & penyesuaian *Payback Period* (`1×/minggu` vs `3 hari`). |
+| 3 | **Beda tinggi vertikal muka air ke kebun (`Δz`)** | **`Δz = 4–5 m`** *(laporan pengukuran survei, melampaui batas aman hisap `2 m`)*. | **Pompa permukaan di kebun atas GUGUR.** Pompa harus mendorong dari dekat air (bantaran/celup DC), namun terbentur **risiko pencurian & tidak ada pagar**. |
+| 4 | **Jarak aktual lintasan** dari saluran irigasi ke parit terdekat | **`L = 10 m`** *(memangkas rugi kabel DC `12 V @ 6 A` pada `2×4 mm²` menjadi sekitar `~0,53 V`, separuh dari skenario `20 m`)*. | Kabel daya `10 m` lebih ringan, tetapi kendala keamanan fisik perangkat bernilai tetap dominan. |
+| 5 | **Kecepatan arus, mutu air, & keamanan lokasi** saat hujan | Air di parit terlihat **keruh kecokelatan**; kebun terbuka hanya berbatas **paranet hitam tipis + patok bambu/kayu** (`rawan maling`). | Wajib saringan `>= 120 mesh` (`S-05`); penempatan boks permanen di tepi saluran dinilai berisiko tinggi bagi mahasiswa. |
+| 6 | **Biaya & konsumsi aktual Pertalite pompa Alkon** per siklus pengisian parit | Ember pekerja terukur **`~7 L`** (`2 ember ≈ 13 L/pohon`; video demo ~`15 L`); konsumsi liter Pertalite & servis Alkon **`[BELUM TERISI]`**. | Jika tetap di `Kebun Besar`, wajib minta estimasi liter Pertalite per pengisian lewat WA pemilik/pekerja. |
+| 7 | **Keputusan Skenario Sumber Air Final Tim & Mitra** | **Usulan Tim ke PBB 1 (`17 Nov 2026`): Pindah ke `Kebun Kecil`** (`72–73 pohon`, `toren 75×75 cm` + `sumur baru 1,7 m`, berpagar aman) **vs Opsi B (`Kebun Besar` portabel)** | Menunggu arahan **Dr. Agung Nugroho Jati, S.T., M.T.** besok sebelum mengedit `CD-1`, `CD-2`, atau `CD-3`. |
 
 ---
 
 ## Riwayat Pembaruan Dokumen
 - **14 November 2026:** Penyusunan awal dokumen hidup kajian sumber air, beda tinggi tebing, analisis 1 pompa vs 2 pompa, tabel jatuh tegangan kabel DC `12 V` jarak `20 m`, proteksi banjir, dan matriks 3 skenario keputusan pra-survei Minggu.
+- **16 November 2026:** Pembaruan Bagian 7 dengan hasil survei `15 November 2026` (`L = 10 m`, `Δz = 4–5 m`, air keruh, tanpa pagar/rawan maling) serta pengaitan ke usulan bimbingan PBB 1 pada [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md).
