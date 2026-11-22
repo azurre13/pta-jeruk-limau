@@ -1,31 +1,31 @@
-# Status Terkini dan Tindak Lanjut (`16 November 2026`)
+# Status Terkini dan Tindak Lanjut (`23 November 2026`)
 
-**Diperbarui: 16 November 2026.** Ringkasan status dokumen resmi, hasil survei Ciberes `15 November 2026`, serta antrean keputusan bimbingan Pembimbing 1 (`17 November 2026`) sebelum merevisi naskah apa pun. *(Catatan historis revisi Oktober–awal November disimpan di [`catatan/arsip/README.md`](../catatan/arsip/README.md).)*
+**Diperbarui: 23 November 2026.** Ringkasan status dokumen resmi, README transisi `Kebun Besar` → `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), fakta operasional & buah terkini (`23 Nov`), serta roadmap menuju **`CD-3` (`10 Des 2026`)** dan **`CD1–3 Final` SemPro (`7 Jan 2027`)**. *(Catatan historis lama tetap tersimpan di [`catatan/arsip/README.md`](../catatan/arsip/README.md).)*
 
 ---
 
-## 1. Status Berkas Akademik
+## 1. Status Berkas Akademik & Roadmap Penyelarasan
 
-| Dokumen / Folder | Status Sekarang | Aturan Kerja |
+| Dokumen / Folder | Status Sekarang (`23 Nov 2026`) | Aturan Kerja |
 |---|---|---|
-| [`dokumen/cd1/`](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `13/10/2026`)** | **Jangan diubah** kecuali mendapat izin eksplisit PBB 1 & Dosen Kelas untuk revisi sinkronisasi `Kebun Kecil` (`Opsi A`). |
-| [`dokumen/cd2/`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `4/11/2026`, `C-01..C-05`, `S-01..S-14`)** | **Jangan diubah** kecuali ada persetujuan revisi `Opsi A` (mis. `C-01` PLTS vs `PSU 12 V`, `C-02`, `C-03`). |
+| [`dokumen/cd1/`](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `13/10/2026`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Data lama `Kebun Besar` tetap dipertahankan utuh; revisi dilakukan saat perombakan **`CD1–3 Final`** pasca-`CD-3`. |
+| [`dokumen/cd2/`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `4/11/2026`, `C-01..C-05`, `S-01..S-14`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Jembatan perubahan menuju `CD-3` dicatat dulu di [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), lalu dirombak total di **`CD1–3 Final`**. |
 | `dokumen/cd3/` & `dokumen/draf/cd3/` | Draf kolaborasi rekan tim (`34 halaman` / tabel `6 halaman`) | Jangan ditimpa. |
-| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace draf terpisah (`BOM_PROTOTYPE Rp4,85 jt` / penuh `Rp17,79 jt` / `RAB Rp6,435 jt`) | **Ditahan** hingga keputusan Bimbingan PBB 1 (`17 Nov 2026`) selesai. |
+| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace draf terpisah (`CD-3` baru berbasis `Kebun Kecil` **belum disusun**) | Siap mulai dirancang menuju tenggat **`CLO3 - CD3-1` `10 Desember 2026`** (wajib menyisipkan catatan transisi dari `CD-2`), menunggu aba-aba pengguna. |
 
 ---
 
-## 2. Daftar Antrean Keputusan Bimbingan & Data Lapangan (`16 November 2026`)
+## 2. Status Data Lapangan (`23 Nov 2026`) & Antrean Langkah Berikutnya
 
-Rincian lengkap temuan `15 Nov 2026` tersedia pada [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), [`CHECKLIST_SURVEI_MITRA_CIBERES.md`](../catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md), dan [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md).
+Dokumen induk terbaru: [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) · [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png)
 
-| No | Item Terbuka | Kondisi Hasil Survei (`15 Nov 2026`) | Tindak Lanjut Segera (`17 Nov 2026+`) |
+| No | Item | Kondisi Sekarang (`23 Nov 2026`) | Tindak Lanjut Berikutnya |
 |---:|---|---|---|
-| 1 | **Keputusan Lokasi: `Opsi A (Kebun Kecil)` vs `Opsi B (Kebun Besar Portabel)`** | `Kebun Besar 1` terukur `160` pohon, tebing **`4–5 m`**, jarak `10 m`, **tanpa pagar & rawan maling**, BOM lama `Rp4,85 jt` baru untuk 1 petak uji (`Alkon` tetap dipakai di sisa kebun). Tim berniat pindah ke **`Kebun Kecil` (`72–73` pohon, berpagar aman, toren `75×75 cm`, sumur baru `1,7 m`, tanah eks-empang/sampah)**. | **Bimbingan PBB 1 besok (`17 Nov`):** Minta izin pindah ke `Kebun Kecil` + aturan revisi `CD-1/CD-2` untuk `CD1-3 (Gabungan)` `7 Jan`, serta cek aturan Dosen Kelas (`CLO1/CLO2`). |
-| 2 | **Catu Daya & Kompleksitas (`Opsi A`)** | Jika diizinkan pindah ke `Kebun Kecil`, penggantian PLTS (`Rp2,02 jt`) dengan **`PSU 12 V` rumah** (+ opsional cadangan kecil) menghemat anggaran tajam; tanah bekas empang/urugan & ukuran pohon campur tetap kompleks bila ditambah sensor tanah multi-zona (`lengas + suhu + opsi EC/pH`, hindari sensor NPK murah tak terkalibrasi). | Konfirmasikan ke **PBB 1** apakah `PSU 12 V` (revisi `C-01`) vs PLTS mini diperbolehkan dan cukup bobot kompleksitasnya. |
-| 3 | **Data Pelengkap `Kebun Kecil` (jika `Opsi A` ACC)** | Tercatat `72` pohon di kertas (`73` di chat), `6` parit dalam `6 cm` (`40 cm` / `25 cm`), `toren 75×75 cm`, pipa sumur `170 cm` ke parit. | Konfirmasi cacah pasti (`72`/`73`), status pompa sumur baru bangun, kedalaman toren, persetujuan resmi mitra untuk `100% Kebun Kecil`, serta uji tekstur/pH sampel tanah. |
-| 4 | **Data Pelengkap `Kebun Besar` (jika `Opsi B` dipilih PBB 1)** | `160` pohon, `Δz = 4–5 m`, `L = 10 m`, ember `~7 L`, demo pekerja `~15 L`, jadwal pekerja video `1×/minggu` vs mitra `3 hari sekali`. | Klarifikasi angka `40 cm / 15 cm` di baris 57 `CHECKLIST`, konsumsi Pertalite `L/siklus`, lama kering irigasi kemarau, & rancang unit portabel bawa-pulang. |
-| 5 | **Kebersihan Folder `sumber/dokumentasi/` (Opsional)** | Masih ada file foto/video survei `15 Nov` yang terduplikasi (`Jalan menuju...` & 2 video tanpa ekstensi) + 3 foto `kebon kecil` tanpa `.jpg`. | Belum disentuh sesuai Aturan 2 `AGENTS.md`; rapikan **hanya jika diminta pengguna**. |
+| 1 | **README Transisi & Perbandingan 2 Kebun** | **Selesai** di [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) — merangkum seluruh alasan pindah, kelebihan/kekurangan 2 kebun, & matriks jembatan `CD-2 → CD-3`. | Jadikan acuan langsung saat menyusun bab/subbab transisi `CD-3` (`10 Des 2026`). |
+| 2 | **Data Lengkap `4` Pohon Sampel (`16 Bln`)** | **Lengkap:** `P1` (`46 cm`, cacat/tdk berbuah), `P2` (`100 cm`, banyak buah bagus walau kecil), `P3` (`250 cm`, lebat — sdh dipanen), `P4` (`210 cm`, berbuah — sdh dipanen), keliling `10,30 m`, denah 2D terbarui. | Siap dipakai untuk perancangan tata letak zona, sensor tanah, & dosis di `CD-3`. |
+| 3 | **Sumber Air, Listrik, & Biaya `Kebun Kecil`** | Toren `75×75 cm` **tidak dipakai**; pakai **sumur baru** (`12,27 m` miring / `16,20 m` siku dari `P2`), masih disedot **Alkon bensin** + **`2` pekerja × `Rp100 rb` tiap `3–4 hari`** jika tak hujan, air `10–15 L/pohon`; **listrik PLN tersedia**. | Finalisasi arsitektur pompa sumur, adaptor/catu daya listrik aman, & paket sensor saat masuk perancangan `CD-3`. |
+| 4 | **Visi Pertumbuhan Pohon/Buah & Penyesuaian Judul** | Mitra ingin `Kebun Kecil` menjadi kebun acuan (irigasi + memaksimalkan pertumbuhan pohon & hasil buah); judul berpeluang diubah nanti. | Muat arah tujuan ini sebagai catatan penyesuaian di `CD-3` (`10 Des`), lalu finalisasi judul & struktur saat gabung-rombak **`CD1–3 Final` (`7 Jan 2027`)**. |
+| 5 | **Kebersihan Folder `sumber/dokumentasi/kebon kecil/` (Opsional)** | Pengguna sudah menambah `3` foto drone & melengkapi `pipa sumur baru bangun.jpg`; `tampk depan` & `toren` masih tanpa ekstensi `.jpg` (serta duplikat `Kebun Besar` tetap di `foto/`). | Tetap mengikuti Aturan 2 `AGENTS.md`: jangan disentuh tanpa perintah eksplisit pengguna. |
 
 ---
 

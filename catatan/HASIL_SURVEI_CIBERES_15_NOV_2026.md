@@ -1,16 +1,18 @@
-# Hasil Survei Lapangan Ciberes (`15 November 2026`) & Persiapan Bimbingan PBB 1
+# Hasil Survei Lapangan Ciberes (`15 November 2026`) & Pembaruan ACC Lokasi
 
-**Tanggal Penyusunan:** 16 November 2026  
-**Status Dokumen:** Catatan Induk Pasca-Survei Minggu (`15 November 2026`) — Menunggu Arahan Bimbingan Pembimbing 1 (`17 November 2026`)  
+**Tanggal Penyusunan:** 16 November 2026 *(Pembaruan status ACC & transisi `Kebun Kecil`: 23 November 2026)*  
+**Status Dokumen:** Catatan Induk Survei `15 November 2026` — **Opsi A (`Kebun Kecil`, `1 Zona = 4 Pohon Sampel`) Telah ACC** oleh PBB 1, Dosen Pengampu, dan Mitra. Data `Kebun Besar` tetap dipertahankan utuh sebagai pembanding & histori `CD-1/CD-2`.  
 **Sumber Primer Terkait:**
+- README Transisi & Perbandingan 2 Kebun (`CD-2` → `CD-3`): [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
+- Data lanjutan & denah 2D Kebun Kecil (`23 Nov 2026`): [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png)
 - Isian lapangan sementara: [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md)
 - Media foto/video `15 Nov 2026`: `../sumber/dokumentasi/foto/`, `../sumber/dokumentasi/foto/kebun besar 2/`, `../sumber/dokumentasi/kebon kecil/`, `../sumber/dokumentasi/video/`
 - Konteks wawancara awal: [DATA_MITRA_LENGKAP.md](DATA_MITRA_LENGKAP.md) · [Transkrip Audio 1 & 2](../sumber/dokumentasi/wawancara/Transkrip_Audio_1_dan_2.txt)
 - Panduan & Jadwal Resmi: [Buku Panduan Capstone 2024](../sumber/panduan/bukupanduancapstone_2024signed.pdf) · [Jadwal & Rubrik PTA 2627](../sumber/rubrik-jadwal/Jadwal_PTA%20--%20Rubrik%20PTA%20--%202627%20%281%29.pdf)
 
 > [!IMPORTANT]
-> **Posisi Keputusan (`16 November 2026`):**  
-> Tim **belum mengedit** `dokumen/cd1/`, `dokumen/cd2/`, `dokumen/cd3/`, maupun `dokumen/draf/cd3_daffa/`. Setelah temuan lapangan di `Kebun Besar` mengungkap tebing curam `4–5 m`, ketiadaan pagar, risiko tinggi pencurian, dan tingginya biaya sistem surya untuk hanya 1 petak uji, tim berencana mendiskusikan opsi pemindahan target ke **`Kebun Kecil` (`72–73 pohon`)** bersama Dosen Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**) sebelum melangkah ke `CD-3`.
+> **Pembaruan Keputusan & Roadmap (`23 November 2026`):**  
+> Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra **telah menyetujui (`ACC`)** pemindahan fokus target ke **`Kebun Kecil`** dengan ruang lingkup **`1 Zona = 4 Pohon Sampel`** (basis riset jangka panjang & efisiensi biaya). Detail perbandingan kelebihan/kekurangan `Kebun Besar` vs `Kebun Kecil` serta jembatan penyusunan `CD-3` (`10 Des 2026`) → gabung-rombak total `CD1–3 Final` (`7 Jan 2027`) dirangkum di [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) dan [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md). Naskah `dokumen/cd1/` dan `dokumen/cd2/` tetap dibiarkan utuh terlebih dahulu.
 
 ---
 
@@ -22,7 +24,7 @@ Berdasarkan stempel waktu EXIF foto (`11:37–13:32 WIB`) dan video kunjungan, d
 |---|---|---|---|
 | **1. Kebun Besar 1** *(Tepi Irigasi)* | `11:37–12:48 WIB` | `IMG_20261115_113735..120429.jpg`, `Penampakan pompa alkon...jpg`, `kondisi parit...jpg`, `Tampak persimpangan parit.jpg`, `video_20261115_113757 (1).mp4`, `video_20261115_114828.mp4`, `Demonstrasi penyiraman...mp4`, `tampak bagian ujung kebun besar.mp4` | Kebun memanjang 4 baris di tanggul saluran irigasi; terbuka hanya dibatasi paranet hitam tipis. |
 | **2. Kebun Besar 2** *(Plot Besar Lain)* | `12:53–12:55 WIB` | `foto/kebun besar 2/*.jpg`, `Jalan menuju kebun besar 1 dan 2*.jpg` (`13:14–13:16 WIB`) | Petak jeruk + pepaya sela dengan parit utama & sekunder di samping badan air/sungai; tampak pipa PVC putih & pipa selongsong di tanah; akses jalan tanah merah di bawah jaringan SUTET jauh (tanpa tiang PLN LV 220 V rumah tangga). |
-| **3. Kebun Kecil** *(Belakang Rumah / Permukiman)* | `13:27–13:32 WIB` | `kebon kecil/IMG_20261115_132905..133216.jpg`, `pipa sumur baru bangun`, `tampk depan`, `toren`, `dari depn.mp4`, `dari ujung blkng.mp4`, serta catatan tulisan tangan tim | Berada di area permukiman (pagar bambu + tembok beton rumah warga + jalan cor desa + dekat jaringan listrik rumah), dulunya bekas empang/timbunan sampah urugan (`Audio 2`), aman dari pencurian. |
+| **3. Kebun Kecil** *(Belakang Rumah / Permukiman)* | `13:27–13:32 WIB` | `kebon kecil/IMG_20261115_132905..133216.jpg`, `pipa sumur baru bangun.jpg`, `tampk depan`, `toren`, `dari depn.mp4`, `dari ujung blkng.mp4`, `Drone viem 4 sampel pohon test.JPG`, `drone view semua kebun kecil.JPG`, `drone view semua kebun dari tengah harusny.JPG`, serta catatan tulisan tangan tim | Berada di area permukiman (pagar bambu + tembok beton rumah warga + jalan cor desa + dekat jaringan listrik rumah), dulunya bekas empang/timbunan sampah urugan (`Audio 2`), aman dari pencurian; **ACC sebagai lokasi resmi prototipe (`1 Zona = 4 Pohon Sampel`)**. |
 
 ---
 

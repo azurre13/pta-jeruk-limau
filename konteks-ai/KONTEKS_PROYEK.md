@@ -1,13 +1,13 @@
 # Konteks Lengkap Proyek PTA Kebun Jeruk Limau
 
-**Diperbarui: 16 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
+**Diperbarui: 23 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
 
 ---
 
 ## 1. Tujuan, Identitas, dan Jadwal Akademik
 
-- **Tujuan Mitra:** Menggantikan pekerjaan timba-guyur air manual (`last-mile irrigation`) agar biaya tenaga kerja turun, pemberian air per pohon lebih terjamin terhadap acuan `15 L`, dan biaya total tahun pertama lebih hemat (alat, instalasi, energi, perawatan, dan upah tersisa).
-- **Tahap Aktif (`16 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) berstatus **Final ACC**. Survei lapangan Ciberes sudah dilakukan pada **Minggu, 15 November 2026**, dan **tim sedang menyiapkan diskusi bimbingan Pembimbing 1 (`17 November 2026`) untuk memutuskan arah lokasi implementasi (`Opsi A Pindah Kebun Kecil + revisi CD-1/CD-2` vs `Opsi B Tetap Kebun Besar Portabel`)** sebelum mengedit naskah/skrip `CD-3`.
+- **Tujuan Mitra:** Awalnya menggantikan penyiraman manual agar biaya turun dan air lebih terjamin (`10–15 L/pohon`). Setelah ACC pindah ke **`Kebun Kecil`**, mitra menginginkan kebun ini menjadi **kebun acuan/percontohan** yang bukan hanya menuntaskan irigasi (`Alkon` + `2 pekerja × Rp100 rb / 3–4 hari`), melainkan juga **memaksimalkan pertumbuhan pohon dan produktivitas buah** (judul proyek berpeluang diperbarui pada tahap `CD1–3 Final`).
+- **Tahap Aktif (`23 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) sudah dikumpulkan dan **dibiarkan utuh dulu**. Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra sudah **ACC memindahkan target ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)**. Roadmap resmi berikutnya: menyusun **`CD-3` (`tenggat 10 Des 2026`)** disertai **catatan transisi `Kebun Besar` → `Kebun Kecil`** agar nyambung ke `CD-2`, lalu setelah `CD-1/2/3` terkumpul semua akan **digabung dan dirombak total menjadi `CD1–3 Final` untuk SemPro PTA (`7 Jan 2027`)**.
 
 | Identitas / Jadwal | Data Resmi Terverifikasi |
 |---|---|
@@ -75,23 +75,27 @@ Pompa mesin bensin Alkon 2 inci — PERTALITE AKTIF
 
 ---
 
-## 5. Kesepakatan Rekayasa & Temuan Survei (`14–16 November 2026`)
+## 5. Kesepakatan Rekayasa, Alasan Pindah, & Data Baru (`15–23 November 2026`)
 
-Rincian lengkap pra-survei & pasca-survei tersedia pada [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), [`KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md`](../catatan/KAJIAN_SUMBER_AIR_IRIGASI_DAN_POMPA.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md):
-1. **Temuan Kritis Survei `15 November 2026` di `Kebun Besar 1`:**
-   - Cacah pohon riil `4` baris = **`160` pohon** (`53+37+37+33`, jarak tanam `~2,28 m`), bukan `500–600` dalam satu hamparan tersebut (`500–600` terpecah dengan `Kebun Besar 2` + lahan kosong + `Kebun Kecil`).
-   - Jarak saluran ke parit `10 m` dengan **beda tinggi vertikal `Δz = 4–5 m`** (`> batas hisap 2 m`), **tanpa pagar sama sekali** (hanya paranet hitam tipis), **rawan pencurian**, ember pekerja `~7 L` (`2 ember ≈ 13 L`, demo pekerja `~15 L` pakai selang kanvas + ember), dan pekerja di video menyebut jadwal biasa **`1× seminggu` (`seharian`)**.
-2. **Alasan Usulan Pindah ke `Kebun Kecil` (Akan Dikonsultasikan ke PBB 1 `17 Nov 2026`):**
-   - Draf `BOM_PROTOTYPE` lama ([`bom_and_data.py`](../dokumen/draf/cd3_daffa/bom_and_data.py)) sudah mencapai **`Rp4.850.000`** (`+ Support RAB Rp1.585.000 = Rp6.435.000`) dengan pos surya+baterai **`Rp2.020.000`** hanya untuk `1` petak uji `15–24` pohon (sisa Kebun Besar tetap pakai `Alkon` manual) — dan sangat berisiko dicuri.
-   - **`Kebun Kecil`** (`13:27–13:32 WIB`) memiliki **`72` pohon tercatat / `73` disebut tim** (`jarak 290 cm`, `2 pasang` `100–120 cm`), **`6` parit dangkal `6 cm`** (`40 cm` utama / `25 cm` kecil), **`toren 75 × 75 cm`**, **`pipa sumur baru bangun` berjarak `170 cm` ke parit**, berpagar bambu & tembok rumah (**aman dari maling**, dekat jaringan listrik rumah), tanah urugan bekas empang/timbunan sampah (`Audio 2`), serta penyiraman masih manual. Pindah ke `Kebun Kecil` berpotensi **menuntaskan 100% seluruh `72–73` pohon**, **memangkas biaya PLTS bila diizinkan PBB 1 (`PSU 12 V` vs PLTS kecil)**, dan menambah **sensor kondisi tanah multi-zona** (*lengas + suhu + opsi EC/pH, hindari "sensor NPK RS485 murah" tanpa kalibrasi lab*).
-3. **Konsekuensi Akademik (Wajib Diputuskan PBB 1 Besok):** Pindah ke `Kebun Kecil` menuntut revisi terkoordinasi atas `CD-1` dan `CD-2` (`C-01 off-grid`, `C-02 sungai`, `C-03 500–600 pohon`, ekonomi) menjelang **`CD1-3 (Gabungan)` `7 Jan 2027`**. Jika PBB 1 melarang mengubah `CD-1`/`CD-2`, cadangannya tetap di `Kebun Besar` dengan desain **kotak unit portabel lepas-pasang bawa-pulang**.
+Rincian lengkap tersedia pada [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png), dan [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md):
+1. **Alasan Resmi Pindah dari `Kebun Besar` (Data Lama Tetap Disimpan Utuh):**
+   - `Kebun Besar 1` (`160` pohon sensus riil `4` baris) memiliki jarak irigasi `10 m` dengan **tebing curam `Δz = 4–5 m`**, arus saluran irigasi bisa **sangat deras saat hujan**, **saluran irigasi bukan tanah milik mitra** (sulit izin instalasi), **tanpa pagar & jauh dari permukiman** (rawan maling), dan **tanpa PLN** sehingga pompa daya tinggi + PLTS + baterai membuat draf `BOM_PROTOTYPE` lama (`Rp4,85 jt` / `+ RAB Rp6,435 jt`) melebihi budget mahasiswa hanya untuk `1` petak uji.
+2. **Keputusan ACC `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`) & Kondisi Operasional Berjalan:**
+   - PBB 1, Dosen Pengampu, dan Mitra **ACC pindah ke `Kebun Kecil`** (`72–73` pohon, `~471 m²`, berpagar aman di permukiman, **listrik PLN tersedia & dapat dipakai bila perlu**).
+   - **Air, pompa, & biaya eksisting:** toren `75×75 cm` **tidak akan dipakai** (kapasitas liter tak diketahui); suplai air langsung dari **sumur baru** (`ban kiri atas`) yang saat ini masih disedot **pompa Alkon bensin** dengan biaya **`2 pekerja × Rp100.000 = Rp200.000 / kegiatan`** tiap **`3–4 hari sekali` jika tidak ada hujan** (`~Rp18,2–24,3 jt/thn` `[Hasil Perhitungan skenario tanpa hujan]`), dosis air tetap **`10–15 L/pohon`**.
+   - **Visi mitra:** `Kebun Kecil` diharapkan menjadi **acuan/percontohan** bukan hanya untuk irigasi hemat biaya, tetapi juga **memaksimalkan pertumbuhan pohon dan produktivitas buah**.
+3. **Data Terukur Zona Uji 1 (`4 Pohon`, Umur Serentak `16 Bulan`) & Skala Drone:**
+   - **Tinggi & buah:** `Sampel 1 = 46 cm` *(cacat/kerdil, tidak berbuah)*, `Sampel 2 = 100 cm` *(banyak buah — bagus walau masih kecil; acuan baju merah)*, `Sampel 3 = 250 cm` *(berbuah lebat — sudah dipanen/diambil; **`5,43×`** Sampel 1)*, `Sampel 4 = 210 cm` *(berbuah — sudah dipanen/diambil)*.
+   - **Jarak antar-pohon:** `P1–P2 = 300 cm`, `P2–P3 = 210 cm`, `P3–P4 = 290 cm`, `P4–P1 = 230 cm` (`keliling = 10,30 m`; diagonal `P2–P4 ≈ 4,05 m`, `P1–P3 ≈ 3,27 m`). Target panen dewasa `> 2,5 tahun`: `10–15 kg/pohon` berbuah.
+   - **Jarak acuan `P2 / Baju Merah` ke sumur:** lurus atas `11,2 m` + kiri `5,0 m` → **jarak lurus miring Pythagoras = `12,27 m`** (`jalur siku = 16,20 m`).
+   - **Kalibrasi 3 foto nadir DJI Mini 4 Pro (`~65,87 px/m ±5–7%`):** sisi atas `~18,7 m`, bawah `~19,9 m`, kiri `~24,8 m`, kanan `~24,4 m`, perkiraan luas terpagar **`~471 m²`** ([denah_kebun_kecil_2d.png](../catatan/denah_kebun_kecil_2d.png)).
 
 ---
 
-## 6. Koreksi Terdahulu yang Dilarang Terulang
+## 6. Koreksi Terdahulu & Aturan Kerja Lintas Tahap
 
-1. Tiga parit adalah selokan tanah eksisting (memudahkan timba ember), bukan pipa usulan AI atau furrow teruji, dan saling terhubung melintang `+`.
-2. Pompa aktif mitra adalah **Alkon Pertalite**; **LPG 3 kg sudah dihentikan** (bukan sistem berjalan).
-3. Jangan menyamakan `12 zona / center-feed` sketsa lama, kebun belakang rumah (`Audio 2`), atau kebun sayuran ke tapak jeruk.
-4. `15 L/pohon` belum menjadi volume terukur aktual; `Rp48,7 jt/tahun` hanyalah skenario upah; pagu final `CD-2` adalah `<= Rp5 jt` purwarupa / `<= Rp18 jt` penuh (bukan `Rp6 jt` catatan lama).
-5. Jangan memodifikasi berkas `sumber/`, `dokumen/cd1/`, `dokumen/cd2/`, `dokumen/cd3/`, maupun `dokumen/draf/cd3_daffa/` sebelum keputusan bimbingan PBB 1 (`17 Nov 2026`) keluar dan disepakati tim.
+1. Data `Kebun Besar` (`4` pekerja × `Rp100.000` / `~3` hari) tetap disimpan sebagai histori `CD-1/CD-2` — **jangan dihapus** dan **jangan dicampur** dengan data operasional `Kebun Kecil` (**sumur pakai `Alkon bensin` + `2` pekerja × `Rp100.000` / `3–4` hari tanpa hujan**).
+2. Di `Kebun Kecil`, **toren `75×75 cm` tidak akan dipakai**; desain suplai air langsung dari **sumur baru**, sedangkan **listrik PLN tersedia** jika dibutuhkan.
+3. Jangan menyamakan `12 zona / center-feed` sketsa lama atau kondisi kebun sayuran (`terong/kembang kol`) ke `Kebun Kecil`.
+4. `10–15 L/pohon` & `10–15 kg/pohon (> 2,5 thn)` adalah patokan mitra; skenario biaya tahunan `~Rp18,2–24,3 jt/tahun` (`Kebun Kecil`) maupun `~Rp48,7 jt/tahun` (`Kebun Besar`) adalah hasil hitungan tanpa hari hujan, bukan pengeluaran tercatat.
+5. **Alur dokumen resmi:** `CD-1` & `CD-2` tidak direvisi saat ini; **`CD-3` (`10 Des 2026`)** nanti menyisipkan catatan transisi agar nyambung dengan `CD-1/CD-2`; **`CD1–3 Final`** digabung & dirombak total untuk **SemPro PTA (`7 Jan 2027`)** setelah `CD-3` beres. Jangan memodifikasi `sumber/` maupun `dokumen/` sebelum pengguna memberi arahan masuk ke penyusunan `CD-3`.
