@@ -4,7 +4,7 @@
 Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom untuk kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus awal proyek pada **`Kebun Besar`** (`CD-1` & `CD-2`) kemudian disesuaikan pasca-survei menjadi fokus prototipe pada **`Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** sambil mempertahankan seluruh arsip data `Kebun Besar` sebagai jejak perubahan.
 
 **Pemilik repositori:** azurre13  
-**Status Saat Ini (`23 Nov 2026`):** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** sudah dikumpulkan di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/) serta **dibiarkan utuh dulu**. Pembimbing 1, Dosen Pengampu, dan Mitra telah **ACC pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** dengan sumber air **sumur baru** (toren `75×75 cm` tidak dipakai, masih memakai **Alkon bensin** + **`2` pekerja × `Rp100.000` setiap `3–4 hari`** jika tak hujan, air `10–15 L/pohon`, listrik PLN ada, serta target memaksimalkan pertumbuhan & buah). Roadmap berikutnya: menyusun **`CD-3` (`10 Des 2026`)** disertai [README Transisi `Kebun Besar` → `Kebun Kecil`](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) agar menyambung ke `CD-1/CD-2`, lalu **digabung & dirombak total menjadi `CD1–3 Final` untuk SemPro PTA** (`7 Jan 2027`).
+**Status Saat Ini (`23 Nov 2026`):** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** sudah dikumpulkan di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/) serta **dibiarkan utuh dulu**. Pembimbing 1, Dosen Pengampu, dan Mitra telah **ACC pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** dengan sumber air **sumur baru** (toren `75×75 cm` tidak dipakai, masih memakai **Alkon bensin** + **`2` pekerja × `Rp100.000` setiap `3–4 hari`** jika tak hujan, air `10–15 L/pohon`, listrik PLN ada, serta target memaksimalkan pertumbuhan & buah). Berkas `CD-3` lama yang ada saat ini (`dokumen/cd3/`, `dokumen/draf/cd3/`, `cd3_daffa/` lama) berstatus **draf lama tidak terpakai**; **`CD-3` baru belum dibuat dulu** — kelak dibuat **dari awal** menuju tenggat **`10 Des 2026`** disertai [README Transisi `Kebun Besar` → `Kebun Kecil`](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) agar menyambung ke `CD-1/CD-2`, lalu **digabung & dirombak total menjadi `CD1–3 Final` untuk SemPro PTA** (`7 Jan 2027`).
 
 ## Membuka di Antigravity atau AI lain
 
@@ -44,8 +44,8 @@ sumber/
 dokumen/
   cd1/                       CD-1 Final ACC (PDF 26 hlm)
   cd2/                       CD-2 Final ACC (PDF 26 hlm)
-  cd3/                       Draf CD-3 kolaborasi (Qarnie/Garnie, 34 hlm)
-  draf/                      Arsip kerja CD-1, CD-2, CD-3, & workspace draf terpisah cd3_daffa/
+  cd3/                       Draf lama CD-3 rekan (era Kebun Besar — tidak terpakai)
+  draf/                      Arsip kerja CD-1, CD-2, & draf lama CD-3 (cd3/ & cd3_daffa/ non-aktif; CD-3 baru dibuat dari awal nanti)
 catatan/                     Rangkuman Q&A pra-survei, kajian pompa, panduan survei, kamus data mitra, & arsip/ CD-1/CD-2
 konteks-ai/                  Konteks lengkap, status terkini, dan petunjuk memulai chat baru
 AGENTS.md                    Aturan kerja dan konteks awal agen

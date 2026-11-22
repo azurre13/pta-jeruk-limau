@@ -26,7 +26,7 @@ AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`2
 
 ## Contoh Prompt Singkat Chat Baru (Siap Menyusun `CD-3` `10 Des 2026`)
 
-> Lanjutkan PTA Jeruk Limau sesuai konteks `23 Nov 2026`. Kita sudah sepakat pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), `CD-1/2` dibiarkan tetap dulu. Tolong mulai susun arsitektur sistem (irigasi sumur + listrik/daya aman + sensor pemantau tanah & optimasi pertumbuhan buah) serta naskah `CD-3` menuju tenggat `10 Des 2026` dengan menyertakan catatan transisi dari `README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`.
+> Lanjutkan PTA Jeruk Limau sesuai konteks `23 Nov 2026`. Kita sudah sepakat pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), `CD-1/2` dibiarkan tetap dulu, dan draf `CD-3` lama tidak dipakai. Tolong buat **`CD-3` baru dari awal** (mulai dari arsitektur sistem irigasi sumur + listrik/daya aman + sensor pemantau tanah & optimasi pertumbuhan buah) menuju tenggat `10 Des 2026` dengan menyertakan catatan transisi dari `README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`.
 
 ---
 
@@ -35,7 +35,7 @@ AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`2
 | Lokasi dari Root Repo | Fungsi |
 |---|---|
 | [`dokumen/cd1/`](../dokumen/cd1/) & [`dokumen/cd2/`](../dokumen/cd2/) | **Berkas Final ACC Lama** (`CD-1` 26 hlm & `CD-2` 26 hlm — dibiarkan tetap sampai fase gabung-rombak total `CD1–3 Final` `7 Jan 2027`). |
-| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace usulan `CD-3` & simulasi (terpisah dari draf rekan `dokumen/cd3/`). |
+| `dokumen/cd3/`, `dokumen/draf/cd3/`, & `cd3_daffa/` lama | **Draf Lama `CD-3` Tidak Terpakai** (era `Kebun Besar` — jangan dilanjutkan; **`CD-3` baru dibuat dari awal** nanti saat diminta pengguna). |
 | [`catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) | **Jembatan `CD-2 → CD-3` (`23 Nov 2026`)**: alasan detail pindah, kelebihan/kekurangan 2 kebun, & matriks perubahan. |
 | [`catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) | **Induk data `Kebun Kecil` (`23 Nov 2026`)**: 4 pohon sampel `16 bln`, sumur/Alkon/listrik, Pythagoras `12,27 m`, & skala drone. |
 | [`catatan/denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png) | **Sketsa Denah 2D Berskala** (`Kebun Kecil` penuh ~471 m² + detail Zona Uji 1, vektor di [`denah_kebun_kecil_2d.svg`](../catatan/denah_kebun_kecil_2d.svg)). |

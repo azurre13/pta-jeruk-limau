@@ -22,7 +22,7 @@
 | Tahap | Tenggat / Jadwal Resmi | Status Sekarang (`23 Nov 2026`) | Perlakuan Dokumen |
 |---|---|---|---|
 | **1. `CD-1` & `CD-2` Final ACC** | Sudah dikumpulkan (`13 Okt` & `4 Nov 2026`) | **Terkunci Sementara** (`dokumen/cd1/`, `dokumen/cd2/`) | **Tidak direvisi sekarang.** Isi lama (`Kebun Besar`, `C-01..C-05`, `S-01..S-14`) dibiarkan utuh sebagai dokumen yang sudah dikumpulkan. |
-| **2. Penyusunan `CD-3` (`CLO3 - CD3-1`)** | **Kamis, 10 Desember 2026** | **Belum Disusun (`cd3_daffa/` ditahan)** | Wajib menyertakan **catatan transisi perubahan lapangan (`Kebun Besar` → `Kebun Kecil`, `1 Zona = 4 Pohon`)** dan perbandingan 2 kebun ini agar alur desain `CD-3` tetap menyambung secara logis dengan `CD-1` & `CD-2`. |
+| **2. Penyusunan `CD-3` (`CLO3 - CD3-1`)** | **Kamis, 10 Desember 2026** | **Belum Dibuat (Draf Lama Non-Aktif)** | Seluruh file `CD-3` yang ada di `dokumen/cd3/`, `dokumen/draf/cd3/`, dan isi lama `cd3_daffa/` adalah **draf lama tidak terpakai**. Saat mulai nanti (jangan dibuat dulu sebelum diminta), **`CD-3` dibuat baru dari awal** dan wajib menyertakan **catatan transisi perubahan lapangan (`Kebun Besar` → `Kebun Kecil`, `1 Zona = 4 Pohon`)** serta perbandingan 2 kebun ini agar nyambung dengan `CD-1` & `CD-2`. |
 | **3. Gabungan `CD1–3 Final` & SemPro (`CLO4 - CD3-2`)** | **Kamis, 7 Januari 2027** *(SemPro: **11–16 Januari 2027**)* | **Rencana Konsolidasi Total** | Setelah `CD-1`, `CD-2`, dan `CD-3` terkumpul, seluruh bab digabung dan **dirombak total** (termasuk revisi `CD-1/CD-2` serta penyesuaian **judul proyek** bila mencakup pengoptimalan pertumbuhan & buah) agar naskah akhir SemPro bersih dan konsisten dari Bab 1–3. |
 
 ---

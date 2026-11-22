@@ -10,12 +10,12 @@ Struktur subfolder dokumen diorganisasi berdasarkan tahapan Capstone Design dan 
 dokumen/
 ├── cd1/                        Dokumentasi Tahap CD-1 (Final ACC, PDF 26 halaman — dikumpulkan, jangan ubah dulu)
 ├── cd2/                        Dokumentasi Tahap CD-2 (Final ACC, PDF 26 halaman — dikumpulkan, jangan ubah dulu)
-├── cd3/                        Berkas CD-3 draf/kolaborasi tim (Qarnie / Garnie, PDF 34 halaman)
+├── cd3/                        Draf lama CD-3 rekan tim (pra-Kebun Kecil — TIDAK TERPAKAI, jangan dilanjutkan)
 └── draf/                       Arsip Naskah Kerja, Draf Revisi, & Skrip Pembangun
     ├── cd1/                    Draf naskah Word CD-1, PDF awal–revisi 3 (21–25 hlm), & logbook
     ├── cd2/                    Draf naskah Word CD-2, skrip build_full_cd2.py, template, & MD draf
-    ├── cd3/                    Skrip & draf CD-3 rekan tim + tabel perbandingan (34 hlm / 6 hlm)
-    └── cd3_daffa/              Workspace terpisah usulan CD-3 (menunggu penyusunan berbasis Kebun Kecil 1 Zona = 4 Pohon, tenggat 10 Des 2026)
+    ├── cd3/                    Draf lama CD-3 rekan tim & tabel (TIDAK TERPAKAI — era Kebun Besar)
+    └── cd3_daffa/              Berisi draf lama pra-Kebun Kecil (TIDAK TERPAKAI); CD-3 baru akan dibuat dari awal nanti (belum dibuat sekarang)
 ```
 
 ## Ringkasan Tahapan
@@ -29,6 +29,6 @@ dokumen/
 - **Catatan Koreksi Angka Draf:** Catatan awal sebelum finalisasi sempat menyebut pagu Rp6 juta dan Rp12–15 juta; acuan resmi yang berlaku adalah angka dalam PDF final `CD 2` di `dokumen/cd2/` (**26 halaman**).
 
 ### 3. CD-3 & Roadmap Penyelarasan ke `CD1–3 Final` (SemPro PTA)
-- **Status Saat Ini (`23 November 2026`):** Naskah `CD-3` baru (`cd3_daffa/`) **belum disusun saat ini**. Lokasi prototipe telah resmi **ACC pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** oleh Pembimbing 1, Dosen Pengampu, dan Mitra. Data historis `Kebun Besar` pada `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) tetap dipertahankan utuh (tidak direvisi sekarang) karena sudah dikumpulkan terlebih dahulu.
+- **Status Saat Ini (`23 November 2026`):** Seluruh berkas `CD-3` yang saat ini berada di `dokumen/cd3/`, `dokumen/draf/cd3/`, dan isi lama `dokumen/draf/cd3_daffa/` adalah **draf lama era `Kebun Besar` yang tidak terpakai lagi** (*non-aktif*, dibiarkan sebagai arsip saja dan tidak dilanjutkan). **`CD-3` yang baru belum dibuat sekarang dan akan dibuat dari awal** berbasis `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`) saat pengguna memberi arahan mulai. Sementara itu, data historis `Kebun Besar` pada `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) tetap dipertahankan utuh (tidak direvisi sekarang) karena sudah dikumpulkan terlebih dahulu.
 - **Aturan Penulisan `CD-3` (`CLO3 - CD3-1`, Tenggat `Kamis, 10 Desember 2026`):** Saat menyusun `CD-3`, wajib menyertakan **catatan transisi perubahan lapangan & perbandingan 2 kebun** mengacu pada [README Transisi `Kebun Besar` → `Kebun Kecil`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) serta [Data Kebun Kecil & Zona 4 Pohon](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) (mencakup kendala biaya/PLTS `Kebun Besar`, tebing `4–5 m` & jarak `10 m`, arus irigasi deras saat hujan, saluran irigasi bukan tanah mitra, rawan pencurian, serta kondisi `Kebun Kecil`: sumur baru tanpa toren masih disedot **Alkon bensin** + **`2` pekerja × `Rp100.000` tiap `3–4 hari`** tanpa hujan, air `10–15 L/pohon`, listrik tersedia, serta tujuan memaksimalkan pertumbuhan & buah).
 - **Tahap Gabung & Rombak Total (`CLO4 - CD3-2 Gabungan`, Tenggat `Kamis, 7 Januari 2027` · `SemPro: 11–16 Januari 2027`):** Setelah `CD-1`, `CD-2`, dan `CD-3` terkumpul seluruhnya, ketiga dokumen akan **digabung dan dirombak total** (termasuk revisi `CD-1`/`CD-2` dan penyesuaian judul proyek) agar naskah akhir SemPro konsisten sepenuhnya dari Bab 1 sampai Bab 3.

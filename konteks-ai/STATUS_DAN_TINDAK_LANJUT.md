@@ -10,8 +10,8 @@
 |---|---|---|
 | [`dokumen/cd1/`](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `13/10/2026`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Data lama `Kebun Besar` tetap dipertahankan utuh; revisi dilakukan saat perombakan **`CD1–3 Final`** pasca-`CD-3`. |
 | [`dokumen/cd2/`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `4/11/2026`, `C-01..C-05`, `S-01..S-14`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Jembatan perubahan menuju `CD-3` dicatat dulu di [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), lalu dirombak total di **`CD1–3 Final`**. |
-| `dokumen/cd3/` & `dokumen/draf/cd3/` | Draf kolaborasi rekan tim (`34 halaman` / tabel `6 halaman`) | Jangan ditimpa. |
-| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | Workspace draf terpisah (`CD-3` baru berbasis `Kebun Kecil` **belum disusun**) | Siap mulai dirancang menuju tenggat **`CLO3 - CD3-1` `10 Desember 2026`** (wajib menyisipkan catatan transisi dari `CD-2`), menunggu aba-aba pengguna. |
+| `dokumen/cd3/` & `dokumen/draf/cd3/` | **Draf Lama Tidak Terpakai** (`34 hlm` / era `Kebun Besar`) | Jangan dipakai/dilanjutkan; dibiarkan sebagai arsip pasif saja. |
+| [`dokumen/draf/cd3_daffa/`](../dokumen/draf/cd3_daffa/) | **Draf Lama Tidak Terpakai** (skrip/naskah pra-`Kebun Kecil`); `CD-3` baru **belum dibuat** | **Jangan dibuat dulu sekarang.** Kelak saat diminta pengguna menuju tenggat **`CLO3 - CD3-1` `10 Desember 2026`**, **`CD-3` dibuat baru dari awal** berbasis `Kebun Kecil` (wajib menyisipkan catatan transisi dari `CD-2`). |
 
 ---
 
