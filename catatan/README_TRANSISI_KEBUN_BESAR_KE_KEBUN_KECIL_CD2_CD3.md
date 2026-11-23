@@ -1,13 +1,14 @@
 # README Transisi Proyek: Perpindahan `Kebun Besar` → `Kebun Kecil` (`1 Zona = 4 Pohon`) & Jembatan `CD-2` ke `CD-3`
 
-**Tanggal Penyusunan:** 23 November 2026  
-**Status Keputusan:** **ACC Resmi** oleh Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra.  
+**Tanggal Penyusunan:** 22 November 2026  
+**Status Keputusan:** **ACC Resmi** oleh Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra (berdasarkan survei lanjutan & rekaman lapangan **`22 November 2026`**).  
 **Tujuan Dokumen:** Menjadi catatan jembatan formal sebelum menyusun **`CD-3` (tenggat `10 Desember 2026`)**, mengarsipkan perbandingan lengkap kelebihan & kekurangan dua kebun tanpa menghapus data historis `Kebun Besar`, dan merancang konsolidasi perombakan total **`CD1–3 Final`** untuk **SemPro PTA**.
 
 **Tautan Dokumen Terkait:**
 - Data teknis `Kebun Kecil` & `4` pohon sampel: [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md)
 - Sketsa denah berskala 2D Kebun Kecil: [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png) · [denah_kebun_kecil_2d.svg](denah_kebun_kecil_2d.svg)
-- Rekaman fakta survei `15 Nov 2026` (`Kebun Besar 1`, `Kebun Besar 2`, `Kebun Kecil`): [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md)
+- Transkrip rekaman survei Kebun Kecil (`22 Nov 2026`): [transkrip_survey_limau.md](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md)
+- Rekaman fakta survei awal `15 Nov 2026` (`Kebun Besar 1`, `Kebun Besar 2`, `Kebun Kecil`): [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - Data awal mitra & transkrip penuh: [DATA_MITRA_LENGKAP.md](DATA_MITRA_LENGKAP.md)
 - Indeks naskah akademik: [Direktori Dokumen CD-1/CD-2/CD-3](../dokumen/README.md)
 
@@ -19,7 +20,7 @@
 
 ## 1. Roadmap Penyusunan & Penyelarasan Dokumen Akademik
 
-| Tahap | Tenggat / Jadwal Resmi | Status Sekarang (`23 Nov 2026`) | Perlakuan Dokumen |
+| Tahap | Tenggat / Jadwal Resmi | Status Sekarang (`22 Nov 2026`) | Perlakuan Dokumen |
 |---|---|---|---|
 | **1. `CD-1` & `CD-2` Final ACC** | Sudah dikumpulkan (`13 Okt` & `4 Nov 2026`) | **Terkunci Sementara** (`dokumen/cd1/`, `dokumen/cd2/`) | **Tidak direvisi sekarang.** Isi lama (`Kebun Besar`, `C-01..C-05`, `S-01..S-14`) dibiarkan utuh sebagai dokumen yang sudah dikumpulkan. |
 | **2. Penyusunan `CD-3` (`CLO3 - CD3-1`)** | **Kamis, 10 Desember 2026** | **Belum Dibuat (Draf Lama Non-Aktif)** | Seluruh file `CD-3` yang ada di `dokumen/cd3/`, `dokumen/draf/cd3/`, dan isi lama `cd3_daffa/` adalah **draf lama tidak terpakai**. Saat mulai nanti (jangan dibuat dulu sebelum diminta), **`CD-3` dibuat baru dari awal** dan wajib menyertakan **catatan transisi perubahan lapangan (`Kebun Besar` → `Kebun Kecil`, `1 Zona = 4 Pohon`)** serta perbandingan 2 kebun ini agar nyambung dengan `CD-1` & `CD-2`. |

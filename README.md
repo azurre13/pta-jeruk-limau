@@ -1,10 +1,10 @@
 # PTA Kebun Jeruk Limau
 
-**Tanggal Pembaruan:** 23 November 2026  
+**Tanggal Pembaruan:** 22 November 2026  
 Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom untuk kebun jeruk limau di Ciberes, Kabupaten Subang, Jawa Barat. Fokus awal proyek pada **`Kebun Besar`** (`CD-1` & `CD-2`) kemudian disesuaikan pasca-survei menjadi fokus prototipe pada **`Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** sambil mempertahankan seluruh arsip data `Kebun Besar` sebagai jejak perubahan.
 
 **Pemilik repositori:** azurre13  
-**Status Saat Ini (`23 Nov 2026`):** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** sudah dikumpulkan di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/) serta **dibiarkan utuh dulu**. Pembimbing 1, Dosen Pengampu, dan Mitra telah **ACC pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** dengan sumber air **sumur baru** (toren `75×75 cm` tidak dipakai, masih memakai **Alkon bensin** + **`2` pekerja × `Rp100.000` setiap `3–4 hari`** jika tak hujan, air `10–15 L/pohon`, listrik PLN ada, serta target memaksimalkan pertumbuhan & buah). Berkas `CD-3` lama yang ada saat ini (`dokumen/cd3/`, `dokumen/draf/cd3/`, `cd3_daffa/` lama) berstatus **draf lama tidak terpakai**; **`CD-3` baru belum dibuat dulu** — kelak dibuat **dari awal** menuju tenggat **`10 Des 2026`** disertai [README Transisi `Kebun Besar` → `Kebun Kecil`](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) agar menyambung ke `CD-1/CD-2`, lalu **digabung & dirombak total menjadi `CD1–3 Final` untuk SemPro PTA** (`7 Jan 2027`).
+**Status Saat Ini (`22 Nov 2026`):** **`CD-1` (26 halaman) & `CD-2` (26 halaman) Final ACC** sudah dikumpulkan di [`dokumen/cd1/`](dokumen/cd1/) dan [`dokumen/cd2/`](dokumen/cd2/) serta **dibiarkan utuh dulu**. Pembimbing 1, Dosen Pengampu, dan Mitra telah **ACC pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)** dengan sumber air **sumur baru** (toren `75×75 cm` tidak dipakai, masih memakai **Alkon bensin** + **`2` pekerja × `Rp100.000` setiap `3–4 hari`** jika tak hujan, air `10–15 L/pohon`, listrik PLN ada, serta target memaksimalkan pertumbuhan & buah). Berkas `CD-3` lama yang ada saat ini (`dokumen/cd3/`, `dokumen/draf/cd3/`, `cd3_daffa/` lama) berstatus **draf lama tidak terpakai**; **`CD-3` baru belum dibuat dulu** — kelak dibuat **dari awal** menuju tenggat **`10 Des 2026`** disertai [README Transisi `Kebun Besar` → `Kebun Kecil`](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) agar menyambung ke `CD-1/CD-2`, lalu **digabung & dirombak total menjadi `CD1–3 Final` untuk SemPro PTA** (`7 Jan 2027`).
 
 ## Membuka di Antigravity atau AI lain
 
@@ -15,7 +15,7 @@ Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyim
 - [CD-1 Final ACC (PDF, 26 halaman)](dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
 - [CD-2 Final ACC (PDF, 26 halaman)](dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
 - [README Transisi & Perbandingan Kebun Besar vs Kebun Kecil (Jembatan CD-2 ke CD-3)](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
-- [Data Kebun Kecil & Zona Uji 1 (4 Pohon Sampel) + Kalibrasi Drone (23 Nov 2026)](catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md)
+- [Data Kebun Kecil & Zona Uji 1 (4 Pohon Sampel) + Kalibrasi Drone (22 Nov 2026)](catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md)
 - [Sketsa Denah 2D Berskala Kebun Kecil & Zona Uji 1 (PNG)](catatan/denah_kebun_kecil_2d.png)
 - [Hasil Survei Ciberes 15 Nov 2026 & Pembaruan ACC Lokasi](catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - [Indeks direktori dokumen & status draf CD-3](dokumen/README.md)

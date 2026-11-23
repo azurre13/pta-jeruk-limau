@@ -1,16 +1,17 @@
 # Data Kebun Kecil & Zona Uji 1 (`4 Pohon Sampel`) — Pasca-ACC Lokasi
 
-**Tanggal Penyusunan:** 23 November 2026 *(Pembaruan status buah Sampel 1–4, sumur vs toren, biaya Alkon + 2 pekerja, listrik, & roadmap CD-3 → SemPro)*  
+**Tanggal Penyusunan:** 22 November 2026 *(Pembaruan lengkap hasil survei drone, status buah Sampel 1–4, sumur vs toren, biaya Alkon + 2 pekerja, listrik, & roadmap CD-3 → SemPro)*  
 **Status Keputusan:** **ACC** oleh Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra untuk memindahkan lokasi target ke **`Kebun Kecil`** dengan cakupan prototipe **`1 Zona = 4 Pohon Sampel`**.  
-**Status Naskah Akademik (`23 November 2026`):** Data lama `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) **belum direvisi** pada tahap ini. Penyelarasan awal akan dituliskan sebagai catatan transisi pada **`CD-3` (tenggat `10 Desember 2026`)**, lalu seluruh naskah **`CD1–3 Final`** digabung & dirombak total untuk **SemPro PTA** (`CD3-2` `7 Januari 2027`).
+**Status Naskah Akademik (`22 November 2026`):** Data lama `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) **belum direvisi** pada tahap ini. Penyelarasan awal akan dituliskan sebagai catatan transisi pada **`CD-3` (tenggat `10 Desember 2026`)**, lalu seluruh naskah **`CD1–3 Final`** digabung & dirombak total untuk **SemPro PTA** (`CD3-2` `7 Januari 2027`).
 
 **Lampiran Visual & Sumber Terkait:**
 - README Transisi & Perbandingan 2 Kebun (`CD-2` → `CD-3`): [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
 - Peta Denah 2D Berskala (PNG): [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png)
 - Sumber Vektor SVG Denah: [denah_kebun_kecil_2d.svg](denah_kebun_kecil_2d.svg)
+- Transkrip Rekaman Survei Kebun Kecil (`22 Nov 2026`): [transkrip_survey_limau.md](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md)
 - Catatan Survei Sebelumnya (`15 Nov 2026`): [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - Isian Lapangan: [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md)
-- Folder Media Kebun Kecil: `../sumber/dokumentasi/kebon kecil/` (`Drone viem 4 sampel pohon test.JPG`, `drone view semua kebun kecil.JPG`, `drone view semua kebun dari tengah harusny.JPG`, `pipa sumur baru bangun.jpg`, `tampk depan`, `toren`, `IMG_20261115_132905..133216.jpg`, `dari depn.mp4`, `dari ujung blkng.mp4`)
+- Folder Media Kebun Kecil: `../sumber/dokumentasi/kebon kecil/` *(foto darat `15 Nov 2026`: `IMG_20261115_132905..133216.jpg`, `pipa sumur baru bangun.jpg`, `tampk depan`, `toren`, `dari depn.mp4`, `dari ujung blkng.mp4`; serta foto & video drone `22 Nov 2026`: `Drone viem 4 sampel pohon test.JPG`, `drone view semua kebun kecil.JPG`, `drone view semua kebun dari tengah harusny.JPG`, dan folder `Foto dan video dari drone/`)*
 
 > [!IMPORTANT]
 > **Pemisahan Jenis Fakta:**  
@@ -121,5 +122,5 @@ Sketsa lengkap skala penuh kebun, orientasi kompas, posisi sumur, segitiga Pytha
 
 ## 7. Roadmap Dokumentasi & Data Teknis Terbuka Menuju `CD-3` (`10 Des 2026`)
 
-1. **Strategi Dokumen Akademik (Disepakati `23 Nov 2026`):** `CD-1` dan `CD-2` dibiarkan tetap seperti versi yang sudah dikumpulkan; pada **`CD-3` (`tenggat 10 Des 2026`)** disertakan **catatan transisi** ([README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)) agar nyambung ke `CD-2`; setelah `CD-1`, `CD-2`, dan `CD-3` terkumpul semua, ketiganya akan **digabung dan dirombak total menjadi `CD1–3 Final`** untuk **SemPro PTA** (`7 Jan 2027`).
+1. **Strategi Dokumen Akademik (Disepakati `22 Nov 2026`):** `CD-1` dan `CD-2` dibiarkan tetap seperti versi yang sudah dikumpulkan; pada **`CD-3` (`tenggat 10 Des 2026`)** disertakan **catatan transisi** ([README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)) agar nyambung ke `CD-2`; setelah `CD-1`, `CD-2`, dan `CD-3` terkumpul semua, ketiganya akan **digabung dan dirombak total menjadi `CD1–3 Final`** untuk **SemPro PTA** (`7 Jan 2027`).
 2. **Keputusan Arsitektur Daya & Hidrolika Sumur Sebelum Implementasi `CD-3`:** karena listrik PLN tersedia dan toren `75×75 cm` **tidak dipakai**, desain `CD-3` perlu memutuskan spesifikasi pompa air sumur (menggantikan atau melengkapi `Alkon` pada sumur baru), pemilihan adaptor/PSU DC berproteksi dari listrik PLN vs PLTS mini, serta paket sensor tanah untuk `4` pohon sampel.

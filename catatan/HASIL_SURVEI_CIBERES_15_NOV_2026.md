@@ -1,17 +1,17 @@
 # Hasil Survei Lapangan Ciberes (`15 November 2026`) & Pembaruan ACC Lokasi
 
-**Tanggal Penyusunan:** 16 November 2026 *(Pembaruan status ACC & transisi `Kebun Kecil`: 23 November 2026)*  
-**Status Dokumen:** Catatan Induk Survei `15 November 2026` — **Opsi A (`Kebun Kecil`, `1 Zona = 4 Pohon Sampel`) Telah ACC** oleh PBB 1, Dosen Pengampu, dan Mitra. Data `Kebun Besar` tetap dipertahankan utuh sebagai pembanding & histori `CD-1/CD-2`.  
+**Tanggal Penyusunan:** 15 November 2026 *(Catatan Survei Lapangan 1; Pembaruan status ACC & transisi `Kebun Kecil`: 22 November 2026)*  
+**Status Dokumen:** Catatan Survei `15 November 2026` — **Opsi A (`Kebun Kecil`, `1 Zona = 4 Pohon Sampel`) Telah ACC (`22 November 2026`)** oleh PBB 1, Dosen Pengampu, dan Mitra. Data `Kebun Besar` tetap dipertahankan utuh sebagai pembanding & histori `CD-1/CD-2`.  
 **Sumber Primer Terkait:**
 - README Transisi & Perbandingan 2 Kebun (`CD-2` → `CD-3`): [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
-- Data lanjutan & denah 2D Kebun Kecil (`23 Nov 2026`): [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png)
+- Data lanjutan & denah 2D Kebun Kecil (`22 Nov 2026`): [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png) · [transkrip_survey_limau.md](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md)
 - Isian lapangan sementara: [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md)
 - Media foto/video `15 Nov 2026`: `../sumber/dokumentasi/foto/`, `../sumber/dokumentasi/foto/kebun besar 2/`, `../sumber/dokumentasi/kebon kecil/`, `../sumber/dokumentasi/video/`
 - Konteks wawancara awal: [DATA_MITRA_LENGKAP.md](DATA_MITRA_LENGKAP.md) · [Transkrip Audio 1 & 2](../sumber/dokumentasi/wawancara/Transkrip_Audio_1_dan_2.txt)
 - Panduan & Jadwal Resmi: [Buku Panduan Capstone 2024](../sumber/panduan/bukupanduancapstone_2024signed.pdf) · [Jadwal & Rubrik PTA 2627](../sumber/rubrik-jadwal/Jadwal_PTA%20--%20Rubrik%20PTA%20--%202627%20%281%29.pdf)
 
 > [!IMPORTANT]
-> **Pembaruan Keputusan & Roadmap (`23 November 2026`):**  
+> **Pembaruan Keputusan & Roadmap (`22 November 2026`):**  
 > Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra **telah menyetujui (`ACC`)** pemindahan fokus target ke **`Kebun Kecil`** dengan ruang lingkup **`1 Zona = 4 Pohon Sampel`** (basis riset jangka panjang & efisiensi biaya). Detail perbandingan kelebihan/kekurangan `Kebun Besar` vs `Kebun Kecil` serta jembatan penyusunan `CD-3` (`10 Des 2026`) → gabung-rombak total `CD1–3 Final` (`7 Jan 2027`) dirangkum di [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) dan [DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md](DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md). Naskah `dokumen/cd1/` dan `dokumen/cd2/` tetap dibiarkan utuh terlebih dahulu.
 
 ---
@@ -62,7 +62,7 @@ Data dari catatan tulis tangan survei (`15 Nov 2026`), foto/video `kebon kecil/`
 
 ---
 
-## 3. Dampak Akademik & Bahan Diskusi Bimbingan PBB 1 (`17 November 2026`)
+## 3. Dampak Akademik & Arsip Usulan Awal Bimbingan PBB 1 *(Telah Diputuskan ACC `Kebun Kecil` pada `22 November 2026`)*
 
 Mengacu pada [Buku Panduan Capstone FTE (`2024`)](../sumber/panduan/bukupanduancapstone_2024signed.pdf) (`hlm. 9, 14–15, 19, 25–26`) dan [Jadwal PTA 2627](../sumber/rubrik-jadwal/Jadwal_PTA%20--%20Rubrik%20PTA%20--%202627%20%281%29.pdf) (`CLO3 10 Des 2026`, `CD1-3 Gabungan 7 Jan 2027`, `SemPro 11–16 Jan 2027`):
 - **`CD-1` (`13/10/2026`) & `CD-2` (`4/11/2026`) saat ini mengikat ke `Kebun Besar`** (`500–600 pohon`, `3 parit 100 m`, `C-01` wajib *100% off-grid PLTS*, `C-02` air sungai berpartikel + `Alkon Pertalite`, `Rp400 rb/siram = Rp48,7 jt/tahun`).

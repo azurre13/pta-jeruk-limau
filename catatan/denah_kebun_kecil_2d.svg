@@ -28,7 +28,7 @@
   <rect x="0" y="0" width="1600" height="1020" fill="#f8fafc"/>
   <rect x="20" y="16" width="1560" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <text x="42" y="46" class="title">SKETSA DENAH 2D BERSKALA — KEBUN KECIL &amp; ZONA UJI 1 (4 POHON SAMPEL)</text>
-  <text x="42" y="69" class="subtitle">Lokasi: Kebun Belakang Rumah, Desa Ciberes, Subang (-6.38186°, 107.56836°)  |  Status: ACC PBB 1, Pengampu, &amp; Mitra (23 Nov 2026)  |  Skala Kalibrasi Foto Drone: ~65,9 px/m (±5–7%)</text>
+  <text x="42" y="69" class="subtitle">Lokasi: Kebun Belakang Rumah, Desa Ciberes, Subang (-6.38186°, 107.56836°)  |  Status: ACC PBB 1, Pengampu, &amp; Mitra (22 Nov 2026)  |  Skala Kalibrasi Foto Drone: ~65,9 px/m (±5–7%)</text>
   <rect x="20" y="102" width="890" height="898" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
   <rect x="35" y="142" width="860" height="780" rx="6" fill="url(#gridPat)" stroke="#e2e8f0" stroke-width="1"/>
   <text x="40" y="128" class="sec-title">PANEL A — DENAH SKALA PENUH KEBUN KECIL (Orientasi Sesuai Foto Drone Nadir)</text>

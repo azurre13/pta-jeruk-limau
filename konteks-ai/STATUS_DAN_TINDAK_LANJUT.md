@@ -1,12 +1,12 @@
-# Status Terkini dan Tindak Lanjut (`23 November 2026`)
+# Status Terkini dan Tindak Lanjut (`22 November 2026`)
 
-**Diperbarui: 23 November 2026.** Ringkasan status dokumen resmi, README transisi `Kebun Besar` → `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), fakta operasional & buah terkini (`23 Nov`), serta roadmap menuju **`CD-3` (`10 Des 2026`)** dan **`CD1–3 Final` SemPro (`7 Jan 2027`)**. *(Catatan historis lama tetap tersimpan di [`catatan/arsip/README.md`](../catatan/arsip/README.md).)*
+**Diperbarui: 22 November 2026.** Ringkasan status dokumen resmi, README transisi `Kebun Besar` → `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), fakta operasional & buah terkini (`22 Nov`), serta roadmap menuju **`CD-3` (`10 Des 2026`)** dan **`CD1–3 Final` SemPro (`7 Jan 2027`)**. *(Catatan historis lama tetap tersimpan di [`catatan/arsip/README.md`](../catatan/arsip/README.md).)*
 
 ---
 
 ## 1. Status Berkas Akademik & Roadmap Penyelarasan
 
-| Dokumen / Folder | Status Sekarang (`23 Nov 2026`) | Aturan Kerja |
+| Dokumen / Folder | Status Sekarang (`22 Nov 2026`) | Aturan Kerja |
 |---|---|---|
 | [`dokumen/cd1/`](../dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `13/10/2026`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Data lama `Kebun Besar` tetap dipertahankan utuh; revisi dilakukan saat perombakan **`CD1–3 Final`** pasca-`CD-3`. |
 | [`dokumen/cd2/`](../dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf) | **Final ACC (`26 hlm`, ttd `4/11/2026`, `C-01..C-05`, `S-01..S-14`)** — Sudah Dikumpulkan | **Tidak direvisi sekarang.** Jembatan perubahan menuju `CD-3` dicatat dulu di [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), lalu dirombak total di **`CD1–3 Final`**. |
@@ -15,11 +15,11 @@
 
 ---
 
-## 2. Status Data Lapangan (`23 Nov 2026`) & Antrean Langkah Berikutnya
+## 2. Status Data Lapangan (`22 Nov 2026`) & Antrean Langkah Berikutnya
 
-Dokumen induk terbaru: [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) · [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png)
+Dokumen induk terbaru: [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) · [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) · [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png) · [`transkrip_survey_limau.md`](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md)
 
-| No | Item | Kondisi Sekarang (`23 Nov 2026`) | Tindak Lanjut Berikutnya |
+| No | Item | Kondisi Sekarang (`22 Nov 2026`) | Tindak Lanjut Berikutnya |
 |---:|---|---|---|
 | 1 | **README Transisi & Perbandingan 2 Kebun** | **Selesai** di [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) — merangkum seluruh alasan pindah, kelebihan/kekurangan 2 kebun, & matriks jembatan `CD-2 → CD-3`. | Jadikan acuan langsung saat menyusun bab/subbab transisi `CD-3` (`10 Des 2026`). |
 | 2 | **Data Lengkap `4` Pohon Sampel (`16 Bln`)** | **Lengkap:** `P1` (`46 cm`, cacat/tdk berbuah), `P2` (`100 cm`, banyak buah bagus walau kecil), `P3` (`250 cm`, lebat — sdh dipanen), `P4` (`210 cm`, berbuah — sdh dipanen), keliling `10,30 m`, denah 2D terbarui. | Siap dipakai untuk perancangan tata letak zona, sensor tanah, & dosis di `CD-3`. |

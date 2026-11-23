@@ -1,19 +1,19 @@
 # Melanjutkan Proyek Ini di Chat Baru / AI Lain
 
-**Diperbarui: 23 November 2026.** Cukup buka folder repo `C:/Users/daffa/Documents/pta-jeruk-limau` lalu beri perintah berikutnya — AI tidak perlu diberi penjelasan ulang dari awal.
+**Diperbarui: 22 November 2026.** Cukup buka folder repo `C:/Users/daffa/Documents/pta-jeruk-limau` lalu beri perintah berikutnya — AI tidak perlu diberi penjelasan ulang dari awal.
 
 ---
 
 ## Urutan Baca Wajib (Cepat & Hemat Konteks)
 
-AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`23 November 2026`):
-1. [`AGENTS.md`](../AGENTS.md) *(aturan kerja, snapshot data `23 Nov`, & roadmap dokumen)*
+AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`22 November 2026`):
+1. [`AGENTS.md`](../AGENTS.md) *(aturan kerja, snapshot data `22 Nov`, & roadmap dokumen)*
 2. [`konteks-ai/KONTEKS_PROYEK.md`](KONTEKS_PROYEK.md) *(ringkasan fakta, batas `CD-1/CD-2`, & pemisahan angka 2 kebun)*
 3. [`konteks-ai/STATUS_DAN_TINDAK_LANJUT.md`](STATUS_DAN_TINDAK_LANJUT.md) *(status berkas & tindak lanjut `CD-3` `10 Des` → `CD1–3` `7 Jan`)*
 4. [`catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) *(alasan lengkap pindah, perbandingan 2 kebun, & matriks jembatan `CD-2 → CD-3`)*
-5. [`catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) *(data terukur `4` pohon sampel `16 bln`, sumur/Alkon/listrik, & kalibrasi 3 foto drone)*
-6. [`catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md) *(histori survei `15 Nov 2026` `Kebun Besar 1`, `Kebun Besar 2`, & `Kebun Kecil`)*
-7. [`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) *(hasil Q&A desain pra-survei & standar perangkat keras)*
+5. [`catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) *(data terukur `4` pohon sampel `16 bln`, sumur/Alkon/listrik, & kalibrasi 3 foto drone `22 Nov`)*
+6. [`catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md) *(histori survei 1 tanggal `15 Nov 2026`: `Kebun Besar 1`, `Kebun Besar 2`, & awal `Kebun Kecil`)*
+7. [`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) *(hasil Q&A desain pra-survei `14 Nov` & standar perangkat keras)*
 
 *Lampiran visual denah:* [`catatan/denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png) *(sketsa berskala 2D Kebun Kecil & Zona Uji 1).*
 
@@ -26,7 +26,7 @@ AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`2
 
 ## Contoh Prompt Singkat Chat Baru (Siap Menyusun `CD-3` `10 Des 2026`)
 
-> Lanjutkan PTA Jeruk Limau sesuai konteks `23 Nov 2026`. Kita sudah sepakat pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), `CD-1/2` dibiarkan tetap dulu, dan draf `CD-3` lama tidak dipakai. Tolong buat **`CD-3` baru dari awal** (mulai dari arsitektur sistem irigasi sumur + listrik/daya aman + sensor pemantau tanah & optimasi pertumbuhan buah) menuju tenggat `10 Des 2026` dengan menyertakan catatan transisi dari `README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`.
+> Lanjutkan PTA Jeruk Limau sesuai konteks `22 Nov 2026`. Kita sudah sepakat pindah ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`), `CD-1/2` dibiarkan tetap dulu, dan draf `CD-3` lama tidak dipakai. Tolong buat **`CD-3` baru dari awal** (mulai dari arsitektur sistem irigasi sumur + listrik/daya aman + sensor pemantau tanah & optimasi pertumbuhan buah) menuju tenggat `10 Des 2026` dengan menyertakan catatan transisi dari `README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`.
 
 ---
 
@@ -36,8 +36,8 @@ AI cukup membaca **7 file inti** berikut untuk memahami 100% status terakhir (`2
 |---|---|
 | [`dokumen/cd1/`](../dokumen/cd1/) & [`dokumen/cd2/`](../dokumen/cd2/) | **Berkas Final ACC Lama** (`CD-1` 26 hlm & `CD-2` 26 hlm — dibiarkan tetap sampai fase gabung-rombak total `CD1–3 Final` `7 Jan 2027`). |
 | `dokumen/cd3/`, `dokumen/draf/cd3/`, & `cd3_daffa/` lama | **Draf Lama `CD-3` Tidak Terpakai** (era `Kebun Besar` — jangan dilanjutkan; **`CD-3` baru dibuat dari awal** nanti saat diminta pengguna). |
-| [`catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) | **Jembatan `CD-2 → CD-3` (`23 Nov 2026`)**: alasan detail pindah, kelebihan/kekurangan 2 kebun, & matriks perubahan. |
-| [`catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) | **Induk data `Kebun Kecil` (`23 Nov 2026`)**: 4 pohon sampel `16 bln`, sumur/Alkon/listrik, Pythagoras `12,27 m`, & skala drone. |
+| [`catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md) | **Jembatan `CD-2 → CD-3` (`22 Nov 2026`)**: alasan detail pindah, kelebihan/kekurangan 2 kebun, & matriks perubahan. |
+| [`catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md) | **Induk data `Kebun Kecil` (`22 Nov 2026`)**: 4 pohon sampel `16 bln`, sumur/Alkon/listrik, Pythagoras `12,27 m`, & skala drone. |
 | [`catatan/denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png) | **Sketsa Denah 2D Berskala** (`Kebun Kecil` penuh ~471 m² + detail Zona Uji 1, vektor di [`denah_kebun_kecil_2d.svg`](../catatan/denah_kebun_kecil_2d.svg)). |
 | [`catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md) | **Induk temuan survei `15 Nov 2026`** (`Kebun Besar 1`, `Kebun Besar 2`, `Kebun Kecil`). |
 | [`catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) | Induk diskusi pra-survei mengenai desain, standar perangkat keras, & analisis zona aman. |

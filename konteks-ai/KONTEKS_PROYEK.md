@@ -1,13 +1,13 @@
 # Konteks Lengkap Proyek PTA Kebun Jeruk Limau
 
-**Diperbarui: 23 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
+**Diperbarui: 22 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
 
 ---
 
 ## 1. Tujuan, Identitas, dan Jadwal Akademik
 
 - **Tujuan Mitra:** Awalnya menggantikan penyiraman manual agar biaya turun dan air lebih terjamin (`10–15 L/pohon`). Setelah ACC pindah ke **`Kebun Kecil`**, mitra menginginkan kebun ini menjadi **kebun acuan/percontohan** yang bukan hanya menuntaskan irigasi (`Alkon` + `2 pekerja × Rp100 rb / 3–4 hari`), melainkan juga **memaksimalkan pertumbuhan pohon dan produktivitas buah** (judul proyek berpeluang diperbarui pada tahap `CD1–3 Final`).
-- **Tahap Aktif (`23 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) sudah dikumpulkan dan **dibiarkan utuh dulu**. Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra sudah **ACC memindahkan target ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)**. Roadmap resmi berikutnya: menyusun **`CD-3` (`tenggat 10 Des 2026`)** disertai **catatan transisi `Kebun Besar` → `Kebun Kecil`** agar nyambung ke `CD-2`, lalu setelah `CD-1/2/3` terkumpul semua akan **digabung dan dirombak total menjadi `CD1–3 Final` untuk SemPro PTA (`7 Jan 2027`)**.
+- **Tahap Aktif (`22 November 2026`):** `CD-1` (`26 hlm`) dan `CD-2` (`26 hlm`) sudah dikumpulkan dan **dibiarkan utuh dulu**. Pembimbing 1 (**Dr. Agung Nugroho Jati, S.T., M.T.**), Dosen Pengampu Kelas, dan Mitra sudah **ACC memindahkan target ke `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`)**. Roadmap resmi berikutnya: menyusun **`CD-3` (`tenggat 10 Des 2026`)** disertai **catatan transisi `Kebun Besar` → `Kebun Kecil`** agar nyambung ke `CD-2`, lalu setelah `CD-1/2/3` terkumpul semua akan **digabung dan dirombak total menjadi `CD1–3 Final` untuk SemPro PTA (`7 Jan 2027`)**.
 
 | Identitas / Jadwal | Data Resmi Terverifikasi |
 |---|---|
@@ -75,9 +75,9 @@ Pompa mesin bensin Alkon 2 inci — PERTALITE AKTIF
 
 ---
 
-## 5. Kesepakatan Rekayasa, Alasan Pindah, & Data Baru (`15–23 November 2026`)
+## 5. Kesepakatan Rekayasa, Alasan Pindah, & Data Baru (`15 & 22 November 2026`)
 
-Rincian lengkap tersedia pada [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png), dan [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md):
+Rincian lengkap tersedia pada [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`denah_kebun_kecil_2d.png`](../catatan/denah_kebun_kecil_2d.png), [`transkrip_survey_limau.md`](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md), dan [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md):
 1. **Alasan Resmi Pindah dari `Kebun Besar` (Data Lama Tetap Disimpan Utuh):**
    - `Kebun Besar 1` (`160` pohon sensus riil `4` baris) memiliki jarak irigasi `10 m` dengan **tebing curam `Δz = 4–5 m`**, arus saluran irigasi bisa **sangat deras saat hujan**, **saluran irigasi bukan tanah milik mitra** (sulit izin instalasi), **tanpa pagar & jauh dari permukiman** (rawan maling), dan **tanpa PLN** sehingga pompa daya tinggi + PLTS + baterai membuat draf `BOM_PROTOTYPE` lama (`dokumen/draf/cd3_daffa/bom_and_data.py` — **draf lama tidak terpakai**: `Rp4,85 jt` / `+ RAB Rp6,435 jt`) melebihi budget mahasiswa hanya untuk `1` petak uji.
 2. **Keputusan ACC `Kebun Kecil` (`1 Zona = 4 Pohon Sampel`) & Kondisi Operasional Berjalan:**
