@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="940" viewBox="0 0 1540 940">
+<defs>
+  <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+    <path d="M0,0.5 L8.5,3.5 L0,6.5 L1.8,3.5 z" fill="#111111" />
+  </marker>
+  <marker id="arr-gray" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+    <path d="M0,0.5 L8.5,3.5 L0,6.5 L1.8,3.5 z" fill="#444444" />
+  </marker>
+  <marker id="arr-pipe" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto">
+    <path d="M0,0.5 L10,4.5 L0,8.5 L2.2,4.5 z" fill="#111111" />
+  </marker>
+</defs>
+<rect x="0" y="0" width="1540" height="940" fill="#FFFFFF" />
+<text x="770.0" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">DIAGRAM BLOK SISTEM IRIGASI PRESISI — KEBUN KECIL (ZONA UJI 1)</text>
+<text x="770.0" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#333333" text-anchor="middle">1 Pipa Induk · 1 Flow Sensor Sekuensial · 1 Katup &amp; 1 Sensor/Pohon · Kontroler ESP32 · IoT 4G</text>
+<line x1="36" y1="70" x2="1504" y2="70" stroke="#111111" stroke-width="1.8" />
+<rect x="36" y="98" width="446" height="122" rx="4" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="6,4" />
+<rect x="48" y="88" width="235.6" height="20" fill="#FFFFFF" />
+<text x="56" y="102" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">BLOK CATU DAYA (SELV &lt;= 48 V DC)</text>
+<rect x="845" y="98" width="659" height="122" rx="4" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="6,4" />
+<rect x="857" y="88" width="378.4" height="20" fill="#FFFFFF" />
+<text x="865" y="102" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">BLOK KOMUNIKASI IoT 4G &amp; PENGGUNA (TANPA WI-FI KEBUN)</text>
+<rect x="36" y="282" width="348" height="496" rx="4" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="6,4" />
+<rect x="48" y="272" width="208.4" height="20" fill="#FFFFFF" />
+<text x="56" y="286" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">BLOK INPUT &amp; SENSOR LAPANGAN</text>
+<rect x="845" y="282" width="659" height="496" rx="4" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="6,4" />
+<rect x="857" y="272" width="337.59999999999997" height="20" fill="#FFFFFF" />
+<text x="865" y="286" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">BLOK AKTUATOR, HIDROLIKA PIPA, &amp; JALUR EKSPANSI</text>
+<rect x="52" y="130" width="96" height="56" rx="3" fill="#F3F4F6" stroke="#111111" stroke-width="1.6" />
+<text x="100.0" y="154.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">PLN 220V</text>
+<text x="100.0" y="169.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">AC (Rumah)</text>
+<rect x="178" y="130" width="140" height="56" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="248.0" y="154.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Adaptor SELV 12V DC</text>
+<text x="248.0" y="169.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">+ MCB &amp; Sekring</text>
+<rect x="348" y="130" width="118" height="56" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="407.0" y="154.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Buck Converter</text>
+<text x="407.0" y="169.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">12V -&gt; 5V DC</text>
+<line x1="148" y1="158" x2="177" y2="158" stroke="#111111" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<line x1="318" y1="158" x2="347" y2="158" stroke="#111111" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<polyline points="407,186 407,238 565,238 565,280" fill="none" stroke="#111111" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<polyline points="565,238 940,238 940,190" fill="none" stroke="#111111" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<rect x="438" y="227" width="116" height="16" fill="#FFFFFF" />
+<text x="496" y="239" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">5V (ESP32 &amp; Sensor)</text>
+<rect x="760" y="227" width="96" height="16" fill="#FFFFFF" />
+<text x="808" y="239" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">Daya 5V Modem 4G</text>
+<polyline points="248,186 248,260 935,260 935,368" fill="none" stroke="#111111" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<rect x="734" y="249" width="172" height="16" fill="#FFFFFF" />
+<text x="820" y="261" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">12V DC SELV (Pompa &amp; Katup)</text>
+<rect x="865" y="130" width="152" height="58" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="941.0" y="155.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Modem / Router 4G</text>
+<text x="941.0" y="170.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(SIM Data Kebun)</text>
+<rect x="1068" y="130" width="178" height="58" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1157.0" y="155.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Broker MQTT &amp;</text>
+<text x="1157.0" y="170.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Database Server</text>
+<rect x="1296" y="130" width="188" height="58" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1390.0" y="155.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Dashboard / HP Mitra</text>
+<text x="1390.0" y="170.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Monitor &amp; Remote Tuning)</text>
+<line x1="1017" y1="152" x2="1066" y2="152" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1068" y1="166" x2="1019" y2="166" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1246" y1="152" x2="1294" y2="152" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1296" y1="166" x2="1248" y2="166" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<polyline points="668,282 668,152 863,152" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polyline points="865,166 682,166 682,280" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="768" y="144" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">Data &amp; Tuning MQTT</text>
+<rect x="56" y="312" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="335.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">4× Sensor Lengas Tanah (S1–S4)</text>
+<text x="203.0" y="349.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Kapasitif + Kalibrasi Tanah Merah</text>
+<line x1="350" y1="339" x2="408" y2="339" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="386" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="409.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">4× Sensor Suhu Tanah DS18B20</text>
+<text x="203.0" y="423.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">1-Wire Waterproof (15–20 cm)</text>
+<line x1="350" y1="413" x2="408" y2="413" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="460" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="483.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">1× Flow Sensor Induk (YF-B1)</text>
+<text x="203.0" y="497.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Hitung Liter Bergantian &amp; Mampet</text>
+<line x1="350" y1="487" x2="408" y2="487" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="534" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="557.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">1× Sensor Tekanan Air (0–5 bar)</text>
+<text x="203.0" y="571.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Deteksi Filter Kotor / Anomali</text>
+<line x1="350" y1="561" x2="408" y2="561" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="608" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="631.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">1× Tombol Fisik Lokal (S-13)</text>
+<text x="203.0" y="645.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Pemicu Siram Manual Lapangan</text>
+<line x1="350" y1="635" x2="408" y2="635" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="682" width="294" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="203.0" y="705.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Modul RTC DS3231</text>
+<text x="203.0" y="719.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Penjaga Jadwal &amp; Timestamp Log</text>
+<line x1="350" y1="709" x2="408" y2="709" stroke="#111111" stroke-width="1.5" />
+<line x1="408" y1="339" x2="408" y2="709" stroke="#111111" stroke-width="1.8" />
+<line x1="408" y1="462" x2="446" y2="462" stroke="#111111" stroke-width="1.8" marker-end="url(#arr)" />
+<rect x="388" y="432" width="56" height="16" fill="#FFFFFF" />
+<text x="416" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">ADC/I2C/IO</text>
+<rect x="448" y="282" width="326" height="344" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2.2" />
+<rect x="448" y="282" width="326" height="34" fill="#111111" />
+<text x="611" y="304" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">BLOK PEMROSES — ESP32</text>
+<rect x="468" y="334" width="286" height="54" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="611.0" y="357.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Akuisisi &amp; Kalibrasi Tanah Merah</text>
+<text x="611.0" y="371.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">VWC = m·ADC + c (+ ADS1115 opsional)</text>
+<rect x="468" y="402" width="286" height="54" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="611.0" y="425.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Algoritma Logika Fuzzy</text>
+<text x="611.0" y="439.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Tentukan Target Volume (10–15 L/Pohon)</text>
+<rect x="468" y="470" width="286" height="54" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="611.0" y="493.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Kendali Sekuensial &amp; Pulse Drip</text>
+<text x="611.0" y="507.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Buka V1-&gt;V4 Bergantian + Jeda Serap</text>
+<rect x="468" y="538" width="286" height="54" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="611.0" y="561.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Proteksi Mampet &amp; Auto End-Flush</text>
+<text x="611.0" y="575.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Dry-Run &gt;10 dtk / Delta-P &amp; Bilas &gt;=0,6 m/s</text>
+<rect x="478" y="682" width="266" height="66" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="611.0" y="711.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Penyimpanan Lokal MicroSD</text>
+<text x="611.0" y="726.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Buffer Offline Store-and-Forward</text>
+<line x1="604" y1="626" x2="604" y2="680" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="618" y1="682" x2="618" y2="628" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<text x="652" y="658" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">SPI Log</text>
+<rect x="865" y="370" width="146" height="152" rx="3" fill="#F3F4F6" stroke="#111111" stroke-width="1.6" />
+<text x="938.0" y="419.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Driver Relay 6-Ch</text>
+<text x="938.0" y="434.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Optocoupler +</text>
+<text x="938.0" y="449.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Flyback Diode)</text>
+<text x="938.0" y="464.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">1 Pompa + 4 Katup</text>
+<text x="938.0" y="479.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">+ 1 Katup Bilas</text>
+<line x1="774" y1="446" x2="863" y2="446" stroke="#111111" stroke-width="1.8" marker-end="url(#arr)" />
+<text x="818" y="436" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">GPIO</text>
+<rect x="1056" y="306" width="130" height="46" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1121.0" y="325.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Sumur Baru</text>
+<text x="1121.0" y="340.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Sumber Air)</text>
+<rect x="1245" y="306" width="230" height="46" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1360.0" y="325.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">Pompa Sumur (Non-Cast Iron)</text>
+<text x="1360.0" y="339.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">12V DC SELV (Opsi AC + Relay)</text>
+<rect x="1245" y="386" width="230" height="46" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1360.0" y="405.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Disc Filter 120–150 Mesh</text>
+<text x="1360.0" y="420.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Lapis 1 Anti-Mampet)</text>
+<rect x="1245" y="464" width="230" height="46" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="1360.0" y="483.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Manifold Ukur Pipa</text>
+<text x="1360.0" y="498.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Pemasangan Flow &amp; Tekanan)</text>
+<rect x="1045" y="550" width="194" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1142.0" y="573.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">4× Katup Cabang (V1–V4)</text>
+<text x="1142.0" y="588.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">1 Pohon = 1 Katup Elektrik</text>
+<rect x="1265" y="550" width="210" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1370.0" y="573.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">1× Katup Bilas Ujung (VF)</text>
+<text x="1370.0" y="588.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Auto End-Flush &gt;= 0,6 m/s</text>
+<rect x="1045" y="634" width="194" height="58" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1142.0" y="653.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">4× Splitter 4-Way Pasak</text>
+<text x="1142.0" y="666.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">16 Pasak Tetes Akar (P1–P4)</text>
+<text x="1142.0" y="679.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Meresap -&gt; dibaca S1–S4)</text>
+<rect x="1265" y="634" width="210" height="58" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1370.0" y="659.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Saluran Pembuangan</text>
+<text x="1370.0" y="674.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Buang Endapan Lumpur Pipa</text>
+<rect x="1045" y="714" width="430" height="44" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.4" />
+<text x="1260.0" y="732.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Port Stop Kran Ekspansi (SK) + Slot I2C PCF8574</text>
+<text x="1260.0" y="746.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Siap Sambung Modular Zona 2..N (hingga 72–73 Pohon)</text>
+<path d="M 1186 329 L 1241 329" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1186 329 L 1241 329" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1186 329 L 1241 329" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<path d="M 1360 352 L 1360 382" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 352 L 1360 382" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 352 L 1360 382" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<path d="M 1360 432 L 1360 460" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 432 L 1360 460" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 432 L 1360 460" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<path d="M 1360 510 L 1360 546" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 510 L 1360 546" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 510 L 1360 546" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<path d="M 1360 530 L 1142 530 L 1142 546" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 530 L 1142 530 L 1142 546" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 530 L 1142 530 L 1142 546" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<circle cx="1360" cy="530" r="3.5" fill="#111111" />
+<path d="M 1142 604 L 1142 630" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1142 604 L 1142 630" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1142 604 L 1142 630" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<path d="M 1360 604 L 1360 630" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 604 L 1360 630" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 1360 604 L 1360 630" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<polyline points="1363,530 1490,530 1490,736 1477,736" fill="none" stroke="#444444" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr-gray)" />
+<polyline points="1011,390 1030,390 1030,368 1300,368 1300,354" fill="none" stroke="#111111" stroke-width="1.4" marker-end="url(#arr)" />
+<polyline points="1011,468 1026,468 1026,577 1043,577" fill="none" stroke="#111111" stroke-width="1.4" marker-end="url(#arr)" />
+<path d="M 935 522 L 935 618 L 1135 618 A 7 7 0 0 1 1149 618 L 1252 618 L 1252 577 L 1263 577" fill="none" stroke="#111111" stroke-width="1.4" marker-end="url(#arr)" />
+<polyline points="1475,487 1516,487 1516,808 18,808 18,487 54,487" fill="none" stroke="#444444" stroke-width="1.4" stroke-dasharray="3,3" marker-end="url(#arr-gray)" />
+<polyline points="18,561 54,561" fill="none" stroke="#444444" stroke-width="1.4" stroke-dasharray="3,3" marker-end="url(#arr-gray)" />
+<rect x="575" y="798" width="360" height="20" fill="#FFFFFF" />
+<text x="755" y="812" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#333333" text-anchor="middle">Umpan Balik Sinyal Pulsa Flow &amp; Tegangan Tekanan ke Sensor</text>
+<rect x="36" y="840" width="1468" height="70" rx="4" fill="#FAFAFA" stroke="#111111" stroke-width="1.4" />
+<text x="56" y="862" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">KETERANGAN GARIS:</text>
+<line x1="56" y1="884" x2="102" y2="884" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<text x="112" y="888" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Sinyal / Data / Kontrol</text>
+<path d="M 310 884 L 362 884" fill="none" stroke="#111111" stroke-width="4.6" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 310 884 L 362 884" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linejoin="miter" stroke-linecap="butt" />
+<path d="M 310 884 L 362 884" fill="none" stroke="none" marker-end="url(#arr-pipe)" />
+<text x="374" y="888" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Aliran Air Pipa (Induk &amp; Cabang)</text>
+<line x1="645" y1="884" x2="693" y2="884" stroke="#111111" stroke-width="1.4" stroke-dasharray="5,3" marker-end="url(#arr)" />
+<text x="703" y="888" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Daya Listrik (PLN 220V -&gt; 12V / 5V DC)</text>
+<line x1="1040" y1="884" x2="1088" y2="884" stroke="#444444" stroke-width="1.4" stroke-dasharray="3,3" marker-end="url(#arr-gray)" />
+<text x="1098" y="888" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Umpan Balik Sensor / Ekspansi Modular</text>
+</svg>

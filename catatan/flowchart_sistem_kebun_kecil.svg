@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1170" viewBox="0 0 1540 1170">
+<defs>
+  <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+    <path d="M0,0.5 L8.5,3.5 L0,6.5 L1.8,3.5 z" fill="#111111" />
+  </marker>
+  <marker id="arr-gray" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+    <path d="M0,0.5 L8.5,3.5 L0,6.5 L1.8,3.5 z" fill="#444444" />
+  </marker>
+  <marker id="arr-pipe" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto">
+    <path d="M0,0.5 L10,4.5 L0,8.5 L2.2,4.5 z" fill="#111111" />
+  </marker>
+</defs>
+<rect x="0" y="0" width="1540" height="1170" fill="#FFFFFF" />
+<text x="770.0" y="34" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111" text-anchor="middle">FLOWCHART CARA KERJA SISTEM IRIGASI PRESISI — KEBUN KECIL (ZONA UJI 1)</text>
+<text x="770.0" y="56" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#333333" text-anchor="middle">Kalibrasi Tanah Merah · Fuzzy &amp; Pulse Drip · Urutan Aman Katup-Pompa · Proteksi Mampet &amp; Auto End-Flush</text>
+<line x1="36" y1="70" x2="1504" y2="70" stroke="#111111" stroke-width="1.8" />
+<rect x="36" y="88" width="680" height="994" rx="4" fill="#FAFAFA" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4" />
+<text x="376" y="108" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">TAHAP 1: INISIALISASI, PEMBACAAN SENSOR, &amp; KEPUTUSAN PENYIRAMAN</text>
+<rect x="740" y="88" width="764" height="994" rx="4" fill="#FAFAFA" stroke="#666666" stroke-width="1.2" stroke-dasharray="6,4" />
+<text x="1122" y="108" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="middle">TAHAP 2: PENYIRAMAN BERGANTIAN (V1–V4), PROTEKSI MAMPET, &amp; AUTO END-FLUSH</text>
+<rect x="292.0" y="126" width="146" height="36" rx="18.0" fill="#111111" stroke="#111111" stroke-width="1.8" />
+<text x="365.0" y="148.2" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">MULAI</text>
+<line x1="365" y1="162" x2="365" y2="185" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="200" y="187" width="330" height="50" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="365.0" y="208.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Inisialisasi ESP32, RTC DS3231, MicroSD,</text>
+<text x="365.0" y="223.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">&amp; Sambungkan Broker MQTT via Modem 4G</text>
+<line x1="365" y1="237" x2="365" y2="267" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<circle cx="642" cy="254" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="642" y="258" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">L</text>
+<line x1="626" y1="254" x2="367" y2="254" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<polygon points="236.0,269 526.0,269 494.0,317 204.0,317" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="365" y="289.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Cek Perintah Manual</text>
+<text x="365" y="303.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Tombol S-13 / Aplikasi HP 4G)</text>
+<line x1="365" y1="317" x2="365" y2="341" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polygon points="365,343 477.0,380.0 365,417 253.0,380.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="365" y="376.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ada Perintah</text>
+<text x="365" y="390.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Manual?</text>
+<line x1="477" y1="380" x2="514" y2="380" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="495" y="372" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<rect x="516" y="353" width="144" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="588.0" y="376.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">Set Target Manual</text>
+<text x="588.0" y="390.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Aman (&lt;= 15 L/Pohon)</text>
+<line x1="660" y1="380" x2="678" y2="380" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<circle cx="694" cy="380" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="694" y="384" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">M</text>
+<line x1="365" y1="417" x2="365" y2="445" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="387" y="434" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<polygon points="365,447 477.0,485.0 365,523 253.0,485.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="365" y="481.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Jadwal Cek RTC</text>
+<text x="365" y="495.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Sudah Tiba?</text>
+<polyline points="253,485 144,485 144,404" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<text x="214" y="477" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<rect x="68" y="348" width="152" height="54" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="144.0" y="371.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Mode Siaga &amp;</text>
+<text x="144.0" y="385.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Kirim Heartbeat 4G</text>
+<polyline points="144,348 144,254 363,254" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="365" y1="523" x2="365" y2="551" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="383" y="540" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<polygon points="221.0,553 541.0,553 509.0,605 189.0,605" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="365" y="575.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Baca 4 Lengas (S1–S4), 4 Suhu,</text>
+<text x="365" y="589.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">&amp; Parameter Remote Tuning MQTT</text>
+<line x1="365" y1="605" x2="365" y2="631" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="200" y="633" width="330" height="52" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="365.0" y="655.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Konversi ADC -&gt; % VWC Tanah Merah</text>
+<text x="365.0" y="670.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(VWC = m·ADC + c, Moving Avg 10×)</text>
+<line x1="365" y1="685" x2="365" y2="713" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polygon points="365,715 490.0,758.0 365,801 240.0,758.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="365" y="747.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ada Pohon Kering?</text>
+<text x="365" y="761.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(VWC &lt; Ambang &amp;</text>
+<text x="365" y="775.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Tidak Hujan)</text>
+<line x1="365" y1="801" x2="365" y2="833" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="387" y="820" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<rect x="205" y="835" width="320" height="52" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="365.0" y="857.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Simpan Log &quot;Lengas Cukup&quot; di MicroSD</text>
+<text x="365.0" y="872.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">&amp; Kirim ke Dashboard 4G (jika online)</text>
+<polyline points="205,861 52,861 52,254 363,254" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="490" y1="758" x2="624" y2="758" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="558" y="750" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<circle cx="642" cy="758" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="642" y="762" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">A</text>
+<text x="642" y="788" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">Ke Tahap 2</text>
+<circle cx="825" cy="151" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="825" y="155" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">A</text>
+<line x1="841" y1="151" x2="933" y2="151" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<circle cx="825" cy="221" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="825" y="225" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">M</text>
+<line x1="841" y1="221" x2="933" y2="221" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="935" y="126" width="340" height="50" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1105.0" y="147.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Hitung Target Volume V_target (10–15 L)</text>
+<text x="1105.0" y="162.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">per Pohon Menggunakan Logika Fuzzy</text>
+<line x1="1105" y1="176" x2="1105" y2="194" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="935" y="196" width="340" height="50" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1105.0" y="217.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Susun Antrean Pohon (i = 1..4) &amp; Kuota</text>
+<text x="1105.0" y="232.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Pulse Drip (mis. maks 5 L/putaran)</text>
+<line x1="1105" y1="246" x2="1105" y2="272" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="930" y="274" width="350" height="52" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="1105.0" y="296.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Buka 1 Katup Cabang Vi Dulu (Lain Tutup),</text>
+<text x="1105.0" y="311.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Lalu Nyalakan Pompa Sumur (Cegah Spike)</text>
+<line x1="1105" y1="326" x2="1105" y2="354" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polygon points="958.0,356 1284.0,356 1252.0,404 926.0,404" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1105" y="376.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Baca 1 Flow Sensor Induk</text>
+<text x="1105" y="390.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">&amp; Sensor Tekanan Air Real-Time</text>
+<line x1="1105" y1="404" x2="1105" y2="430" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polygon points="1105,432 1238.0,475.0 1105,518 972.0,475.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="1105" y="471.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Gangguan? (Flow = 0 &gt;10 dtk</text>
+<text x="1105" y="485.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">atau Delta-P &gt;= 70 kPa)</text>
+<line x1="1238" y1="475" x2="1304" y2="475" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1268" y="467" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<rect x="1306" y="444" width="178" height="62" rx="3" fill="#F3F4F6" stroke="#111111" stroke-width="1.6" />
+<text x="1395.0" y="464.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">Matikan Pompa Dulu,</text>
+<text x="1395.0" y="478.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Lalu Tutup Katup Vi</text>
+<text x="1395.0" y="492.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(Failsafe Anti-Spike)</text>
+<line x1="1395" y1="506" x2="1395" y2="534" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<rect x="1306" y="536" width="178" height="64" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1395.0" y="557.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">Kirim Alarm Mampet/</text>
+<text x="1395.0" y="571.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Dry-Run Cabang i ke HP</text>
+<text x="1395.0" y="585.675" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">+ Simpan ke MicroSD</text>
+<polyline points="1395,600 1395,976 1283,976" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1105" y1="518" x2="1105" y2="544" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1127" y="534" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<polygon points="1105,546 1237.0,588.0 1105,630 973.0,588.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="1105" y="584.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Volume Sesi &gt;= Kuota Pulse</text>
+<text x="1105" y="598.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">atau Sisa V_target(i)?</text>
+<polyline points="973,588 896,588 896,380 958,380" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<text x="934" y="580" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<line x1="1105" y1="630" x2="1105" y2="656" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1123" y="646" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<rect x="930" y="658" width="350" height="50" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1105.0" y="679.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Matikan Pompa, Tutup Katup Vi,</text>
+<text x="1105.0" y="694.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">&amp; Perbarui Total Liter Terkirim Pohon i</text>
+<line x1="1105" y1="708" x2="1105" y2="734" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<polygon points="1105,736 1237.0,778.0 1105,820 973.0,778.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="1105" y="774.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Semua Pohon Sudah</text>
+<text x="1105" y="788.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Capai V_target Penuh?</text>
+<polyline points="973,778 812,778 812,516" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<text x="920" y="770" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<rect x="752" y="444" width="120" height="70" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="812.0" y="461.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">Pilih Pohon</text>
+<text x="812.0" y="475.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Berikutnya</text>
+<text x="812.0" y="489.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">(+ Jeda Serap</text>
+<text x="812.0" y="503.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">15 Mnt/Putaran)</text>
+<polyline points="812,444 812,300 928,300" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1105" y1="820" x2="1105" y2="846" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1123" y="836" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<polygon points="1105,848 1230.0,886.0 1105,924 980.0,886.0" fill="#F4F4F4" stroke="#111111" stroke-width="1.6" />
+<text x="1105" y="882.85" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Waktunya Bilas</text>
+<text x="1105" y="896.85" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Auto End-Flush?</text>
+<line x1="1230" y1="886" x2="1286" y2="886" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1254" y="878" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Ya</text>
+<rect x="1288" y="854" width="196" height="64" rx="3" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<text x="1386.0" y="875.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">Buka VF -&gt; Nyalakan Pompa</text>
+<text x="1386.0" y="889.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">30–45 dtk (&gt;= 0,6 m/s),</text>
+<text x="1386.0" y="903.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Lalu Matikan &amp; Tutup VF</text>
+<polyline points="1395,918 1395,976 1283,976" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="1105" y1="924" x2="1105" y2="948" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<text x="1127" y="938" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Tidak</text>
+<rect x="930" y="950" width="350" height="52" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1105.0" y="972.35" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">Simpan Log Final di MicroSD; Jika 4G Aktif,</text>
+<text x="1105.0" y="987.35" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="middle">Kirim &amp; Sinkronkan ke Dashboard Mitra</text>
+<polyline points="1105,1002 1105,1044 970,1044" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#arr)" />
+<circle cx="950" cy="1044" r="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<text x="950" y="1048" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="middle">L</text>
+<text x="924" y="1048" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="end">Kembali ke Loop Cek (Tahap 1)</text>
+<rect x="36" y="1096" width="1468" height="58" rx="4" fill="#FAFAFA" stroke="#111111" stroke-width="1.4" />
+<text x="56" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#111111" text-anchor="start">SIMBOL ISO 5807:</text>
+<rect x="188" y="1113" width="54" height="22" rx="11" fill="#111111" />
+<text x="252" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Mulai / Selesai</text>
+<rect x="374" y="1113" width="54" height="22" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<text x="438" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Proses / Aksi ESP32</text>
+<polygon points="596,1113 648,1113 640,1135 588,1135" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<text x="658" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Input / Output Sensor &amp; MQTT</text>
+<polygon points="882,1110 912,1124 882,1138 852,1124" fill="#F4F4F4" stroke="#111111" stroke-width="1.5" />
+<text x="922" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Keputusan (Ya / Tidak)</text>
+<circle cx="1094" cy="1124" r="12" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1094" y="1128" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">A</text>
+<text x="1114" y="1129" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" fill="#111111" text-anchor="start">Konektor Alur (Tahap 1 &lt;-&gt; Tahap 2 / Loop)</text>
+</svg>
