@@ -8,6 +8,7 @@
 - README Transisi & Perbandingan 2 Kebun (`CD-2` → `CD-3`): [README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md](README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
 - Peta Denah 2D Berskala (PNG): [denah_kebun_kecil_2d.png](denah_kebun_kecil_2d.png)
 - Sumber Vektor SVG Denah: [denah_kebun_kecil_2d.svg](denah_kebun_kecil_2d.svg)
+- Skema Pemipaan, 4 Katup Cabang, & Jalur Ekspansi: [skema_pipa_zona_4_pohon.png](skema_pipa_zona_4_pohon.png) ([SVG](skema_pipa_zona_4_pohon.svg))
 - Transkrip Rekaman Survei Kebun Kecil (`22 Nov 2026`): [transkrip_survey_limau.md](../sumber/dokumentasi/kebon%20kecil/Record%20survey%2022%20Nov/transkrip_survey_limau.md)
 - Catatan Survei Sebelumnya (`15 Nov 2026`): [HASIL_SURVEI_CIBERES_15_NOV_2026.md](HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - Isian Lapangan: [CHECKLIST_SURVEI_MITRA_CIBERES.md](CHECKLIST_SURVEI_MITRA_CIBERES.md)

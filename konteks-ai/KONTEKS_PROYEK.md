@@ -1,6 +1,6 @@
 # Konteks Lengkap Proyek PTA Kebun Jeruk Limau
 
-**Diperbarui: 22 November 2026.** Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
+**Diperbarui: 22 November 2026** *(catatan alternatif solusi & scoring CD-3 ditambahkan `25 November 2026`)*. Baca file ini, [STATUS_DAN_TINDAK_LANJUT.md](STATUS_DAN_TINDAK_LANJUT.md), [`README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md`](../catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md), [`README_ALTERNATIF_SOLUSI_DAN_SCORING_CD3.md`](../catatan/README_ALTERNATIF_SOLUSI_DAN_SCORING_CD3.md), [`DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md`](../catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md), [`HASIL_SURVEI_CIBERES_15_NOV_2026.md`](../catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md), dan [`RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md`](../catatan/RINGKUMAN_QNA_SCOPE_DAN_ZONASI_PRA_SURVEI.md) di awal chat baru. Kronik revisi lama Oktober–awal November dipindahkan ke [`catatan/arsip/README.md`](../catatan/arsip/README.md).
 
 ---
 

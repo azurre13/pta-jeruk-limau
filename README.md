@@ -8,15 +8,17 @@ Repositori dokumentasi proyek capstone S1 Teknik Komputer Universitas Telkom unt
 
 ## Membuka di Antigravity atau AI lain
 
-Buka folder clone `C:/Users/daffa/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan kabar hasil bimbingan atau tugas berikutnya. Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
+Buka folder clone `D:/UserData/Documents/pta-jeruk-limau`. `AGENTS.md` menyimpan aturan dan konteks awal; `GEMINI.md` menjadi pintu masuk untuk Gemini/Antigravity. Setelah membaca konteks repo, cukup berikan kabar hasil bimbingan atau tugas berikutnya. Lihat [panduan chat baru dan peta folder](konteks-ai/MULAI_CHAT_BARU.md).
 
 ## Berkas utama
 
 - [CD-1 Final ACC (PDF, 26 halaman)](dokumen/cd1/CD%201%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
 - [CD-2 Final ACC (PDF, 26 halaman)](dokumen/cd2/CD%202%20-%20ANALISIS%20PERMASALAHAN%20PENYIRAMAN%20MANUAL%20PADA%20KEBUN%20JERUK%20LIMAU%20DI%20CIBERES%20SUBANG.pdf)
 - [README Transisi & Perbandingan Kebun Besar vs Kebun Kecil (Jembatan CD-2 ke CD-3)](catatan/README_TRANSISI_KEBUN_BESAR_KE_KEBUN_KECIL_CD2_CD3.md)
+- [README Alternatif Solusi, Anti-Mampet, & Design Matrix Scoring CD-3 (Dokumen Hidup)](catatan/README_ALTERNATIF_SOLUSI_DAN_SCORING_CD3.md)
 - [Data Kebun Kecil & Zona Uji 1 (4 Pohon Sampel) + Kalibrasi Drone (22 Nov 2026)](catatan/DATA_KEBUN_KECIL_DAN_ZONA_4_POHON.md)
 - [Sketsa Denah 2D Berskala Kebun Kecil & Zona Uji 1 (PNG)](catatan/denah_kebun_kecil_2d.png)
+- [Skema Pemipaan, 4 Katup Cabang, & Jalur Ekspansi Modular (PNG)](catatan/skema_pipa_zona_4_pohon.png)
 - [Hasil Survei Ciberes 15 Nov 2026 & Pembaruan ACC Lokasi](catatan/HASIL_SURVEI_CIBERES_15_NOV_2026.md)
 - [Indeks direktori dokumen & status draf CD-3](dokumen/README.md)
 - [Checklist Survei Lapangan Minggu Ciberes](catatan/CHECKLIST_SURVEI_MITRA_CIBERES.md)

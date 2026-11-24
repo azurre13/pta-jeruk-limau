@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<defs>
+  <marker id="arr-purple" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#6D28D9" />
+  </marker>
+  <marker id="arr-blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#0284C7" />
+  </marker>
+  <marker id="arr-green" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#059669" />
+  </marker>
+  <marker id="arr-orange" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#EA580C" />
+  </marker>
+  <marker id="arr-slate" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#475569" />
+  </marker>
+</defs>
+<rect x="0" y="0" width="1600" height="960" fill="#F8FAFC" />
+<rect x="0" y="0" width="1600" height="84" fill="#0F172A" />
+<rect x="0" y="80" width="1600" height="4" fill="#6D28D9" />
+<text x="30" y="37" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" text-anchor="start">SKEMA PEMIPAAN, KONTROL ESP32, &amp; EKSPANSI — KEBUN KECIL (ZONA UJI 1)</text>
+<text x="30" y="63" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1" text-anchor="start">1 Pipa Induk · 1 Flow Sensor (Siram Bergantian) · 1 Katup &amp; 1 Sensor/Pohon · Kabel Pendek di Pinggir Zona · Siap Ekspansi 72–73 Pohon</text>
+<rect x="28" y="104" width="208" height="574" rx="12" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2" />
+<rect x="28" y="104" width="208" height="34" rx="12" fill="#1D4ED8" />
+<rect x="28" y="128" width="208" height="10" fill="#1D4ED8" />
+<text x="132.0" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1. AREA SUMUR BARU</text>
+<rect x="368" y="104" width="276" height="574" rx="12" fill="#EEF2FF" stroke="#818CF8" stroke-width="2" />
+<rect x="368" y="104" width="276" height="34" rx="12" fill="#4338CA" />
+<rect x="368" y="128" width="276" height="10" fill="#4338CA" />
+<text x="506.0" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2. PINTU ZONA 1 (POS ESP32)</text>
+<rect x="668" y="104" width="556" height="574" rx="12" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2" />
+<rect x="668" y="104" width="556" height="34" rx="12" fill="#B45309" />
+<rect x="668" y="128" width="556" height="10" fill="#B45309" />
+<text x="946.0" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3. ZONA UJI 1 — 4 POHON SAMPEL (~2,3 m × 3,0 m)</text>
+<rect x="1248" y="104" width="324" height="574" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2" />
+<rect x="1248" y="104" width="324" height="34" rx="12" fill="#047857" />
+<rect x="1248" y="128" width="324" height="10" fill="#047857" />
+<text x="1410.0" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4. BILAS &amp; EKSPANSI MODULAR</text>
+<circle cx="132" cy="210" r="36" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="3" />
+<circle cx="132" cy="210" r="21" fill="#0284C7" />
+<circle cx="132" cy="210" r="9" fill="#0F172A" />
+<text x="132" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#1E3A8A" text-anchor="middle">SUMUR BARU</text>
+<text x="132" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">(Sumber Air Kebun Kecil)</text>
+<line x1="132" y1="290" x2="132" y2="312" stroke="#6D28D9" stroke-width="8" />
+<rect x="48" y="312" width="168" height="56" rx="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2" />
+<text x="132" y="336" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" fill="#1E40AF" text-anchor="middle">Pompa Listrik PLN</text>
+<text x="132" y="355" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">(Non-Cast Iron)</text>
+<rect x="44" y="532" width="176" height="116" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.6" />
+<text x="132.0" y="570.2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1E3A8A" text-anchor="middle">Dari Sumur ke Zona 1:</text>
+<text x="132.0" y="586.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E3A8A" text-anchor="middle">Hanya ada 1 pipa air</text>
+<text x="132.0" y="602.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E3A8A" text-anchor="middle">+ 1 kabel power pompa.</text>
+<text x="132.0" y="618.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E3A8A" text-anchor="middle">Nol kabel sensor!</text>
+<line x1="216" y1="340" x2="386" y2="340" stroke="#6D28D9" stroke-width="10" />
+<rect x="242" y="290" width="120" height="38" rx="8" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.6" />
+<text x="302.0" y="305.35" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#5B21B6" text-anchor="middle">1 Pipa Induk</text>
+<text x="302.0" y="320.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#5B21B6" text-anchor="middle">(~16 m ke Zona 1)</text>
+<polyline points="132,368 132,476 382,476" fill="none" stroke="#EA580C" stroke-width="2.6" stroke-dasharray="7,5" marker-end="url(#arr-orange)" />
+<rect x="242" y="442" width="120" height="66" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.6" />
+<text x="302.0" y="456.35" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#9A3412" text-anchor="middle">1 Kabel Pompa</text>
+<text x="302.0" y="471.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#9A3412" text-anchor="middle">PLN</text>
+<text x="302.0" y="486.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#9A3412" text-anchor="middle">Tanpa kabel sensor</text>
+<text x="302.0" y="501.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#9A3412" text-anchor="middle">ke sumur!</text>
+<rect x="386" y="154" width="240" height="48" rx="8" fill="#FFFFFF" stroke="#A5B4FC" stroke-width="1.6" />
+<text x="506.0" y="174.35" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#3730A3" text-anchor="middle">Semua unit ukur &amp; otak dipasang</text>
+<text x="506.0" y="189.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#3730A3" text-anchor="middle">di pintu Zona 1 (kabel pendek!)</text>
+<rect x="386" y="312" width="100" height="56" rx="9" fill="#FFFFFF" stroke="#4338CA" stroke-width="2" />
+<text x="436" y="336" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#312E81" text-anchor="middle">Disc Filter</text>
+<text x="436" y="354" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#475569" text-anchor="middle">120–150 Mesh</text>
+<line x1="486" y1="340" x2="504" y2="340" stroke="#6D28D9" stroke-width="10" />
+<rect x="504" y="312" width="124" height="56" rx="9" fill="#FFF7ED" stroke="#EA580C" stroke-width="2.2" />
+<text x="566" y="335" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#9A3412" text-anchor="middle">1x Flow + Tekanan</text>
+<text x="566" y="354" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#7C2D12" text-anchor="middle">Takar L &amp; Cek Mampet</text>
+<rect x="476" y="228" width="154" height="52" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6" />
+<text x="553.0" y="250.35" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#92400E" text-anchor="middle">Cukup 1 Flow Sensor!</text>
+<text x="553.0" y="265.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#92400E" text-anchor="middle">Karena siram bergantian</text>
+<line x1="566" y1="280" x2="566" y2="308" stroke="#D97706" stroke-width="2" marker-end="url(#arr-orange)" />
+<line x1="628" y1="340" x2="1320" y2="340" stroke="#6D28D9" stroke-width="10" />
+<line x1="566" y1="368" x2="566" y2="404" stroke="#EA580C" stroke-width="2.4" stroke-dasharray="5,4" />
+<rect x="386" y="406" width="242" height="154" rx="10" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.2" />
+<rect x="386" y="406" width="242" height="28" rx="10" fill="#C2410C" />
+<rect x="386" y="424" width="242" height="10" fill="#C2410C" />
+<text x="507" y="425" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">BOKS PANEL ESP32 (IP65)</text>
+<text x="507" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#9A3412" text-anchor="middle">Tiang ~1,2 m di pinggir Zona 1</text>
+<text x="400" y="473" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="start">• ESP32 (Fuzzy + Pulse Drip)</text>
+<text x="400" y="493" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="start">• Adaptor PLN SELV 12 V DC</text>
+<text x="400" y="513" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="start">• RTC DS3231 + microSD</text>
+<text x="400" y="533" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#1E293B" text-anchor="start">• Modem 4G + 1 Tombol Fisik</text>
+<line x1="507" y1="560" x2="507" y2="596" stroke="#0284C7" stroke-width="2.2" stroke-dasharray="5,4" marker-end="url(#arr-blue)" />
+<text x="515" y="583" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#0369A1" text-anchor="start">MQTT 4G</text>
+<rect x="398" y="600" width="218" height="58" rx="10" fill="#EFF6FF" stroke="#0284C7" stroke-width="2" />
+<text x="507" y="624" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#075985" text-anchor="middle">HP / Dashboard Mitra (4G)</text>
+<text x="507" y="643" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#0369A1" text-anchor="middle">Monitor, Kontrol, &amp; Remote Tuning</text>
+<polyline points="628,510 652,510 652,584 686,584" fill="none" stroke="#EA580C" stroke-width="2.6" stroke-dasharray="6,4" marker-end="url(#arr-orange)" />
+<rect x="890" y="325" width="126" height="30" rx="14" fill="#FFFFFF" stroke="#6D28D9" stroke-width="1.6" />
+<text x="953.0" y="343.85" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#5B21B6" text-anchor="middle">Pipa Induk (1 Jalur)</text>
+<line x1="800" y1="340" x2="800" y2="238" stroke="#2563EB" stroke-width="4.5" />
+<circle cx="800" cy="340" r="6" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.5" />
+<rect x="776" y="277" width="48" height="26" rx="6" fill="#DC2626" stroke="#991B1B" stroke-width="1.5" />
+<text x="800" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">V3</text>
+<circle cx="800" cy="206" r="36" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5" stroke-dasharray="4,3" />
+<line x1="800" y1="238" x2="774" y2="184" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="774" cy="184" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="238" x2="826" y2="184" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="826" cy="184" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="238" x2="774" y2="226" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="774" cy="226" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="238" x2="826" y2="226" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="826" cy="226" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<rect x="788" y="231" width="24" height="14" rx="4" fill="#1E3A8A" />
+<text x="800" y="241.5" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">4W</text>
+<circle cx="800" cy="206" r="15" fill="#16A34A" stroke="#0F172A" stroke-width="1.8" />
+<text x="800" y="210.5" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<line x1="824" y1="206" x2="848" y2="206" stroke="#D97706" stroke-width="1.8" stroke-dasharray="3,2" />
+<rect x="848" y="194" width="36" height="24" rx="5" fill="#D97706" stroke="#92400E" stroke-width="1.4" />
+<text x="866" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">S3</text>
+<text x="800" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#0F172A" text-anchor="middle">P3 (250 cm) · Lebat</text>
+<line x1="1105" y1="340" x2="1105" y2="238" stroke="#2563EB" stroke-width="4.5" />
+<circle cx="1105" cy="340" r="6" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.5" />
+<rect x="1081" y="277" width="48" height="26" rx="6" fill="#DC2626" stroke="#991B1B" stroke-width="1.5" />
+<text x="1105" y="294" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">V4</text>
+<circle cx="1105" cy="206" r="36" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5" stroke-dasharray="4,3" />
+<line x1="1105" y1="238" x2="1079" y2="184" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1079" cy="184" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="238" x2="1131" y2="184" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1131" cy="184" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="238" x2="1079" y2="226" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1079" cy="226" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="238" x2="1131" y2="226" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1131" cy="226" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<rect x="1093" y="231" width="24" height="14" rx="4" fill="#1E3A8A" />
+<text x="1105" y="241.5" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">4W</text>
+<circle cx="1105" cy="206" r="15" fill="#22C55E" stroke="#0F172A" stroke-width="1.8" />
+<text x="1105" y="210.5" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+<line x1="1129" y1="206" x2="1153" y2="206" stroke="#D97706" stroke-width="1.8" stroke-dasharray="3,2" />
+<rect x="1153" y="194" width="36" height="24" rx="5" fill="#D97706" stroke="#92400E" stroke-width="1.4" />
+<text x="1171" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">S4</text>
+<text x="1105" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#0F172A" text-anchor="middle">P4 (210 cm) · Berbuah</text>
+<line x1="800" y1="340" x2="800" y2="448" stroke="#2563EB" stroke-width="4.5" />
+<circle cx="800" cy="340" r="6" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.5" />
+<rect x="776" y="377" width="48" height="26" rx="6" fill="#DC2626" stroke="#991B1B" stroke-width="1.5" />
+<text x="800" y="394" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">V2</text>
+<circle cx="800" cy="480" r="36" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5" stroke-dasharray="4,3" />
+<line x1="800" y1="448" x2="774" y2="458" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="774" cy="458" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="448" x2="826" y2="458" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="826" cy="458" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="448" x2="774" y2="500" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="774" cy="500" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="800" y1="448" x2="826" y2="500" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="826" cy="500" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<rect x="788" y="441" width="24" height="14" rx="4" fill="#1E3A8A" />
+<text x="800" y="451.5" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">4W</text>
+<circle cx="800" cy="480" r="15" fill="#EA580C" stroke="#0F172A" stroke-width="1.8" />
+<text x="800" y="484.5" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<line x1="824" y1="480" x2="848" y2="480" stroke="#D97706" stroke-width="1.8" stroke-dasharray="3,2" />
+<rect x="848" y="468" width="36" height="24" rx="5" fill="#D97706" stroke="#92400E" stroke-width="1.4" />
+<text x="866" y="484" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">S2</text>
+<text x="800" y="534" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#0F172A" text-anchor="middle">P2 (100 cm) · Banyak buah</text>
+<line x1="1105" y1="340" x2="1105" y2="448" stroke="#2563EB" stroke-width="4.5" />
+<circle cx="1105" cy="340" r="6" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.5" />
+<rect x="1081" y="377" width="48" height="26" rx="6" fill="#DC2626" stroke="#991B1B" stroke-width="1.5" />
+<text x="1105" y="394" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">V1</text>
+<circle cx="1105" cy="480" r="36" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5" stroke-dasharray="4,3" />
+<line x1="1105" y1="448" x2="1079" y2="458" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1079" cy="458" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="448" x2="1131" y2="458" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1131" cy="458" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="448" x2="1079" y2="500" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1079" cy="500" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<line x1="1105" y1="448" x2="1131" y2="500" stroke="#0284C7" stroke-width="1.8" />
+<circle cx="1131" cy="500" r="4.8" fill="#0284C7" stroke="#FFFFFF" stroke-width="1.2" />
+<rect x="1093" y="441" width="24" height="14" rx="4" fill="#1E3A8A" />
+<text x="1105" y="451.5" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="800" fill="#FFFFFF" text-anchor="middle">4W</text>
+<circle cx="1105" cy="480" r="15" fill="#F59E0B" stroke="#0F172A" stroke-width="1.8" />
+<text x="1105" y="484.5" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<line x1="1129" y1="480" x2="1153" y2="480" stroke="#D97706" stroke-width="1.8" stroke-dasharray="3,2" />
+<rect x="1153" y="468" width="36" height="24" rx="5" fill="#D97706" stroke="#92400E" stroke-width="1.4" />
+<text x="1171" y="484" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">S1</text>
+<text x="1105" y="534" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#0F172A" text-anchor="middle">P1 (46 cm) · Kerdil/cacat</text>
+<rect x="682" y="262" width="90" height="46" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.6" />
+<text x="727.0" y="281.5" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#991B1B" text-anchor="middle">1 Pohon =</text>
+<text x="727.0" y="295.5" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#991B1B" text-anchor="middle">1 Katup Elektrik</text>
+<line x1="772" y1="290" x2="776" y2="290" stroke="#DC2626" stroke-width="1.8" />
+<rect x="898" y="158" width="146" height="52" rx="8" fill="#EFF6FF" stroke="#0284C7" stroke-width="1.6" />
+<text x="971.0" y="180.35" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#075985" text-anchor="middle">4 Pasak Plastik/Pohon</text>
+<text x="971.0" y="195.35" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#075985" text-anchor="middle">(Bukan 4 katup!)</text>
+<line x1="1044" y1="184" x2="1074" y2="184" stroke="#0284C7" stroke-width="2" marker-end="url(#arr-blue)" />
+<text x="1171" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#92400E" text-anchor="middle">1 Sensor/Pohon</text>
+<rect x="688" y="572" width="516" height="84" rx="8" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.6" />
+<text x="946.0" y="602.2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#9A3412" text-anchor="middle">SEMUA KABEL PENDEK (~1,5 – 3,5 m saja!)</text>
+<text x="946.0" y="618.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#9A3412" text-anchor="middle">Kabel 4 katup (V1–V4) &amp; 4 sensor tanah (S1–S4) langsung masuk</text>
+<text x="946.0" y="634.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#9A3412" text-anchor="middle">ke Boks ESP32 tepat di sebelah Zona 1 — tidak perlu tarik 16 m.</text>
+<circle cx="1320" cy="340" r="7" fill="#6D28D9" stroke="#FFFFFF" stroke-width="2" />
+<line x1="1320" y1="347" x2="1320" y2="456" stroke="#0284C7" stroke-width="6" />
+<rect x="1296" y="390" width="48" height="26" rx="6" fill="#0284C7" stroke="#0369A1" stroke-width="1.5" />
+<text x="1320" y="407" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">VF</text>
+<rect x="1266" y="456" width="142" height="106" rx="10" fill="#F0F9FF" stroke="#0284C7" stroke-width="2" />
+<text x="1337" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="800" fill="#075985" text-anchor="middle">Auto End-Flush</text>
+<text x="1337" y="498" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#0369A1" text-anchor="middle">Bilas Ujung Otomatis</text>
+<text x="1337" y="518" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#1E293B" text-anchor="middle">Buka 30–45 dtk</text>
+<text x="1337" y="534" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#1E293B" text-anchor="middle">Aliran &gt;= 0,6 m/s</text>
+<text x="1337" y="550" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#1E293B" text-anchor="middle">buang endapan</text>
+<line x1="1327" y1="340" x2="1364" y2="340" stroke="#059669" stroke-width="6" />
+<rect x="1364" y="323" width="36" height="34" rx="6" fill="#059669" stroke="#065F46" stroke-width="2" />
+<text x="1382" y="344" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">SK</text>
+<text x="1382" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#065F46" text-anchor="middle">Stop Kran</text>
+<polyline points="1400,340 1420,340 1420,224 1438,224" fill="none" stroke="#059669" stroke-width="4" stroke-dasharray="7,5" marker-end="url(#arr-green)" />
+<line x1="1400" y1="340" x2="1438" y2="340" stroke="#059669" stroke-width="4" stroke-dasharray="7,5" marker-end="url(#arr-green)" />
+<rect x="1442" y="166" width="116" height="116" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.6" stroke-dasharray="6,4" />
+<text x="1500.0" y="196.2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#065F46" text-anchor="middle">ZONA 2</text>
+<text x="1500.0" y="212.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">(Ekspansi)</text>
+<text x="1500.0" y="228.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">8–16 Pohon</text>
+<text x="1500.0" y="244.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">1 Katup + 1 Sensor</text>
+<text x="1500.0" y="260.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">per blok</text>
+<rect x="1442" y="302" width="116" height="116" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.6" stroke-dasharray="6,4" />
+<text x="1500.0" y="332.2" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#065F46" text-anchor="middle">ZONA 3..N</text>
+<text x="1500.0" y="348.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">Lanjut hingga</text>
+<text x="1500.0" y="364.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">72–73 Pohon</text>
+<text x="1500.0" y="380.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">via I2C / Sub-Node</text>
+<text x="1500.0" y="396.2" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" fill="#065F46" text-anchor="middle">Nirkabel</text>
+<rect x="1266" y="580" width="292" height="76" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.6" />
+<text x="1412.0" y="606.85" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#065F46" text-anchor="middle">Ekspansi Tanpa Bongkar Zona 1:</text>
+<text x="1412.0" y="621.85" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#065F46" text-anchor="middle">Filter, 1 Flow Sensor, &amp; Modem 4G tetap</text>
+<text x="1412.0" y="636.85" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" fill="#065F46" text-anchor="middle">pakai unit hulu yang sama!</text>
+<rect x="28" y="702" width="500" height="230" rx="12" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="2" />
+<rect x="28" y="702" width="500" height="34" rx="12" fill="#DC2626" />
+<rect x="28" y="726" width="500" height="10" fill="#DC2626" />
+<text x="278.0" y="724" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">1. KATUP VS PASAK (BUKAN 4 KATUP/POHON!)</text>
+<text x="48" y="764" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#991B1B" text-anchor="start">• 1 pohon = 1 katup elektrik (V1, V2, V3, atau V4).</text>
+<text x="48" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Total cuma 4 katup pohon + 1 katup bilas (VF).</text>
+<text x="48" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Di tiap pohon cuma ada 4 pasak plastik pasif (tanpa listrik)</text>
+<text x="48" y="842" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">  yang disambung dari 1 splitter 4-arah.</text>
+<text x="48" y="868" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Saat V1 dibuka ESP32 -&gt; 4 pasak di P1 menetes barengan.</text>
+<text x="48" y="894" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Saat V1 ditutup -&gt; seluruh tetesan di P1 berhenti bareng.</text>
+<rect x="550" y="702" width="500" height="230" rx="12" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2" />
+<rect x="550" y="702" width="500" height="34" rx="12" fill="#2563EB" />
+<rect x="550" y="726" width="500" height="10" fill="#2563EB" />
+<text x="800.0" y="724" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">2. KENAPA CUKUP 1 FLOW SENSOR (TIDAK BUTUH 4)?</text>
+<text x="570" y="764" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#1E40AF" text-anchor="start">• ESP32 menyiram BERGANTIAN (V1 -&gt; V2 -&gt; V3 -&gt; V4).</text>
+<text x="570" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Saat giliran Pohon 1: cuma V1 buka (V2–V4 tutup total).</text>
+<text x="570" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Artinya 100% air yang melewati 1 flow sensor pasti masuk P1.</text>
+<text x="570" y="842" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Setelah target liter P1 tercapai, V1 tutup -&gt; lanjut V2, dst.</text>
+<text x="570" y="868" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Debit cabang turun saat V3 buka -&gt; ketahuan P3 mampet.</text>
+<text x="570" y="894" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Saat ekspansi ke 72 pohon pun tetap cukup 1 flow sensor ini.</text>
+<rect x="1072" y="702" width="500" height="230" rx="12" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="2" />
+<rect x="1072" y="702" width="500" height="34" rx="12" fill="#059669" />
+<rect x="1072" y="726" width="500" height="10" fill="#059669" />
+<text x="1322.0" y="724" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">3. POSISI ESP32, KABEL, &amp; EKSPANSI 72 POHON</text>
+<text x="1092" y="764" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#065F46" text-anchor="start">• Boks ESP32 + Filter + Flow ditaruh tepat di pintu Zona 1.</text>
+<text x="1092" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Panjang kabel V1–V4 &amp; S1–S4 cuma ~1,5–3,5 m (bukan 16 m!).</text>
+<text x="1092" y="816" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Sensor Zona 1 pakai 1 sensor/pohon (karena tinggi beda 5,43x).</text>
+<text x="1092" y="842" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Biaya sensor murah (~Rp15–35 rb/unit untuk sensor lengas).</text>
+<text x="1092" y="868" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Ekspansi Zona 2..N: cukup 1 katup + 1 sensor per blok 8–16 pohon.</text>
+<text x="1092" y="894" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B" text-anchor="start">• Tinggal buka Stop Kran (SK) &amp; tambah modul I2C / Sub-Node.</text>
+</svg>
