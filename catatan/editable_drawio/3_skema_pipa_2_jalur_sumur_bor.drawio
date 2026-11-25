@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" modified="2026-11-26T00:50:00.000Z" agent="pta_jeruk_limau" version="24.0.0" pages="1">
+  <diagram id="pipe_sys" name="Skema Pipa 2 Jalur Sumur Bor &amp; Zona 4 Pohon">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="920" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n11" value="SKEMA TEKNIS PEMIPAAN, 2 JALUR SUMUR BOR, KATUP CABANG, &amp; EKSPANSI — KEBUN KECIL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontColor=#111111;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="30" y="14" width="1560" height="32" as="geometry"/></mxCell>
+        <mxCell id="n12" value="Zona Uji 1 (4 Pohon Sampel, Keliling 10,30 m) · Jalur Induk Siku 16,20 m · 1 Flow Sensor Sekuensial · Siap Ekspansi 72–73 Pohon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="44" width="1560" height="22" as="geometry"/></mxCell>
+        <mxCell id="n13" value="BAGIAN 1: SUMUR BOR (2 JALUR)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="86" width="304" height="610" as="geometry"/></mxCell>
+        <mxCell id="n14" value="BAGIAN 2: PINTU ZONA 1 (POS ESP32)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="420" y="86" width="270" height="610" as="geometry"/></mxCell>
+        <mxCell id="n15" value="BAGIAN 3: ZONA UJI 1 (4 POHON SAMPEL)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="710" y="86" width="540" height="610" as="geometry"/></mxCell>
+        <mxCell id="n16" value="BAGIAN 4: BILAS &amp; EKSPANSI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="1270" y="86" width="316" height="610" as="geometry"/></mxCell>
+        <mxCell id="n17" value="SUMUR
+BOR 2&quot;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="56" y="224" width="56" height="56" as="geometry"/></mxCell>
+        <mxCell id="n18" value="SK-A" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="124" y="198" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n19" value="Pompa Alkon Bensin
+(Jalur 1 · Eksisting Mitra)
+68–69 Pohon Lain" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="194" y="134" width="126" height="62" as="geometry"/></mxCell>
+        <mxCell id="n20" value="SK-B" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="124" y="278" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n21" value="CV" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="124" y="318" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n22" value="Pompa AC 220V
+(125W Non-Cast Iron)
+Jalur 2 · Sistem Kita" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="196" y="330" width="122" height="66" as="geometry"/></mxCell>
+        <mxCell id="n23" value="BP" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="232" y="276" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n24" value="Catatan Sumur Bor &amp; Pompa:
+• Sumur bor 2 jalur (SK-A Alkon, SK-B kita)
+• Check Valve (CV) cegah hisapan balik
+• Kedalaman &amp; pompa tunggu ukur
+• Bypass (BP) jaga debit &gt; 1,0 L/mnt
+• Jarak siku ke P2: 16,20 m (miring 12,27 m)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="44" y="558" width="274" height="118" as="geometry"/></mxCell>
+        <mxCell id="n25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;exitX=1.0;exitY=0.3;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n17" target="n18"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n19"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;exitX=1.0;exitY=0.7;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n17" target="n20"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n20" target="n21"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n21" target="n22"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n30" value="Bypass" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;exitX=0.8;exitY=0.0;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n22" target="n23"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.8;entryDx=0;entryDy=0;" edge="1" parent="1" source="n23" target="n21"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n32" value="Disc Filter
+120–150 Mesh
+(Lapis 1)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="444" y="332" width="98" height="62" as="geometry"/></mxCell>
+        <mxCell id="n33" value="1x Flow (YF-B1)
+&amp; Tekanan
+[P_min, P_max]" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="564" y="332" width="114" height="62" as="geometry"/></mxCell>
+        <mxCell id="n34" value="Penempatan Terpusat Pintu Zona 1:
+Filter, Flow, Tekanan, &amp; Panel ESP32
+berdekatan (kabel &lt; 3,5 m)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="444" y="148" width="234" height="58" as="geometry"/></mxCell>
+        <mxCell id="n35" value="PANEL KONTROL IP65 (TIANG ~1,2 m)
+• ESP32 + ADS1115 + Divider 3,3V
+• PLN (MCB/ELCB) + SSR Pompa AC
+• Relay 6-Ch (12V SELV) + Flyback
+• Router 4G (Wi-Fi) + S-13/STOP
+• RTC + MicroSD + Slot I2C PCF8574" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="444" y="434" width="234" height="148" as="geometry"/></mxCell>
+        <mxCell id="n36" value="Dashboard Web / HP Mitra
+Monitor P1–P4, Kontrol Manual,
+Alarm Mampet, &amp; Remote Tuning" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="452" y="616" width="218" height="60" as="geometry"/></mxCell>
+        <mxCell id="n37" value="Pipa Induk ~16,2 m" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.6;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n22" target="n32"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n38" value="Kabel AC (Conduit 20 mm)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n22" target="n35"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="257" y="508"/></Array></mxGeometry></mxCell>
+        <mxCell id="n39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.6;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n32" target="n33"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n40" value="Pulsa/ADC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n33" target="n35"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n41" value="MQTT / Internet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;startArrow=classic;startFill=1;" edge="1" parent="1" source="n35" target="n36"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n42" value="P3
+250 cm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e5e7eb;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="810" y="174" width="56" height="56" as="geometry"/></mxCell>
+        <mxCell id="n43" value="P4
+210 cm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e5e7eb;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1090" y="174" width="56" height="56" as="geometry"/></mxCell>
+        <mxCell id="n44" value="P2
+100 cm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e5e7eb;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="810" y="488" width="56" height="56" as="geometry"/></mxCell>
+        <mxCell id="n45" value="P1
+46 cm" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e5e7eb;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1090" y="488" width="56" height="56" as="geometry"/></mxCell>
+        <mxCell id="n46" value="V3" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="814" y="276" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n47" value="V4" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1094" y="276" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n48" value="V2" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="814" y="422" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n49" value="V1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1094" y="422" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n50" value="S3" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="882" y="180" width="34" height="22" as="geometry"/></mxCell>
+        <mxCell id="n51" value="S4" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1162" y="180" width="34" height="22" as="geometry"/></mxCell>
+        <mxCell id="n52" value="S2" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="882" y="494" width="34" height="22" as="geometry"/></mxCell>
+        <mxCell id="n53" value="S1" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1162" y="494" width="34" height="22" as="geometry"/></mxCell>
+        <mxCell id="n54" value="Pipa PE 16 mm" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="920" y="348" width="128" height="30" as="geometry"/></mxCell>
+        <mxCell id="n55" value="2 Penetes Adjustable/Pohon
+(Atas tanah · 1,5–2,0 L/mnt)
+&lt;-- 290 cm (P3–P4) --&gt;" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;" vertex="1" parent="1"><mxGeometry x="906" y="126" width="156" height="48" as="geometry"/></mxCell>
+        <mxCell id="n56" value="&lt;-- 300 cm (P2–P1) --&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="910" y="560" width="160" height="22" as="geometry"/></mxCell>
+        <mxCell id="n57" value="Jalur Kabel Pendek Zona Uji 1 (~1,5–3,5 m per titik · SELV 12V / 5V DC):
+4 kabel katup elektrik (V1–V4) &amp; 4 kabel sensor lengas/suhu tanah (S1–S4) langsung ke Panel Kontrol IP65." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="726" y="608" width="506" height="68" as="geometry"/></mxCell>
+        <mxCell id="n58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.6;fontSize=10;fontColor=#111111;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n33" target="n54"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;exitX=0.1;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n46"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n46" target="n42"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;exitX=0.9;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n47" target="n43"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;exitX=0.1;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n48"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n48" target="n44"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;exitX=0.9;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n49"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n49" target="n45"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n67" value="VF" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1324" y="422" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n68" value="SK" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=10;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1396" y="349" width="48" height="28" as="geometry"/></mxCell>
+        <mxCell id="n69" value="Auto End-Flush
+Q = 6 L/mnt (30–45 dtk)
+v &gt;= 0,6 m/s [Z-16]
+ke saluran buang" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="1284" y="488" width="134" height="86" as="geometry"/></mxCell>
+        <mxCell id="n70" value="ZONA 2
+(Ekspansi)
+8–16 Pohon
+1 Katup +
+1 Sensor/Blok" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;dashed=1;" vertex="1" parent="1"><mxGeometry x="1474" y="174" width="96" height="98" as="geometry"/></mxCell>
+        <mxCell id="n71" value="ZONA 3..N
+Hingga
+72–73 Pohon
+(PCF8574 /
+Sub-Node)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;dashed=1;" vertex="1" parent="1"><mxGeometry x="1474" y="314" width="96" height="98" as="geometry"/></mxCell>
+        <mxCell id="n72" value="Prinsip Ekspansi Modular:
+Buka Stop Kran (SK) tanpa membongkar Zona 1;
+Filter, 1 Flow, &amp; IoT tetap sama." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="1284" y="608" width="286" height="68" as="geometry"/></mxCell>
+        <mxCell id="n73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.6;fontSize=10;fontColor=#111111;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n68"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n54" target="n67"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1348" y="363"/></Array></mxGeometry></mxCell>
+        <mxCell id="n75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.2;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n67" target="n69"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n68" target="n70"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n68" target="n71"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n78" value="RINGKASAN OPERASI: (1) Sumur bor bercabang Tee 2&quot;: Jalur 1 (SK-A) tetap dipakai Alkon mitra, Jalur 2 (SK-B + Check Valve CV) khusus pompa listrik kita;
+(2) Saat pompa listrik ON, SK-A ditutup &amp; BP atur debit &gt; 1,0 L/mnt; (3) Panel pisah AC 220V (SSR-25DA) vs Zona SELV 12V/5V + Auto Flush VF &gt;= 0,6 m/s." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.2;fontColor=#111111;fontSize=10;" vertex="1" parent="1"><mxGeometry x="30" y="724" width="1556" height="130" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

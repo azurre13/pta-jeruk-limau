@@ -1,0 +1,250 @@
+<mxfile host="app.diagrams.net" modified="2026-11-26T00:50:00.000Z" agent="pta_jeruk_limau" version="24.0.0" pages="2">
+  <diagram id="wiring_ip65" name="1. Skematik Wiring Panel IP65">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n11" value="SKEMATIK WIRING KELISTRIKAN &amp; PENGKONDISI SINYAL PANEL IP65 — KEBUN KECIL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fontColor=#111111;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="30" y="14" width="1600" height="32" as="geometry"/></mxCell>
+        <mxCell id="n12" value="Isolasi AC 220V (SSR-25DA + MCB/ELCB) · Pembagi Tegangan 3,3V · ADS1115 16-Bit · Relay 6-Ch Katup SELV 12V + Flyback 1N4007" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="44" width="1600" height="22" as="geometry"/></mxCell>
+        <mxCell id="n13" value="ZONA A: CATU DAYA PLN AC 220V &amp; SELV DC (TERISOLASI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="86" width="500" height="232" as="geometry"/></mxCell>
+        <mxCell id="n14" value="ZONA B: SENSOR LAPANGAN &amp; PENGKONDISI SINYAL (AMAN 3,3V)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="344" width="500" height="620" as="geometry"/></mxCell>
+        <mxCell id="n15" value="ZONA C: KONTROLER ESP32, WAKTU, PENYIMPANAN, &amp; WI-FI 4G" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="558" y="86" width="536" height="878" as="geometry"/></mxCell>
+        <mxCell id="n16" value="ZONA D: DRIVER TERPISAH POMPA AC &amp; AKTUATOR KATUP SELV 12V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="1122" y="86" width="520" height="878" as="geometry"/></mxCell>
+        <mxCell id="n17" value="PLN 220V AC
+L / N / PE" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="48" y="126" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="n18" value="MCB 6A +
+ELCB 16A" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="184" y="126" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="n19" value="Adaptor SELV 12V DC 5A
++ Sekring Blade 5A" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="332" y="126" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="n20" value="Buck Step-Down
+12V -&gt; 5V DC (3A)
++ C 470uF &amp; 100nF" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="184" y="226" width="152" height="64" as="geometry"/></mxCell>
+        <mxCell id="n21" value="Distribusi Rel:
+220V -&gt; SSR | 12V -&gt; Relay
+5V/3,3V -&gt; ESP32/Sensor" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;" vertex="1" parent="1"><mxGeometry x="356" y="226" width="156" height="64" as="geometry"/></mxCell>
+        <mxCell id="n22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n17" target="n18"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n18" target="n19"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n24" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n19" target="n20"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n20" target="n21"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n26" value="4x Sensor Lengas Tanah
+Kapasitif v1.2 (S1–S4)
++ 4x R_pd 1 MOhm" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="384" width="174" height="84" as="geometry"/></mxCell>
+        <mxCell id="n27" value="ADC 16-Bit I2C ADS1115
+Ch A0–A3 (Addr 0x48)
+SDA=GPIO21 · SCL=GPIO22" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="274" y="384" width="236" height="84" as="geometry"/></mxCell>
+        <mxCell id="n28" value="4x Sensor Suhu DS18B20
+Waterproof 15–20 cm (Paralel)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="492" width="210" height="68" as="geometry"/></mxCell>
+        <mxCell id="n29" value="Pull-Up 1-Wire
+R = 4,7 kOhm ke 3,3V
+-&gt; GPIO 4 (ESP32)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="288" y="496" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="n30" value="1x Flow Sensor YF-B1
+Suplai 5V DC (Min 1,0 L/mnt)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="586" width="210" height="68" as="geometry"/></mxCell>
+        <mxCell id="n31" value="Pembagi Tegangan Pulsa
+R1=10k / R2=20k (5V -&gt; 3,3V)
+-&gt; GPIO 27 (Interrupt)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="288" y="588" width="204" height="64" as="geometry"/></mxCell>
+        <mxCell id="n32" value="1x Sensor Tekanan 0–5 bar
+Suplai 5V · Out 0,5–4,5V" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="680" width="210" height="68" as="geometry"/></mxCell>
+        <mxCell id="n33" value="Pembagi Tegangan Analog
+R1=10k / R2=20k (4,5V -&gt; 3,0V)
+-&gt; GPIO 36 (ADC1)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="288" y="682" width="204" height="64" as="geometry"/></mxCell>
+        <mxCell id="n34" value="1x Push Button IP65 (S-13)
+Siram Manual &amp; STOP Darurat" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="774" width="210" height="64" as="geometry"/></mxCell>
+        <mxCell id="n35" value="Filter Debounce RC
+C 100 nF + INPUT_PULLUP
+-&gt; GPIO 16" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="288" y="776" width="204" height="60" as="geometry"/></mxCell>
+        <mxCell id="n36" value="2x LED Indikator Panel
+LED RUN &amp; LED ALARM" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="48" y="864" width="210" height="64" as="geometry"/></mxCell>
+        <mxCell id="n37" value="Resistor Pembatas Arus
+2x R = 220 Ohm
+&lt;- GPIO 17 (RUN), GPIO 2 (ALM)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="288" y="866" width="204" height="60" as="geometry"/></mxCell>
+        <mxCell id="n38" value="A0–A3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n26" target="n27"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n28" target="n29"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n30" target="n31"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n32" target="n33"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n34" target="n35"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n37" target="n36"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n44" value="Router / MiFi 4G
+(Daya 5V · Wi-Fi &lt;-&gt; ESP32)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="576" y="126" width="162" height="74" as="geometry"/></mxCell>
+        <mxCell id="n45" value="RTC DS3231 (0x68)
++ CR2032 · I2C 21/22" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="754" y="126" width="152" height="74" as="geometry"/></mxCell>
+        <mxCell id="n46" value="Header Ekspansi I2C
+PCF8574 (Zona 2..N)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="922" y="126" width="154" height="74" as="geometry"/></mxCell>
+        <mxCell id="n47" value="ESP32 DEVKIT V1 (WROOM-32 · 38-PIN)
+
+VIN(5V), GND | GPIO 21/22 (I2C Bus)
+GPIO 4 (1-Wire DS18B20) | GPIO 27 (Flow INT)
+GPIO 36 (ADC1 Tekanan) | GPIO 16 (Tombol S-13)
+GPIO 17, 2 (LED RUN/ALM)
+
+GPIO 26 (SSR Pompa AC 220V)
+GPIO 13, 14, 25, 32, 33 (Relay 6-Ch Katup)
+SPI (18, 19, 23, 5): MicroSD
+Wi-Fi 2,4 GHz &lt;-&gt; Router 4G
+
+(ADC2 tidak dipakai agar aman Wi-Fi)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#111111;strokeWidth=2.0;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="616" y="260" width="420" height="510" as="geometry"/></mxCell>
+        <mxCell id="n48" value="Modul MicroSD Adapter (SPI) + Kartu 16 GB
+Buffer Store-and-Forward Log Offline" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="664" y="834" width="324" height="88" as="geometry"/></mxCell>
+        <mxCell id="n49" value="5V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n21" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n50" value="I2C 21/22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n27" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n51" value="GPIO4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n29" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n52" value="GPIO27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n31" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n53" value="GPIO36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n33" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n54" value="GPIO16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n35" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n55" value="GPIO17/2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n47" target="n37"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n56" value="Wi-Fi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="n44" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n57" value="I2C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n45" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n58" value="I2C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n46" target="n47"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n59" value="SPI (18,19,23,5)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;startArrow=classic;startFill=1;" edge="1" parent="1" source="n47" target="n48"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n60" value="SSR-25DA Zero-Crossing
+Isolasi Optik AC 220V
+In: GPIO 26 / GND" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1140" y="144" width="206" height="114" as="geometry"/></mxCell>
+        <mxCell id="n61" value="Pompa Sumur AC 220V (125W)
+Non-Cast Iron · Jalur 2
+(Conduit 20 mm ke Sumur)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1394" y="144" width="228" height="114" as="geometry"/></mxCell>
+        <mxCell id="n62" value="MODUL RELAY 6-CH
+Optocoupler (VCC 5V)
+COM = Rel 12V SELV
+
+IN1..IN4 -&gt; V1..V4
+IN5 -&gt; VF Auto Flush" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1140" y="380" width="184" height="380" as="geometry"/></mxCell>
+        <mxCell id="n63" value="Rel Daya 12V DC SELV
+Ke Terminal COM Relay" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1140" y="820" width="184" height="64" as="geometry"/></mxCell>
+        <mxCell id="n64" value="Katup Pohon 1 (V1 · 12V DC)
++ Flyback Diode 1N4007" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1384" y="380" width="238" height="72" as="geometry"/></mxCell>
+        <mxCell id="n65" value="Katup Pohon 2 (V2 · 12V DC)
++ Flyback Diode 1N4007" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1384" y="484" width="238" height="72" as="geometry"/></mxCell>
+        <mxCell id="n66" value="Katup Pohon 3 (V3 · 12V DC)
++ Flyback Diode 1N4007" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1384" y="588" width="238" height="72" as="geometry"/></mxCell>
+        <mxCell id="n67" value="Katup Pohon 4 (V4 · 12V DC)
++ Flyback Diode 1N4007" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1384" y="692" width="238" height="72" as="geometry"/></mxCell>
+        <mxCell id="n68" value="Katup Bilas Ujung (VF · 12V DC)
++ Flyback Diode 1N4007" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1384" y="796" width="238" height="72" as="geometry"/></mxCell>
+        <mxCell id="n69" value="AC 220V L/N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.2;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n18" target="n60"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="244" y="70"/><mxPoint x="1181" y="70"/></Array></mxGeometry></mxCell>
+        <mxCell id="n70" value="GPIO 26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n47" target="n60"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n71" value="220V AC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=2.0;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n60" target="n61"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n72" value="GPIO 13,14,25,32,33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n47" target="n62"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n73" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;dashed=1;" edge="1" parent="1" source="n63" target="n62"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n74" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n62" target="n64"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n75" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n62" target="n65"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n76" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n62" target="n66"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n77" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n62" target="n67"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="n78" value="12V SELV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;" edge="1" parent="1" source="n62" target="n68"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="layout_ip65" name="2. Tata Letak Panel IP65 &amp; Konsep PCB">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1020" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n11" value="TATA LETAK FISIK PANEL OUTDOOR IP65 &amp; KONSEP PCB UTAMA — KEBUN KECIL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=17;fontColor=#111111;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="30" y="14" width="1520" height="32" as="geometry"/></mxCell>
+        <mxCell id="n12" value="Pemisahan Ruang AC 220V vs DC SELV dalam Boks 300x200x150 mm · Tata Letak PCB Kontroler 100x80 mm (2-Layer FR4)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="44" width="1520" height="22" as="geometry"/></mxCell>
+        <mxCell id="n13" value="BAGIAN A: TATA LETAK DALAM BOKS PANEL OUTDOOR IP65 (300 x 200 x 150 mm)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="30" y="86" width="840" height="840" as="geometry"/></mxCell>
+        <mxCell id="n14" value="Dinding Boks Panel IP65" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="62" y="134" width="530" height="690" as="geometry"/></mxCell>
+        <mxCell id="n15" value="RUANG AC 220V" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#111111;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="76" y="154" width="174" height="24" as="geometry"/></mxCell>
+        <mxCell id="n16" value="RUANG DC SELV (12V / 5V / 3,3V)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=11;fontColor=#111111;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="292" y="154" width="280" height="24" as="geometry"/></mxCell>
+        <mxCell id="n17" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="264" y="148" width="12" height="640" as="geometry"/></mxCell>
+        <mxCell id="n18" value="MCB 6A + ELCB 16A
+(DIN Rail Vertikal)
+Pemutus Utama PLN" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="80" y="192" width="166" height="114" as="geometry"/></mxCell>
+        <mxCell id="n19" value="SSR-25DA + Heatsink
+(Saklar Pompa AC)
+Input dari PCB" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="80" y="330" width="166" height="118" as="geometry"/></mxCell>
+        <mxCell id="n20" value="Terminal Blok AC
+PLN L/N/PE &amp;
+Pompa AC Out" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="80" y="472" width="166" height="86" as="geometry"/></mxCell>
+        <mxCell id="n21" value="Adaptor PSU SELV
+12V DC 5A
+(AC -&gt; 12V DC)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="80" y="584" width="166" height="104" as="geometry"/></mxCell>
+        <mxCell id="n22" value="Buck Converter
+12V -&gt; 5V DC
++ Sekring 5A" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="294" y="192" width="132" height="92" as="geometry"/></mxCell>
+        <mxCell id="n23" value="Router / MiFi 4G
++ Antena Internal
+(Daya 5V)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="440" y="192" width="132" height="92" as="geometry"/></mxCell>
+        <mxCell id="n24" value="PCB UTAMA ESP32 (100 x 80 mm)
+ESP32 + ADS1115 + RTC DS3231
++ MicroSD + Divider 10k/20k
++ 5x Diode 1N4007 + Header I2C" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.8;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="294" y="308" width="278" height="172" as="geometry"/></mxCell>
+        <mxCell id="n25" value="Modul Driver Relay 6-Ch Optocoupler
+VCC 5V · COM 12V DC SELV
+Ch-1..4: V1–V4 · Ch-5: VF Bilas" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="294" y="504" width="278" height="106" as="geometry"/></mxCell>
+        <mxCell id="n26" value="Terminal Aktuator
+V1, V2, V3, V4, VF
+(12V SELV)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="294" y="634" width="134" height="78" as="geometry"/></mxCell>
+        <mxCell id="n27" value="Terminal Sensor
+S1–S4, DS18B20,
+Flow, &amp; Tekanan" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="440" y="634" width="132" height="78" as="geometry"/></mxCell>
+        <mxCell id="n28" value="PG11 PLN" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1"><mxGeometry x="96" y="834" width="82" height="26" as="geometry"/></mxCell>
+        <mxCell id="n29" value="PG11 Pompa" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1"><mxGeometry x="190" y="834" width="82" height="26" as="geometry"/></mxCell>
+        <mxCell id="n30" value="PG9 Katup" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1"><mxGeometry x="310" y="834" width="82" height="26" as="geometry"/></mxCell>
+        <mxCell id="n31" value="PG9 Tanah" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1"><mxGeometry x="414" y="834" width="82" height="26" as="geometry"/></mxCell>
+        <mxCell id="n32" value="PG7 Flow" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1"><mxGeometry x="512" y="834" width="82" height="26" as="geometry"/></mxCell>
+        <mxCell id="n33" value="TAMPAK PINTU DEPAN PANEL
+
+[ Tombol IP65 S-13 / STOP ]
+
+( LED RUN )    ( LED ALARM )" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="616" y="134" width="232" height="294" as="geometry"/></mxCell>
+        <mxCell id="n34" value="Spesifikasi Pemasangan:
+• Tiang galvanis/PVC ~1,2 m
+• Posisi: Pintu masuk Zona 1
+• Kabel ke pohon &lt;= 3,5 m
+• Breather plug anti-embun" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=10;" vertex="1" parent="1"><mxGeometry x="616" y="452" width="232" height="178" as="geometry"/></mxCell>
+        <mxCell id="n35" value="Aturan Keselamatan Panel:
+1. Kabel AC dilarang menyilang
+   di atas jalur sensor/ESP32.
+2. SSR wajib pakai heatsink.
+3. Gland selalu di sisi bawah." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.8;" vertex="1" parent="1"><mxGeometry x="616" y="654" width="232" height="170" as="geometry"/></mxCell>
+        <mxCell id="n36" value="BAGIAN B: KONSEP TATA LETAK PCB UTAMA (100 x 80 mm · 2-LAYER FR4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#555555;strokeWidth=1.2;dashed=1;verticalAlign=top;align=left;spacingTop=6;spacingLeft=10;fontSize=11;fontStyle=1;fontColor=#111111;" vertex="1" parent="1"><mxGeometry x="898" y="86" width="668" height="840" as="geometry"/></mxCell>
+        <mxCell id="n37" value="" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=2.2;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="940" y="152" width="584" height="524" as="geometry"/></mxCell>
+        <mxCell id="n38" value="J1: Input Daya 5V
++ C 470uF + 100nF
+GND Plane Terpadu" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="972" y="182" width="154" height="86" as="geometry"/></mxCell>
+        <mxCell id="n39" value="J2: Header I2C Ekspansi
+VCC 3V3 · GND · SDA · SCL
+(Ke PCF8574 Zona 2..N)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;dashed=1;" vertex="1" parent="1"><mxGeometry x="1148" y="182" width="168" height="86" as="geometry"/></mxCell>
+        <mxCell id="n40" value="J3: Header SSR &amp; LED
+GPIO26 -&gt; SSR Pompa
+GPIO17/2 -&gt; LED Pintu" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1338" y="182" width="158" height="86" as="geometry"/></mxCell>
+        <mxCell id="n41" value="U2: Socket ADS1115
+16-Bit I2C ADC (0x48)
+A0..A3 + 4x R 1MOhm" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="972" y="294" width="154" height="108" as="geometry"/></mxCell>
+        <mxCell id="n42" value="U3: Socket RTC DS3231
++ Baterai CR2032
+I2C Bus (GPIO 21/22)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="972" y="422" width="154" height="98" as="geometry"/></mxCell>
+        <mxCell id="n43" value="U1: SOCKET ESP32
+DEVKIT V1 (38-PIN)
+
+Keep-Out Area Antena
+(Menghadap Atas -&gt;
+Router 4G di Panel)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#111111;strokeWidth=2.0;fontColor=#111111;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1148" y="294" width="174" height="226" as="geometry"/></mxCell>
+        <mxCell id="n44" value="U4: Modul MicroSD
+SPI (GPIO 18,19,23,5)
+Slot Menghadap Kanan" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1344" y="294" width="152" height="108" as="geometry"/></mxCell>
+        <mxCell id="n45" value="J4: Header Relay 6-Ch
+GPIO 13,14,25,32,33
+(+ 1 Pin Cadangan)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f3f4f6;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1344" y="422" width="152" height="98" as="geometry"/></mxCell>
+        <mxCell id="n46" value="Blok Pembagi Tegangan &amp; Pull-Up
+Div Flow (10k/20k) · Div Press (10k/20k)
+R_pu 4,7k (1-Wire) · RC 100nF (S-13)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;" vertex="1" parent="1"><mxGeometry x="972" y="540" width="268" height="60" as="geometry"/></mxCell>
+        <mxCell id="n47" value="Blok Proteksi Induktif Katup
+5x Diode Flyback 1N4007
+(Paralel Terminal V1–V4 &amp; VF)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.5;fontColor=#111111;fontSize=9.5;" vertex="1" parent="1"><mxGeometry x="1258" y="540" width="238" height="60" as="geometry"/></mxCell>
+        <mxCell id="n48" value="T1: S1–S4
+(KF301)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=8.8;" vertex="1" parent="1"><mxGeometry x="972" y="616" width="118" height="44" as="geometry"/></mxCell>
+        <mxCell id="n49" value="T2: 1-Wire
+(KF301)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=8.8;" vertex="1" parent="1"><mxGeometry x="1098" y="616" width="98" height="44" as="geometry"/></mxCell>
+        <mxCell id="n50" value="T3: Flow/Press
+(KF301)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=8.8;" vertex="1" parent="1"><mxGeometry x="1204" y="616" width="104" height="44" as="geometry"/></mxCell>
+        <mxCell id="n51" value="T4: S-13
+(KF301)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=8.8;" vertex="1" parent="1"><mxGeometry x="1316" y="616" width="90" height="44" as="geometry"/></mxCell>
+        <mxCell id="n52" value="T5: 12V/GND
+(KF301)" style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.5;fontColor=#ffffff;fontSize=8.8;" vertex="1" parent="1"><mxGeometry x="1414" y="616" width="82" height="44" as="geometry"/></mxCell>
+        <mxCell id="n53" value="Catatan Manufaktur PCB (2-Layer FR4, 1,6 mm):
+1. Tidak ada tegangan AC 220V di atas PCB (murni 3,3V sinyal &amp; 5V/12V DC).
+2. Lebar trace daya &gt;= 1,0 mm, sinyal 0,3 mm, polygon GND di bottom layer.
+3. IC memakai socket female &amp; terminal tepi bawah memakai screw block KF301." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.2;fontColor=#111111;fontSize=10;" vertex="1" parent="1"><mxGeometry x="940" y="706" width="584" height="180" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
