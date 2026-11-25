@@ -71,7 +71,7 @@ Namun, terdapat **sejumlah celah teknis, ketidakkonsistenan angka internal, sert
 
 ## 4. Kekurangan & Penambahan Daftar Pustaka Wajib
 
-Saat ini `CD3_Draft_Kebun_Kecil.docx` baru mencantumkan **14 pustaka (`[1]`–`[14]`)** — masih di bawah ambang **Level-4 Rubrik `PTA 2627` (`> 15` pustaka)**. Beberapa referensi penting baik yang **sudah tersedia *full-text* di repositori** ([`CATALOG_REFERENSI_SOLUSI_CD3.md`](../sumber/referensi%20jurnal/draf/pustaka_cd3/CATALOG_REFERENSI_SOLUSI_CD3.md)) maupun hasil riset lanjutan **belum dimasukkan** ke dalam draf.
+Saat ini `CD3_Draft_Kebun_Kecil.docx` baru mencantumkan **14 pustaka (`[1]`–`[14]`)** — masih di bawah ambang **Level-4 Rubrik `PTA 2627` (`> 15` pustaka)**. Beberapa referensi penting baik yang **sudah tersedia *full-text* di repositori** ([`CATALOG_REFERENSI_SOLUSI_CD3.md`](../sumber/referensi%20jurnal/draf/pustaka_cd3/CATALOG_REFERENSI_SOLUSI_CD3.md)) maupun hasil riset lanjutan pada folder [`referensi_garnie_cd3/`](../sumber/referensi%20jurnal/draf/referensi_garnie_cd3/Kumpulan_Referensi_Terverifikasi_CD3_Kebun_Kecil-garnie.md) ([Agronomi *Citrus amblycarpa*](../sumber/referensi%20jurnal/draf/referensi_garnie_cd3/Hasil_Deep_Research_Agronomi_Jeruk_Limau_CD3-garnie.md)) **belum dimasukkan** ke dalam draf.
 
 Berikut daftar referensi yang perlu ditambahkan ke Daftar Pustaka `CD-3`:
 
