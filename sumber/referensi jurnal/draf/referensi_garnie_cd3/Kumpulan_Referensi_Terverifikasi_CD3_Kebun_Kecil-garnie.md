@@ -50,24 +50,31 @@
 
 ---
 
-## Klaster C — Referensi Baru Agronomi *Citrus amblycarpa*, Balitjestro, & Kalibrasi Sensor v1.2
+## Klaster C — Referensi Agronomi *Citrus × amblycarpa*, Lembaga Resmi (Kew/Kementan/UF-IFAS), & Kalibrasi Sensor v1.2
 
-| Kode | Penulis, Tahun, & Sumber | DOI / Tautan | Peran di CD-3 Baru |
+| Kode | Penulis, Tahun, & Sumber | DOI / Tautan Resmi | Peran di CD-3 Baru |
 |---|---|---|---|
-| **A-01** | **Putri T. J. Buih & R. Susandarini (2023)**, *Al-Kauniyah: Jurnal Biologi* 16(2):255–268 | PDF Open-Access UIN Jakarta (`22920`) | Morfologi **perdu** spesifik ***Citrus amblycarpa*** → dasar radius *dripper* ringkas (`15–50 cm`) |
-| **A-02** | **Portal Jurnal BAF UNDIP**, *Studi Poliembrio Biji Jeruk Sambal* | PDF Open-Access UNDIP (`20943`) | Sifat poliembrioni **`27,85%`** (*C. × amblycarpa*) → bukti ilmiah variasi genetik bibit asal biji |
-| **A-03** | **ResearchGate (`372977724`)**, *Usaha Tani Jeruk Limau Majalengka* | Tautan ResearchGate | Produktivitas *C. amblycarpa* **`7,84 ton/ha`** (`~5,06–5,13 kg/pohon` proporsional di `471 m²`) |
-| **A-04** | **Sutopo et al. / Balitbangtan (2021)**, *Teknologi Produksi Jeruk* (IPB Press) | ISBN `978-623-256-784-9` | Syarat tumbuh (`0–400 m dpl`, suhu tanah `22–27 °C`, `pH 5,5–6,5`, bahan kasar `< 15%`), larangan bibit akar *coiled* |
-| **A-05** | **Agus Sugiyatno et al. / Balitjestro (2021)**, *Teknologi Bujangseta* | PDF Unila (`10788`) & ResearchGate | Pemangkasan pucuk/cabang dalam + pemupukan bertahap untuk `Sampel 3 & 4` |
-| **A-06** | **Rivera-Hernández, Garruña, & Andrade (2025)**, *Horticulturae* 11(12):1472 | `10.3390/horticulturae11121472` | Ambang SMT **`−0,035 MPa`** optimal vs cekaman `−0,085 MPa` (`4` pohon/perlakuan pada jeruk asam) |
-| **A-07** | **Meshram et al. (2025)**, *Frontiers in Horticulture* | `10.3389/fhort.2025.1552283` | Dosis tetes jeruk berbuah muda **`6 L` vs `12 L/pohon/hari`**, rumus $IT = ET_{NM}/DC$, & `55–65% FC` |
-| **A-08** | **Bagherian & Hajieghrari (2026)**, *Phytopathologia Mediterranea* 65(2) | `10.36253/phyto-17259` | Bukti pengendalian *waterlogging* menurunkan penyakit akar *Phytophthora* secara signifikan |
-| **A-09** | **Sravani, Singh, & Bakshi (2020)**, *J. Pharmacogn. Phytochem.* 9(5) | `10.22271/phyto.2020.v9.i5aj.12726` | Efisiensi irigasi tetes jeruk (`+40,46%` hasil, hemat air `55%` vs genangan) |
-| **A-10** | **Jurnal Irigasi PUPR**, *Cropwat 8.0 Jeruk Keprok 55 Selorejo* | PDF Open-Access PUPR (`156`) | Baseline evapotranspirasi tropis jeruk di Indonesia (`3,02 mm/hari`) |
-| **A-11** | **Cabia et al. (2025)**, *Annals of Tropical Research* 47(2):90–105 | `10.32945/atr4727.2025` | Strategi sampling **`3 dtk`** & log **`10 mnt`** pada **`Capacitive v1.2` (`FA3003-1`)** + kalibrasi per unit sensor |
-| **A-12** | **Kumar et al. (2025)**, *CABI Agric. Biosci.* | `10.1079/ab.2025.0025` | Bukti wajib kalibrasi non-linear sensor kapasitif (tanpa kalibrasi `RMSE 9,43–13,44` → setelah kalibrasi `0,60–1,06`) |
-| **A-13** | **Duarte et al. (2021)**, *DYNA* 88(219) | `10.15446/dyna.v88n219.94121` | Kalibrasi `Capacitive v1.2` pada tanah liat merah *Red Oxisol* ($\rho_{bd}=1,2\text{ Mg/m}^3$), model hiperbolik $y=1/(a+bx)$ ($R^2=0,96$, `RMSE 0,019`) |
-| **A-14** | **Mahmud et al. (2026)**, *Sensors* 26(9):2692 | `10.3390/s26092692` | Pelapisan pelindung *Capacitive* pada kondisi tanah jenuh & pemantauan multi-sensor |
+| **F-01** | **Royal Botanic Gardens, Kew (POWO) / IPNI / UPOV (`CITRU_AMB`)** | `urn:lsid:ipni.org:names:771842-1` | **Otoritas taksonomi botani dunia:** tata nama sah *Citrus × amblycarpa* (Hassk.) Ochse, asli Jawa, habitus perdu/pohon kecil |
+| **F-02** | **Keputusan Menteri Pertanian RI (`SK No. 150/Kpts/SR.120/D.2.7/10/2015`)** — **Balitjestro / BSIP Kementan RI** | Varietas Unggul **Sari Agrihorti** (`kikomunal-indonesia.dgip.go.id`) | **Otoritas hukum & agronomi nasional:** deskripsi resmi buah jeruk limau/sambal (`3,0–3,8 cm`, `18–28,6 g`) & produktivitas resmi (`241–250 buah` / `6,25–7,25 kg/pohon/tahun` umur 3 thn) |
+| **F-03** | **Budiarto, Poerwanto, Santosa, & Efendi (2017)** — **IPB University**, *J. Trop. Crop Sci.* 4(2):49–57 *(PDF Terunduh)* | `10.29244/jtcs.4.2.49-57` (`F-05_IPB_JTCS_2017...pdf`) | Morfologi spesifik *C. amblycarpa* Jawa Barat (tajuk ringkas, percabangan jarang, daun unifoliate aromatik) |
+| **F-04** | **Kadyampakeni, Morgan, & Strauss (2022)** — **UF/IFAS Extension**, *Florida Citrus Production Guide: Root Health Management* (`CG094`) & *Phytophthora* (`CG009`) | `10.32473/edis-cg094-2022` & `10.32473/edis-cg009-2022` *(+ `pustaka_cd1/`)* | **Otoritas sitrikultur internasional:** zona akar serabut aktif `0–30 cm`, batas genangan, & pencegahan *Phytophthora* |
+| **A-01** | **Putri T. J. Buih & R. Susandarini (2023)**, *Al-Kauniyah: Jurnal Biologi* 16(2):255–268 *(PDF Terunduh)* | `10.15408/kauniyah.v16i2.22920` | Karakterisasi morfologi komparatif ***Citrus × amblycarpa*** → dasar radius *dripper* ringkas (`15–50 cm`) |
+| **A-02** | **Buletin Anatomi dan Fisiologi UNDIP** (Vol. 9 No. 2, Agu 2024, pp. 111–120) *(PDF Terunduh)* | `ejournal2.undip.ac.id/index.php/baf/article/download/20943/pdf` | Sifat poliembrioni **`27,85%`** (*C. × amblycarpa*) → bukti ilmiah variasi genetik bibit asal biji |
+| **A-03** | *Journal of Innovation and Research in Agriculture* 2(1) (2023) *(PDF Terunduh)* | `A-03-ANALISIS_PENDAPATAN...pdf` | Produktivitas usahatani *C. amblycarpa* di Majalengka **`7,84 ton/ha`** (`~5,06–5,13 kg/pohon` proporsional di `471 m²`) |
+| **A-04** | **Sutopo et al. / Balitbangtan (2021)**, *Teknologi Produksi Jeruk* (IPB Press) | ISBN `978-623-256-784-9` | Syarat tumbuh resmi Balitbangtan (`0–400 m dpl`, suhu tanah `22–27 °C`, `pH 5,5–6,5`, bahan kasar `< 15%`), larangan bibit akar *coiled* |
+| **A-05** | **Agus Sugiyatno et al. / Balitjestro (2021)**, *Teknologi Bujangseta* (`JPFP Unila 2025`, *PDF Terunduh*) | `jurnal.fp.unila.ac.id/index.php/JPFP` | Pemangkasan pucuk/cabang dalam + pemupukan bertahap untuk `Sampel 3 & 4` |
+| **A-05b** | **Farida Yulianti**, **Disertasi Doktor Univ. Brawijaya** *(PDF Terunduh)* | `repository.ub.ac.id/192546/` | Riset tingkat doktoral mengenai kompatibilitas batang bawah & mutu buah jeruk |
+| **A-05f** | **Devy, N. F. et al. (2013)**, *Jurnal Hortikultura* 23(1):21–27 (**Balitbangtan Kementan RI**, *PDF Terunduh*) | `media.neliti.com` (`A-05f`) | Perbanyakan & sambung batang bawah jeruk resmi Balitbangtan |
+| **A-06** | **Rivera-Hernández, Garruña, & Andrade (2025)**, *Horticulturae* 11(12):1472 *(PDF Terunduh)* | `10.3390/horticulturae11121472` | Ambang SMT **`−0,035 MPa`** optimal vs cekaman `−0,085 MPa` (`4` pohon/perlakuan pada jeruk asam) |
+| **A-07** | **Meshram et al. (2025)**, *Frontiers in Horticulture* *(PDF Terunduh)* | `10.3389/fhort.2025.1552283` | Dosis tetes jeruk berbuah muda **`6 L` vs `12 L/pohon/hari`**, rumus $IT = ET_{NM}/DC$, & `55–65% FC` |
+| **A-08** | **Bagherian & Hajieghrari (2026)**, *Phytopathologia Mediterranea* 65(2):309–317 *(PDF Terunduh)* | `10.36253/phyto-17259` | Bukti pengendalian *waterlogging* menurunkan penyakit akar *Phytophthora* secara signifikan |
+| **A-09** | **Sravani, Singh, & Bakshi (2020)**, *J. Pharmacogn. Phytochem.* 9(5):2557–2560 *(PDF Terunduh)* | `10.22271/phyto.2020.v9.i5aj.12726` | Efisiensi irigasi tetes jeruk (`+40,46%` hasil, hemat air `55%` vs genangan) |
+| **A-11** | **Cabia et al. (2025)**, *Annals of Tropical Research* 47(2):90–105 *(PDF Terunduh)* | `10.32945/atr4727.2025` | Strategi sampling **`3 dtk`** & log **`10 mnt`** pada **`Capacitive v1.2` (`FA3003-1`)** + kalibrasi per unit sensor |
+| **A-12** | **Kumar et al. (2025)**, *CABI Agric. Biosci.* *(PDF Terunduh)* | `10.1079/ab.2025.0025` | Bukti wajib kalibrasi non-linear sensor kapasitif (tanpa kalibrasi `RMSE 9,43–13,44` → setelah kalibrasi `0,60–1,06`) |
+| **A-13** | **Duarte et al. (2021)**, *DYNA* 88(219):190–196 *(PDF Terunduh)* | `10.15446/dyna.v88n219.94121` | Kalibrasi `Capacitive v1.2` pada tanah liat merah *Red Oxisol* ($\rho_{bd}=1,2\text{ Mg/m}^3$), model hiperbolik $y=1/(a+bx)$ ($R^2=0,96$, `RMSE 0,019`) |
+| **A-14** | **Mahmud et al. (2026)**, *Sensors* 26(9):2692 *(PDF Terunduh)* | `10.3390/s26092692` | Pelapisan pelindung *Capacitive* pada kondisi tanah jenuh & pemantauan multi-sensor |
+
+*(Catatan pembersihan: Sitasi lemah/kurang relevan seperti Bab II tugas akhir mahasiswa `Polsri`, artikel pangan mayones `FoodTech`, ekstrak kulit `Sintesa`, dan jurnal non-Q1/Q2 `IJFET` telah dihapus dari folder `pdf/` agar seluruh daftar pustaka bertumpu pada lembaga resmi & jurnal terakreditasi/bereputasi.)*
 
 ---
 
