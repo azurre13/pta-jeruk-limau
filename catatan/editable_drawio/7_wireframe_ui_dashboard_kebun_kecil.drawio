@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2026-11-28T23:20:00.000Z" agent="pta_jeruk_limau" version="24.0.0" pages="1">
+  <diagram id="wireframe_ui" name="Wireframe UI Web &amp; Mobile">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1620" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="c11" value="SKETSA WIREFRAME ANTARMUKA PENGGUNA (DASHBOARD WEB &amp; HP) — KEBUN KECIL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=0;fontColor=#111111;fontSize=16;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="30" y="14" width="1560" height="44" as="geometry"/></mxCell>
+        <mxCell id="c12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=2.0;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="40" y="96" width="1050" height="836" as="geometry"/></mxCell>
+        <mxCell id="c13" value="PANEL KEBUN KECIL — ZONA UJI 1   |   [4G ONLINE]  [MQTT OK]  [RTC 06:30]  [Pompa IDLE]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=left;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="56" y="144" width="1018" height="52" as="geometry"/></mxCell>
+        <mxCell id="c14" value="P1 (46 cm · Kerdil)
+
+VWC: [ 42,1 % ]  Suhu: 27,4 C
+Dosis Fuzzy: 3–4 L/siklus
+Katup V1: [TUTUP]
+
+[ Siram P1 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="56" y="212" width="244" height="166" as="geometry"/></mxCell>
+        <mxCell id="c15" value="P2 (100 cm · Buah Kecil)
+
+VWC: [ 48,5 % ]  Suhu: 26,8 C
+Dosis Fuzzy: 8–10 L/siklus
+Katup V2: [TUTUP]
+
+[ Siram P2 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="314" y="212" width="244" height="166" as="geometry"/></mxCell>
+        <mxCell id="c16" value="P3 (250 cm · Lebat)
+
+VWC: [ 58,0 % ]  Suhu: 26,2 C
+Dosis Fuzzy: 12–15 L/siklus
+Katup V3: [TUTUP]
+
+[ Siram P3 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="572" y="212" width="244" height="166" as="geometry"/></mxCell>
+        <mxCell id="c17" value="P4 (210 cm · Berbuah)
+
+VWC: [ 51,2 % ]  Suhu: 26,5 C
+Dosis Fuzzy: 12–15 L/siklus
+Katup V4: [TUTUP]
+
+[ Siram P4 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="830" y="212" width="244" height="166" as="geometry"/></mxCell>
+        <mxCell id="c18" value="KONTROL AKTUATOR &amp; HIDROLIKA
+
+[ SIRAM OTOMATIS ]  |  [ EMERGENCY STOP ]
+[ JALANKAN AUTO END-FLUSH VF ]
+
+Debit YF-B1: 1,75 L/mnt | Tekanan: 1,25 bar
+Status: Siklus Pagi Selesai (36,5 L)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="56" y="396" width="364" height="296" as="geometry"/></mxCell>
+        <mxCell id="c19" value="AREA GRAFIK TREN
+
+[ Placeholder Line Chart: % VWC &amp; Volume Air ]   |   [ Placeholder Bar Chart: Tinggi &amp; Buah P1–P4 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10.5;align=center;verticalAlign=middle;dashed=1;" vertex="1" parent="1"><mxGeometry x="438" y="396" width="636" height="296" as="geometry"/></mxCell>
+        <mxCell id="c20" value="REMOTE PARAMETER TUNING (MQTT -&gt; 3.0 -&gt; ESP32)
+Ambang VWC [45%] | Jadwal [06:30 / 16:30] | Koef. a, b | [P_min..P_max]
+[ SIMPAN &amp; KIRIM VIA MQTT ]  |  [ INPUT DATA TUMBUH P1–P4 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="56" y="710" width="540" height="204" as="geometry"/></mxCell>
+        <mxCell id="c21" value="RIWAYAT ALARM &amp; SINKRONISASI
+28/11 06:35 [OK] Siram Pagi Selesai
+27/11 16:31 [INFO] Auto End-Flush Selesai
+[ Ekspor CSV Evaluasi P1–P4 ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="614" y="710" width="460" height="204" as="geometry"/></mxCell>
+        <mxCell id="c22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=2.2;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1130" y="96" width="450" height="836" as="geometry"/></mxCell>
+        <mxCell id="c23" value="KEBUN KECIL MOBILE (HP MITRA)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.6;fontColor=#ffffff;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1154" y="140" width="402" height="44" as="geometry"/></mxCell>
+        <mxCell id="c24" value="Status: 4G ONLINE · Pompa IDLE · Flow 0,0 L/mnt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="202" width="362" height="42" as="geometry"/></mxCell>
+        <mxCell id="c25" value="[ SIRAM MANUAL ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1174" y="260" width="174" height="54" as="geometry"/></mxCell>
+        <mxCell id="c26" value="[ STOP DARURAT ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#111111;strokeColor=#111111;strokeWidth=1.6;fontColor=#ffffff;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1362" y="260" width="174" height="54" as="geometry"/></mxCell>
+        <mxCell id="c27" value="P1 (46 cm) — VWC 42% · 27C — Target 3–4 L" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="332" width="362" height="54" as="geometry"/></mxCell>
+        <mxCell id="c28" value="P2 (100 cm) — VWC 48% · 27C — Target 8–10 L" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="398" width="362" height="54" as="geometry"/></mxCell>
+        <mxCell id="c29" value="P3 (250 cm) — VWC 58% · 26C — Target 12–15 L" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="464" width="362" height="54" as="geometry"/></mxCell>
+        <mxCell id="c30" value="P4 (210 cm) — VWC 51% · 26C — Target 12–15 L" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="530" width="362" height="54" as="geometry"/></mxCell>
+        <mxCell id="c31" value="NOTIFIKASI &amp; ALARM TERKINI
+• 06:35 Siram Pagi Selesai (36,5 L)
+• Tekanan Normal: 1,25 bar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=10;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="608" width="362" height="130" as="geometry"/></mxCell>
+        <mxCell id="c32" value="[ BUKA MENU TUNING &amp; BILAS VF ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e5e7eb;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1174" y="754" width="362" height="46" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

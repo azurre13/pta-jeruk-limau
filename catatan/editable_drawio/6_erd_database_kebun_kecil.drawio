@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2026-11-28T23:20:00.000Z" agent="pta_jeruk_limau" version="24.0.0" pages="1">
+  <diagram id="erd_db" name="ERD Database Kebun Kecil">
+    <mxGraphModel dx="1420" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="960" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="c11" value="ERD BASIS DATA SISTEM IRIGASI PRESISI — KEBUN KECIL (3NF · CROW'S FOOT)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=0;fontColor=#111111;fontSize=16;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="30" y="14" width="1540" height="44" as="geometry"/></mxCell>
+        <mxCell id="c12" value="trees (Master Pohon Uji)
+----------------------------
+PK: tree_id (INT)
+UQ: tree_code (VARCHAR 10)
+initial_height_cm, dose_min/max
+valve_gpio, sensor_channel
+status_health" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4f4f4;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="610" y="120" width="380" height="220" as="geometry"/></mxCell>
+        <mxCell id="c13" value="sensor_logs (Telemetri 10 Menit)
+----------------------------
+PK: log_id (BIGINT)
+FK: tree_id -&gt; trees.tree_id
+raw_adc, vwc_pct, soil_temp_c
+flow_lpm, pressure_bar
+is_offline_sync, recorded_at" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="54" y="110" width="400" height="250" as="geometry"/></mxCell>
+        <mxCell id="c14" value="irrigation_events (Riwayat Siram)
+----------------------------
+PK: event_id (BIGINT)
+FK: tree_id -&gt; trees.tree_id
+trigger_mode (AUTO/BTN/MQTT)
+target_vol_l, delivered_vol_l
+pulse_count, duration_s, flush" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="54" y="476" width="400" height="250" as="geometry"/></mxCell>
+        <mxCell id="c15" value="fault_alerts (Alarm Gangguan)
+----------------------------
+PK: alert_id (BIGINT)
+FK: tree_id NULL -&gt; trees.tree_id
+fault_code (DRY_RUN/CLOG/P/STOP)
+pressure_bar, flow_lpm
+action_taken, resolved, created_at" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1146" y="110" width="400" height="230" as="geometry"/></mxCell>
+        <mxCell id="c16" value="growth_records (Tumbuh P1–P4)
+----------------------------
+PK: growth_id (INT)
+FK: tree_id -&gt; trees.tree_id
+height_cm, fruit_count, fruit_grade
+stem_diam_mm, observer_name
+measured_at" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="1146" y="476" width="400" height="230" as="geometry"/></mxCell>
+        <mxCell id="c17" value="system_config (Parameter Sistem)
+----------------------------
+PK: config_id (INT)
+vwc_dry_pct, vwc_fc_pct
+calib_a, calib_b [y=1/(a+bx)]
+p_min_bar, p_max_bar
+rtc_pagi, rtc_sore, flush_cycles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#111111;strokeWidth=1.6;fontColor=#111111;fontSize=11;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="610" y="516" width="380" height="230" as="geometry"/></mxCell>
+        <mxCell id="c18" value="1 : N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;labelBackgroundColor=#ffffff;startArrow=ERone;endArrow=ERmany;startFill=0;endFill=0;" edge="1" parent="1" source="c12" target="c13"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="c19" value="1 : N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;labelBackgroundColor=#ffffff;startArrow=ERone;endArrow=ERmany;startFill=0;endFill=0;" edge="1" parent="1" source="c12" target="c14"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="c20" value="1 : 0..N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;labelBackgroundColor=#ffffff;startArrow=ERone;endArrow=ERmany;startFill=0;endFill=0;" edge="1" parent="1" source="c12" target="c15"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="c21" value="1 : N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;labelBackgroundColor=#ffffff;startArrow=ERone;endArrow=ERmany;startFill=0;endFill=0;" edge="1" parent="1" source="c12" target="c16"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="c22" value="Acuan Konfigurasi MQTT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#111111;strokeWidth=1.5;fontSize=10;fontColor=#111111;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="1" source="c12" target="c17"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

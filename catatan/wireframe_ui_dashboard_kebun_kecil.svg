@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1620" height="980" viewBox="0 0 1620 980">
+<rect x="0" y="0" width="1620" height="980" fill="#FFFFFF" />
+<rect x="18" y="16" width="1584" height="948" fill="none" stroke="#111111" stroke-width="1.6" />
+<text x="810.0" y="44" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111111" text-anchor="middle">SKETSA WIREFRAME ANTARMUKA PENGGUNA (DASHBOARD WEB &amp; HP) — KEBUN KECIL</text>
+<text x="810.0" y="64" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="400" fill="#333333" text-anchor="middle">Desain Low-Fidelity Hitam-Putih Polos (Tata Letak Panel, Tombol Kontrol, Grafik, &amp; Remote Tuning Sesuai Tahap Perancangan CD-3)</text>
+<line x1="18" y1="76" x2="1602" y2="76" stroke="#111111" stroke-width="1.3" />
+<rect x="40" y="96" width="1050" height="836" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="2.0" />
+<rect x="40" y="96" width="1050" height="34" fill="#F3F4F6" stroke="#111111" stroke-width="1.4" />
+<circle cx="62" cy="113" r="5" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<circle cx="82" cy="113" r="5" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<circle cx="102" cy="113" r="5" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<rect x="130" y="103" width="420" height="20" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.1" />
+<text x="142" y="117" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="start">https://irigasi-ciberes.local/dashboard (Tampilan Web Desktop)</text>
+<rect x="56" y="144" width="1018" height="52" fill="#FAFAFA" stroke="#111111" stroke-width="1.4" />
+<text x="72" y="174" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#111111" text-anchor="start">PANEL KEBUN KECIL — ZONA UJI 1</text>
+<rect x="470" y="156" width="110" height="28" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="525.0" y="173.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">[4G: ONLINE]</text>
+<rect x="588" y="156" width="110" height="28" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="643.0" y="173.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">[MQTT: OK]</text>
+<rect x="706" y="156" width="110" height="28" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="761.0" y="173.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">[RTC: 06:30]</text>
+<rect x="824" y="156" width="110" height="28" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="879.0" y="173.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">[Pompa: IDLE]</text>
+<rect x="942" y="156" width="110" height="28" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="997.0" y="173.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">[SD: 0 Queue]</text>
+<rect x="56" y="212" width="244" height="166" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="212" width="244" height="28" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="178" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">P1 (46 cm · Kerdil)</text>
+<text x="178" y="260" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="600" fill="#111111" text-anchor="middle">VWC: [ 42,1 % ]  Suhu: 27,4 C</text>
+<text x="178" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Dosis Fuzzy: 3–4 L/siklus</text>
+<text x="178" y="306" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Katup V1: [TUTUP]</text>
+<rect x="108" y="326" width="140" height="34" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.4" />
+<text x="178.0" y="346.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">[ Siram P1 ]</text>
+<rect x="314" y="212" width="244" height="166" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="314" y="212" width="244" height="28" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="436" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">P2 (100 cm · Buah Kecil)</text>
+<text x="436" y="260" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="600" fill="#111111" text-anchor="middle">VWC: [ 48,5 % ]  Suhu: 26,8 C</text>
+<text x="436" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Dosis Fuzzy: 8–10 L/siklus</text>
+<text x="436" y="306" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Katup V2: [TUTUP]</text>
+<rect x="366" y="326" width="140" height="34" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.4" />
+<text x="436.0" y="346.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">[ Siram P2 ]</text>
+<rect x="572" y="212" width="244" height="166" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="572" y="212" width="244" height="28" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="694" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">P3 (250 cm · Lebat)</text>
+<text x="694" y="260" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="600" fill="#111111" text-anchor="middle">VWC: [ 58,0 % ]  Suhu: 26,2 C</text>
+<text x="694" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Dosis Fuzzy: 12–15 L/siklus</text>
+<text x="694" y="306" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Katup V3: [TUTUP]</text>
+<rect x="624" y="326" width="140" height="34" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.4" />
+<text x="694.0" y="346.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">[ Siram P3 ]</text>
+<rect x="830" y="212" width="244" height="166" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="830" y="212" width="244" height="28" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="952" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">P4 (210 cm · Berbuah)</text>
+<text x="952" y="260" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="600" fill="#111111" text-anchor="middle">VWC: [ 51,2 % ]  Suhu: 26,5 C</text>
+<text x="952" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Dosis Fuzzy: 12–15 L/siklus</text>
+<text x="952" y="306" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Katup V4: [TUTUP]</text>
+<rect x="882" y="326" width="140" height="34" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.4" />
+<text x="952.0" y="346.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">[ Siram P4 ]</text>
+<rect x="56" y="396" width="364" height="296" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="396" width="364" height="26" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="238" y="413" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="700" fill="#111111" text-anchor="middle">KONTROL AKTUATOR &amp; HIDROLIKA HULU</text>
+<rect x="74" y="438" width="158" height="42" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<text x="153.0" y="455.43" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#111111" text-anchor="middle">[ SIRAM OTOMATIS ]</text>
+<text x="153.0" y="469.43" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">(Logika Fuzzy)</text>
+<rect x="246" y="438" width="156" height="42" rx="2" fill="#111111" stroke="#111111" stroke-width="1.5" />
+<text x="324.0" y="455.43" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#FFFFFF" text-anchor="middle">[ EMERGENCY STOP ]</text>
+<text x="324.0" y="469.43" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#FFFFFF" text-anchor="middle">(Putus SSR &amp; Katup)</text>
+<rect x="74" y="492" width="328" height="34" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.3" />
+<text x="238.0" y="512.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">[ JALANKAN AUTO END-FLUSH VF (30–45 dtk) ]</text>
+<rect x="74" y="542" width="158" height="62" rx="2" fill="#FAFAFA" stroke="#111111" stroke-width="1.2" />
+<text x="153.0" y="563.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">Debit Flow YF-B1</text>
+<text x="153.0" y="576.325" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">[ 1,75 L/mnt ]</text>
+<text x="153.0" y="589.325" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">(Target 1,5–2,0 L/mnt)</text>
+<rect x="246" y="542" width="156" height="62" rx="2" fill="#FAFAFA" stroke="#111111" stroke-width="1.2" />
+<text x="324.0" y="563.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">Tekanan Hilir</text>
+<text x="324.0" y="576.325" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">[ 1,25 bar ]</text>
+<text x="324.0" y="589.325" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">(Normal [P_min..P_max])</text>
+<rect x="74" y="616" width="328" height="60" rx="2" fill="#FAFAFA" stroke="#111111" stroke-width="1.1" />
+<text x="238.0" y="642.72" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">Log Status Terakhir:</text>
+<text x="238.0" y="655.72" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">Siklus Pagi 06:30 Selesai · Total 36,5 L Terkirim · Filter Normal</text>
+<rect x="438" y="396" width="636" height="296" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="438" y="396" width="636" height="26" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="756" y="413" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="700" fill="#111111" text-anchor="middle">AREA GRAFIK TREN (% VWC, DEBIT HARIAN, &amp; PERTUMBUHAN P1–P4)</text>
+<rect x="456" y="438" width="292" height="236" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="4,3" />
+<line x1="480" y1="644" x2="730" y2="644" stroke="#111111" stroke-width="1.4" />
+<line x1="480" y1="468" x2="480" y2="644" stroke="#111111" stroke-width="1.4" />
+<polyline points="484,610 530,570 580,588 630,520 680,535 724,492" fill="none" stroke="#111111" stroke-width="1.8" />
+<text x="602" y="460" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#111111" text-anchor="middle">Grafik Garis: % VWC &amp; Volume Air</text>
+<rect x="764" y="438" width="292" height="236" fill="#FAFAFA" stroke="#555555" stroke-width="1.2" stroke-dasharray="4,3" />
+<line x1="790" y1="644" x2="1036" y2="644" stroke="#111111" stroke-width="1.4" />
+<line x1="790" y1="468" x2="790" y2="644" stroke="#111111" stroke-width="1.4" />
+<rect x="816" y="600" width="28" height="44" fill="#E5E7EB" stroke="#111111" stroke-width="1.3" />
+<text x="830" y="660" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">P1</text>
+<rect x="870" y="558" width="28" height="86" fill="#E5E7EB" stroke="#111111" stroke-width="1.3" />
+<text x="884" y="660" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">P2</text>
+<rect x="924" y="496" width="28" height="148" fill="#E5E7EB" stroke="#111111" stroke-width="1.3" />
+<text x="938" y="660" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">P3</text>
+<rect x="978" y="518" width="28" height="126" fill="#E5E7EB" stroke="#111111" stroke-width="1.3" />
+<text x="992" y="660" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">P4</text>
+<text x="910" y="460" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#111111" text-anchor="middle">Grafik Batang: Tinggi &amp; Buah P1–P4</text>
+<rect x="56" y="710" width="540" height="204" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="56" y="710" width="540" height="26" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="326" y="727" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="700" fill="#111111" text-anchor="middle">REMOTE PARAMETER TUNING (MQTT -&gt; 3.0 -&gt; ESP32)</text>
+<text x="74" y="760" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="400" fill="#111111" text-anchor="start">Ambang Kering VWC (%)   :  [  45,0  ]     Jadwal RTC Pagi / Sore :  [ 06:30 ] / [ 16:30 ]</text>
+<text x="74" y="788" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="start">Koef. Kalibrasi a / b   :  [ 0,012 ] / [ 0,00004 ]   Batas Tekanan [P_min..P_max]: [ 0,4 ]..[ 2,8 ] bar</text>
+<text x="74" y="816" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="400" fill="#111111" text-anchor="start">Interval Auto End-Flush :  [ Setiap 3 Siklus ]       Durasi Bilas (dtk): [ 35 ]</text>
+<rect x="74" y="842" width="220" height="40" rx="2" fill="#111111" stroke="#111111" stroke-width="1.4" />
+<text x="184.0" y="865.43" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#FFFFFF" text-anchor="middle">[ SIMPAN &amp; KIRIM VIA MQTT ]</text>
+<rect x="314" y="842" width="260" height="40" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.3" />
+<text x="444.0" y="865.43" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="700" fill="#111111" text-anchor="middle">[ INPUT DATA TUMBUH P1–P4 (TIM) ]</text>
+<rect x="614" y="710" width="460" height="204" fill="#FFFFFF" stroke="#111111" stroke-width="1.5" />
+<rect x="614" y="710" width="460" height="26" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<text x="844" y="727" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="700" fill="#111111" text-anchor="middle">RIWAYAT ALARM &amp; SINKRONISASI TERBARU</text>
+<text x="630" y="762" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="400" fill="#111111" text-anchor="start">28/11 06:35  |  [OK]   Siram Pagi Selesai (P1:3.5L P2:9L P3:12L P4:12L)</text>
+<text x="630" y="790" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="400" fill="#111111" text-anchor="start">27/11 16:31  |  [INFO] Auto End-Flush VF 35 dtk (v = 0,68 m/s) Selesai</text>
+<text x="630" y="818" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="400" fill="#111111" text-anchor="start">26/11 16:33  |  [WARN] P1 VWC Cukup (64%) — Dilewati Otomatis</text>
+<text x="630" y="846" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="400" fill="#111111" text-anchor="start">25/11 06:40  |  [SYNC] 4 Log Offline MicroSD Tersinkron ke Database</text>
+<rect x="630" y="868" width="428" height="30" rx="2" fill="#FAFAFA" stroke="#111111" stroke-width="1.1" />
+<text x="844.0" y="886.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">[ Ekspor Laporan CSV Evaluasi Uji P1–P4 ]</text>
+<rect x="1130" y="96" width="450" height="836" rx="22" fill="#FFFFFF" stroke="#111111" stroke-width="2.4" />
+<rect x="1285" y="112" width="140" height="12" rx="6" fill="#E5E7EB" stroke="#111111" stroke-width="1.2" />
+<rect x="1154" y="140" width="402" height="764" rx="6" fill="#FAFAFA" stroke="#111111" stroke-width="1.4" />
+<rect x="1154" y="140" width="402" height="44" fill="#111111" />
+<text x="1355" y="166" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">KEBUN KECIL MOBILE (HP MITRA)</text>
+<rect x="1174" y="202" width="362" height="42" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.2" />
+<text x="1355.0" y="226.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">Status: 4G ONLINE · Pompa IDLE · Flow 0,0 L/mnt</text>
+<rect x="1174" y="260" width="174" height="54" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<text x="1261.0" y="283.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">[ SIRAM MANUAL ]</text>
+<text x="1261.0" y="297.5" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">(Fuzzy Aman)</text>
+<rect x="1362" y="260" width="174" height="54" rx="2" fill="#111111" stroke="#111111" stroke-width="1.6" />
+<text x="1449.0" y="283.5" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF" text-anchor="middle">[ STOP DARURAT ]</text>
+<text x="1449.0" y="297.5" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#FFFFFF" text-anchor="middle">(Matikan Semua)</text>
+<rect x="1174" y="332" width="362" height="54" fill="#FFFFFF" stroke="#111111" stroke-width="1.3" />
+<text x="1188" y="354" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">P1 (46 cm)</text>
+<text x="1188" y="372" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">VWC 42% · 27C</text>
+<rect x="1424" y="343" width="98" height="32" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.1" />
+<text x="1473.0" y="362.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">Target 3–4 L</text>
+<rect x="1174" y="398" width="362" height="54" fill="#FFFFFF" stroke="#111111" stroke-width="1.3" />
+<text x="1188" y="420" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">P2 (100 cm)</text>
+<text x="1188" y="438" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">VWC 48% · 27C</text>
+<rect x="1424" y="409" width="98" height="32" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.1" />
+<text x="1473.0" y="428.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">Target 8–10 L</text>
+<rect x="1174" y="464" width="362" height="54" fill="#FFFFFF" stroke="#111111" stroke-width="1.3" />
+<text x="1188" y="486" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">P3 (250 cm)</text>
+<text x="1188" y="504" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">VWC 58% · 26C</text>
+<rect x="1424" y="475" width="98" height="32" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.1" />
+<text x="1473.0" y="494.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">Target 12–15 L</text>
+<rect x="1174" y="530" width="362" height="54" fill="#FFFFFF" stroke="#111111" stroke-width="1.3" />
+<text x="1188" y="552" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">P4 (210 cm)</text>
+<text x="1188" y="570" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">VWC 51% · 26C</text>
+<rect x="1424" y="541" width="98" height="32" rx="2" fill="#F3F4F6" stroke="#111111" stroke-width="1.1" />
+<text x="1473.0" y="560.22" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="700" fill="#111111" text-anchor="middle">Target 12–15 L</text>
+<rect x="1174" y="608" width="362" height="130" fill="#FFFFFF" stroke="#111111" stroke-width="1.3" />
+<text x="1355" y="630" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="middle">NOTIFIKASI &amp; ALARM TERKINI</text>
+<text x="1188" y="658" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">• 06:35 Siram Pagi Selesai (36,5 L)</text>
+<text x="1188" y="682" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">• Tekanan Normal: 1,25 bar</text>
+<text x="1188" y="706" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="start">• Tidak Ada Cabang Mampet</text>
+<rect x="1174" y="754" width="362" height="46" rx="2" fill="#E5E7EB" stroke="#111111" stroke-width="1.3" />
+<text x="1355.0" y="780.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="middle">[ BUKA MENU TUNING FUZZY &amp; BILAS VF ]</text>
+<rect x="1174" y="818" width="362" height="68" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.1" stroke-dasharray="4,3" />
+<text x="1355.0" y="842.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" fill="#111111" text-anchor="middle">Catatan Low-Fidelity (Sesuai Panduan CD-3):</text>
+<text x="1355.0" y="855.15" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">Wireframe ini berfokus pada hierarki navigasi,</text>
+<text x="1355.0" y="868.15" font-family="Arial, Helvetica, sans-serif" font-size="9.2" font-weight="400" fill="#111111" text-anchor="middle">penempatan tombol, &amp; pembacaan data sebelum pewarnaan UI.</text>
+</svg>

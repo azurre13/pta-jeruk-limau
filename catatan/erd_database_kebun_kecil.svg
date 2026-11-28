@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<rect x="0" y="0" width="1600" height="960" fill="#FFFFFF" />
+<rect x="18" y="16" width="1564" height="928" fill="none" stroke="#111111" stroke-width="1.6" />
+<text x="800.0" y="46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111111" text-anchor="middle">ENTITY RELATIONSHIP DIAGRAM (ERD) BASIS DATA SISTEM — KEBUN KECIL</text>
+<text x="800.0" y="66" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="400" fill="#333333" text-anchor="middle">Skema Relasional Ternormalisasi (3NF · Notasi Crow's Foot) · 6 Tabel Terintegrasi untuk Telemetri, Irigasi, Fault, Pertumbuhan, &amp; Remote Tuning</text>
+<line x1="18" y1="78" x2="1582" y2="78" stroke="#111111" stroke-width="1.3" />
+<rect x="610" y="120" width="380" height="204" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="610" y="120" width="380" height="30" fill="#111111" />
+<text x="800.0" y="140" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">trees (Master Pohon Uji)</text>
+<text x="622" y="168" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="652" y="168" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">tree_id</text>
+<text x="978" y="168" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT AUTO_INCREMENT</text>
+<line x1="618" y1="176" x2="982" y2="176" stroke="#E5E7EB" stroke-width="1" />
+<text x="622" y="192" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">UQ</text>
+<text x="652" y="192" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">tree_code</text>
+<text x="978" y="192" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">VARCHAR(10) [P1..P4]</text>
+<line x1="618" y1="200" x2="982" y2="200" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="216" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">initial_height_cm</text>
+<text x="978" y="216" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,1)</text>
+<line x1="618" y1="224" x2="982" y2="224" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="240" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">dose_min_l / max_l</text>
+<text x="978" y="240" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,2)</text>
+<line x1="618" y1="248" x2="982" y2="248" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="264" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">valve_gpio</text>
+<text x="978" y="264" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">TINYINT</text>
+<line x1="618" y1="272" x2="982" y2="272" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="288" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">sensor_channel</text>
+<text x="978" y="288" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">TINYINT [A0..A3]</text>
+<line x1="618" y1="296" x2="982" y2="296" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="312" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">status_health</text>
+<text x="978" y="312" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">ENUM('BAIK','KERDIL')</text>
+<rect x="54" y="110" width="400" height="252" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="54" y="110" width="400" height="30" fill="#111111" />
+<text x="254.0" y="130" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">sensor_logs (Telemetri 10 Menit)</text>
+<text x="66" y="158" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="96" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">log_id</text>
+<text x="442" y="158" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BIGINT AUTO_INCREMENT</text>
+<line x1="62" y1="166" x2="446" y2="166" stroke="#E5E7EB" stroke-width="1" />
+<text x="66" y="182" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">FK</text>
+<text x="96" y="182" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">tree_id</text>
+<text x="442" y="182" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT -&gt; trees.tree_id</text>
+<line x1="62" y1="190" x2="446" y2="190" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="206" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">raw_adc</text>
+<text x="442" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">SMALLINT (ADS1115)</text>
+<line x1="62" y1="214" x2="446" y2="214" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">vwc_pct</text>
+<text x="442" y="230" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,2)</text>
+<line x1="62" y1="238" x2="446" y2="238" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="254" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">soil_temp_c</text>
+<text x="442" y="254" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,2)</text>
+<line x1="62" y1="262" x2="446" y2="262" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="278" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">flow_lpm</text>
+<text x="442" y="278" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,2)</text>
+<line x1="62" y1="286" x2="446" y2="286" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="302" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">pressure_bar</text>
+<text x="442" y="302" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,2)</text>
+<line x1="62" y1="310" x2="446" y2="310" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="326" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">is_offline_sync</text>
+<text x="442" y="326" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BOOLEAN</text>
+<line x1="62" y1="334" x2="446" y2="334" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="350" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">recorded_at</text>
+<text x="442" y="350" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DATETIME</text>
+<rect x="54" y="476" width="400" height="252" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="54" y="476" width="400" height="30" fill="#111111" />
+<text x="254.0" y="496" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">irrigation_events (Riwayat Siram)</text>
+<text x="66" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="96" y="524" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">event_id</text>
+<text x="442" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BIGINT AUTO_INCREMENT</text>
+<line x1="62" y1="532" x2="446" y2="532" stroke="#E5E7EB" stroke-width="1" />
+<text x="66" y="548" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">FK</text>
+<text x="96" y="548" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">tree_id</text>
+<text x="442" y="548" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT -&gt; trees.tree_id</text>
+<line x1="62" y1="556" x2="446" y2="556" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="572" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">trigger_mode</text>
+<text x="442" y="572" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">ENUM('AUTO','BTN','MQTT')</text>
+<line x1="62" y1="580" x2="446" y2="580" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="596" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">target_vol_l</text>
+<text x="442" y="596" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,2)</text>
+<line x1="62" y1="604" x2="446" y2="604" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="620" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">delivered_vol_l</text>
+<text x="442" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,2)</text>
+<line x1="62" y1="628" x2="446" y2="628" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="644" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">pulse_count</text>
+<text x="442" y="644" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">TINYINT</text>
+<line x1="62" y1="652" x2="446" y2="652" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="668" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">duration_s</text>
+<text x="442" y="668" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT</text>
+<line x1="62" y1="676" x2="446" y2="676" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="692" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">flush_executed</text>
+<text x="442" y="692" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BOOLEAN</text>
+<line x1="62" y1="700" x2="446" y2="700" stroke="#E5E7EB" stroke-width="1" />
+<text x="96" y="716" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">started_at / ended_at</text>
+<text x="442" y="716" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DATETIME</text>
+<rect x="1146" y="110" width="400" height="228" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="1146" y="110" width="400" height="30" fill="#111111" />
+<text x="1346.0" y="130" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">fault_alerts (Alarm Gangguan)</text>
+<text x="1158" y="158" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="1188" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">alert_id</text>
+<text x="1534" y="158" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BIGINT AUTO_INCREMENT</text>
+<line x1="1154" y1="166" x2="1538" y2="166" stroke="#E5E7EB" stroke-width="1" />
+<text x="1158" y="182" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">FK</text>
+<text x="1188" y="182" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">tree_id</text>
+<text x="1534" y="182" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT NULL -&gt; trees.tree_id</text>
+<line x1="1154" y1="190" x2="1538" y2="190" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="206" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">fault_code</text>
+<text x="1534" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">ENUM('DRY_RUN','CLOG','P_LOW','P_HIGH','STOP')</text>
+<line x1="1154" y1="214" x2="1538" y2="214" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="230" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">pressure_bar</text>
+<text x="1534" y="230" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,2)</text>
+<line x1="1154" y1="238" x2="1538" y2="238" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="254" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">flow_lpm</text>
+<text x="1534" y="254" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,2)</text>
+<line x1="1154" y1="262" x2="1538" y2="262" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="278" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">action_taken</text>
+<text x="1534" y="278" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">VARCHAR(64)</text>
+<line x1="1154" y1="286" x2="1538" y2="286" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="302" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">resolved</text>
+<text x="1534" y="302" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">BOOLEAN</text>
+<line x1="1154" y1="310" x2="1538" y2="310" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="326" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">created_at</text>
+<text x="1534" y="326" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DATETIME</text>
+<rect x="1146" y="476" width="400" height="228" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="1146" y="476" width="400" height="30" fill="#111111" />
+<text x="1346.0" y="496" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">growth_records (Tumbuh &amp; Buah P1–P4)</text>
+<text x="1158" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="1188" y="524" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">growth_id</text>
+<text x="1534" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT AUTO_INCREMENT</text>
+<line x1="1154" y1="532" x2="1538" y2="532" stroke="#E5E7EB" stroke-width="1" />
+<text x="1158" y="548" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">FK</text>
+<text x="1188" y="548" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">tree_id</text>
+<text x="1534" y="548" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT -&gt; trees.tree_id</text>
+<line x1="1154" y1="556" x2="1538" y2="556" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="572" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">height_cm</text>
+<text x="1534" y="572" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,1)</text>
+<line x1="1154" y1="580" x2="1538" y2="580" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="596" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">fruit_count</text>
+<text x="1534" y="596" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">SMALLINT</text>
+<line x1="1154" y1="604" x2="1538" y2="604" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="620" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">fruit_grade</text>
+<text x="1534" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">ENUM('NIHIL','KECIL','BESAR','PANEN')</text>
+<line x1="1154" y1="628" x2="1538" y2="628" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="644" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">stem_diam_mm</text>
+<text x="1534" y="644" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(5,1)</text>
+<line x1="1154" y1="652" x2="1538" y2="652" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="668" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">observer_name</text>
+<text x="1534" y="668" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">VARCHAR(40)</text>
+<line x1="1154" y1="676" x2="1538" y2="676" stroke="#E5E7EB" stroke-width="1" />
+<text x="1188" y="692" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">measured_at</text>
+<text x="1534" y="692" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DATE</text>
+<rect x="610" y="516" width="380" height="204" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="610" y="516" width="380" height="30" fill="#111111" />
+<text x="800.0" y="536" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">system_config (Parameter Fuzzy &amp; Kalibrasi)</text>
+<text x="622" y="564" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="700" fill="#111111" text-anchor="start">PK</text>
+<text x="652" y="564" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#111111" text-anchor="start">config_id</text>
+<text x="978" y="564" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">INT AUTO_INCREMENT</text>
+<line x1="618" y1="572" x2="982" y2="572" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="588" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">vwc_dry_pct / fc_pct</text>
+<text x="978" y="588" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,1)</text>
+<line x1="618" y1="596" x2="982" y2="596" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="612" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">calib_a / calib_b</text>
+<text x="978" y="612" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(10,6) [y=1/(a+bx)]</text>
+<line x1="618" y1="620" x2="982" y2="620" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="636" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">p_min_bar / p_max_bar</text>
+<text x="978" y="636" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">DECIMAL(4,2)</text>
+<line x1="618" y1="644" x2="982" y2="644" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="660" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">rtc_pagi / rtc_sore</text>
+<text x="978" y="660" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">TIME [06:30 / 16:30]</text>
+<line x1="618" y1="668" x2="982" y2="668" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="684" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">flush_interval_cycles</text>
+<text x="978" y="684" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">TINYINT</text>
+<line x1="618" y1="692" x2="982" y2="692" stroke="#E5E7EB" stroke-width="1" />
+<text x="652" y="708" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">updated_by / updated_at</text>
+<text x="978" y="708" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#444444" text-anchor="end">VARCHAR(32) / DATETIME</text>
+<polyline points="610,185 532.0,185 532.0,174 454,174" fill="none" stroke="#111111" stroke-width="1.5" />
+<line x1="598" y1="177" x2="598" y2="193" stroke="#111111" stroke-width="1.8" />
+<line x1="468" y1="174" x2="454" y2="166" stroke="#111111" stroke-width="1.6" />
+<line x1="468" y1="174" x2="454" y2="182" stroke="#111111" stroke-width="1.6" />
+<circle cx="472.9" cy="174" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.4" />
+<rect x="485.8" y="170.5" width="92.39999999999999" height="18" fill="#FFFFFF" stroke="none" />
+<text x="532.0" y="182.65" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="600" fill="#111111" text-anchor="middle">1 : N mencatat</text>
+<polyline points="610,265 532.0,265 532.0,540 454,540" fill="none" stroke="#111111" stroke-width="1.5" />
+<line x1="598" y1="257" x2="598" y2="273" stroke="#111111" stroke-width="1.8" />
+<line x1="468" y1="540" x2="454" y2="532" stroke="#111111" stroke-width="1.6" />
+<line x1="468" y1="540" x2="454" y2="548" stroke="#111111" stroke-width="1.6" />
+<circle cx="472.9" cy="540" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.4" />
+<rect x="485.8" y="393.5" width="92.39999999999999" height="18" fill="#FFFFFF" stroke="none" />
+<text x="532.0" y="405.65" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="600" fill="#111111" text-anchor="middle">1 : N menerima</text>
+<polyline points="990,185 1068.0,185 1068.0,174 1146,174" fill="none" stroke="#111111" stroke-width="1.5" />
+<line x1="1002" y1="177" x2="1002" y2="193" stroke="#111111" stroke-width="1.8" />
+<line x1="1132" y1="174" x2="1146" y2="166" stroke="#111111" stroke-width="1.6" />
+<line x1="1132" y1="174" x2="1146" y2="182" stroke="#111111" stroke-width="1.6" />
+<circle cx="1127.1" cy="174" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.4" />
+<rect x="1019.0" y="170.5" width="98.0" height="18" fill="#FFFFFF" stroke="none" />
+<text x="1068.0" y="182.65" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="600" fill="#111111" text-anchor="middle">1 : 0..N memicu</text>
+<polyline points="990,265 1068.0,265 1068.0,540 1146,540" fill="none" stroke="#111111" stroke-width="1.5" />
+<line x1="1002" y1="257" x2="1002" y2="273" stroke="#111111" stroke-width="1.8" />
+<line x1="1132" y1="540" x2="1146" y2="532" stroke="#111111" stroke-width="1.6" />
+<line x1="1132" y1="540" x2="1146" y2="548" stroke="#111111" stroke-width="1.6" />
+<circle cx="1127.1" cy="540" r="4" fill="#FFFFFF" stroke="#111111" stroke-width="1.4" />
+<rect x="1024.6" y="393.5" width="86.8" height="18" fill="#FFFFFF" stroke="none" />
+<text x="1068.0" y="405.65" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="600" fill="#111111" text-anchor="middle">1 : N diamati</text>
+<line x1="800" y1="346" x2="800" y2="514" stroke="#444444" stroke-width="1.4" stroke-dasharray="5,3" />
+<rect x="703.4" y="415.0" width="193.2" height="30" fill="#FFFFFF" stroke="none" />
+<text x="800" y="427.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Parameter Fuzzy, Kalibrasi a, b,</text>
+<text x="800" y="439.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">&amp; Ambang Tekanan via MQTT (3.0)</text>
+<rect x="38" y="854" width="1524" height="62" fill="#FAFAFA" stroke="#111111" stroke-width="1.2" />
+<text x="58" y="889" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="start">Legenda Notasi Crow's Foot:</text>
+<text x="246" y="889" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#111111" text-anchor="start">PK = Primary Key  |  FK = Foreign Key  |  UQ = Unique  |  1 : N = Satu Pohon Memiliki Banyak Log / Riwayat  |  0..N = Opsional (mis. DRY_RUN sistem umum)</text>
+</svg>
