@@ -8,7 +8,7 @@
 **Dokumen Internal Terkait:**
 - Sumber Kebenaran Solusi & Matriks: [`README_ALTERNATIF_SOLUSI_DAN_SCORING_CD3.md`](README_ALTERNATIF_SOLUSI_DAN_SCORING_CD3.md)
 - Netlist Pinout ESP32 & Sumur Bor: [`SPESIFIKASI_WIRING_PINOUT_DAN_SUMUR_BOR.md`](SPESIFIKASI_WIRING_PINOUT_DAN_SUMUR_BOR.md)
-- DFD Sistem (Non-OOP): [`dfd_level0_kebun_kecil-garnie.svg`](dfd_level0_kebun_kecil-garnie.svg) · [`dfd_level1_kebun_kecil-garnie.svg`](dfd_level1_kebun_kecil-garnie.svg)
+- DFD Sistem (Non-OOP): [`dfd_level0_sistem_kebun_kecil.svg`](dfd_level0_sistem_kebun_kecil.svg) · [`dfd_level1_sistem_kebun_kecil.svg`](dfd_level1_sistem_kebun_kecil.svg)
 - Diagram Blok & Flowchart: [`diagram_blok_sistem_kebun_kecil.svg`](diagram_blok_sistem_kebun_kecil.svg) · [`flowchart_sistem_kebun_kecil.svg`](flowchart_sistem_kebun_kecil.svg)
 - Pembagian Peran Tim: [`Pembagian_Jobdesk_Tim_CD3_Kebun_Kecil.pdf`](Pembagian_Jobdesk_Tim_CD3_Kebun_Kecil.pdf)
 - Pustaka Terverifikasi: [`Kumpulan_Referensi_Terverifikasi_CD3_Kebun_Kecil-garnie.md`](../sumber/referensi%20jurnal/draf/referensi_garnie_cd3/Kumpulan_Referensi_Terverifikasi_CD3_Kebun_Kecil-garnie.md)
@@ -44,7 +44,7 @@ Tim menetapkan **Alternatif 1 (*Precision Surface Drip / FDI*)** pada `Zona Uji 
 
 ## 2. Alur Kerja Sistem & Sinkronisasi DFD ↔ FSM ESP32
 
-Arsitektur perangkat lunak ini terikat langsung pada **5 Proses** dan **4 Data Store** di [`dfd_level1_kebun_kecil-garnie.svg`](dfd_level1_kebun_kecil-garnie.svg) serta **State FSM `S0–S9`** pada rancangan *firmware* ESP32:
+Arsitektur perangkat lunak ini terikat langsung pada **5 Proses** dan **4 Data Store** di [`dfd_level1_sistem_kebun_kecil.svg`](dfd_level1_sistem_kebun_kecil.svg) serta **State FSM `S0–S9`** pada rancangan *firmware* ESP32:
 
 1. **Akuisisi & Kalibrasi Sensor (`Proses 1.0` ↔ `State S2: READ_CALIB`):**
    - Pada jadwal `RTC DS3231` (atau pemicu manual), ESP32 membaca `4` sensor lengas via `ADS1115` (`N = 10` *moving average*, `Dafonte et al., 2024` `R-01`) dan `4` sensor `DS18B20`.

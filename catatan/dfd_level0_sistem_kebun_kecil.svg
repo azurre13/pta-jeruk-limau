@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820">
 <defs>
-  <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-    <path d="M0,0.5 L8.5,3.5 L0,6.5 L1.8,3.5 z" fill="#111111" />
+  <marker id="arr" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0.6 L9,4 L0,7.4 L2.2,4 z" fill="#000000" />
   </marker>
-  <marker id="arr-s" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="7" refX="0.5" refY="3.5" orient="auto">
-    <path d="M8.5,0.5 L0,3.5 L8.5,6.5 L6.7,3.5 z" fill="#111111" />
+  <marker id="arr-s" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="8" refX="1" refY="4" orient="auto">
+    <path d="M8.5,0.5 L0,3.5 L8.5,6.5 L6.7,3.5 z" fill="#000000" />
   </marker>
 </defs>
 <rect x="0" y="0" width="1500" height="820" fill="#FFFFFF" />
@@ -12,56 +12,59 @@
 <text x="750.0" y="46" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111111" text-anchor="middle">DIAGRAM KONTEKS (DFD LEVEL 0) SISTEM IRIGASI PRESISI — KEBUN KECIL</text>
 <text x="750.0" y="66" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" fill="#333333" text-anchor="middle">Pendekatan Non-OOP (Terstruktur) · 4 Entitas Eksternal · 8 Aliran Data Seimbang dengan DFD Level 1</text>
 <line x1="18" y1="78" x2="1482" y2="78" stroke="#111111" stroke-width="1.3" />
-<rect x="74" y="118" width="250" height="74" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="74" y="118" width="250" height="74" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="199.0" y="151.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">E1. Sensor Lapangan &amp; RTC</text>
 <text x="199.0" y="165.675" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">4x Lengas, 4x DS18B20, YF-B1, Tekanan, RTC</text>
-<rect x="74" y="540" width="250" height="74" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="74" y="540" width="250" height="74" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="199.0" y="573.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">E2. Tombol S-13/STOP &amp; Aktuator</text>
 <text x="199.0" y="587.675" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">S-13, SSR Pompa AC, V1–V4, VF, LED</text>
-<rect x="1176" y="118" width="250" height="74" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="1176" y="118" width="250" height="74" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="1301.0" y="151.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">E3. Mitra &amp; Pekerja</text>
 <text x="1301.0" y="165.675" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Pengguna Dashboard Web &amp; HP</text>
-<rect x="1176" y="540" width="250" height="74" rx="2" fill="#FFFFFF" stroke="#111111" stroke-width="1.8" />
+<rect x="1176" y="540" width="250" height="74" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="1301.0" y="573.675" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="middle">E4. Tim Pengamat &amp; Kalibrasi</text>
 <text x="1301.0" y="587.675" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#111111" text-anchor="middle">Pengambil Data Lapangan P1–P4</text>
-<circle cx="750" cy="366" r="118" fill="#F5F5F5" stroke="#111111" stroke-width="1.8" />
+<circle cx="750" cy="366" r="118" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="750" y="354.025" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#111111" text-anchor="middle">0. Sistem Irigasi Presisi</text>
 <text x="750" y="370.025" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#111111" text-anchor="middle">&amp; Pemantauan Kebun</text>
 <text x="750" y="386.025" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="#111111" text-anchor="middle">(ESP32, Router 4G, DB, Web)</text>
-<polyline points="324,136 710,136 710,254" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="445.8" y="127.0" width="148.39999999999998" height="18" fill="#FFFFFF" stroke="none" />
-<text x="520" y="139.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Data Lengas &amp; Suhu Tanah</text>
-<polyline points="324,174 520,174 520,336 634,336" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="423.0" y="239.0" width="126.0" height="30" fill="#FFFFFF" stroke="none" />
-<text x="486" y="251.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Data Debit YF-B1,</text>
-<text x="486" y="263.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Tekanan, &amp; Waktu RTC</text>
-<polyline points="324,558 520,558 520,396 634,396" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="403.0" y="471.0" width="154.0" height="18" fill="#FFFFFF" stroke="none" />
-<text x="480" y="483.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Sinyal Tombol S-13 / STOP</text>
-<polyline points="710,478 710,596 326,596" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="398.2" y="587.0" width="243.6" height="18" fill="#FFFFFF" stroke="none" />
-<text x="520" y="599.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Perintah Pompa AC (SSR), V1–V4, VF, &amp; LED</text>
-<polyline points="1176,136 790,136 790,254" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="894.6" y="127.0" width="170.79999999999998" height="18" fill="#FFFFFF" stroke="none" />
-<text x="980" y="139.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Perintah Siram/STOP &amp; Tuning</text>
-<polyline points="866,336 980,336 980,174 1174,174" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="944.2" y="239.0" width="131.6" height="30" fill="#FFFFFF" stroke="none" />
-<text x="1010" y="251.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Status Kebun, Grafik,</text>
-<text x="1010" y="263.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">&amp; Alarm Gangguan</text>
-<polyline points="1176,558 980,558 980,396 866,396" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="936.2" y="465.0" width="159.6" height="30" fill="#FFFFFF" stroke="none" />
-<text x="1016" y="477.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Data Kalibrasi Tanah Merah</text>
-<text x="1016" y="489.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">&amp; Pertumbuhan P1–P4</text>
-<polyline points="790,478 790,596 1174,596" fill="none" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
-<rect x="863.8" y="587.0" width="232.39999999999998" height="18" fill="#FFFFFF" stroke="none" />
-<text x="980" y="599.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="600" fill="#111111" text-anchor="middle">Rekap Uji Air, Lengas, &amp; Evaluasi P1–P4</text>
+<polyline points="324,136 710,136 710,254" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="453.7" y="131.2" width="132.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="520" y="139.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Data Lengas &amp; Suhu Tanah</text>
+<polyline points="324,174 520,174 520,336 634,336" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="477.2" y="243.2" width="85.6" height="13.0" fill="#FFFFFF" stroke="none" />
+<rect x="464.7" y="255.2" width="110.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="520" y="251.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Data Debit YF-B1,</text>
+<text x="520" y="263.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Tekanan, &amp; Waktu RTC</text>
+<polyline points="324,558 520,558 520,396 634,396" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="455.7" y="475.2" width="128.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="520" y="483.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Sinyal Tombol S-13 / STOP</text>
+<polyline points="710,478 710,596 326,596" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="411.7" y="591.2" width="216.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="520" y="599.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Perintah Pompa AC (SSR), V1–V4, VF, &amp; LED</text>
+<polyline points="1176,136 790,136 790,254" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="907.2" y="131.2" width="145.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="980" y="139.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Perintah Siram/STOP &amp; Tuning</text>
+<polyline points="866,336 980,336 980,174 1174,174" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="929.2" y="243.2" width="101.6" height="13.0" fill="#FFFFFF" stroke="none" />
+<rect x="934.7" y="255.2" width="90.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="980" y="251.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Status Kebun, Grafik,</text>
+<text x="980" y="263.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">&amp; Alarm Gangguan</text>
+<polyline points="1176,558 980,558 980,396 866,396" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="914.7" y="469.2" width="130.6" height="13.0" fill="#FFFFFF" stroke="none" />
+<rect x="925.2" y="481.2" width="109.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="980" y="477.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Data Kalibrasi Tanah Merah</text>
+<text x="980" y="489.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">&amp; Pertumbuhan P1–P4</text>
+<polyline points="790,478 790,596 1174,596" fill="none" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
+<rect x="884.2" y="591.2" width="191.6" height="10.5" fill="#FFFFFF" stroke="none" />
+<text x="980" y="599.325" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="400" fill="#000000" text-anchor="middle">Rekap Uji Air, Lengas, &amp; Evaluasi P1–P4</text>
 <rect x="38" y="716" width="1424" height="64" fill="#FAFAFA" stroke="#111111" stroke-width="1.2" />
 <text x="58" y="752" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" fill="#111111" text-anchor="start">Keterangan:</text>
-<rect x="156" y="736" width="48" height="26" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" />
+<rect x="156" y="736" width="48" height="26" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="214" y="753" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="600" fill="#111111" text-anchor="start">Entitas Eksternal</text>
-<circle cx="360" cy="749" r="14" fill="#F5F5F5" stroke="#111111" stroke-width="1.6" />
+<circle cx="360" cy="749" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="1.25" />
 <text x="384" y="753" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="600" fill="#111111" text-anchor="start">Proses Sistem Utama</text>
-<line x1="556" y1="749" x2="608" y2="749" stroke="#111111" stroke-width="1.5" marker-end="url(#arr)" />
+<line x1="556" y1="749" x2="608" y2="749" stroke="#000000" stroke-width="1.15" marker-end="url(#arr)" />
 <text x="618" y="753" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="600" fill="#111111" text-anchor="start">Aliran Data</text>
 <text x="1442" y="753" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" fill="#444444" text-anchor="end">DFD Level 0 — Seimbang 100% dengan DFD Level 1</text>
 </svg>
